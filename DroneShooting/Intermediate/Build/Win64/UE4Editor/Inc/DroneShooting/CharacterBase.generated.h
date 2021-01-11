@@ -58,7 +58,10 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ACharacterBase); \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(ACharacterBase)
 
 
-#define DroneShooting_Source_DroneShooting_Characters_CharacterBase_h_12_PRIVATE_PROPERTY_OFFSET
+#define DroneShooting_Source_DroneShooting_Characters_CharacterBase_h_12_PRIVATE_PROPERTY_OFFSET \
+	FORCEINLINE static uint32 __PPO__RateOfTurn() { return STRUCT_OFFSET(ACharacterBase, RateOfTurn); }
+
+
 #define DroneShooting_Source_DroneShooting_Characters_CharacterBase_h_9_PROLOG
 #define DroneShooting_Source_DroneShooting_Characters_CharacterBase_h_12_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \

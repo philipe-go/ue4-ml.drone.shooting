@@ -30,5 +30,33 @@ void ACharacterBase::SetupPlayerInputComponent(UInputComponent* PlayerInputCompo
 {
 	Super::SetupPlayerInputComponent(PlayerInputComponent);
 
+	PlayerInputComponent->BindAxis(TEXT("MoveForward"), this, &ACharacterBase::MoveForward);
+	PlayerInputComponent->BindAxis(TEXT("MoveRight"), this, &ACharacterBase::MoveRight);
+	PlayerInputComponent->BindAxis(TEXT("LookUp"), this, &ACharacterBase::LookUp);
+	PlayerInputComponent->BindAxis(TEXT("LookRight"), this, &ACharacterBase::LookRight);
+	
+	//Bind the jump function straight from the class ACharacter and execute in this instance
+	PlayerInputComponent->BindAction(TEXT("Jump"), EInputEvent::IE_Pressed, this, &ACharacter::Jump);
 }
+
+void ACharacterBase::MoveForward(float AxisValue) 
+{
+	AddMovementInput(GetActorForwardVector() * AxisValue);
+}
+
+void ACharacterBase::MoveRight(float AxisValue) 
+{
+	AddMovementInput(GetActorRightVector() * AxisValue);
+}
+
+void ACharacterBase::LookUp(float AxisValue) 
+{
+	AddControllerPitchInput(AxisValue * RateOfTurn * GetWorld()->GetDeltaSeconds());
+}
+
+void ACharacterBase::LookRight(float AxisValue) 
+{
+	AddControllerYawInput(AxisValue * RateOfTurn * GetWorld()->GetDeltaSeconds());
+}
+
 
