@@ -660,3 +660,66 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2021.01.11-18.30.21:110][128]LogSlate: Window 'Plugins' being destroyed
 [2021.01.11-18.30.21:119][128]LogSlate: Window 'Plugins' being destroyed
 [2021.01.11-18.30.21:119][128]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/' was aborted.
+[2021.01.11-18.41.59:007][832]LogDirectoryWatcher: A directory notification failed for 'D:/Documents/GameDesign/ue4-ml.drone.shooting/DroneShooting/Content/Collections/' because it could not be accessed. Aborting watch request...
+[2021.01.11-18.41.59:007][832]LogDirectoryWatcher: A directory notification failed for 'D:/Documents/GameDesign/ue4-ml.drone.shooting/DroneShooting/Content/Developers/philng/Collections/' because it could not be accessed. Aborting watch request...
+[2021.01.11-18.41.59:346][833]LogDirectoryWatcher: A directory notification failed for 'D:/Documents/GameDesign/ue4-ml.drone.shooting/DroneShooting/Saved/Collections/' because it could not be accessed. Aborting watch request...
+[2021.01.11-18.53.01:680][288]LogSlate: Took 0.000216 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2021.01.11-18.53.07:408][386]LogSlate: Window 'Save Level As' being destroyed
+[2021.01.11-18.53.11:275][467]LogSlate: Window 'Save Level As' being destroyed
+[2021.01.11-18.53.20:329][865]LogSlate: Window 'Save Level As' being destroyed
+[2021.01.11-18.53.20:379][865]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/NewMap" FILE="../../../../GameDesign/ue4-ml.drone.shooting/DroneShooting/Content/Maps/NewMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2021.01.11-18.53.20:395][865]LogUObjectHash: Compacting FUObjectHashTables data took   0.92ms
+[2021.01.11-18.53.20:431][865]LogSavePackage: Moving '../../../../GameDesign/ue4-ml.drone.shooting/DroneShooting/Saved/NewMapFCBE0FD1426C0740FDC307AC688767FE.tmp' to '../../../../GameDesign/ue4-ml.drone.shooting/DroneShooting/Content/Maps/NewMap.umap'
+[2021.01.11-18.53.20:450][865]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/NewMap_BuiltData" FILE="../../../../GameDesign/ue4-ml.drone.shooting/DroneShooting/Content/Maps/NewMap_BuiltData.uasset" SILENT=true
+[2021.01.11-18.53.20:470][865]LogSavePackage: Moving '../../../../GameDesign/ue4-ml.drone.shooting/DroneShooting/Saved/NewMap_BuiltDataC713A7674BD010761B279C8CD055CD97.tmp' to '../../../../GameDesign/ue4-ml.drone.shooting/DroneShooting/Content/Maps/NewMap_BuiltData.uasset'
+[2021.01.11-18.53.20:483][865]LogFileHelpers: Saving map 'NewMap' took 0.137
+[2021.01.11-18.53.20:488][865]AssetCheck: New page: Asset Save: multiple assets
+[2021.01.11-18.53.20:488][865]LogContentValidation: Display: Validating World /Game/Maps/NewMap.NewMap
+[2021.01.11-18.53.20:488][865]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Maps/NewMap_BuiltData.NewMap_BuiltData
+[2021.01.11-18.53.40:112][625]LogTexture: Display: Building textures: LQ_Lightmap_0_2 (DXT1, 64X64)
+[2021.01.11-18.53.40:112][625]LogTexture: Display: Building textures: HQ_Lightmap0_2 (AutoDXT, 64X64)
+[2021.01.11-18.53.40:112][625]LogTexture: Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 256X256)
+[2021.01.11-18.53.40:112][625]LogTexture: Display: Building textures: LQ_Lightmap_0_1 (DXT1, 256X256)
+[2021.01.11-18.53.40:112][625]LogTexture: Display: Building textures: ShadowMapTexture2D_1 (G8, 32X32)
+[2021.01.11-18.53.40:112][625]LogTexture: Display: Building textures: ShadowMapTexture2D_0 (G8, 128X128)
+[2021.01.11-18.53.40:112][625]LogTexture: Display: Building textures: T_Murdock_Canister_EmissiveMask (AutoDXT, 512X512)
+[2021.01.11-18.53.40:112][625]LogTexture: Display: Building textures: T_Murdock_Body_SkinColor_Spec (AutoDXT, 4096X4096)
+[2021.01.11-18.53.40:112][625]LogTexture: Display: Building textures: T_Murdock_Body_SkinColor_Subsurf (AutoDXT, 4096X4096)
+[2021.01.11-18.53.40:112][625]LogTexture: Display: Building textures: T_Murdock_Body_SkinColor (AutoDXT, 4096X4096)
+[2021.01.11-18.53.40:112][625]LogTexture: Display: Building textures: T_Murdock_Legs_MASK_2 (AutoDXT, 4096X4096)
+[2021.01.11-18.53.40:112][625]LogTexture: Display: Building textures: T_Gray_Flat_Black (AutoDXT, 2048X2048)
+[2021.01.11-18.53.40:112][625]LogTexture: Display: Building textures: T_WaterFoam2_D (AutoDXT, 2048X2048)
+[2021.01.11-18.53.40:112][625]LogTexture: Display: Building textures: T_Murdock_Legs_MASK (AutoDXT, 4096X4096)
+[2021.01.11-18.53.40:112][625]LogTexture: Display: Building textures: T_Murdock_Legs_RGB (AutoDXT, 4096X4096)
+[2021.01.11-18.53.40:112][625]LogTexture: Display: Building textures: T_Murdock_Body_RGB (AutoDXT, 4096X4096)
+[2021.01.11-18.53.40:112][625]LogTexture: Display: Building textures: T_Murdock_Legs_Normals (BC5, 4096X4096)
+[2021.01.11-18.53.40:112][625]LogTexture: Display: Building textures: T_Murdock_Body_MASK_2 (AutoDXT, 4096X4096)
+[2021.01.11-18.53.40:112][625]LogTexture: Display: Building textures: T_Murdock_Body_Decals_01 (AutoDXT, 4096X4096)
+[2021.01.11-18.53.40:112][625]LogTexture: Display: Building textures: T_Murdock_Body_MASK (AutoDXT, 4096X4096)
+[2021.01.11-18.53.40:112][625]LogTexture: Display: Building textures: T_Murdock_Body_Normals (BC5, 4096X4096)
+[2021.01.11-18.53.40:112][625]LogTexture: Display: Building textures: T_EyeOcclusion2 (G8, 512X512)
+[2021.01.11-18.53.40:131][625]LogMaterial: Display: Missing cached shader map for material M_Eye_Occlusion, compiling. 
+[2021.01.11-18.53.40:759][625]LogTexture: Display: Building textures: T_Murdock_Arms_MASK2 (AutoDXT, 4096X4096)
+[2021.01.11-18.53.40:759][625]LogTexture: Display: Building textures: T_Murdock_Arms_RGB (AutoDXT, 4096X4096)
+[2021.01.11-18.53.40:759][625]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 121
+[2021.01.11-18.53.40:759][625]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 111
+[2021.01.11-18.53.40:759][625]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 101
+[2021.01.11-18.53.40:759][625]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 91
+[2021.01.11-18.53.40:759][625]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 81
+[2021.01.11-18.53.40:759][625]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 71
+[2021.01.11-18.53.40:760][625]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 61
+[2021.01.11-18.53.40:760][625]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 51
+[2021.01.11-18.53.40:760][625]LogTexture: Display: Building textures: T_Murdock_Arms_Normals (BC5, 4096X4096)
+[2021.01.11-18.53.40:760][625]LogSkeletalMesh: Building Skeletal Mesh Murdock...
+[2021.01.11-18.53.42:070][625]LogTexture: Display: Building textures: T_Murdock_Arms_MASK (AutoDXT, 4096X4096)
+[2021.01.11-18.53.42:070][625]LogSkeletalMesh: Built Skeletal Mesh [1.31s] /Game/ParagonMurdock/Characters/Heroes/Murdock/Meshes/Murdock.Murdock
+[2021.01.11-18.53.49:198][625]LogTexture: Display: Building textures: T_Murdock_Arms_Decals (AutoDXT, 4096X4096)
+[2021.01.11-18.53.49:198][625]LogTexture: Display: Building textures: T_ML_PaintedConstructionMetal_N (BC5, 2048X2048)
+[2021.01.11-18.53.49:198][625]LogTexture: Display: Building textures: T_RoughMetal01_N (BC5, 2048X2048)
+[2021.01.11-18.53.49:198][625]LogTexture: Display: Building textures: T_ML_Fabric_Basic2 (AutoDXT, 1024X1024)
+[2021.01.11-18.53.49:198][625]LogTexture: Display: Building textures: T_Eye_Tearduct__normals2 (BC5, 2048X2048)
+[2021.01.11-18.53.49:198][625]LogTexture: Display: Building textures: T_Murdock_Merc_Mask2 (AutoDXT, 4096X4096)
+[2021.01.11-18.53.49:198][625]LogTexture: Display: Building textures: T_Murdock_Merc_RGB (AutoDXT, 4096X4096)
+[2021.01.11-18.53.49:198][625]LogTexture: Display: Building textures: T_Murdock_Merc_N (BC5, 4096X4096)
+[2021.01.11-18.53.49:198][625]LogTexture: Display: Building textures: T_Murdock_Merc_Mask (AutoDXT, 4096X4096)
+[2021.01.11-18.53.49:198][625]LogTexture: Display: Building textures: T_Murdock_Weapons_Normals (BC5, 4096X4096)
