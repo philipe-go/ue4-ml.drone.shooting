@@ -29,6 +29,22 @@
 			"Type": "Executable"
 		},
 		{
+			"Path": "$(EngineDir)/Plugins/Marketplace/BlockoutToolsPlugin/Binaries/Win64/UE4Editor-BlockoutToolsPlugin.dll",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Marketplace/BlockoutToolsPlugin/Binaries/Win64/UE4Editor-BlockoutToolsPlugin.pdb",
+			"Type": "SymbolFile"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Marketplace/BlockoutToolsPlugin/Binaries/Win64/UE4Editor-BlockoutToolsEditorPlugin.dll",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Marketplace/BlockoutToolsPlugin/Binaries/Win64/UE4Editor-BlockoutToolsEditorPlugin.pdb",
+			"Type": "SymbolFile"
+		},
+		{
 			"Path": "$(EngineDir)/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2D.dll",
 			"Type": "DynamicLibrary"
 		},
@@ -2213,6 +2229,10 @@
 			"Type": "RequiredResource"
 		},
 		{
+			"Path": "$(EngineDir)/Plugins/Marketplace/BlockoutToolsPlugin/Binaries/Win64/UE4Editor.modules",
+			"Type": "RequiredResource"
+		},
+		{
 			"Path": "$(EngineDir)/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor.modules",
 			"Type": "RequiredResource"
 		},
@@ -2616,6 +2636,10 @@
 	"RuntimeDependencies": [
 		{
 			"Path": "$(ProjectDir)/DroneShooting.uproject",
+			"Type": "UFS"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Marketplace/BlockoutToolsPlugin/BlockoutToolsPlugin.uplugin",
 			"Type": "UFS"
 		},
 		{
