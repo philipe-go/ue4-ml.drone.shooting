@@ -44,7 +44,8 @@ private:
 	class UCameraComponent* Camera;
 
 	const float CAMERA_Y_LOCATION = 50.f;
-	const float CAMERA_DISTANCE = 200.f;
+	const float CAMERA_DISTANCE = 150.f;
+	bool bIsAiming = false;
 	void SetCameraLeft();
 	void SetCameraRight();
 	void SetCameraClose();

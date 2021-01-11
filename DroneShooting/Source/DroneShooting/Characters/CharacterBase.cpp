@@ -63,7 +63,7 @@ void ACharacterBase::MoveRight(float AxisValue)
 
 void ACharacterBase::LookUp(float AxisValue) 
 {
-	AddControllerPitchInput(AxisValue * RateOfTurn * GetWorld()->GetDeltaSeconds());
+	if(bIsAiming) AddControllerPitchInput(AxisValue * RateOfTurn * GetWorld()->GetDeltaSeconds());
 }
 
 void ACharacterBase::LookRight(float AxisValue) 
@@ -91,6 +91,7 @@ void ACharacterBase::SetCameraClose()
 	if (!SpringArm) return;
 	SpringArm->TargetArmLength = CAMERA_DISTANCE/1.5;
 	SpringArm->bUsePawnControlRotation = true;
+	bIsAiming = true;
 }
 
 void ACharacterBase::SetCameraFar() 
@@ -98,6 +99,7 @@ void ACharacterBase::SetCameraFar()
 	if (!SpringArm) return;
 	SpringArm->TargetArmLength = CAMERA_DISTANCE*1.5;
 	SpringArm->bUsePawnControlRotation = false;
+	bIsAiming = false;
 }
 
 

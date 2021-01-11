@@ -1760,3 +1760,1237 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2021.01.11-22.07.12:733][138]AssetCheck: New page: Asset Save: multiple assets
 [2021.01.11-22.07.12:733][138]LogContentValidation: Display: Validating World /Game/Maps/Sandbox.Sandbox
 [2021.01.11-22.07.12:734][138]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Maps/Sandbox_BuiltData.Sandbox_BuiltData
+[2021.01.11-22.09.16:085][696]LogTemp: Repeating last play command: Selected Viewport
+[2021.01.11-22.09.16:103][696]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.01.11-22.09.16:103][696]PIE: New page: PIE session: Sandbox (Jan. 11, 2021, 12:09:16 p.m.)
+[2021.01.11-22.09.16:103][696]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Sandbox
+[2021.01.11-22.09.16:106][696]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003029s)
+[2021.01.11-22.09.16:107][696]LogAIModule: Creating AISystem for world Sandbox
+[2021.01.11-22.09.16:107][696]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000002420D567000), frame # 75696
+[2021.01.11-22.09.16:108][696]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000024210D25940), frame # 75696
+[2021.01.11-22.09.16:108][696]LogPlayLevel: PIE: World Init took: (0.001605s)
+[2021.01.11-22.09.16:108][696]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Sandbox.Sandbox to /Game/Maps/UEDPIE_0_Sandbox.Sandbox (0.004837s)
+[2021.01.11-22.09.16:133][696]LogUObjectHash: Compacting FUObjectHashTables data took   2.49ms
+[2021.01.11-22.09.16:135][696]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.01.11-22.09.16:135][696]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.01.11-22.09.16:135][696]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.01.11-22.09.16:135][696]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.01.11-22.09.16:135][696]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.01.11-22.09.16:135][696]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.01.11-22.09.16:135][696]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.01.11-22.09.16:135][696]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.01.11-22.09.16:136][696]LogAudio: Display: Using built-in audio occlusion.
+[2021.01.11-22.09.16:136][696]LogAudioMixer: Display: Initializing audio mixer.
+[2021.01.11-22.09.16:140][696]LogAudioMixer: Display: 0: FrontLeft
+[2021.01.11-22.09.16:140][696]LogAudioMixer: Display: 1: FrontRight
+[2021.01.11-22.09.16:166][696]LogAudioMixer: Display: Using Audio Device Speakers (Bose SoundLink Wireless Mobile speaker Stereo)
+[2021.01.11-22.09.16:166][696]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.01.11-22.09.16:166][696]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.01.11-22.09.16:166][696]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.01.11-22.09.16:167][696]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.01.11-22.09.16:184][696]LogInit: FAudioDevice initialized.
+[2021.01.11-22.09.16:191][696]LogLoad: Game class is 'BP_ShooterGameMode_C'
+[2021.01.11-22.09.16:193][696]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Sandbox.Sandbox up for play (max tick rate 60) at 2021.01.11-17.09.16
+[2021.01.11-22.09.16:193][696]LogWorld: Bringing up level for play took: 0.000550
+[2021.01.11-22.09.16:193][696]LogOnline: OSS: Creating online subsystem instance for: :Context_25
+[2021.01.11-22.09.16:196][696]PIE: Server logged in
+[2021.01.11-22.09.16:198][696]PIE: Play in editor total start time 0.097 seconds.
+[2021.01.11-22.09.54:803][  8]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.11-22.09.54:803][  8]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Sandbox
+[2021.01.11-22.09.54:803][  8]LogWorld: UWorld::CleanupWorld for Sandbox, bSessionEnded=true, bCleanupResources=true
+[2021.01.11-22.09.54:804][  8]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.11-22.09.54:813][  8]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.01.11-22.09.54:818][  8]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.11-22.09.54:838][  8]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.11-22.09.54:862][  8]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000024210D25940), frame # 78008
+[2021.01.11-22.09.54:862][  8]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000002420D567000), frame # 78008
+[2021.01.11-22.09.54:865][  8]LogUObjectHash: Compacting FUObjectHashTables data took   2.13ms
+[2021.01.11-22.09.54:904][  9]LogPlayLevel: Display: Destroying online subsystem :Context_25
+[2021.01.11-22.10.00:884][363]LogTemp: Repeating last play command: Selected Viewport
+[2021.01.11-22.10.00:903][363]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.01.11-22.10.00:903][363]PIE: New page: PIE session: Sandbox (Jan. 11, 2021, 12:10:00 p.m.)
+[2021.01.11-22.10.00:904][363]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Sandbox
+[2021.01.11-22.10.00:908][363]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004092s)
+[2021.01.11-22.10.00:910][363]LogAIModule: Creating AISystem for world Sandbox
+[2021.01.11-22.10.00:910][363]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000002421796F000), frame # 78363
+[2021.01.11-22.10.00:910][363]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000002422DD46D40), frame # 78363
+[2021.01.11-22.10.00:911][363]LogPlayLevel: PIE: World Init took: (0.002314s)
+[2021.01.11-22.10.00:911][363]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Sandbox.Sandbox to /Game/Maps/UEDPIE_0_Sandbox.Sandbox (0.006898s)
+[2021.01.11-22.10.00:940][363]LogUObjectHash: Compacting FUObjectHashTables data took   3.18ms
+[2021.01.11-22.10.00:944][363]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.01.11-22.10.00:944][363]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.01.11-22.10.00:944][363]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.01.11-22.10.00:944][363]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.01.11-22.10.00:944][363]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.01.11-22.10.00:944][363]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.01.11-22.10.00:944][363]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.01.11-22.10.00:944][363]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.01.11-22.10.00:944][363]LogAudio: Display: Using built-in audio occlusion.
+[2021.01.11-22.10.00:944][363]LogAudioMixer: Display: Initializing audio mixer.
+[2021.01.11-22.10.00:951][363]LogAudioMixer: Display: 0: FrontLeft
+[2021.01.11-22.10.00:951][363]LogAudioMixer: Display: 1: FrontRight
+[2021.01.11-22.10.00:980][363]LogAudioMixer: Display: Using Audio Device Speakers (Bose SoundLink Wireless Mobile speaker Stereo)
+[2021.01.11-22.10.00:980][363]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.01.11-22.10.00:980][363]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.01.11-22.10.00:980][363]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.01.11-22.10.00:980][363]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.01.11-22.10.01:005][363]LogInit: FAudioDevice initialized.
+[2021.01.11-22.10.01:016][363]LogLoad: Game class is 'BP_ShooterGameMode_C'
+[2021.01.11-22.10.01:018][363]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Sandbox.Sandbox up for play (max tick rate 60) at 2021.01.11-17.10.01
+[2021.01.11-22.10.01:018][363]LogWorld: Bringing up level for play took: 0.000827
+[2021.01.11-22.10.01:018][363]LogOnline: OSS: Creating online subsystem instance for: :Context_26
+[2021.01.11-22.10.01:022][363]PIE: Server logged in
+[2021.01.11-22.10.01:023][363]PIE: Play in editor total start time 0.123 seconds.
+[2021.01.11-22.10.30:664][137]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.11-22.10.30:664][137]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Sandbox
+[2021.01.11-22.10.30:664][137]LogWorld: UWorld::CleanupWorld for Sandbox, bSessionEnded=true, bCleanupResources=true
+[2021.01.11-22.10.30:664][137]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.11-22.10.30:673][137]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.01.11-22.10.30:677][137]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.11-22.10.30:698][137]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.11-22.10.30:723][137]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000002422DD46D40), frame # 80137
+[2021.01.11-22.10.30:723][137]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000002421796F000), frame # 80137
+[2021.01.11-22.10.30:725][137]LogUObjectHash: Compacting FUObjectHashTables data took   2.21ms
+[2021.01.11-22.10.30:764][138]LogPlayLevel: Display: Destroying online subsystem :Context_26
+[2021.01.11-22.11.11:858][465]Candidate modules for hot reload:
+[2021.01.11-22.11.11:858][465]  DroneShooting
+[2021.01.11-22.11.11:858][465]Launching UnrealBuildTool... [D:/Documents/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=DroneShooting,1763 DroneShootingEditor Win64 Development -Project="D:/Documents/GameDesign/ue4-ml.drone.shooting/DroneShooting/DroneShooting.uproject" "D:/Documents/GameDesign/ue4-ml.drone.shooting/DroneShooting/DroneShooting.uproject"  -IgnoreJunk]
+[2021.01.11-22.11.11:972][465]Warning: Starting HotReload took  0.1s.
+[2021.01.11-22.11.15:737][679]CompilerResultsLog: New page: Compilation - Jan. 11, 2021, 12:11:15 p.m.
+[2021.01.11-22.11.15:737][679]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (D:\Documents\GameDesign\ue4-ml.drone.shooting).
+[2021.01.11-22.11.15:737][679]CompilerResultsLog: Building DroneShootingEditor...
+[2021.01.11-22.11.15:737][679]CompilerResultsLog: Using Visual Studio 2019 14.27.29112 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2021.01.11-22.11.15:737][679]CompilerResultsLog: Building 4 actions with 12 processes...
+[2021.01.11-22.11.15:737][679]CompilerResultsLog:   [1/4] CharacterBase.cpp
+[2021.01.11-22.11.15:737][679]CompilerResultsLog:   [2/4] UE4Editor-DroneShooting-1763.lib
+[2021.01.11-22.11.15:737][679]CompilerResultsLog:      Creating library D:\Documents\GameDesign\ue4-ml.drone.shooting\DroneShooting\Intermediate\Build\Win64\UE4Editor\Development\DroneShooting\UE4Editor-DroneShooting-1763.lib and object D:\Documents\GameDesign\ue4-ml.drone.shooting\DroneShooting\Intermediate\Build\Win64\UE4Editor\Development\DroneShooting\UE4Editor-DroneShooting-1763.exp
+[2021.01.11-22.11.15:737][679]CompilerResultsLog:   [3/4] UE4Editor-DroneShooting-1763.dll
+[2021.01.11-22.11.15:737][679]CompilerResultsLog:      Creating library D:\Documents\GameDesign\ue4-ml.drone.shooting\DroneShooting\Intermediate\Build\Win64\UE4Editor\Development\DroneShooting\UE4Editor-DroneShooting-1763.suppressed.lib and object D:\Documents\GameDesign\ue4-ml.drone.shooting\DroneShooting\Intermediate\Build\Win64\UE4Editor\Development\DroneShooting\UE4Editor-DroneShooting-1763.suppressed.exp
+[2021.01.11-22.11.15:737][679]CompilerResultsLog:   [4/4] DroneShootingEditor.target
+[2021.01.11-22.11.15:737][679]CompilerResultsLog: Total time in Parallel executor: 2.63 seconds
+[2021.01.11-22.11.15:737][679]CompilerResultsLog: Total execution time: 3.57 seconds
+[2021.01.11-22.11.15:737][679]LogMainFrame: MainFrame: Module compiling took 3.885 seconds
+[2021.01.11-22.11.15:758][679]LogContentBrowser: Native class hierarchy updated for 'DroneShooting' in 0.0008 seconds. Added 2 classes and 3 folders.
+[2021.01.11-22.11.15:764][679]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2021.01.11-22.11.15:924][679]LogContentBrowser: Native class hierarchy populated in 0.0141 seconds. Added 3430 classes and 827 folders.
+[2021.01.11-22.11.15:936][679]Display: HotReload took  4.1s.
+[2021.01.11-22.11.18:164][787]LogTemp: Repeating last play command: Selected Viewport
+[2021.01.11-22.11.18:187][787]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.01.11-22.11.18:187][787]PIE: New page: PIE session: Sandbox (Jan. 11, 2021, 12:11:18 p.m.)
+[2021.01.11-22.11.18:221][787]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Sandbox
+[2021.01.11-22.11.18:224][787]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002731s)
+[2021.01.11-22.11.18:225][787]LogAIModule: Creating AISystem for world Sandbox
+[2021.01.11-22.11.18:225][787]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000024212D85C00), frame # 80787
+[2021.01.11-22.11.18:225][787]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000002420F9EA980), frame # 80787
+[2021.01.11-22.11.18:225][787]LogPlayLevel: PIE: World Init took: (0.001508s)
+[2021.01.11-22.11.18:225][787]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Sandbox.Sandbox to /Game/Maps/UEDPIE_0_Sandbox.Sandbox (0.004423s)
+[2021.01.11-22.11.18:291][787]LogUObjectHash: Compacting FUObjectHashTables data took   3.38ms
+[2021.01.11-22.11.18:293][787]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.01.11-22.11.18:293][787]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.01.11-22.11.18:293][787]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.01.11-22.11.18:293][787]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.01.11-22.11.18:293][787]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.01.11-22.11.18:293][787]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.01.11-22.11.18:293][787]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.01.11-22.11.18:293][787]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.01.11-22.11.18:294][787]LogAudio: Display: Using built-in audio occlusion.
+[2021.01.11-22.11.18:294][787]LogAudioMixer: Display: Initializing audio mixer.
+[2021.01.11-22.11.18:298][787]LogAudioMixer: Display: 0: FrontLeft
+[2021.01.11-22.11.18:298][787]LogAudioMixer: Display: 1: FrontRight
+[2021.01.11-22.11.18:323][787]LogAudioMixer: Display: Using Audio Device Speakers (Bose SoundLink Wireless Mobile speaker Stereo)
+[2021.01.11-22.11.18:323][787]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.01.11-22.11.18:323][787]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.01.11-22.11.18:323][787]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.01.11-22.11.18:324][787]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.01.11-22.11.18:340][787]LogInit: FAudioDevice initialized.
+[2021.01.11-22.11.18:346][787]LogLoad: Game class is 'BP_ShooterGameMode_C'
+[2021.01.11-22.11.18:348][787]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Sandbox.Sandbox up for play (max tick rate 60) at 2021.01.11-17.11.18
+[2021.01.11-22.11.18:348][787]LogWorld: Bringing up level for play took: 0.000652
+[2021.01.11-22.11.18:348][787]LogOnline: OSS: Creating online subsystem instance for: :Context_27
+[2021.01.11-22.11.18:352][787]PIE: Server logged in
+[2021.01.11-22.11.18:354][787]PIE: Play in editor total start time 0.173 seconds.
+[2021.01.11-22.11.25:003][183]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.11-22.11.25:003][183]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Sandbox
+[2021.01.11-22.11.25:003][183]LogWorld: UWorld::CleanupWorld for Sandbox, bSessionEnded=true, bCleanupResources=true
+[2021.01.11-22.11.25:004][183]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.11-22.11.25:015][183]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.01.11-22.11.25:019][183]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.11-22.11.25:060][183]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.11-22.11.25:065][183]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000002420F9EA980), frame # 81183
+[2021.01.11-22.11.25:065][183]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000024212D85C00), frame # 81183
+[2021.01.11-22.11.25:085][183]LogUObjectHash: Compacting FUObjectHashTables data took   3.72ms
+[2021.01.11-22.11.25:122][184]LogPlayLevel: Display: Destroying online subsystem :Context_27
+[2021.01.11-22.11.29:545][275]Candidate modules for hot reload:
+[2021.01.11-22.11.29:545][275]  DroneShooting
+[2021.01.11-22.11.29:545][275]Launching UnrealBuildTool... [D:/Documents/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=DroneShooting,221 DroneShootingEditor Win64 Development -Project="D:/Documents/GameDesign/ue4-ml.drone.shooting/DroneShooting/DroneShooting.uproject" "D:/Documents/GameDesign/ue4-ml.drone.shooting/DroneShooting/DroneShooting.uproject"  -IgnoreJunk]
+[2021.01.11-22.11.29:628][275]Warning: Starting HotReload took  0.1s.
+[2021.01.11-22.11.34:429][552]CompilerResultsLog: New page: Compilation - Jan. 11, 2021, 12:11:34 p.m.
+[2021.01.11-22.11.34:429][552]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (D:\Documents\GameDesign\ue4-ml.drone.shooting).
+[2021.01.11-22.11.34:429][552]CompilerResultsLog: Building DroneShootingEditor...
+[2021.01.11-22.11.34:429][552]CompilerResultsLog: Using Visual Studio 2019 14.27.29112 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2021.01.11-22.11.34:429][552]CompilerResultsLog: Building 4 actions with 12 processes...
+[2021.01.11-22.11.34:429][552]CompilerResultsLog:   [1/4] CharacterBase.cpp
+[2021.01.11-22.11.34:429][552]CompilerResultsLog:   [2/4] UE4Editor-DroneShooting-0221.lib
+[2021.01.11-22.11.34:429][552]CompilerResultsLog:      Creating library D:\Documents\GameDesign\ue4-ml.drone.shooting\DroneShooting\Intermediate\Build\Win64\UE4Editor\Development\DroneShooting\UE4Editor-DroneShooting-0221.lib and object D:\Documents\GameDesign\ue4-ml.drone.shooting\DroneShooting\Intermediate\Build\Win64\UE4Editor\Development\DroneShooting\UE4Editor-DroneShooting-0221.exp
+[2021.01.11-22.11.34:429][552]CompilerResultsLog:   [3/4] UE4Editor-DroneShooting-0221.dll
+[2021.01.11-22.11.34:429][552]CompilerResultsLog:      Creating library D:\Documents\GameDesign\ue4-ml.drone.shooting\DroneShooting\Intermediate\Build\Win64\UE4Editor\Development\DroneShooting\UE4Editor-DroneShooting-0221.suppressed.lib and object D:\Documents\GameDesign\ue4-ml.drone.shooting\DroneShooting\Intermediate\Build\Win64\UE4Editor\Development\DroneShooting\UE4Editor-DroneShooting-0221.suppressed.exp
+[2021.01.11-22.11.34:429][552]CompilerResultsLog:   [4/4] DroneShootingEditor.target
+[2021.01.11-22.11.34:429][552]CompilerResultsLog: Total time in Parallel executor: 3.72 seconds
+[2021.01.11-22.11.34:429][552]CompilerResultsLog: Total execution time: 4.64 seconds
+[2021.01.11-22.11.34:429][552]LogMainFrame: MainFrame: Module compiling took 4.889 seconds
+[2021.01.11-22.11.34:441][552]LogContentBrowser: Native class hierarchy populated in 0.0117 seconds. Added 3430 classes and 827 folders.
+[2021.01.11-22.11.34:450][552]Display: HotReload took  4.9s.
+[2021.01.11-22.11.36:899][673]LogTemp: Repeating last play command: Selected Viewport
+[2021.01.11-22.11.36:918][673]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.01.11-22.11.36:918][673]PIE: New page: PIE session: Sandbox (Jan. 11, 2021, 12:11:36 p.m.)
+[2021.01.11-22.11.36:918][673]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Sandbox
+[2021.01.11-22.11.36:921][673]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002568s)
+[2021.01.11-22.11.36:922][673]LogAIModule: Creating AISystem for world Sandbox
+[2021.01.11-22.11.36:922][673]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (00000241A04B1A00), frame # 81673
+[2021.01.11-22.11.36:922][673]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000002421293C540), frame # 81673
+[2021.01.11-22.11.36:923][673]LogPlayLevel: PIE: World Init took: (0.001785s)
+[2021.01.11-22.11.36:923][673]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Sandbox.Sandbox to /Game/Maps/UEDPIE_0_Sandbox.Sandbox (0.004514s)
+[2021.01.11-22.11.36:989][673]LogUObjectHash: Compacting FUObjectHashTables data took   3.18ms
+[2021.01.11-22.11.36:991][673]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.01.11-22.11.36:991][673]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.01.11-22.11.36:991][673]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.01.11-22.11.36:991][673]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.01.11-22.11.36:991][673]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.01.11-22.11.36:991][673]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.01.11-22.11.36:991][673]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.01.11-22.11.36:991][673]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.01.11-22.11.36:991][673]LogAudio: Display: Using built-in audio occlusion.
+[2021.01.11-22.11.36:991][673]LogAudioMixer: Display: Initializing audio mixer.
+[2021.01.11-22.11.36:996][673]LogAudioMixer: Display: 0: FrontLeft
+[2021.01.11-22.11.36:996][673]LogAudioMixer: Display: 1: FrontRight
+[2021.01.11-22.11.37:018][673]LogAudioMixer: Display: Using Audio Device Speakers (Bose SoundLink Wireless Mobile speaker Stereo)
+[2021.01.11-22.11.37:019][673]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.01.11-22.11.37:019][673]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.01.11-22.11.37:019][673]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.01.11-22.11.37:019][673]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.01.11-22.11.37:034][673]LogInit: FAudioDevice initialized.
+[2021.01.11-22.11.37:041][673]LogLoad: Game class is 'BP_ShooterGameMode_C'
+[2021.01.11-22.11.37:043][673]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Sandbox.Sandbox up for play (max tick rate 60) at 2021.01.11-17.11.37
+[2021.01.11-22.11.37:043][673]LogWorld: Bringing up level for play took: 0.000541
+[2021.01.11-22.11.37:043][673]LogOnline: OSS: Creating online subsystem instance for: :Context_28
+[2021.01.11-22.11.37:047][673]PIE: Server logged in
+[2021.01.11-22.11.37:047][673]PIE: Play in editor total start time 0.135 seconds.
+[2021.01.11-22.11.49:373][410]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.11-22.11.49:373][410]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Sandbox
+[2021.01.11-22.11.49:373][410]LogWorld: UWorld::CleanupWorld for Sandbox, bSessionEnded=true, bCleanupResources=true
+[2021.01.11-22.11.49:374][410]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.11-22.11.49:379][410]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.01.11-22.11.49:383][410]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.11-22.11.49:421][410]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.11-22.11.49:426][410]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000002421293C540), frame # 82410
+[2021.01.11-22.11.49:426][410]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (00000241A04B1A00), frame # 82410
+[2021.01.11-22.11.49:437][410]LogUObjectHash: Compacting FUObjectHashTables data took   3.46ms
+[2021.01.11-22.11.49:470][411]LogPlayLevel: Display: Destroying online subsystem :Context_28
+[2021.01.11-22.11.50:490][469]Candidate modules for hot reload:
+[2021.01.11-22.11.50:490][469]  DroneShooting
+[2021.01.11-22.11.50:490][469]Launching UnrealBuildTool... [D:/Documents/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=DroneShooting,3911 DroneShootingEditor Win64 Development -Project="D:/Documents/GameDesign/ue4-ml.drone.shooting/DroneShooting/DroneShooting.uproject" "D:/Documents/GameDesign/ue4-ml.drone.shooting/DroneShooting/DroneShooting.uproject"  -IgnoreJunk]
+[2021.01.11-22.11.50:579][469]Warning: Starting HotReload took  0.1s.
+[2021.01.11-22.11.53:502][536]CompilerResultsLog: New page: Compilation - Jan. 11, 2021, 12:11:53 p.m.
+[2021.01.11-22.11.53:502][536]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (D:\Documents\GameDesign\ue4-ml.drone.shooting).
+[2021.01.11-22.11.53:502][536]CompilerResultsLog: Building DroneShootingEditor...
+[2021.01.11-22.11.53:502][536]CompilerResultsLog: Using Visual Studio 2019 14.27.29112 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2021.01.11-22.11.53:502][536]CompilerResultsLog: Building 3 actions with 12 processes...
+[2021.01.11-22.11.53:502][536]CompilerResultsLog:   [1/3] UE4Editor-DroneShooting-3911.lib
+[2021.01.11-22.11.53:502][536]CompilerResultsLog:      Creating library D:\Documents\GameDesign\ue4-ml.drone.shooting\DroneShooting\Intermediate\Build\Win64\UE4Editor\Development\DroneShooting\UE4Editor-DroneShooting-3911.lib and object D:\Documents\GameDesign\ue4-ml.drone.shooting\DroneShooting\Intermediate\Build\Win64\UE4Editor\Development\DroneShooting\UE4Editor-DroneShooting-3911.exp
+[2021.01.11-22.11.53:502][536]CompilerResultsLog:   [2/3] UE4Editor-DroneShooting-3911.dll
+[2021.01.11-22.11.53:502][536]CompilerResultsLog:      Creating library D:\Documents\GameDesign\ue4-ml.drone.shooting\DroneShooting\Intermediate\Build\Win64\UE4Editor\Development\DroneShooting\UE4Editor-DroneShooting-3911.suppressed.lib and object D:\Documents\GameDesign\ue4-ml.drone.shooting\DroneShooting\Intermediate\Build\Win64\UE4Editor\Development\DroneShooting\UE4Editor-DroneShooting-3911.suppressed.exp
+[2021.01.11-22.11.53:502][536]CompilerResultsLog:   [3/3] DroneShootingEditor.target
+[2021.01.11-22.11.53:502][536]CompilerResultsLog: Total time in Parallel executor: 1.60 seconds
+[2021.01.11-22.11.53:502][536]CompilerResultsLog: Total execution time: 2.57 seconds
+[2021.01.11-22.11.53:503][536]LogMainFrame: MainFrame: Module compiling took 3.017 seconds
+[2021.01.11-22.11.53:525][536]LogContentBrowser: Native class hierarchy updated for 'DroneShooting' in 0.0006 seconds. Added 2 classes and 3 folders.
+[2021.01.11-22.11.53:529][536]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2021.01.11-22.11.53:662][536]LogContentBrowser: Native class hierarchy populated in 0.0117 seconds. Added 3430 classes and 827 folders.
+[2021.01.11-22.11.53:672][536]Display: HotReload took  3.2s.
+[2021.01.11-22.11.55:959][542]Candidate modules for hot reload:
+[2021.01.11-22.11.55:959][542]  DroneShooting
+[2021.01.11-22.11.55:959][542]Launching UnrealBuildTool... [D:/Documents/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=DroneShooting,4418 DroneShootingEditor Win64 Development -Project="D:/Documents/GameDesign/ue4-ml.drone.shooting/DroneShooting/DroneShooting.uproject" "D:/Documents/GameDesign/ue4-ml.drone.shooting/DroneShooting/DroneShooting.uproject"  -IgnoreJunk]
+[2021.01.11-22.11.56:042][542]Warning: Starting HotReload took  0.1s.
+[2021.01.11-22.11.59:980][767]CompilerResultsLog: New page: Compilation - Jan. 11, 2021, 12:11:59 p.m.
+[2021.01.11-22.11.59:980][767]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (D:\Documents\GameDesign\ue4-ml.drone.shooting).
+[2021.01.11-22.11.59:980][767]CompilerResultsLog: Building DroneShootingEditor...
+[2021.01.11-22.11.59:980][767]CompilerResultsLog: Using Visual Studio 2019 14.27.29112 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2021.01.11-22.11.59:980][767]CompilerResultsLog: Building 4 actions with 12 processes...
+[2021.01.11-22.11.59:980][767]CompilerResultsLog:   [1/4] CharacterBase.cpp
+[2021.01.11-22.11.59:980][767]CompilerResultsLog:   [2/4] UE4Editor-DroneShooting-4418.lib
+[2021.01.11-22.11.59:980][767]CompilerResultsLog:      Creating library D:\Documents\GameDesign\ue4-ml.drone.shooting\DroneShooting\Intermediate\Build\Win64\UE4Editor\Development\DroneShooting\UE4Editor-DroneShooting-4418.lib and object D:\Documents\GameDesign\ue4-ml.drone.shooting\DroneShooting\Intermediate\Build\Win64\UE4Editor\Development\DroneShooting\UE4Editor-DroneShooting-4418.exp
+[2021.01.11-22.11.59:980][767]CompilerResultsLog:   [3/4] UE4Editor-DroneShooting-4418.dll
+[2021.01.11-22.11.59:980][767]CompilerResultsLog:      Creating library D:\Documents\GameDesign\ue4-ml.drone.shooting\DroneShooting\Intermediate\Build\Win64\UE4Editor\Development\DroneShooting\UE4Editor-DroneShooting-4418.suppressed.lib and object D:\Documents\GameDesign\ue4-ml.drone.shooting\DroneShooting\Intermediate\Build\Win64\UE4Editor\Development\DroneShooting\UE4Editor-DroneShooting-4418.suppressed.exp
+[2021.01.11-22.11.59:980][767]CompilerResultsLog:   [4/4] DroneShootingEditor.target
+[2021.01.11-22.11.59:980][767]CompilerResultsLog: Total time in Parallel executor: 2.82 seconds
+[2021.01.11-22.11.59:980][767]CompilerResultsLog: Total execution time: 3.77 seconds
+[2021.01.11-22.11.59:980][767]LogMainFrame: MainFrame: Module compiling took 4.028 seconds
+[2021.01.11-22.12.00:004][767]LogContentBrowser: Native class hierarchy updated for 'DroneShooting' in 0.0009 seconds. Added 2 classes and 3 folders.
+[2021.01.11-22.12.00:011][767]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2021.01.11-22.12.00:150][767]LogContentBrowser: Native class hierarchy populated in 0.0107 seconds. Added 3430 classes and 827 folders.
+[2021.01.11-22.12.00:160][767]Display: HotReload took  4.2s.
+[2021.01.11-22.12.02:349][866]LogTemp: Repeating last play command: Selected Viewport
+[2021.01.11-22.12.02:370][866]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.01.11-22.12.02:370][866]PIE: New page: PIE session: Sandbox (Jan. 11, 2021, 12:12:02 p.m.)
+[2021.01.11-22.12.02:370][866]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Sandbox
+[2021.01.11-22.12.02:373][866]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002888s)
+[2021.01.11-22.12.02:374][866]LogAIModule: Creating AISystem for world Sandbox
+[2021.01.11-22.12.02:374][866]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000002423B0FBE00), frame # 82866
+[2021.01.11-22.12.02:375][866]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000002423B121E40), frame # 82866
+[2021.01.11-22.12.02:375][866]LogPlayLevel: PIE: World Init took: (0.001711s)
+[2021.01.11-22.12.02:375][866]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Sandbox.Sandbox to /Game/Maps/UEDPIE_0_Sandbox.Sandbox (0.004759s)
+[2021.01.11-22.12.02:489][866]LogUObjectHash: Compacting FUObjectHashTables data took   4.34ms
+[2021.01.11-22.12.02:491][866]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.01.11-22.12.02:491][866]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.01.11-22.12.02:491][866]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.01.11-22.12.02:491][866]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.01.11-22.12.02:491][866]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.01.11-22.12.02:491][866]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.01.11-22.12.02:491][866]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.01.11-22.12.02:491][866]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.01.11-22.12.02:492][866]LogAudio: Display: Using built-in audio occlusion.
+[2021.01.11-22.12.02:492][866]LogAudioMixer: Display: Initializing audio mixer.
+[2021.01.11-22.12.02:496][866]LogAudioMixer: Display: 0: FrontLeft
+[2021.01.11-22.12.02:496][866]LogAudioMixer: Display: 1: FrontRight
+[2021.01.11-22.12.02:519][866]LogAudioMixer: Display: Using Audio Device Speakers (Bose SoundLink Wireless Mobile speaker Stereo)
+[2021.01.11-22.12.02:519][866]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.01.11-22.12.02:519][866]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.01.11-22.12.02:519][866]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.01.11-22.12.02:520][866]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.01.11-22.12.02:536][866]LogInit: FAudioDevice initialized.
+[2021.01.11-22.12.02:542][866]LogLoad: Game class is 'BP_ShooterGameMode_C'
+[2021.01.11-22.12.02:544][866]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Sandbox.Sandbox up for play (max tick rate 60) at 2021.01.11-17.12.02
+[2021.01.11-22.12.02:544][866]LogWorld: Bringing up level for play took: 0.000595
+[2021.01.11-22.12.02:544][866]LogOnline: OSS: Creating online subsystem instance for: :Context_29
+[2021.01.11-22.12.02:548][866]PIE: Server logged in
+[2021.01.11-22.12.02:549][866]PIE: Play in editor total start time 0.184 seconds.
+[2021.01.11-22.12.22:423][ 53]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.11-22.12.22:423][ 53]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Sandbox
+[2021.01.11-22.12.22:423][ 53]LogWorld: UWorld::CleanupWorld for Sandbox, bSessionEnded=true, bCleanupResources=true
+[2021.01.11-22.12.22:423][ 53]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.11-22.12.22:434][ 53]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.01.11-22.12.22:437][ 53]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.11-22.12.22:476][ 53]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.11-22.12.22:477][ 53]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000002423B121E40), frame # 84053
+[2021.01.11-22.12.22:477][ 53]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000002423B0FBE00), frame # 84053
+[2021.01.11-22.12.22:480][ 53]LogUObjectHash: Compacting FUObjectHashTables data took   2.27ms
+[2021.01.11-22.12.22:514][ 54]LogPlayLevel: Display: Destroying online subsystem :Context_29
+[2021.01.11-22.12.40:486][214]LogTemp: Repeating last play command: Selected Viewport
+[2021.01.11-22.12.40:504][214]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.01.11-22.12.40:504][214]PIE: New page: PIE session: Sandbox (Jan. 11, 2021, 12:12:40 p.m.)
+[2021.01.11-22.12.40:504][214]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Sandbox
+[2021.01.11-22.12.40:507][214]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002939s)
+[2021.01.11-22.12.40:508][214]LogAIModule: Creating AISystem for world Sandbox
+[2021.01.11-22.12.40:508][214]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000002421DA74200), frame # 84214
+[2021.01.11-22.12.40:508][214]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000002423B121E40), frame # 84214
+[2021.01.11-22.12.40:509][214]LogPlayLevel: PIE: World Init took: (0.001685s)
+[2021.01.11-22.12.40:509][214]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Sandbox.Sandbox to /Game/Maps/UEDPIE_0_Sandbox.Sandbox (0.004803s)
+[2021.01.11-22.12.40:529][214]LogUObjectHash: Compacting FUObjectHashTables data took   2.02ms
+[2021.01.11-22.12.40:530][214]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.01.11-22.12.40:530][214]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.01.11-22.12.40:530][214]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.01.11-22.12.40:530][214]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.01.11-22.12.40:530][214]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.01.11-22.12.40:530][214]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.01.11-22.12.40:530][214]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.01.11-22.12.40:530][214]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.01.11-22.12.40:531][214]LogAudio: Display: Using built-in audio occlusion.
+[2021.01.11-22.12.40:531][214]LogAudioMixer: Display: Initializing audio mixer.
+[2021.01.11-22.12.40:537][214]LogAudioMixer: Display: 0: FrontLeft
+[2021.01.11-22.12.40:537][214]LogAudioMixer: Display: 1: FrontRight
+[2021.01.11-22.12.40:561][214]LogAudioMixer: Display: Using Audio Device Speakers (Bose SoundLink Wireless Mobile speaker Stereo)
+[2021.01.11-22.12.40:561][214]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.01.11-22.12.40:561][214]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.01.11-22.12.40:561][214]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.01.11-22.12.40:562][214]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.01.11-22.12.40:577][214]LogInit: FAudioDevice initialized.
+[2021.01.11-22.12.40:586][214]LogLoad: Game class is 'BP_ShooterGameMode_C'
+[2021.01.11-22.12.40:588][214]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Sandbox.Sandbox up for play (max tick rate 60) at 2021.01.11-17.12.40
+[2021.01.11-22.12.40:588][214]LogWorld: Bringing up level for play took: 0.000542
+[2021.01.11-22.12.40:588][214]LogOnline: OSS: Creating online subsystem instance for: :Context_30
+[2021.01.11-22.12.40:591][214]PIE: Server logged in
+[2021.01.11-22.12.40:592][214]PIE: Play in editor total start time 0.091 seconds.
+[2021.01.11-22.13.11:658][ 14]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/Character/BP_ShooterCharacter.BP_ShooterCharacter
+[2021.01.11-22.13.19:083][337]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.11-22.13.19:084][337]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Sandbox
+[2021.01.11-22.13.19:084][337]LogWorld: UWorld::CleanupWorld for Sandbox, bSessionEnded=true, bCleanupResources=true
+[2021.01.11-22.13.19:085][337]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.11-22.13.19:095][337]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.01.11-22.13.19:099][337]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.11-22.13.19:124][337]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.11-22.13.19:146][337]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000002423B121E40), frame # 86337
+[2021.01.11-22.13.19:146][337]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000002421DA74200), frame # 86337
+[2021.01.11-22.13.19:149][337]LogUObjectHash: Compacting FUObjectHashTables data took   2.28ms
+[2021.01.11-22.13.19:222][338]LogPlayLevel: Display: Destroying online subsystem :Context_30
+[2021.01.11-22.13.27:266][796]BlueprintLog: New page: Compile BP_ShooterCharacter
+[2021.01.11-22.13.27:366][796]LogUObjectHash: Compacting FUObjectHashTables data took   2.41ms
+[2021.01.11-22.13.29:989][882]LogTemp: Repeating last play command: Selected Viewport
+[2021.01.11-22.13.30:005][882]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.01.11-22.13.30:005][882]PIE: New page: PIE session: Sandbox (Jan. 11, 2021, 12:13:30 p.m.)
+[2021.01.11-22.13.30:006][882]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Sandbox
+[2021.01.11-22.13.30:008][882]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002297s)
+[2021.01.11-22.13.30:009][882]LogAIModule: Creating AISystem for world Sandbox
+[2021.01.11-22.13.30:009][882]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (00000242277CE800), frame # 86882
+[2021.01.11-22.13.30:009][882]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000002423EBC6D40), frame # 86882
+[2021.01.11-22.13.30:010][882]LogPlayLevel: PIE: World Init took: (0.001554s)
+[2021.01.11-22.13.30:010][882]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Sandbox.Sandbox to /Game/Maps/UEDPIE_0_Sandbox.Sandbox (0.003998s)
+[2021.01.11-22.13.30:036][882]LogUObjectHash: Compacting FUObjectHashTables data took   2.50ms
+[2021.01.11-22.13.30:037][882]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.01.11-22.13.30:037][882]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.01.11-22.13.30:037][882]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.01.11-22.13.30:037][882]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.01.11-22.13.30:037][882]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.01.11-22.13.30:037][882]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.01.11-22.13.30:037][882]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.01.11-22.13.30:037][882]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.01.11-22.13.30:037][882]LogAudio: Display: Using built-in audio occlusion.
+[2021.01.11-22.13.30:037][882]LogAudioMixer: Display: Initializing audio mixer.
+[2021.01.11-22.13.30:042][882]LogAudioMixer: Display: 0: FrontLeft
+[2021.01.11-22.13.30:042][882]LogAudioMixer: Display: 1: FrontRight
+[2021.01.11-22.13.30:065][882]LogAudioMixer: Display: Using Audio Device Speakers (Bose SoundLink Wireless Mobile speaker Stereo)
+[2021.01.11-22.13.30:065][882]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.01.11-22.13.30:065][882]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.01.11-22.13.30:065][882]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.01.11-22.13.30:065][882]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.01.11-22.13.30:082][882]LogInit: FAudioDevice initialized.
+[2021.01.11-22.13.30:091][882]LogLoad: Game class is 'BP_ShooterGameMode_C'
+[2021.01.11-22.13.30:093][882]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Sandbox.Sandbox up for play (max tick rate 60) at 2021.01.11-17.13.30
+[2021.01.11-22.13.30:093][882]LogWorld: Bringing up level for play took: 0.000551
+[2021.01.11-22.13.30:093][882]LogOnline: OSS: Creating online subsystem instance for: :Context_32
+[2021.01.11-22.13.30:097][882]PIE: Server logged in
+[2021.01.11-22.13.30:098][882]PIE: Play in editor total start time 0.094 seconds.
+[2021.01.11-22.13.47:563][721]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.11-22.13.47:563][721]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Sandbox
+[2021.01.11-22.13.47:564][721]LogWorld: UWorld::CleanupWorld for Sandbox, bSessionEnded=true, bCleanupResources=true
+[2021.01.11-22.13.47:564][721]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.11-22.13.47:669][721]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.01.11-22.13.47:673][721]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.11-22.13.47:724][721]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.11-22.13.47:725][721]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000002423EBC6D40), frame # 87721
+[2021.01.11-22.13.47:725][721]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (00000242277CE800), frame # 87721
+[2021.01.11-22.13.47:728][721]LogUObjectHash: Compacting FUObjectHashTables data took   2.54ms
+[2021.01.11-22.13.47:769][722]LogPlayLevel: Display: Destroying online subsystem :Context_32
+[2021.01.11-22.13.57:833][167]BlueprintLog: New page: Compile BP_ShooterCharacter
+[2021.01.11-22.13.57:922][167]LogUObjectHash: Compacting FUObjectHashTables data took   2.43ms
+[2021.01.11-22.14.19:544][766]BlueprintLog: New page: Compile BP_ShooterCharacter
+[2021.01.11-22.14.19:597][766]LogUObjectHash: Compacting FUObjectHashTables data took   2.74ms
+[2021.01.11-22.14.20:158][795]LogSavePackage: Moving '../../../../GameDesign/ue4-ml.drone.shooting/DroneShooting/Saved/BP_ShooterCharacterC048C02D4815C4C629C878A080DF8B42.tmp' to '../../../../GameDesign/ue4-ml.drone.shooting/DroneShooting/Content/Blueprints/Character/BP_ShooterCharacter.uasset'
+[2021.01.11-22.14.20:175][795]AssetCheck: New page: Asset Save: BP_ShooterCharacter
+[2021.01.11-22.14.20:175][795]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/Character/BP_ShooterCharacter.BP_ShooterCharacter
+[2021.01.11-22.14.22:251][918]LogTemp: Repeating last play command: Selected Viewport
+[2021.01.11-22.14.22:269][918]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.01.11-22.14.22:269][918]PIE: New page: PIE session: Sandbox (Jan. 11, 2021, 12:14:22 p.m.)
+[2021.01.11-22.14.22:269][918]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Sandbox
+[2021.01.11-22.14.22:272][918]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002532s)
+[2021.01.11-22.14.22:273][918]LogAIModule: Creating AISystem for world Sandbox
+[2021.01.11-22.14.22:274][918]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000024227892C00), frame # 88918
+[2021.01.11-22.14.22:274][918]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000002423ECF7740), frame # 88918
+[2021.01.11-22.14.22:274][918]LogPlayLevel: PIE: World Init took: (0.001431s)
+[2021.01.11-22.14.22:274][918]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Sandbox.Sandbox to /Game/Maps/UEDPIE_0_Sandbox.Sandbox (0.004118s)
+[2021.01.11-22.14.22:302][918]LogUObjectHash: Compacting FUObjectHashTables data took   3.08ms
+[2021.01.11-22.14.22:303][918]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.01.11-22.14.22:303][918]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.01.11-22.14.22:303][918]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.01.11-22.14.22:303][918]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.01.11-22.14.22:304][918]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.01.11-22.14.22:304][918]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.01.11-22.14.22:304][918]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.01.11-22.14.22:304][918]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.01.11-22.14.22:304][918]LogAudio: Display: Using built-in audio occlusion.
+[2021.01.11-22.14.22:304][918]LogAudioMixer: Display: Initializing audio mixer.
+[2021.01.11-22.14.22:309][918]LogAudioMixer: Display: 0: FrontLeft
+[2021.01.11-22.14.22:309][918]LogAudioMixer: Display: 1: FrontRight
+[2021.01.11-22.14.22:334][918]LogAudioMixer: Display: Using Audio Device Speakers (Bose SoundLink Wireless Mobile speaker Stereo)
+[2021.01.11-22.14.22:334][918]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.01.11-22.14.22:334][918]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.01.11-22.14.22:334][918]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.01.11-22.14.22:335][918]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.01.11-22.14.22:350][918]LogInit: FAudioDevice initialized.
+[2021.01.11-22.14.22:370][918]LogLoad: Game class is 'BP_ShooterGameMode_C'
+[2021.01.11-22.14.22:372][918]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Sandbox.Sandbox up for play (max tick rate 60) at 2021.01.11-17.14.22
+[2021.01.11-22.14.22:372][918]LogWorld: Bringing up level for play took: 0.000792
+[2021.01.11-22.14.22:372][918]LogOnline: OSS: Creating online subsystem instance for: :Context_33
+[2021.01.11-22.14.22:376][918]PIE: Server logged in
+[2021.01.11-22.14.22:377][918]PIE: Play in editor total start time 0.11 seconds.
+[2021.01.11-22.14.23:544][985]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.11-22.14.23:544][985]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Sandbox
+[2021.01.11-22.14.23:544][985]LogWorld: UWorld::CleanupWorld for Sandbox, bSessionEnded=true, bCleanupResources=true
+[2021.01.11-22.14.23:544][985]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.11-22.14.23:550][985]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.01.11-22.14.23:554][985]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.11-22.14.23:598][985]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.11-22.14.23:599][985]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000002423ECF7740), frame # 88985
+[2021.01.11-22.14.23:599][985]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000024227892C00), frame # 88985
+[2021.01.11-22.14.23:602][985]LogUObjectHash: Compacting FUObjectHashTables data took   2.31ms
+[2021.01.11-22.14.23:635][986]LogPlayLevel: Display: Destroying online subsystem :Context_33
+[2021.01.11-22.14.25:960][ 83]LogTemp: Repeating last play command: Selected Viewport
+[2021.01.11-22.14.25:976][ 83]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.01.11-22.14.25:976][ 83]PIE: New page: PIE session: Sandbox (Jan. 11, 2021, 12:14:25 p.m.)
+[2021.01.11-22.14.25:976][ 83]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Sandbox
+[2021.01.11-22.14.25:979][ 83]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002251s)
+[2021.01.11-22.14.25:980][ 83]LogAIModule: Creating AISystem for world Sandbox
+[2021.01.11-22.14.25:980][ 83]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000024243756400), frame # 89083
+[2021.01.11-22.14.25:980][ 83]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000002423EBC5F80), frame # 89083
+[2021.01.11-22.14.25:981][ 83]LogPlayLevel: PIE: World Init took: (0.001533s)
+[2021.01.11-22.14.25:981][ 83]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Sandbox.Sandbox to /Game/Maps/UEDPIE_0_Sandbox.Sandbox (0.003950s)
+[2021.01.11-22.14.26:006][ 83]LogUObjectHash: Compacting FUObjectHashTables data took   2.12ms
+[2021.01.11-22.14.26:007][ 83]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.01.11-22.14.26:007][ 83]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.01.11-22.14.26:007][ 83]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.01.11-22.14.26:007][ 83]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.01.11-22.14.26:007][ 83]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.01.11-22.14.26:007][ 83]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.01.11-22.14.26:007][ 83]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.01.11-22.14.26:007][ 83]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.01.11-22.14.26:007][ 83]LogAudio: Display: Using built-in audio occlusion.
+[2021.01.11-22.14.26:007][ 83]LogAudioMixer: Display: Initializing audio mixer.
+[2021.01.11-22.14.26:012][ 83]LogAudioMixer: Display: 0: FrontLeft
+[2021.01.11-22.14.26:012][ 83]LogAudioMixer: Display: 1: FrontRight
+[2021.01.11-22.14.26:035][ 83]LogAudioMixer: Display: Using Audio Device Speakers (Bose SoundLink Wireless Mobile speaker Stereo)
+[2021.01.11-22.14.26:035][ 83]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.01.11-22.14.26:036][ 83]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.01.11-22.14.26:036][ 83]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.01.11-22.14.26:036][ 83]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.01.11-22.14.26:037][ 83]LogInit: FAudioDevice initialized.
+[2021.01.11-22.14.26:058][ 83]LogLoad: Game class is 'BP_ShooterGameMode_C'
+[2021.01.11-22.14.26:060][ 83]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Sandbox.Sandbox up for play (max tick rate 60) at 2021.01.11-17.14.26
+[2021.01.11-22.14.26:060][ 83]LogWorld: Bringing up level for play took: 0.000744
+[2021.01.11-22.14.26:060][ 83]LogOnline: OSS: Creating online subsystem instance for: :Context_34
+[2021.01.11-22.14.26:064][ 83]PIE: Server logged in
+[2021.01.11-22.14.26:065][ 83]PIE: Play in editor total start time 0.091 seconds.
+[2021.01.11-22.14.39:843][907]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.11-22.14.39:843][907]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Sandbox
+[2021.01.11-22.14.39:844][907]LogWorld: UWorld::CleanupWorld for Sandbox, bSessionEnded=true, bCleanupResources=true
+[2021.01.11-22.14.39:844][907]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.11-22.14.39:852][907]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.01.11-22.14.39:857][907]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.11-22.14.39:881][907]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.11-22.14.39:902][907]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000002423EBC5F80), frame # 89907
+[2021.01.11-22.14.39:902][907]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000024243756400), frame # 89907
+[2021.01.11-22.14.39:904][907]LogUObjectHash: Compacting FUObjectHashTables data took   2.21ms
+[2021.01.11-22.14.39:939][908]LogPlayLevel: Display: Destroying online subsystem :Context_34
+[2021.01.11-22.14.48:873][ 63]BlueprintLog: New page: Compile BP_ShooterCharacter
+[2021.01.11-22.14.48:926][ 63]LogUObjectHash: Compacting FUObjectHashTables data took   2.32ms
+[2021.01.11-22.14.50:241][ 75]LogSavePackage: Moving '../../../../GameDesign/ue4-ml.drone.shooting/DroneShooting/Saved/BP_ShooterCharacterCD02359B41C9EBF5F8F5EE95FF3D8A09.tmp' to '../../../../GameDesign/ue4-ml.drone.shooting/DroneShooting/Content/Blueprints/Character/BP_ShooterCharacter.uasset'
+[2021.01.11-22.14.50:257][ 75]AssetCheck: New page: Asset Save: BP_ShooterCharacter
+[2021.01.11-22.14.50:257][ 75]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/Character/BP_ShooterCharacter.BP_ShooterCharacter
+[2021.01.11-22.15.07:831][586]BlueprintLog: New page: Compile BP_ShooterCharacter
+[2021.01.11-22.15.07:883][586]LogUObjectHash: Compacting FUObjectHashTables data took   2.91ms
+[2021.01.11-22.15.13:369][855]LogSlate: Window 'BP_ShooterCharacter' being destroyed
+[2021.01.11-22.15.13:517][855]LogWorld: UWorld::CleanupWorld for World_9, bSessionEnded=true, bCleanupResources=true
+[2021.01.11-22.15.13:517][855]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.11-22.15.39:052][958]Candidate modules for hot reload:
+[2021.01.11-22.15.39:052][958]  DroneShooting
+[2021.01.11-22.15.39:053][958]Launching UnrealBuildTool... [D:/Documents/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=DroneShooting,8515 DroneShootingEditor Win64 Development -Project="D:/Documents/GameDesign/ue4-ml.drone.shooting/DroneShooting/DroneShooting.uproject" "D:/Documents/GameDesign/ue4-ml.drone.shooting/DroneShooting/DroneShooting.uproject"  -IgnoreJunk]
+[2021.01.11-22.15.39:151][958]Warning: Starting HotReload took  0.1s.
+[2021.01.11-22.15.42:801][169]CompilerResultsLog: New page: Compilation - Jan. 11, 2021, 12:15:42 p.m.
+[2021.01.11-22.15.42:801][169]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (D:\Documents\GameDesign\ue4-ml.drone.shooting).
+[2021.01.11-22.15.42:802][169]CompilerResultsLog: Building DroneShootingEditor...
+[2021.01.11-22.15.42:802][169]CompilerResultsLog: Using Visual Studio 2019 14.27.29112 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2021.01.11-22.15.42:802][169]CompilerResultsLog: Building 4 actions with 12 processes...
+[2021.01.11-22.15.42:802][169]CompilerResultsLog:   [1/4] CharacterBase.cpp
+[2021.01.11-22.15.42:802][169]CompilerResultsLog:   [2/4] UE4Editor-DroneShooting-8515.lib
+[2021.01.11-22.15.42:802][169]CompilerResultsLog:      Creating library D:\Documents\GameDesign\ue4-ml.drone.shooting\DroneShooting\Intermediate\Build\Win64\UE4Editor\Development\DroneShooting\UE4Editor-DroneShooting-8515.lib and object D:\Documents\GameDesign\ue4-ml.drone.shooting\DroneShooting\Intermediate\Build\Win64\UE4Editor\Development\DroneShooting\UE4Editor-DroneShooting-8515.exp
+[2021.01.11-22.15.42:802][169]CompilerResultsLog:   [3/4] UE4Editor-DroneShooting-8515.dll
+[2021.01.11-22.15.42:802][169]CompilerResultsLog:      Creating library D:\Documents\GameDesign\ue4-ml.drone.shooting\DroneShooting\Intermediate\Build\Win64\UE4Editor\Development\DroneShooting\UE4Editor-DroneShooting-8515.suppressed.lib and object D:\Documents\GameDesign\ue4-ml.drone.shooting\DroneShooting\Intermediate\Build\Win64\UE4Editor\Development\DroneShooting\UE4Editor-DroneShooting-8515.suppressed.exp
+[2021.01.11-22.15.42:802][169]CompilerResultsLog:   [4/4] DroneShootingEditor.target
+[2021.01.11-22.15.42:802][169]CompilerResultsLog: Total time in Parallel executor: 2.52 seconds
+[2021.01.11-22.15.42:802][169]CompilerResultsLog: Total execution time: 3.49 seconds
+[2021.01.11-22.15.42:802][169]LogMainFrame: MainFrame: Module compiling took 3.754 seconds
+[2021.01.11-22.15.42:823][169]LogContentBrowser: Native class hierarchy updated for 'DroneShooting' in 0.0006 seconds. Added 2 classes and 3 folders.
+[2021.01.11-22.15.42:828][169]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2021.01.11-22.15.42:983][169]LogContentBrowser: Native class hierarchy populated in 0.0122 seconds. Added 3430 classes and 827 folders.
+[2021.01.11-22.15.42:995][169]Display: HotReload took  3.9s.
+[2021.01.11-22.15.45:037][267]LogTemp: Repeating last play command: Selected Viewport
+[2021.01.11-22.15.45:059][267]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.01.11-22.15.45:059][267]PIE: New page: PIE session: Sandbox (Jan. 11, 2021, 12:15:45 p.m.)
+[2021.01.11-22.15.45:059][267]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Sandbox
+[2021.01.11-22.15.45:062][267]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003126s)
+[2021.01.11-22.15.45:064][267]LogAIModule: Creating AISystem for world Sandbox
+[2021.01.11-22.15.45:064][267]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000024210E87400), frame # 91267
+[2021.01.11-22.15.45:064][267]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000002423F83FD80), frame # 91267
+[2021.01.11-22.15.45:064][267]LogPlayLevel: PIE: World Init took: (0.002071s)
+[2021.01.11-22.15.45:065][267]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Sandbox.Sandbox to /Game/Maps/UEDPIE_0_Sandbox.Sandbox (0.005414s)
+[2021.01.11-22.15.45:137][267]LogUObjectHash: Compacting FUObjectHashTables data took   3.66ms
+[2021.01.11-22.15.45:139][267]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.01.11-22.15.45:139][267]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.01.11-22.15.45:139][267]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.01.11-22.15.45:139][267]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.01.11-22.15.45:139][267]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.01.11-22.15.45:139][267]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.01.11-22.15.45:139][267]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.01.11-22.15.45:139][267]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.01.11-22.15.45:140][267]LogAudio: Display: Using built-in audio occlusion.
+[2021.01.11-22.15.45:140][267]LogAudioMixer: Display: Initializing audio mixer.
+[2021.01.11-22.15.45:146][267]LogAudioMixer: Display: 0: FrontLeft
+[2021.01.11-22.15.45:146][267]LogAudioMixer: Display: 1: FrontRight
+[2021.01.11-22.15.45:171][267]LogAudioMixer: Display: Using Audio Device Speakers (Bose SoundLink Wireless Mobile speaker Stereo)
+[2021.01.11-22.15.45:171][267]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.01.11-22.15.45:171][267]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.01.11-22.15.45:171][267]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.01.11-22.15.45:172][267]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.01.11-22.15.45:187][267]LogInit: FAudioDevice initialized.
+[2021.01.11-22.15.45:194][267]LogLoad: Game class is 'BP_ShooterGameMode_C'
+[2021.01.11-22.15.45:196][267]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Sandbox.Sandbox up for play (max tick rate 60) at 2021.01.11-17.15.45
+[2021.01.11-22.15.45:196][267]LogWorld: Bringing up level for play took: 0.000533
+[2021.01.11-22.15.45:196][267]LogOnline: OSS: Creating online subsystem instance for: :Context_35
+[2021.01.11-22.15.45:199][267]PIE: Server logged in
+[2021.01.11-22.15.45:201][267]PIE: Play in editor total start time 0.148 seconds.
+[2021.01.11-22.16.03:662][372]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.11-22.16.03:662][372]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Sandbox
+[2021.01.11-22.16.03:662][372]LogWorld: UWorld::CleanupWorld for Sandbox, bSessionEnded=true, bCleanupResources=true
+[2021.01.11-22.16.03:663][372]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.11-22.16.03:670][372]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.01.11-22.16.03:674][372]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.11-22.16.03:728][372]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.11-22.16.03:744][372]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000002423F83FD80), frame # 92372
+[2021.01.11-22.16.03:744][372]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000024210E87400), frame # 92372
+[2021.01.11-22.16.03:760][372]LogUObjectHash: Compacting FUObjectHashTables data took   3.23ms
+[2021.01.11-22.16.03:793][373]LogPlayLevel: Display: Destroying online subsystem :Context_35
+[2021.01.11-22.16.14:547][539]Candidate modules for hot reload:
+[2021.01.11-22.16.14:547][539]  DroneShooting
+[2021.01.11-22.16.14:547][539]Launching UnrealBuildTool... [D:/Documents/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=DroneShooting,2829 DroneShootingEditor Win64 Development -Project="D:/Documents/GameDesign/ue4-ml.drone.shooting/DroneShooting/DroneShooting.uproject" "D:/Documents/GameDesign/ue4-ml.drone.shooting/DroneShooting/DroneShooting.uproject"  -IgnoreJunk]
+[2021.01.11-22.16.14:653][539]Warning: Starting HotReload took  0.1s.
+[2021.01.11-22.16.18:448][757]CompilerResultsLog: New page: Compilation - Jan. 11, 2021, 12:16:18 p.m.
+[2021.01.11-22.16.18:448][757]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (D:\Documents\GameDesign\ue4-ml.drone.shooting).
+[2021.01.11-22.16.18:448][757]CompilerResultsLog: Building DroneShootingEditor...
+[2021.01.11-22.16.18:448][757]CompilerResultsLog: Using Visual Studio 2019 14.27.29112 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2021.01.11-22.16.18:448][757]CompilerResultsLog: Building 4 actions with 12 processes...
+[2021.01.11-22.16.18:448][757]CompilerResultsLog:   [1/4] CharacterBase.cpp
+[2021.01.11-22.16.18:448][757]CompilerResultsLog:   [2/4] UE4Editor-DroneShooting-2829.lib
+[2021.01.11-22.16.18:448][757]CompilerResultsLog:      Creating library D:\Documents\GameDesign\ue4-ml.drone.shooting\DroneShooting\Intermediate\Build\Win64\UE4Editor\Development\DroneShooting\UE4Editor-DroneShooting-2829.lib and object D:\Documents\GameDesign\ue4-ml.drone.shooting\DroneShooting\Intermediate\Build\Win64\UE4Editor\Development\DroneShooting\UE4Editor-DroneShooting-2829.exp
+[2021.01.11-22.16.18:448][757]CompilerResultsLog:   [3/4] UE4Editor-DroneShooting-2829.dll
+[2021.01.11-22.16.18:448][757]CompilerResultsLog:      Creating library D:\Documents\GameDesign\ue4-ml.drone.shooting\DroneShooting\Intermediate\Build\Win64\UE4Editor\Development\DroneShooting\UE4Editor-DroneShooting-2829.suppressed.lib and object D:\Documents\GameDesign\ue4-ml.drone.shooting\DroneShooting\Intermediate\Build\Win64\UE4Editor\Development\DroneShooting\UE4Editor-DroneShooting-2829.suppressed.exp
+[2021.01.11-22.16.18:448][757]CompilerResultsLog:   [4/4] DroneShootingEditor.target
+[2021.01.11-22.16.18:448][757]CompilerResultsLog: Total time in Parallel executor: 2.65 seconds
+[2021.01.11-22.16.18:448][757]CompilerResultsLog: Total execution time: 3.64 seconds
+[2021.01.11-22.16.18:448][757]LogMainFrame: MainFrame: Module compiling took 3.907 seconds
+[2021.01.11-22.16.18:469][757]LogContentBrowser: Native class hierarchy updated for 'DroneShooting' in 0.0006 seconds. Added 2 classes and 3 folders.
+[2021.01.11-22.16.18:476][757]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2021.01.11-22.16.18:614][757]LogContentBrowser: Native class hierarchy populated in 0.0118 seconds. Added 3430 classes and 827 folders.
+[2021.01.11-22.16.18:626][757]Display: HotReload took  4.1s.
+[2021.01.11-22.16.20:969][869]LogTemp: Repeating last play command: Selected Viewport
+[2021.01.11-22.16.20:990][869]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.01.11-22.16.20:991][869]PIE: New page: PIE session: Sandbox (Jan. 11, 2021, 12:16:20 p.m.)
+[2021.01.11-22.16.20:991][869]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Sandbox
+[2021.01.11-22.16.20:993][869]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002531s)
+[2021.01.11-22.16.20:994][869]LogAIModule: Creating AISystem for world Sandbox
+[2021.01.11-22.16.20:994][869]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000024210E85800), frame # 92869
+[2021.01.11-22.16.20:994][869]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000002423AE83D80), frame # 92869
+[2021.01.11-22.16.20:995][869]LogPlayLevel: PIE: World Init took: (0.001544s)
+[2021.01.11-22.16.20:995][869]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Sandbox.Sandbox to /Game/Maps/UEDPIE_0_Sandbox.Sandbox (0.004238s)
+[2021.01.11-22.16.21:066][869]LogUObjectHash: Compacting FUObjectHashTables data took   3.45ms
+[2021.01.11-22.16.21:067][869]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.01.11-22.16.21:067][869]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.01.11-22.16.21:067][869]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.01.11-22.16.21:067][869]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.01.11-22.16.21:067][869]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.01.11-22.16.21:067][869]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.01.11-22.16.21:067][869]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.01.11-22.16.21:067][869]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.01.11-22.16.21:068][869]LogAudio: Display: Using built-in audio occlusion.
+[2021.01.11-22.16.21:068][869]LogAudioMixer: Display: Initializing audio mixer.
+[2021.01.11-22.16.21:072][869]LogAudioMixer: Display: 0: FrontLeft
+[2021.01.11-22.16.21:072][869]LogAudioMixer: Display: 1: FrontRight
+[2021.01.11-22.16.21:100][869]LogAudioMixer: Display: Using Audio Device Speakers (Bose SoundLink Wireless Mobile speaker Stereo)
+[2021.01.11-22.16.21:100][869]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.01.11-22.16.21:100][869]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.01.11-22.16.21:100][869]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.01.11-22.16.21:100][869]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.01.11-22.16.21:118][869]LogInit: FAudioDevice initialized.
+[2021.01.11-22.16.21:125][869]LogLoad: Game class is 'BP_ShooterGameMode_C'
+[2021.01.11-22.16.21:126][869]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Sandbox.Sandbox up for play (max tick rate 60) at 2021.01.11-17.16.21
+[2021.01.11-22.16.21:126][869]LogWorld: Bringing up level for play took: 0.000629
+[2021.01.11-22.16.21:127][869]LogOnline: OSS: Creating online subsystem instance for: :Context_36
+[2021.01.11-22.16.21:130][869]PIE: Server logged in
+[2021.01.11-22.16.21:131][869]PIE: Play in editor total start time 0.147 seconds.
+[2021.01.11-22.16.32:933][574]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.11-22.16.32:933][574]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Sandbox
+[2021.01.11-22.16.32:933][574]LogWorld: UWorld::CleanupWorld for Sandbox, bSessionEnded=true, bCleanupResources=true
+[2021.01.11-22.16.32:934][574]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.11-22.16.32:942][574]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.01.11-22.16.32:946][574]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.11-22.16.32:990][574]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.11-22.16.32:993][574]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000002423AE83D80), frame # 93574
+[2021.01.11-22.16.32:993][574]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000024210E85800), frame # 93574
+[2021.01.11-22.16.33:017][574]LogUObjectHash: Compacting FUObjectHashTables data took   3.22ms
+[2021.01.11-22.16.33:057][575]LogPlayLevel: Display: Destroying online subsystem :Context_36
+[2021.01.11-22.17.50:762][976]Candidate modules for hot reload:
+[2021.01.11-22.17.50:762][976]  DroneShooting
+[2021.01.11-22.17.50:762][976]Launching UnrealBuildTool... [D:/Documents/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=DroneShooting,9279 DroneShootingEditor Win64 Development -Project="D:/Documents/GameDesign/ue4-ml.drone.shooting/DroneShooting/DroneShooting.uproject" "D:/Documents/GameDesign/ue4-ml.drone.shooting/DroneShooting/DroneShooting.uproject"  -IgnoreJunk]
+[2021.01.11-22.17.54:943][976]Warning: Starting HotReload took  4.2s.
+[2021.01.11-22.17.58:495][181]CompilerResultsLog: New page: Compilation - Jan. 11, 2021, 12:17:58 p.m.
+[2021.01.11-22.17.58:496][181]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (D:\Documents\GameDesign\ue4-ml.drone.shooting).
+[2021.01.11-22.17.58:496][181]CompilerResultsLog: Building DroneShootingEditor...
+[2021.01.11-22.17.58:496][181]CompilerResultsLog: Using Visual Studio 2019 14.27.29112 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2021.01.11-22.17.58:496][181]CompilerResultsLog: Building 4 actions with 12 processes...
+[2021.01.11-22.17.58:496][181]CompilerResultsLog:   [1/4] CharacterBase.cpp
+[2021.01.11-22.17.58:496][181]CompilerResultsLog:   [2/4] UE4Editor-DroneShooting-9279.lib
+[2021.01.11-22.17.58:496][181]CompilerResultsLog:      Creating library D:\Documents\GameDesign\ue4-ml.drone.shooting\DroneShooting\Intermediate\Build\Win64\UE4Editor\Development\DroneShooting\UE4Editor-DroneShooting-9279.lib and object D:\Documents\GameDesign\ue4-ml.drone.shooting\DroneShooting\Intermediate\Build\Win64\UE4Editor\Development\DroneShooting\UE4Editor-DroneShooting-9279.exp
+[2021.01.11-22.17.58:496][181]CompilerResultsLog:   [3/4] UE4Editor-DroneShooting-9279.dll
+[2021.01.11-22.17.58:496][181]CompilerResultsLog:      Creating library D:\Documents\GameDesign\ue4-ml.drone.shooting\DroneShooting\Intermediate\Build\Win64\UE4Editor\Development\DroneShooting\UE4Editor-DroneShooting-9279.suppressed.lib and object D:\Documents\GameDesign\ue4-ml.drone.shooting\DroneShooting\Intermediate\Build\Win64\UE4Editor\Development\DroneShooting\UE4Editor-DroneShooting-9279.suppressed.exp
+[2021.01.11-22.17.58:496][181]CompilerResultsLog:   [4/4] DroneShootingEditor.target
+[2021.01.11-22.17.58:496][181]CompilerResultsLog: Total time in Parallel executor: 2.56 seconds
+[2021.01.11-22.17.58:496][181]CompilerResultsLog: Total execution time: 3.38 seconds
+[2021.01.11-22.17.58:496][181]LogMainFrame: MainFrame: Module compiling took 7.739 seconds
+[2021.01.11-22.17.58:517][181]LogContentBrowser: Native class hierarchy updated for 'DroneShooting' in 0.0007 seconds. Added 2 classes and 3 folders.
+[2021.01.11-22.17.58:522][181]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2021.01.11-22.17.58:654][181]LogContentBrowser: Native class hierarchy populated in 0.0108 seconds. Added 3430 classes and 827 folders.
+[2021.01.11-22.17.58:663][181]Display: HotReload took  7.9s.
+[2021.01.11-22.18.00:529][265]LogTemp: Repeating last play command: Selected Viewport
+[2021.01.11-22.18.00:550][265]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.01.11-22.18.00:550][265]PIE: New page: PIE session: Sandbox (Jan. 11, 2021, 12:18:00 p.m.)
+[2021.01.11-22.18.00:550][265]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Sandbox
+[2021.01.11-22.18.00:553][265]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003356s)
+[2021.01.11-22.18.00:555][265]LogAIModule: Creating AISystem for world Sandbox
+[2021.01.11-22.18.00:555][265]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000002422D8D8E00), frame # 94265
+[2021.01.11-22.18.00:555][265]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000241E9AB6D40), frame # 94265
+[2021.01.11-22.18.00:555][265]LogPlayLevel: PIE: World Init took: (0.002430s)
+[2021.01.11-22.18.00:555][265]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Sandbox.Sandbox to /Game/Maps/UEDPIE_0_Sandbox.Sandbox (0.005967s)
+[2021.01.11-22.18.00:631][265]LogUObjectHash: Compacting FUObjectHashTables data took   3.45ms
+[2021.01.11-22.18.00:633][265]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.01.11-22.18.00:633][265]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.01.11-22.18.00:633][265]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.01.11-22.18.00:633][265]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.01.11-22.18.00:633][265]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.01.11-22.18.00:633][265]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.01.11-22.18.00:633][265]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.01.11-22.18.00:633][265]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.01.11-22.18.00:634][265]LogAudio: Display: Using built-in audio occlusion.
+[2021.01.11-22.18.00:634][265]LogAudioMixer: Display: Initializing audio mixer.
+[2021.01.11-22.18.00:638][265]LogAudioMixer: Display: 0: FrontLeft
+[2021.01.11-22.18.00:638][265]LogAudioMixer: Display: 1: FrontRight
+[2021.01.11-22.18.00:664][265]LogAudioMixer: Display: Using Audio Device Speakers (Bose SoundLink Wireless Mobile speaker Stereo)
+[2021.01.11-22.18.00:665][265]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.01.11-22.18.00:665][265]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.01.11-22.18.00:665][265]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.01.11-22.18.00:665][265]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.01.11-22.18.00:681][265]LogInit: FAudioDevice initialized.
+[2021.01.11-22.18.00:693][265]LogLoad: Game class is 'BP_ShooterGameMode_C'
+[2021.01.11-22.18.00:694][265]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Sandbox.Sandbox up for play (max tick rate 60) at 2021.01.11-17.18.00
+[2021.01.11-22.18.00:695][265]LogWorld: Bringing up level for play took: 0.000593
+[2021.01.11-22.18.00:695][265]LogOnline: OSS: Creating online subsystem instance for: :Context_37
+[2021.01.11-22.18.00:698][265]PIE: Server logged in
+[2021.01.11-22.18.00:699][265]PIE: Play in editor total start time 0.156 seconds.
+[2021.01.11-22.18.14:214][ 71]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.11-22.18.14:214][ 71]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Sandbox
+[2021.01.11-22.18.14:214][ 71]LogWorld: UWorld::CleanupWorld for Sandbox, bSessionEnded=true, bCleanupResources=true
+[2021.01.11-22.18.14:214][ 71]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.11-22.18.14:226][ 71]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.01.11-22.18.14:230][ 71]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.11-22.18.14:268][ 71]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.11-22.18.14:269][ 71]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (00000241E9AB6D40), frame # 95071
+[2021.01.11-22.18.14:269][ 71]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000002422D8D8E00), frame # 95071
+[2021.01.11-22.18.14:272][ 71]LogUObjectHash: Compacting FUObjectHashTables data took   3.12ms
+[2021.01.11-22.18.14:307][ 72]LogPlayLevel: Display: Destroying online subsystem :Context_37
+[2021.01.11-22.19.50:207][534]Candidate modules for hot reload:
+[2021.01.11-22.19.50:207][534]  DroneShooting
+[2021.01.11-22.19.50:207][534]Launching UnrealBuildTool... [D:/Documents/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=DroneShooting,507 DroneShootingEditor Win64 Development -Project="D:/Documents/GameDesign/ue4-ml.drone.shooting/DroneShooting/DroneShooting.uproject" "D:/Documents/GameDesign/ue4-ml.drone.shooting/DroneShooting/DroneShooting.uproject"  -IgnoreJunk]
+[2021.01.11-22.19.54:392][534]Warning: Starting HotReload took  4.2s.
+[2021.01.11-22.19.58:144][547]CompilerResultsLog: New page: Compilation - Jan. 11, 2021, 12:19:58 p.m.
+[2021.01.11-22.19.58:144][547]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (D:\Documents\GameDesign\ue4-ml.drone.shooting).
+[2021.01.11-22.19.58:144][547]CompilerResultsLog: Building DroneShootingEditor...
+[2021.01.11-22.19.58:144][547]CompilerResultsLog: Using Visual Studio 2019 14.27.29112 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2021.01.11-22.19.58:144][547]CompilerResultsLog: Building 4 actions with 12 processes...
+[2021.01.11-22.19.58:144][547]CompilerResultsLog:   [1/4] CharacterBase.cpp
+[2021.01.11-22.19.58:144][547]CompilerResultsLog:   [2/4] UE4Editor-DroneShooting-0507.lib
+[2021.01.11-22.19.58:144][547]CompilerResultsLog:      Creating library D:\Documents\GameDesign\ue4-ml.drone.shooting\DroneShooting\Intermediate\Build\Win64\UE4Editor\Development\DroneShooting\UE4Editor-DroneShooting-0507.lib and object D:\Documents\GameDesign\ue4-ml.drone.shooting\DroneShooting\Intermediate\Build\Win64\UE4Editor\Development\DroneShooting\UE4Editor-DroneShooting-0507.exp
+[2021.01.11-22.19.58:144][547]CompilerResultsLog:   [3/4] UE4Editor-DroneShooting-0507.dll
+[2021.01.11-22.19.58:144][547]CompilerResultsLog:      Creating library D:\Documents\GameDesign\ue4-ml.drone.shooting\DroneShooting\Intermediate\Build\Win64\UE4Editor\Development\DroneShooting\UE4Editor-DroneShooting-0507.suppressed.lib and object D:\Documents\GameDesign\ue4-ml.drone.shooting\DroneShooting\Intermediate\Build\Win64\UE4Editor\Development\DroneShooting\UE4Editor-DroneShooting-0507.suppressed.exp
+[2021.01.11-22.19.58:144][547]CompilerResultsLog:   [4/4] DroneShootingEditor.target
+[2021.01.11-22.19.58:144][547]CompilerResultsLog: Total time in Parallel executor: 2.48 seconds
+[2021.01.11-22.19.58:144][547]CompilerResultsLog: Total execution time: 3.43 seconds
+[2021.01.11-22.19.58:144][547]LogMainFrame: MainFrame: Module compiling took 7.941 seconds
+[2021.01.11-22.19.58:158][547]LogContentBrowser: Native class hierarchy populated in 0.0137 seconds. Added 3430 classes and 827 folders.
+[2021.01.11-22.19.58:169][547]Display: HotReload took  8.0s.
+[2021.01.11-22.20.07:847][589]LogTemp: Repeating last play command: Selected Viewport
+[2021.01.11-22.20.07:871][589]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.01.11-22.20.07:871][589]PIE: New page: PIE session: Sandbox (Jan. 11, 2021, 12:20:07 p.m.)
+[2021.01.11-22.20.07:871][589]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Sandbox
+[2021.01.11-22.20.07:874][589]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003065s)
+[2021.01.11-22.20.07:875][589]LogAIModule: Creating AISystem for world Sandbox
+[2021.01.11-22.20.07:875][589]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (00000241E99FE200), frame # 95589
+[2021.01.11-22.20.07:875][589]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000002420EF48F40), frame # 95589
+[2021.01.11-22.20.07:876][589]LogPlayLevel: PIE: World Init took: (0.001543s)
+[2021.01.11-22.20.07:876][589]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Sandbox.Sandbox to /Game/Maps/UEDPIE_0_Sandbox.Sandbox (0.004765s)
+[2021.01.11-22.20.07:944][589]LogUObjectHash: Compacting FUObjectHashTables data took   3.41ms
+[2021.01.11-22.20.07:946][589]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.01.11-22.20.07:946][589]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.01.11-22.20.07:946][589]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.01.11-22.20.07:946][589]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.01.11-22.20.07:946][589]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.01.11-22.20.07:946][589]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.01.11-22.20.07:946][589]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.01.11-22.20.07:946][589]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.01.11-22.20.07:947][589]LogAudio: Display: Using built-in audio occlusion.
+[2021.01.11-22.20.07:947][589]LogAudioMixer: Display: Initializing audio mixer.
+[2021.01.11-22.20.07:951][589]LogAudioMixer: Display: 0: FrontLeft
+[2021.01.11-22.20.07:951][589]LogAudioMixer: Display: 1: FrontRight
+[2021.01.11-22.20.07:977][589]LogAudioMixer: Display: Using Audio Device Speakers (Bose SoundLink Wireless Mobile speaker Stereo)
+[2021.01.11-22.20.07:977][589]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.01.11-22.20.07:977][589]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.01.11-22.20.07:977][589]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.01.11-22.20.07:978][589]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.01.11-22.20.07:996][589]LogInit: FAudioDevice initialized.
+[2021.01.11-22.20.08:005][589]LogLoad: Game class is 'BP_ShooterGameMode_C'
+[2021.01.11-22.20.08:007][589]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Sandbox.Sandbox up for play (max tick rate 60) at 2021.01.11-17.20.08
+[2021.01.11-22.20.08:007][589]LogWorld: Bringing up level for play took: 0.000569
+[2021.01.11-22.20.08:007][589]LogOnline: OSS: Creating online subsystem instance for: :Context_38
+[2021.01.11-22.20.08:011][589]PIE: Server logged in
+[2021.01.11-22.20.08:013][589]PIE: Play in editor total start time 0.149 seconds.
+[2021.01.11-22.20.19:832][295]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.11-22.20.19:832][295]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Sandbox
+[2021.01.11-22.20.19:833][295]LogWorld: UWorld::CleanupWorld for Sandbox, bSessionEnded=true, bCleanupResources=true
+[2021.01.11-22.20.19:833][295]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.11-22.20.19:843][295]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.01.11-22.20.19:846][295]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.11-22.20.19:887][295]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.11-22.20.19:893][295]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000002420EF48F40), frame # 96295
+[2021.01.11-22.20.19:893][295]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (00000241E99FE200), frame # 96295
+[2021.01.11-22.20.19:912][295]LogUObjectHash: Compacting FUObjectHashTables data took   2.20ms
+[2021.01.11-22.20.19:953][296]LogPlayLevel: Display: Destroying online subsystem :Context_38
+[2021.01.11-22.21.08:684][864]LogUObjectHash: Compacting FUObjectHashTables data took   2.00ms
+[2021.01.11-22.21.08:686][864]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Sandbox' took 0.024
+[2021.01.11-22.21.08:687][864]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/Character/BP_ShooterCharacter] ([1] browsable assets)...
+[2021.01.11-22.21.08:701][864]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/Character/BP_ShooterCharacter.BP_ShooterCharacter]
+[2021.01.11-22.21.08:701][864]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Character/BP_ShooterCharacter]
+[2021.01.11-22.21.08:725][864]LogSavePackage: Moving '../../../../GameDesign/ue4-ml.drone.shooting/DroneShooting/Saved/BP_ShooterCharacter_Auto17CAA166A4484D71BB5247A9515ABF1EE.tmp' to '../../../../GameDesign/ue4-ml.drone.shooting/DroneShooting/Saved/Autosaves/Game/Blueprints/Character/BP_ShooterCharacter_Auto1.uasset'
+[2021.01.11-22.21.08:725][864]LogFileHelpers: Auto-saving content packages took 0.039
+[2021.01.11-22.22.50:653][207]Candidate modules for hot reload:
+[2021.01.11-22.22.50:653][207]  DroneShooting
+[2021.01.11-22.22.50:653][207]Launching UnrealBuildTool... [D:/Documents/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=DroneShooting,217 DroneShootingEditor Win64 Development -Project="D:/Documents/GameDesign/ue4-ml.drone.shooting/DroneShooting/DroneShooting.uproject" "D:/Documents/GameDesign/ue4-ml.drone.shooting/DroneShooting/DroneShooting.uproject"  -IgnoreJunk]
+[2021.01.11-22.22.54:856][207]Warning: Starting HotReload took  4.2s.
+[2021.01.11-22.23.06:245][882]CompilerResultsLog: New page: Compilation - Jan. 11, 2021, 12:23:06 p.m.
+[2021.01.11-22.23.06:245][882]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (D:\Documents\GameDesign\ue4-ml.drone.shooting).
+[2021.01.11-22.23.06:245][882]CompilerResultsLog: Parsing headers for DroneShootingEditor
+[2021.01.11-22.23.06:245][882]CompilerResultsLog:   Running UnrealHeaderTool "D:\Documents\GameDesign\ue4-ml.drone.shooting\DroneShooting\DroneShooting.uproject" "D:\Documents\GameDesign\ue4-ml.drone.shooting\DroneShooting\Intermediate\Build\Win64\DroneShootingEditor\Development\DroneShootingEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\lipin\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+[2021.01.11-22.23.06:245][882]CompilerResultsLog: Reflection code generated for DroneShootingEditor in 7.4792175 seconds
+[2021.01.11-22.23.06:245][882]CompilerResultsLog: Building DroneShootingEditor...
+[2021.01.11-22.23.06:245][882]CompilerResultsLog: Using Visual Studio 2019 14.27.29112 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2021.01.11-22.23.06:245][882]CompilerResultsLog: Building 5 actions with 12 processes...
+[2021.01.11-22.23.06:245][882]CompilerResultsLog:   [1/5] CharacterBase.gen.cpp
+[2021.01.11-22.23.06:245][882]CompilerResultsLog:   [2/5] CharacterBase.cpp
+[2021.01.11-22.23.06:245][882]CompilerResultsLog:   [3/5] UE4Editor-DroneShooting-0217.lib
+[2021.01.11-22.23.06:245][882]CompilerResultsLog:      Creating library D:\Documents\GameDesign\ue4-ml.drone.shooting\DroneShooting\Intermediate\Build\Win64\UE4Editor\Development\DroneShooting\UE4Editor-DroneShooting-0217.lib and object D:\Documents\GameDesign\ue4-ml.drone.shooting\DroneShooting\Intermediate\Build\Win64\UE4Editor\Development\DroneShooting\UE4Editor-DroneShooting-0217.exp
+[2021.01.11-22.23.06:245][882]CompilerResultsLog:   [4/5] UE4Editor-DroneShooting-0217.dll
+[2021.01.11-22.23.06:245][882]CompilerResultsLog:      Creating library D:\Documents\GameDesign\ue4-ml.drone.shooting\DroneShooting\Intermediate\Build\Win64\UE4Editor\Development\DroneShooting\UE4Editor-DroneShooting-0217.suppressed.lib and object D:\Documents\GameDesign\ue4-ml.drone.shooting\DroneShooting\Intermediate\Build\Win64\UE4Editor\Development\DroneShooting\UE4Editor-DroneShooting-0217.suppressed.exp
+[2021.01.11-22.23.06:245][882]CompilerResultsLog:   [5/5] DroneShootingEditor.target
+[2021.01.11-22.23.06:245][882]CompilerResultsLog: Total time in Parallel executor: 2.71 seconds
+[2021.01.11-22.23.06:245][882]CompilerResultsLog: Total execution time: 11.19 seconds
+[2021.01.11-22.23.06:245][882]LogMainFrame: MainFrame: Module compiling took 15.598 seconds
+[2021.01.11-22.23.06:259][882]LogContentBrowser: Native class hierarchy populated in 0.0137 seconds. Added 3430 classes and 827 folders.
+[2021.01.11-22.23.06:269][882]Display: HotReload took 15.6s.
+[2021.01.11-22.23.10:757][119]LogTemp: Repeating last play command: Selected Viewport
+[2021.01.11-22.23.10:778][119]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.01.11-22.23.10:779][119]PIE: New page: PIE session: Sandbox (Jan. 11, 2021, 12:23:10 p.m.)
+[2021.01.11-22.23.10:779][119]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Sandbox
+[2021.01.11-22.23.10:783][119]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003527s)
+[2021.01.11-22.23.10:784][119]LogAIModule: Creating AISystem for world Sandbox
+[2021.01.11-22.23.10:784][119]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (00000241CA22E600), frame # 98119
+[2021.01.11-22.23.10:784][119]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000241CA24A700), frame # 98119
+[2021.01.11-22.23.10:785][119]LogPlayLevel: PIE: World Init took: (0.001904s)
+[2021.01.11-22.23.10:785][119]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Sandbox.Sandbox to /Game/Maps/UEDPIE_0_Sandbox.Sandbox (0.005579s)
+[2021.01.11-22.23.10:870][119]LogUObjectHash: Compacting FUObjectHashTables data took   3.40ms
+[2021.01.11-22.23.10:872][119]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.01.11-22.23.10:872][119]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.01.11-22.23.10:872][119]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.01.11-22.23.10:872][119]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.01.11-22.23.10:872][119]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.01.11-22.23.10:872][119]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.01.11-22.23.10:872][119]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.01.11-22.23.10:872][119]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.01.11-22.23.10:873][119]LogAudio: Display: Using built-in audio occlusion.
+[2021.01.11-22.23.10:873][119]LogAudioMixer: Display: Initializing audio mixer.
+[2021.01.11-22.23.10:878][119]LogAudioMixer: Display: 0: FrontLeft
+[2021.01.11-22.23.10:878][119]LogAudioMixer: Display: 1: FrontRight
+[2021.01.11-22.23.10:903][119]LogAudioMixer: Display: Using Audio Device Speakers (Bose SoundLink Wireless Mobile speaker Stereo)
+[2021.01.11-22.23.10:903][119]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.01.11-22.23.10:903][119]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.01.11-22.23.10:903][119]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.01.11-22.23.10:904][119]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.01.11-22.23.10:922][119]LogInit: FAudioDevice initialized.
+[2021.01.11-22.23.10:933][119]LogLoad: Game class is 'BP_ShooterGameMode_C'
+[2021.01.11-22.23.10:935][119]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Sandbox.Sandbox up for play (max tick rate 60) at 2021.01.11-17.23.10
+[2021.01.11-22.23.10:935][119]LogWorld: Bringing up level for play took: 0.000622
+[2021.01.11-22.23.10:935][119]LogOnline: OSS: Creating online subsystem instance for: :Context_39
+[2021.01.11-22.23.10:938][119]PIE: Server logged in
+[2021.01.11-22.23.10:940][119]PIE: Play in editor total start time 0.167 seconds.
+[2021.01.11-22.23.24:322][919]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.11-22.23.24:322][919]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Sandbox
+[2021.01.11-22.23.24:323][919]LogWorld: UWorld::CleanupWorld for Sandbox, bSessionEnded=true, bCleanupResources=true
+[2021.01.11-22.23.24:323][919]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.11-22.23.24:332][919]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.01.11-22.23.24:336][919]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.11-22.23.24:383][919]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.11-22.23.24:388][919]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (00000241CA24A700), frame # 98919
+[2021.01.11-22.23.24:388][919]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (00000241CA22E600), frame # 98919
+[2021.01.11-22.23.24:409][919]LogUObjectHash: Compacting FUObjectHashTables data took   2.58ms
+[2021.01.11-22.23.24:447][920]LogPlayLevel: Display: Destroying online subsystem :Context_39
+[2021.01.11-22.23.25:020][953]Candidate modules for hot reload:
+[2021.01.11-22.23.25:020][953]  DroneShooting
+[2021.01.11-22.23.25:020][953]Launching UnrealBuildTool... [D:/Documents/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=DroneShooting,6225 DroneShootingEditor Win64 Development -Project="D:/Documents/GameDesign/ue4-ml.drone.shooting/DroneShooting/DroneShooting.uproject" "D:/Documents/GameDesign/ue4-ml.drone.shooting/DroneShooting/DroneShooting.uproject"  -IgnoreJunk]
+[2021.01.11-22.23.25:118][953]Warning: Starting HotReload took  0.1s.
+[2021.01.11-22.23.27:751][101]CompilerResultsLog: New page: Compilation - Jan. 11, 2021, 12:23:27 p.m.
+[2021.01.11-22.23.27:751][101]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (D:\Documents\GameDesign\ue4-ml.drone.shooting).
+[2021.01.11-22.23.27:751][101]CompilerResultsLog: Building DroneShootingEditor...
+[2021.01.11-22.23.27:751][101]CompilerResultsLog: Using Visual Studio 2019 14.27.29112 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2021.01.11-22.23.27:751][101]CompilerResultsLog: Building 3 actions with 12 processes...
+[2021.01.11-22.23.27:751][101]CompilerResultsLog:   [1/3] UE4Editor-DroneShooting-6225.lib
+[2021.01.11-22.23.27:751][101]CompilerResultsLog:      Creating library D:\Documents\GameDesign\ue4-ml.drone.shooting\DroneShooting\Intermediate\Build\Win64\UE4Editor\Development\DroneShooting\UE4Editor-DroneShooting-6225.lib and object D:\Documents\GameDesign\ue4-ml.drone.shooting\DroneShooting\Intermediate\Build\Win64\UE4Editor\Development\DroneShooting\UE4Editor-DroneShooting-6225.exp
+[2021.01.11-22.23.27:751][101]CompilerResultsLog:   [2/3] UE4Editor-DroneShooting-6225.dll
+[2021.01.11-22.23.27:751][101]CompilerResultsLog:      Creating library D:\Documents\GameDesign\ue4-ml.drone.shooting\DroneShooting\Intermediate\Build\Win64\UE4Editor\Development\DroneShooting\UE4Editor-DroneShooting-6225.suppressed.lib and object D:\Documents\GameDesign\ue4-ml.drone.shooting\DroneShooting\Intermediate\Build\Win64\UE4Editor\Development\DroneShooting\UE4Editor-DroneShooting-6225.suppressed.exp
+[2021.01.11-22.23.27:751][101]CompilerResultsLog:   [3/3] DroneShootingEditor.target
+[2021.01.11-22.23.27:751][101]CompilerResultsLog: Total time in Parallel executor: 1.53 seconds
+[2021.01.11-22.23.27:751][101]CompilerResultsLog: Total execution time: 2.49 seconds
+[2021.01.11-22.23.27:751][101]LogMainFrame: MainFrame: Module compiling took 2.735 seconds
+[2021.01.11-22.23.27:768][101]LogContentBrowser: Native class hierarchy updated for 'DroneShooting' in 0.0005 seconds. Added 2 classes and 3 folders.
+[2021.01.11-22.23.27:772][101]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2021.01.11-22.23.27:906][101]LogContentBrowser: Native class hierarchy populated in 0.0105 seconds. Added 3430 classes and 827 folders.
+[2021.01.11-22.23.27:914][101]Display: HotReload took  2.9s.
+[2021.01.11-22.23.50:851][537]Candidate modules for hot reload:
+[2021.01.11-22.23.50:851][537]  DroneShooting
+[2021.01.11-22.23.50:851][537]Launching UnrealBuildTool... [D:/Documents/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=DroneShooting,6316 DroneShootingEditor Win64 Development -Project="D:/Documents/GameDesign/ue4-ml.drone.shooting/DroneShooting/DroneShooting.uproject" "D:/Documents/GameDesign/ue4-ml.drone.shooting/DroneShooting/DroneShooting.uproject"  -IgnoreJunk]
+[2021.01.11-22.23.50:952][537]Warning: Starting HotReload took  0.1s.
+[2021.01.11-22.23.53:653][688]CompilerResultsLog: New page: Compilation - Jan. 11, 2021, 12:23:53 p.m.
+[2021.01.11-22.23.53:653][688]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (D:\Documents\GameDesign\ue4-ml.drone.shooting).
+[2021.01.11-22.23.53:653][688]CompilerResultsLog: Building DroneShootingEditor...
+[2021.01.11-22.23.53:653][688]CompilerResultsLog: Using Visual Studio 2019 14.27.29112 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2021.01.11-22.23.53:654][688]CompilerResultsLog: Building 3 actions with 12 processes...
+[2021.01.11-22.23.53:654][688]CompilerResultsLog:   [1/3] UE4Editor-DroneShooting-6316.lib
+[2021.01.11-22.23.53:654][688]CompilerResultsLog:      Creating library D:\Documents\GameDesign\ue4-ml.drone.shooting\DroneShooting\Intermediate\Build\Win64\UE4Editor\Development\DroneShooting\UE4Editor-DroneShooting-6316.lib and object D:\Documents\GameDesign\ue4-ml.drone.shooting\DroneShooting\Intermediate\Build\Win64\UE4Editor\Development\DroneShooting\UE4Editor-DroneShooting-6316.exp
+[2021.01.11-22.23.53:654][688]CompilerResultsLog:   [2/3] UE4Editor-DroneShooting-6316.dll
+[2021.01.11-22.23.53:654][688]CompilerResultsLog:      Creating library D:\Documents\GameDesign\ue4-ml.drone.shooting\DroneShooting\Intermediate\Build\Win64\UE4Editor\Development\DroneShooting\UE4Editor-DroneShooting-6316.suppressed.lib and object D:\Documents\GameDesign\ue4-ml.drone.shooting\DroneShooting\Intermediate\Build\Win64\UE4Editor\Development\DroneShooting\UE4Editor-DroneShooting-6316.suppressed.exp
+[2021.01.11-22.23.53:654][688]CompilerResultsLog:   [3/3] DroneShootingEditor.target
+[2021.01.11-22.23.53:654][688]CompilerResultsLog: Total time in Parallel executor: 1.55 seconds
+[2021.01.11-22.23.53:654][688]CompilerResultsLog: Total execution time: 2.52 seconds
+[2021.01.11-22.23.53:654][688]LogMainFrame: MainFrame: Module compiling took 2.807 seconds
+[2021.01.11-22.23.53:675][688]LogContentBrowser: Native class hierarchy updated for 'DroneShooting' in 0.0005 seconds. Added 2 classes and 3 folders.
+[2021.01.11-22.23.53:680][688]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2021.01.11-22.23.53:828][688]LogContentBrowser: Native class hierarchy populated in 0.0127 seconds. Added 3430 classes and 827 folders.
+[2021.01.11-22.23.53:839][688]Display: HotReload took  3.0s.
+[2021.01.11-22.23.55:700][772]LogTemp: Repeating last play command: Selected Viewport
+[2021.01.11-22.23.55:725][772]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.01.11-22.23.55:725][772]PIE: New page: PIE session: Sandbox (Jan. 11, 2021, 12:23:55 p.m.)
+[2021.01.11-22.23.55:725][772]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Sandbox
+[2021.01.11-22.23.55:728][772]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002867s)
+[2021.01.11-22.23.55:730][772]LogAIModule: Creating AISystem for world Sandbox
+[2021.01.11-22.23.55:730][772]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (00000242628E7E00), frame # 99772
+[2021.01.11-22.23.55:730][772]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000024262909580), frame # 99772
+[2021.01.11-22.23.55:730][772]LogPlayLevel: PIE: World Init took: (0.001625s)
+[2021.01.11-22.23.55:730][772]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Sandbox.Sandbox to /Game/Maps/UEDPIE_0_Sandbox.Sandbox (0.004687s)
+[2021.01.11-22.23.55:846][772]LogUObjectHash: Compacting FUObjectHashTables data took   4.92ms
+[2021.01.11-22.23.55:848][772]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.01.11-22.23.55:848][772]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.01.11-22.23.55:848][772]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.01.11-22.23.55:848][772]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.01.11-22.23.55:848][772]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.01.11-22.23.55:848][772]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.01.11-22.23.55:848][772]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.01.11-22.23.55:848][772]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.01.11-22.23.55:848][772]LogAudio: Display: Using built-in audio occlusion.
+[2021.01.11-22.23.55:848][772]LogAudioMixer: Display: Initializing audio mixer.
+[2021.01.11-22.23.55:853][772]LogAudioMixer: Display: 0: FrontLeft
+[2021.01.11-22.23.55:853][772]LogAudioMixer: Display: 1: FrontRight
+[2021.01.11-22.23.55:879][772]LogAudioMixer: Display: Using Audio Device Speakers (Bose SoundLink Wireless Mobile speaker Stereo)
+[2021.01.11-22.23.55:879][772]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.01.11-22.23.55:879][772]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.01.11-22.23.55:879][772]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.01.11-22.23.55:880][772]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.01.11-22.23.55:896][772]LogInit: FAudioDevice initialized.
+[2021.01.11-22.23.55:909][772]LogLoad: Game class is 'BP_ShooterGameMode_C'
+[2021.01.11-22.23.55:910][772]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Sandbox.Sandbox up for play (max tick rate 60) at 2021.01.11-17.23.55
+[2021.01.11-22.23.55:910][772]LogWorld: Bringing up level for play took: 0.000543
+[2021.01.11-22.23.55:911][772]LogOnline: OSS: Creating online subsystem instance for: :Context_40
+[2021.01.11-22.23.55:914][772]PIE: Server logged in
+[2021.01.11-22.23.55:915][772]PIE: Play in editor total start time 0.196 seconds.
+[2021.01.11-22.24.26:892][628]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.11-22.24.26:892][628]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Sandbox
+[2021.01.11-22.24.26:892][628]LogWorld: UWorld::CleanupWorld for Sandbox, bSessionEnded=true, bCleanupResources=true
+[2021.01.11-22.24.26:893][628]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.11-22.24.26:902][628]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.01.11-22.24.26:907][628]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.11-22.24.26:957][628]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.11-22.24.26:961][628]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000024262909580), frame # 101628
+[2021.01.11-22.24.26:961][628]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (00000242628E7E00), frame # 101628
+[2021.01.11-22.24.26:985][628]LogUObjectHash: Compacting FUObjectHashTables data took   4.49ms
+[2021.01.11-22.24.27:023][629]LogPlayLevel: Display: Destroying online subsystem :Context_40
+[2021.01.11-22.24.28:491][715]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Sandbox" FILE="../../../../GameDesign/ue4-ml.drone.shooting/DroneShooting/Content/Maps/Sandbox.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2021.01.11-22.24.28:523][715]LogUObjectHash: Compacting FUObjectHashTables data took   1.96ms
+[2021.01.11-22.24.28:545][715]LogSavePackage: Moving '../../../../GameDesign/ue4-ml.drone.shooting/DroneShooting/Saved/Sandbox0CC0BC8E46C455DDB09BC4AED598CB77.tmp' to '../../../../GameDesign/ue4-ml.drone.shooting/DroneShooting/Content/Maps/Sandbox.umap'
+[2021.01.11-22.24.28:578][715]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Sandbox_BuiltData" FILE="../../../../GameDesign/ue4-ml.drone.shooting/DroneShooting/Content/Maps/Sandbox_BuiltData.uasset" SILENT=true
+[2021.01.11-22.24.28:602][715]LogSavePackage: Moving '../../../../GameDesign/ue4-ml.drone.shooting/DroneShooting/Saved/Sandbox_BuiltData1C7F7B104FDB38389A4CA0AFE961741D.tmp' to '../../../../GameDesign/ue4-ml.drone.shooting/DroneShooting/Content/Maps/Sandbox_BuiltData.uasset'
+[2021.01.11-22.24.28:620][715]AssetCheck: New page: Asset Save: multiple assets
+[2021.01.11-22.24.28:620][715]LogContentValidation: Display: Validating World /Game/Maps/Sandbox.Sandbox
+[2021.01.11-22.24.28:620][715]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Maps/Sandbox_BuiltData.Sandbox_BuiltData
+[2021.01.11-22.25.02:619][752]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Sandbox" FILE="../../../../GameDesign/ue4-ml.drone.shooting/DroneShooting/Content/Maps/Sandbox.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2021.01.11-22.25.02:644][752]LogUObjectHash: Compacting FUObjectHashTables data took   2.08ms
+[2021.01.11-22.25.02:668][752]LogSavePackage: Moving '../../../../GameDesign/ue4-ml.drone.shooting/DroneShooting/Saved/SandboxC4EE920848538094EB27999F561E5DB7.tmp' to '../../../../GameDesign/ue4-ml.drone.shooting/DroneShooting/Content/Maps/Sandbox.umap'
+[2021.01.11-22.25.02:696][752]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Sandbox_BuiltData" FILE="../../../../GameDesign/ue4-ml.drone.shooting/DroneShooting/Content/Maps/Sandbox_BuiltData.uasset" SILENT=true
+[2021.01.11-22.25.02:714][752]LogSavePackage: Moving '../../../../GameDesign/ue4-ml.drone.shooting/DroneShooting/Saved/Sandbox_BuiltData5DCF35B34797CC79588A509D9BAE2CBB.tmp' to '../../../../GameDesign/ue4-ml.drone.shooting/DroneShooting/Content/Maps/Sandbox_BuiltData.uasset'
+[2021.01.11-22.25.02:732][752]AssetCheck: New page: Asset Save: multiple assets
+[2021.01.11-22.25.02:732][752]LogContentValidation: Display: Validating World /Game/Maps/Sandbox.Sandbox
+[2021.01.11-22.25.02:732][752]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Maps/Sandbox_BuiltData.Sandbox_BuiltData
+[2021.01.11-22.25.37:354][827]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Sandbox" FILE="../../../../GameDesign/ue4-ml.drone.shooting/DroneShooting/Content/Maps/Sandbox.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2021.01.11-22.25.37:379][827]LogUObjectHash: Compacting FUObjectHashTables data took   2.01ms
+[2021.01.11-22.25.37:403][827]LogSavePackage: Moving '../../../../GameDesign/ue4-ml.drone.shooting/DroneShooting/Saved/Sandbox495677524FE695AD0F2A3BB8B4D457F5.tmp' to '../../../../GameDesign/ue4-ml.drone.shooting/DroneShooting/Content/Maps/Sandbox.umap'
+[2021.01.11-22.25.37:432][827]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Sandbox_BuiltData" FILE="../../../../GameDesign/ue4-ml.drone.shooting/DroneShooting/Content/Maps/Sandbox_BuiltData.uasset" SILENT=true
+[2021.01.11-22.25.37:448][827]LogSavePackage: Moving '../../../../GameDesign/ue4-ml.drone.shooting/DroneShooting/Saved/Sandbox_BuiltDataCF7927D049B0D1B4F4F020B59102B09D.tmp' to '../../../../GameDesign/ue4-ml.drone.shooting/DroneShooting/Content/Maps/Sandbox_BuiltData.uasset'
+[2021.01.11-22.25.37:466][827]AssetCheck: New page: Asset Save: multiple assets
+[2021.01.11-22.25.37:467][827]LogContentValidation: Display: Validating World /Game/Maps/Sandbox.Sandbox
+[2021.01.11-22.25.37:467][827]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Maps/Sandbox_BuiltData.Sandbox_BuiltData
+[2021.01.11-22.25.39:093][924]Candidate modules for hot reload:
+[2021.01.11-22.25.39:093][924]  DroneShooting
+[2021.01.11-22.25.39:093][924]Launching UnrealBuildTool... [D:/Documents/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=DroneShooting,1752 DroneShootingEditor Win64 Development -Project="D:/Documents/GameDesign/ue4-ml.drone.shooting/DroneShooting/DroneShooting.uproject" "D:/Documents/GameDesign/ue4-ml.drone.shooting/DroneShooting/DroneShooting.uproject"  -IgnoreJunk]
+[2021.01.11-22.25.43:344][924]Warning: Starting HotReload took  4.3s.
+[2021.01.11-22.25.43:367][924]LogEditorViewport: Clicking on Actor (LMB): Blockout_Box_C (Blockout_Box)
+[2021.01.11-22.25.46:206][ 75]CompilerResultsLog: New page: Compilation - Jan. 11, 2021, 12:25:46 p.m.
+[2021.01.11-22.25.46:206][ 75]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (D:\Documents\GameDesign\ue4-ml.drone.shooting).
+[2021.01.11-22.25.46:206][ 75]CompilerResultsLog: Building DroneShootingEditor...
+[2021.01.11-22.25.46:206][ 75]CompilerResultsLog: Using Visual Studio 2019 14.27.29112 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2021.01.11-22.25.46:206][ 75]CompilerResultsLog: Building 3 actions with 12 processes...
+[2021.01.11-22.25.46:206][ 75]CompilerResultsLog:   [1/3] UE4Editor-DroneShooting-1752.lib
+[2021.01.11-22.25.46:206][ 75]CompilerResultsLog:      Creating library D:\Documents\GameDesign\ue4-ml.drone.shooting\DroneShooting\Intermediate\Build\Win64\UE4Editor\Development\DroneShooting\UE4Editor-DroneShooting-1752.lib and object D:\Documents\GameDesign\ue4-ml.drone.shooting\DroneShooting\Intermediate\Build\Win64\UE4Editor\Development\DroneShooting\UE4Editor-DroneShooting-1752.exp
+[2021.01.11-22.25.46:206][ 75]CompilerResultsLog:   [2/3] UE4Editor-DroneShooting-1752.dll
+[2021.01.11-22.25.46:206][ 75]CompilerResultsLog:      Creating library D:\Documents\GameDesign\ue4-ml.drone.shooting\DroneShooting\Intermediate\Build\Win64\UE4Editor\Development\DroneShooting\UE4Editor-DroneShooting-1752.suppressed.lib and object D:\Documents\GameDesign\ue4-ml.drone.shooting\DroneShooting\Intermediate\Build\Win64\UE4Editor\Development\DroneShooting\UE4Editor-DroneShooting-1752.suppressed.exp
+[2021.01.11-22.25.46:206][ 75]CompilerResultsLog:   [3/3] DroneShootingEditor.target
+[2021.01.11-22.25.46:206][ 75]CompilerResultsLog: Total time in Parallel executor: 1.61 seconds
+[2021.01.11-22.25.46:206][ 75]CompilerResultsLog: Total execution time: 2.65 seconds
+[2021.01.11-22.25.46:206][ 75]LogMainFrame: MainFrame: Module compiling took 7.117 seconds
+[2021.01.11-22.25.46:226][ 75]LogContentBrowser: Native class hierarchy updated for 'DroneShooting' in 0.0006 seconds. Added 2 classes and 3 folders.
+[2021.01.11-22.25.46:229][ 75]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2021.01.11-22.25.46:368][ 75]LogContentBrowser: Native class hierarchy populated in 0.0110 seconds. Added 3430 classes and 827 folders.
+[2021.01.11-22.25.46:378][ 75]Display: HotReload took  7.3s.
+[2021.01.11-22.26.14:654][182]LogTemp: Repeating last play command: Selected Viewport
+[2021.01.11-22.26.14:674][182]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.01.11-22.26.14:674][182]PIE: New page: PIE session: Sandbox (Jan. 11, 2021, 12:26:14 p.m.)
+[2021.01.11-22.26.14:711][182]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Sandbox
+[2021.01.11-22.26.14:713][182]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002446s)
+[2021.01.11-22.26.14:715][182]LogAIModule: Creating AISystem for world Sandbox
+[2021.01.11-22.26.14:715][182]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (00000242723E5800), frame # 106182
+[2021.01.11-22.26.14:715][182]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000241A0EC9940), frame # 106182
+[2021.01.11-22.26.14:715][182]LogPlayLevel: PIE: World Init took: (0.001573s)
+[2021.01.11-22.26.14:715][182]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Sandbox.Sandbox to /Game/Maps/UEDPIE_0_Sandbox.Sandbox (0.004221s)
+[2021.01.11-22.26.14:782][182]LogUObjectHash: Compacting FUObjectHashTables data took   3.46ms
+[2021.01.11-22.26.14:784][182]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.01.11-22.26.14:784][182]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.01.11-22.26.14:784][182]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.01.11-22.26.14:784][182]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.01.11-22.26.14:784][182]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.01.11-22.26.14:784][182]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.01.11-22.26.14:784][182]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.01.11-22.26.14:784][182]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.01.11-22.26.14:785][182]LogAudio: Display: Using built-in audio occlusion.
+[2021.01.11-22.26.14:785][182]LogAudioMixer: Display: Initializing audio mixer.
+[2021.01.11-22.26.14:789][182]LogAudioMixer: Display: 0: FrontLeft
+[2021.01.11-22.26.14:789][182]LogAudioMixer: Display: 1: FrontRight
+[2021.01.11-22.26.14:814][182]LogAudioMixer: Display: Using Audio Device Speakers (Bose SoundLink Wireless Mobile speaker Stereo)
+[2021.01.11-22.26.14:814][182]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.01.11-22.26.14:814][182]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.01.11-22.26.14:814][182]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.01.11-22.26.14:814][182]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.01.11-22.26.14:831][182]LogInit: FAudioDevice initialized.
+[2021.01.11-22.26.14:843][182]LogLoad: Game class is 'BP_ShooterGameMode_C'
+[2021.01.11-22.26.14:845][182]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Sandbox.Sandbox up for play (max tick rate 60) at 2021.01.11-17.26.14
+[2021.01.11-22.26.14:845][182]LogWorld: Bringing up level for play took: 0.000545
+[2021.01.11-22.26.14:845][182]LogOnline: OSS: Creating online subsystem instance for: :Context_41
+[2021.01.11-22.26.14:848][182]PIE: Server logged in
+[2021.01.11-22.26.14:849][182]PIE: Play in editor total start time 0.181 seconds.
+[2021.01.11-22.27.01:942][  1]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.11-22.27.01:942][  1]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Sandbox
+[2021.01.11-22.27.01:943][  1]LogWorld: UWorld::CleanupWorld for Sandbox, bSessionEnded=true, bCleanupResources=true
+[2021.01.11-22.27.01:943][  1]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.11-22.27.01:955][  1]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.01.11-22.27.01:958][  1]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.11-22.27.01:999][  1]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.11-22.27.02:000][  1]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (00000241A0EC9940), frame # 109001
+[2021.01.11-22.27.02:000][  1]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (00000242723E5800), frame # 109001
+[2021.01.11-22.27.02:003][  1]LogUObjectHash: Compacting FUObjectHashTables data took   2.23ms
+[2021.01.11-22.27.02:038][  2]LogPlayLevel: Display: Destroying online subsystem :Context_41
+[2021.01.11-22.27.12:014][120]Candidate modules for hot reload:
+[2021.01.11-22.27.12:014][120]  DroneShooting
+[2021.01.11-22.27.12:014][120]Launching UnrealBuildTool... [D:/Documents/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=DroneShooting,1896 DroneShootingEditor Win64 Development -Project="D:/Documents/GameDesign/ue4-ml.drone.shooting/DroneShooting/DroneShooting.uproject" "D:/Documents/GameDesign/ue4-ml.drone.shooting/DroneShooting/DroneShooting.uproject"  -IgnoreJunk]
+[2021.01.11-22.27.16:199][120]Warning: Starting HotReload took  4.2s.
+[2021.01.11-22.27.28:974][160]CompilerResultsLog: New page: Compilation - Jan. 11, 2021, 12:27:28 p.m.
+[2021.01.11-22.27.28:974][160]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (D:\Documents\GameDesign\ue4-ml.drone.shooting).
+[2021.01.11-22.27.28:974][160]CompilerResultsLog: Parsing headers for DroneShootingEditor
+[2021.01.11-22.27.28:974][160]CompilerResultsLog:   Running UnrealHeaderTool "D:\Documents\GameDesign\ue4-ml.drone.shooting\DroneShooting\DroneShooting.uproject" "D:\Documents\GameDesign\ue4-ml.drone.shooting\DroneShooting\Intermediate\Build\Win64\DroneShootingEditor\Development\DroneShootingEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\lipin\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+[2021.01.11-22.27.28:974][160]CompilerResultsLog: Reflection code generated for DroneShootingEditor in 8.491633 seconds
+[2021.01.11-22.27.28:974][160]CompilerResultsLog: Building DroneShootingEditor...
+[2021.01.11-22.27.28:974][160]CompilerResultsLog: Using Visual Studio 2019 14.27.29112 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2021.01.11-22.27.28:974][160]CompilerResultsLog: Building 5 actions with 12 processes...
+[2021.01.11-22.27.28:974][160]CompilerResultsLog:   [1/5] CharacterBase.gen.cpp
+[2021.01.11-22.27.28:974][160]CompilerResultsLog:   [2/5] CharacterBase.cpp
+[2021.01.11-22.27.28:974][160]CompilerResultsLog:   [3/5] UE4Editor-DroneShooting-1896.lib
+[2021.01.11-22.27.28:974][160]CompilerResultsLog:      Creating library D:\Documents\GameDesign\ue4-ml.drone.shooting\DroneShooting\Intermediate\Build\Win64\UE4Editor\Development\DroneShooting\UE4Editor-DroneShooting-1896.lib and object D:\Documents\GameDesign\ue4-ml.drone.shooting\DroneShooting\Intermediate\Build\Win64\UE4Editor\Development\DroneShooting\UE4Editor-DroneShooting-1896.exp
+[2021.01.11-22.27.28:974][160]CompilerResultsLog:   [4/5] UE4Editor-DroneShooting-1896.dll
+[2021.01.11-22.27.28:974][160]CompilerResultsLog:      Creating library D:\Documents\GameDesign\ue4-ml.drone.shooting\DroneShooting\Intermediate\Build\Win64\UE4Editor\Development\DroneShooting\UE4Editor-DroneShooting-1896.suppressed.lib and object D:\Documents\GameDesign\ue4-ml.drone.shooting\DroneShooting\Intermediate\Build\Win64\UE4Editor\Development\DroneShooting\UE4Editor-DroneShooting-1896.suppressed.exp
+[2021.01.11-22.27.28:974][160]CompilerResultsLog:   [5/5] DroneShootingEditor.target
+[2021.01.11-22.27.28:974][160]CompilerResultsLog: Total time in Parallel executor: 2.66 seconds
+[2021.01.11-22.27.28:974][160]CompilerResultsLog: Total execution time: 12.43 seconds
+[2021.01.11-22.27.28:974][160]LogMainFrame: MainFrame: Module compiling took 16.965 seconds
+[2021.01.11-22.27.28:992][160]LogContentBrowser: Native class hierarchy updated for 'DroneShooting' in 0.0005 seconds. Added 2 classes and 3 folders.
+[2021.01.11-22.27.28:997][160]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2021.01.11-22.27.29:124][160]LogContentBrowser: Native class hierarchy populated in 0.0113 seconds. Added 3430 classes and 827 folders.
+[2021.01.11-22.27.29:134][160]Display: HotReload took 17.1s.
+[2021.01.11-22.27.32:089][168]LogTemp: Repeating last play command: Selected Viewport
+[2021.01.11-22.27.32:109][168]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.01.11-22.27.32:109][168]PIE: New page: PIE session: Sandbox (Jan. 11, 2021, 12:27:32 p.m.)
+[2021.01.11-22.27.32:110][168]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Sandbox
+[2021.01.11-22.27.32:113][168]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003184s)
+[2021.01.11-22.27.32:114][168]LogAIModule: Creating AISystem for world Sandbox
+[2021.01.11-22.27.32:114][168]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000002423AFC7E00), frame # 109168
+[2021.01.11-22.27.32:114][168]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000024259A891C0), frame # 109168
+[2021.01.11-22.27.32:115][168]LogPlayLevel: PIE: World Init took: (0.001940s)
+[2021.01.11-22.27.32:115][168]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Sandbox.Sandbox to /Game/Maps/UEDPIE_0_Sandbox.Sandbox (0.005437s)
+[2021.01.11-22.27.32:196][168]LogUObjectHash: Compacting FUObjectHashTables data took   4.61ms
+[2021.01.11-22.27.32:198][168]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.01.11-22.27.32:198][168]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.01.11-22.27.32:198][168]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.01.11-22.27.32:198][168]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.01.11-22.27.32:198][168]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.01.11-22.27.32:198][168]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.01.11-22.27.32:198][168]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.01.11-22.27.32:198][168]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.01.11-22.27.32:199][168]LogAudio: Display: Using built-in audio occlusion.
+[2021.01.11-22.27.32:199][168]LogAudioMixer: Display: Initializing audio mixer.
+[2021.01.11-22.27.32:203][168]LogAudioMixer: Display: 0: FrontLeft
+[2021.01.11-22.27.32:204][168]LogAudioMixer: Display: 1: FrontRight
+[2021.01.11-22.27.32:228][168]LogAudioMixer: Display: Using Audio Device Speakers (Bose SoundLink Wireless Mobile speaker Stereo)
+[2021.01.11-22.27.32:228][168]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.01.11-22.27.32:228][168]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.01.11-22.27.32:228][168]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.01.11-22.27.32:229][168]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.01.11-22.27.32:248][168]LogInit: FAudioDevice initialized.
+[2021.01.11-22.27.32:260][168]LogLoad: Game class is 'BP_ShooterGameMode_C'
+[2021.01.11-22.27.32:262][168]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Sandbox.Sandbox up for play (max tick rate 60) at 2021.01.11-17.27.32
+[2021.01.11-22.27.32:262][168]LogWorld: Bringing up level for play took: 0.000639
+[2021.01.11-22.27.32:262][168]LogOnline: OSS: Creating online subsystem instance for: :Context_42
+[2021.01.11-22.27.32:267][168]PIE: Server logged in
+[2021.01.11-22.27.32:268][168]PIE: Play in editor total start time 0.165 seconds.
+[2021.01.11-22.27.47:013][ 47]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.11-22.27.47:013][ 47]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Sandbox
+[2021.01.11-22.27.47:013][ 47]LogWorld: UWorld::CleanupWorld for Sandbox, bSessionEnded=true, bCleanupResources=true
+[2021.01.11-22.27.47:014][ 47]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.11-22.27.47:026][ 47]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.01.11-22.27.47:030][ 47]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.11-22.27.47:071][ 47]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.11-22.27.47:072][ 47]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000024259A891C0), frame # 110047
+[2021.01.11-22.27.47:072][ 47]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000002423AFC7E00), frame # 110047
+[2021.01.11-22.27.47:075][ 47]LogUObjectHash: Compacting FUObjectHashTables data took   2.76ms
+[2021.01.11-22.27.47:111][ 48]LogPlayLevel: Display: Destroying online subsystem :Context_42
+[2021.01.11-22.28.28:509][236]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/Character/BP_ShooterCharacter.BP_ShooterCharacter
+[2021.01.11-22.28.43:747][ 66]LogSavePackage: Moving '../../../../GameDesign/ue4-ml.drone.shooting/DroneShooting/Saved/BP_ShooterCharacterC0B8F5DA4824855FC1ABD5A2CEC8ABB0.tmp' to '../../../../GameDesign/ue4-ml.drone.shooting/DroneShooting/Content/Blueprints/Character/BP_ShooterCharacter.uasset'
+[2021.01.11-22.28.43:765][ 66]AssetCheck: New page: Asset Save: BP_ShooterCharacter
+[2021.01.11-22.28.43:765][ 66]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/Character/BP_ShooterCharacter.BP_ShooterCharacter
+[2021.01.11-22.28.44:607][114]LogSlate: Window 'BP_ShooterCharacter' being destroyed
+[2021.01.11-22.28.44:641][114]LogWorld: UWorld::CleanupWorld for World_10, bSessionEnded=true, bCleanupResources=true
+[2021.01.11-22.28.44:641][114]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.11-22.28.45:649][169]LogTemp: Repeating last play command: Selected Viewport
+[2021.01.11-22.28.45:666][169]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.01.11-22.28.45:666][169]PIE: New page: PIE session: Sandbox (Jan. 11, 2021, 12:28:45 p.m.)
+[2021.01.11-22.28.45:666][169]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Sandbox
+[2021.01.11-22.28.45:669][169]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002700s)
+[2021.01.11-22.28.45:671][169]LogAIModule: Creating AISystem for world Sandbox
+[2021.01.11-22.28.45:671][169]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000024259AA3C00), frame # 111169
+[2021.01.11-22.28.45:671][169]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000002423C700B80), frame # 111169
+[2021.01.11-22.28.45:671][169]LogPlayLevel: PIE: World Init took: (0.001769s)
+[2021.01.11-22.28.45:671][169]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Sandbox.Sandbox to /Game/Maps/UEDPIE_0_Sandbox.Sandbox (0.004618s)
+[2021.01.11-22.28.45:698][169]LogUObjectHash: Compacting FUObjectHashTables data took   2.32ms
+[2021.01.11-22.28.45:700][169]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.01.11-22.28.45:700][169]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.01.11-22.28.45:700][169]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.01.11-22.28.45:700][169]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.01.11-22.28.45:700][169]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.01.11-22.28.45:700][169]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.01.11-22.28.45:700][169]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.01.11-22.28.45:700][169]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.01.11-22.28.45:701][169]LogAudio: Display: Using built-in audio occlusion.
+[2021.01.11-22.28.45:701][169]LogAudioMixer: Display: Initializing audio mixer.
+[2021.01.11-22.28.45:705][169]LogAudioMixer: Display: 0: FrontLeft
+[2021.01.11-22.28.45:705][169]LogAudioMixer: Display: 1: FrontRight
+[2021.01.11-22.28.45:730][169]LogAudioMixer: Display: Using Audio Device Speakers (Bose SoundLink Wireless Mobile speaker Stereo)
+[2021.01.11-22.28.45:731][169]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.01.11-22.28.45:731][169]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.01.11-22.28.45:731][169]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.01.11-22.28.45:731][169]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.01.11-22.28.45:749][169]LogInit: FAudioDevice initialized.
+[2021.01.11-22.28.45:755][169]LogLoad: Game class is 'BP_ShooterGameMode_C'
+[2021.01.11-22.28.45:757][169]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Sandbox.Sandbox up for play (max tick rate 60) at 2021.01.11-17.28.45
+[2021.01.11-22.28.45:757][169]LogWorld: Bringing up level for play took: 0.000592
+[2021.01.11-22.28.45:757][169]LogOnline: OSS: Creating online subsystem instance for: :Context_44
+[2021.01.11-22.28.45:761][169]PIE: Server logged in
+[2021.01.11-22.28.45:762][169]PIE: Play in editor total start time 0.099 seconds.
+[2021.01.11-22.28.56:372][803]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.11-22.28.56:372][803]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Sandbox
+[2021.01.11-22.28.56:372][803]LogWorld: UWorld::CleanupWorld for Sandbox, bSessionEnded=true, bCleanupResources=true
+[2021.01.11-22.28.56:373][803]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.11-22.28.56:384][803]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.01.11-22.28.56:388][803]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.11-22.28.56:432][803]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.11-22.28.56:433][803]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000002423C700B80), frame # 111803
+[2021.01.11-22.28.56:433][803]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000024259AA3C00), frame # 111803
+[2021.01.11-22.28.56:436][803]LogUObjectHash: Compacting FUObjectHashTables data took   2.24ms
+[2021.01.11-22.28.56:470][804]LogPlayLevel: Display: Destroying online subsystem :Context_44
+[2021.01.11-22.28.58:536][924]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/Character/BP_ShooterCharacter.BP_ShooterCharacter
+[2021.01.11-22.29.13:224][596]BlueprintLog: New page: Compile BP_ShooterCharacter
+[2021.01.11-22.29.13:285][596]LogUObjectHash: Compacting FUObjectHashTables data took   2.78ms
+[2021.01.11-22.29.16:289][766]LogSavePackage: Moving '../../../../GameDesign/ue4-ml.drone.shooting/DroneShooting/Saved/BP_ShooterCharacter05A07BD94C1DDAC77F67D6B2BD7B8BC3.tmp' to '../../../../GameDesign/ue4-ml.drone.shooting/DroneShooting/Content/Blueprints/Character/BP_ShooterCharacter.uasset'
+[2021.01.11-22.29.16:310][766]AssetCheck: New page: Asset Save: BP_ShooterCharacter
+[2021.01.11-22.29.16:310][766]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/Character/BP_ShooterCharacter.BP_ShooterCharacter
+[2021.01.11-22.29.16:966][805]LogSlate: Window 'BP_ShooterCharacter' being destroyed
+[2021.01.11-22.29.16:985][805]LogWorld: UWorld::CleanupWorld for World_11, bSessionEnded=true, bCleanupResources=true
+[2021.01.11-22.29.16:985][805]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.11-22.29.17:885][854]LogTemp: Repeating last play command: Selected Viewport
+[2021.01.11-22.29.17:902][854]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.01.11-22.29.17:902][854]PIE: New page: PIE session: Sandbox (Jan. 11, 2021, 12:29:17 p.m.)
+[2021.01.11-22.29.17:940][854]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Sandbox
+[2021.01.11-22.29.17:943][854]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003165s)
+[2021.01.11-22.29.17:944][854]LogAIModule: Creating AISystem for world Sandbox
+[2021.01.11-22.29.17:944][854]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000024235A40E00), frame # 112854
+[2021.01.11-22.29.17:944][854]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000242327CCB80), frame # 112854
+[2021.01.11-22.29.17:945][854]LogPlayLevel: PIE: World Init took: (0.001497s)
+[2021.01.11-22.29.17:945][854]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Sandbox.Sandbox to /Game/Maps/UEDPIE_0_Sandbox.Sandbox (0.004883s)
+[2021.01.11-22.29.17:974][854]LogUObjectHash: Compacting FUObjectHashTables data took   2.63ms
+[2021.01.11-22.29.17:975][854]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.01.11-22.29.17:975][854]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.01.11-22.29.17:976][854]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.01.11-22.29.17:976][854]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.01.11-22.29.17:976][854]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.01.11-22.29.17:976][854]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.01.11-22.29.17:976][854]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.01.11-22.29.17:976][854]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.01.11-22.29.17:976][854]LogAudio: Display: Using built-in audio occlusion.
+[2021.01.11-22.29.17:976][854]LogAudioMixer: Display: Initializing audio mixer.
+[2021.01.11-22.29.17:980][854]LogAudioMixer: Display: 0: FrontLeft
+[2021.01.11-22.29.17:980][854]LogAudioMixer: Display: 1: FrontRight
+[2021.01.11-22.29.18:005][854]LogAudioMixer: Display: Using Audio Device Speakers (Bose SoundLink Wireless Mobile speaker Stereo)
+[2021.01.11-22.29.18:005][854]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.01.11-22.29.18:005][854]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.01.11-22.29.18:005][854]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.01.11-22.29.18:005][854]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.01.11-22.29.18:022][854]LogInit: FAudioDevice initialized.
+[2021.01.11-22.29.18:034][854]LogLoad: Game class is 'BP_ShooterGameMode_C'
+[2021.01.11-22.29.18:036][854]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Sandbox.Sandbox up for play (max tick rate 60) at 2021.01.11-17.29.18
+[2021.01.11-22.29.18:036][854]LogWorld: Bringing up level for play took: 0.000577
+[2021.01.11-22.29.18:036][854]LogOnline: OSS: Creating online subsystem instance for: :Context_46
+[2021.01.11-22.29.18:040][854]PIE: Server logged in
+[2021.01.11-22.29.18:041][854]PIE: Play in editor total start time 0.142 seconds.
+[2021.01.11-22.30.14:813][726]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.11-22.30.14:813][726]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Sandbox
+[2021.01.11-22.30.14:813][726]LogWorld: UWorld::CleanupWorld for Sandbox, bSessionEnded=true, bCleanupResources=true
+[2021.01.11-22.30.14:814][726]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.11-22.30.14:941][726]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.01.11-22.30.14:945][726]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.11-22.30.14:992][726]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.11-22.30.14:993][726]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (00000242327CCB80), frame # 115726
+[2021.01.11-22.30.14:993][726]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000024235A40E00), frame # 115726
+[2021.01.11-22.30.14:996][726]LogUObjectHash: Compacting FUObjectHashTables data took   2.54ms
+[2021.01.11-22.30.15:039][727]LogPlayLevel: Display: Destroying online subsystem :Context_46
+[2021.01.11-22.30.16:592][755]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Sandbox" FILE="../../../../GameDesign/ue4-ml.drone.shooting/DroneShooting/Content/Maps/Sandbox.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2021.01.11-22.30.16:618][755]LogUObjectHash: Compacting FUObjectHashTables data took   2.31ms
+[2021.01.11-22.30.16:646][755]LogSavePackage: Moving '../../../../GameDesign/ue4-ml.drone.shooting/DroneShooting/Saved/SandboxAEE9675043EC585442241BBF18D84226.tmp' to '../../../../GameDesign/ue4-ml.drone.shooting/DroneShooting/Content/Maps/Sandbox.umap'
+[2021.01.11-22.30.16:677][755]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Sandbox_BuiltData" FILE="../../../../GameDesign/ue4-ml.drone.shooting/DroneShooting/Content/Maps/Sandbox_BuiltData.uasset" SILENT=true
+[2021.01.11-22.30.16:703][755]LogSavePackage: Moving '../../../../GameDesign/ue4-ml.drone.shooting/DroneShooting/Saved/Sandbox_BuiltData97DAD990476D5036A15E83BCB682AD3E.tmp' to '../../../../GameDesign/ue4-ml.drone.shooting/DroneShooting/Content/Maps/Sandbox_BuiltData.uasset'
+[2021.01.11-22.30.16:722][755]AssetCheck: New page: Asset Save: multiple assets
+[2021.01.11-22.30.16:722][755]LogContentValidation: Display: Validating World /Game/Maps/Sandbox.Sandbox
+[2021.01.11-22.30.16:722][755]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Maps/Sandbox_BuiltData.Sandbox_BuiltData
