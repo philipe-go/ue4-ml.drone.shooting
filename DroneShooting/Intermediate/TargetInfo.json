@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "DroneShooting",
+			"Path": "D:\\Documents\\GameDesign\\ue4-ml.drone.shooting\\DroneShooting\\Source\\DroneShooting.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "DroneShootingEditor",
+			"Path": "D:\\Documents\\GameDesign\\ue4-ml.drone.shooting\\DroneShooting\\Source\\DroneShootingEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}

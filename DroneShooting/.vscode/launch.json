@@ -1,0 +1,128 @@
+{
+	"version": "0.2.0",
+	"configurations": [
+		{
+			"name": "DroneShooting (Debug)",
+			"request": "launch",
+			"preLaunchTask": "DroneShooting Win64 Debug Build",
+			"program": "D:\\Documents\\GameDesign\\ue4-ml.drone.shooting\\DroneShooting\\Binaries\\Win64\\UE4-Win64-Debug.exe",
+			"args": [
+			],
+			"cwd": "D:\\Documents\\UE_4.25",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "D:\\Documents\\UE_4.25\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "DroneShooting (DebugGame)",
+			"request": "launch",
+			"preLaunchTask": "DroneShooting Win64 DebugGame Build",
+			"program": "D:\\Documents\\GameDesign\\ue4-ml.drone.shooting\\DroneShooting\\Binaries\\Win64\\UE4-Win64-DebugGame.exe",
+			"args": [
+			],
+			"cwd": "D:\\Documents\\UE_4.25",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "D:\\Documents\\UE_4.25\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "DroneShooting (Development)",
+			"request": "launch",
+			"preLaunchTask": "DroneShooting Win64 Development Build",
+			"program": "D:\\Documents\\GameDesign\\ue4-ml.drone.shooting\\DroneShooting\\Binaries\\Win64\\UE4.exe",
+			"args": [
+			],
+			"cwd": "D:\\Documents\\UE_4.25",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "D:\\Documents\\UE_4.25\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "DroneShooting (Shipping)",
+			"request": "launch",
+			"preLaunchTask": "DroneShooting Win64 Shipping Build",
+			"program": "D:\\Documents\\GameDesign\\ue4-ml.drone.shooting\\DroneShooting\\Binaries\\Win64\\UE4-Win64-Shipping.exe",
+			"args": [
+			],
+			"cwd": "D:\\Documents\\UE_4.25",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "D:\\Documents\\UE_4.25\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "DroneShooting (Test)",
+			"request": "launch",
+			"preLaunchTask": "DroneShooting Win64 Test Build",
+			"program": "D:\\Documents\\GameDesign\\ue4-ml.drone.shooting\\DroneShooting\\Binaries\\Win64\\UE4-Win64-Test.exe",
+			"args": [
+			],
+			"cwd": "D:\\Documents\\UE_4.25",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "D:\\Documents\\UE_4.25\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "DroneShootingEditor (Debug)",
+			"request": "launch",
+			"preLaunchTask": "DroneShootingEditor Win64 Debug Build",
+			"program": "D:\\Documents\\UE_4.25\\Engine\\Binaries\\Win64\\UE4Editor-Win64-Debug.exe",
+			"args": [
+				"D:\\Documents\\GameDesign\\ue4-ml.drone.shooting\\DroneShooting\\DroneShooting.uproject"
+			],
+			"cwd": "D:\\Documents\\UE_4.25",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "D:\\Documents\\UE_4.25\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "DroneShootingEditor (DebugGame)",
+			"request": "launch",
+			"preLaunchTask": "DroneShootingEditor Win64 DebugGame Build",
+			"program": "D:\\Documents\\UE_4.25\\Engine\\Binaries\\Win64\\UE4Editor-Win64-DebugGame.exe",
+			"args": [
+				"D:\\Documents\\GameDesign\\ue4-ml.drone.shooting\\DroneShooting\\DroneShooting.uproject"
+			],
+			"cwd": "D:\\Documents\\UE_4.25",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "D:\\Documents\\UE_4.25\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "DroneShootingEditor (Development)",
+			"request": "launch",
+			"preLaunchTask": "DroneShootingEditor Win64 Development Build",
+			"program": "D:\\Documents\\UE_4.25\\Engine\\Binaries\\Win64\\UE4Editor.exe",
+			"args": [
+				"D:\\Documents\\GameDesign\\ue4-ml.drone.shooting\\DroneShooting\\DroneShooting.uproject"
+			],
+			"cwd": "D:\\Documents\\UE_4.25",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "D:\\Documents\\UE_4.25\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "Generate Project Files",
+			"type": "clr",
+			"request": "launch",
+			"program": "D:\\Documents\\UE_4.25\\Engine\\Binaries\\DotNET\\UnrealBuildTool.exe",
+			"console": "externalTerminal",
+			"args": [
+				"-projectfiles",
+				"-vscode",
+				"-project=\"D:\\Documents\\GameDesign\\ue4-ml.drone.shooting\\DroneShooting\\DroneShooting.uproject\"",
+				"-game",
+				"-engine"
+			],
+			"internalConsoleOptions": "openOnSessionStart",
+			"cwd": "D:\\Documents\\UE_4.25"
+		}
+	]
+}

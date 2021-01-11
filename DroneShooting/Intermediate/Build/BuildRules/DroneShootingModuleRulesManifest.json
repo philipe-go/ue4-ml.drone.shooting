@@ -1,0 +1,8 @@
+{
+	"SourceFiles": [
+		"D:\\Documents\\GameDesign\\ue4-ml.drone.shooting\\DroneShooting\\Source\\DroneShooting\\DroneShooting.Build.cs",
+		"D:\\Documents\\GameDesign\\ue4-ml.drone.shooting\\DroneShooting\\Source\\DroneShooting.Target.cs",
+		"D:\\Documents\\GameDesign\\ue4-ml.drone.shooting\\DroneShooting\\Source\\DroneShootingEditor.Target.cs"
+	],
+	"EngineVersion": "4.25.4"
+}

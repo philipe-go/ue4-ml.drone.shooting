@@ -1,0 +1,7 @@
+{
+	"files.exclude": {
+		"D:/Documents/GameDesign/ue4-ml.drone.shooting/DroneShooting/.vscode": true,
+		"D:/Documents/GameDesign/ue4-ml.drone.shooting/DroneShooting/Content": true,
+		"D:/Documents/GameDesign/ue4-ml.drone.shooting/DroneShooting/Intermediate": true
+	}
+}

@@ -1,0 +1,2 @@
+D:\Documents\GameDesign\ue4-ml.drone.shooting\DroneShooting\Intermediate\Build\Win64\UE4Editor\Development\DroneShooting\Definitions.DroneShooting.h
+D:\Documents\GameDesign\ue4-ml.drone.shooting\DroneShooting\Source\DroneShooting\DroneShooting.h

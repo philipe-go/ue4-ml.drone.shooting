@@ -1,0 +1,21 @@
+{
+	"folders": [
+		{
+			"name": "DroneShooting",
+			"path": "."
+		},
+		{
+			"name": "UE4",
+			"path": "D:\\Documents\\UE_4.25"
+		}
+	],
+	"settings": {
+		"typescript.tsc.autoDetect": "off"
+	},
+	"extensions": {
+		"recommendations": [
+			"ms-vscode.cpptools",
+			"ms-dotnettools.csharp"
+		]
+	}
+}
