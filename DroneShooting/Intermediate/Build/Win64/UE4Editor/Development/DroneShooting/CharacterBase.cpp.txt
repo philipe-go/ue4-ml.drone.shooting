@@ -5,3 +5,7 @@ D:\Documents\UE_4.25\Engine\Source\Runtime\Engine\Classes\GameFramework/RootMoti
 D:\Documents\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\RootMotionSource.generated.h
 D:\Documents\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\Character.generated.h
 D:\Documents\GameDesign\ue4-ml.drone.shooting\DroneShooting\Intermediate\Build\Win64\UE4Editor\Inc\DroneShooting\CharacterBase.generated.h
+D:\Documents\UE_4.25\Engine\Source\Runtime\Engine\Classes\Camera/CameraComponent.h
+D:\Documents\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\CameraComponent.generated.h
+D:\Documents\UE_4.25\Engine\Source\Runtime\Engine\Classes\GameFramework/SpringArmComponent.h
+D:\Documents\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\SpringArmComponent.generated.h

@@ -37,4 +37,17 @@ private:
 
 	UPROPERTY(EditAnywhere)
 	float RateOfTurn = 15.f;
+
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category="Camera System", meta=(AllowPrivateAccess="true"))
+	class USpringArmComponent* SpringArm;
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category="Camera System", meta=(AllowPrivateAccess="true"))
+	class UCameraComponent* Camera;
+
+	const float CAMERA_Y_LOCATION = 50.f;
+	const float CAMERA_DISTANCE = 200.f;
+	void SetCameraLeft();
+	void SetCameraRight();
+	void SetCameraClose();
+	void SetCameraFar();
+
 };

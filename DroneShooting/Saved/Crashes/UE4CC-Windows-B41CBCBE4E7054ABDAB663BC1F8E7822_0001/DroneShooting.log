@@ -1,0 +1,914 @@
+﻿Log file open, 01/11/21 16:25:54
+LogInit: Display: Running engine for game: DroneShooting
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 35 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.257170
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: -5:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CameraShakePreviewer
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin AnimationSharing
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin PlasticSourceControl
+LogPluginManager: Mounting plugin RiderSourceCodeAccess
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin CurveEditorTools
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin EditorScriptingUtilities
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin GeometryMode
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MaterialAnalyzer
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AutomationUtils
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin ChaosCloth
+LogPluginManager: Mounting plugin ChaosClothEditor
+LogPluginManager: Mounting plugin ChaosEditor
+LogPluginManager: Mounting plugin ChaosNiagara
+LogPluginManager: Mounting plugin ChaosSolverPlugin
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin GeometryCollectionPlugin
+LogPluginManager: Mounting plugin GeometryProcessing
+LogPluginManager: Mounting plugin PlanarCut
+LogPluginManager: Mounting plugin PlatformCrypto
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin SkeletalReduction
+LogPluginManager: Mounting plugin Niagara
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapLightEstimation
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin MagicLeapPassableWorld
+LogPluginManager: Mounting plugin MLSDK
+LogPluginManager: Mounting plugin BlockoutToolsPlugin
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin MeshPainting
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin MovieRenderPipeline
+LogPluginManager: Mounting plugin TemplateSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AssetTags
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin GooglePAD
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin PostSplashScreen
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin SoundFields
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin Synthesis
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogPluginManager: Mounting plugin ScreenshotTools
+LogInit: Warning: Incompatible or missing module: DroneShooting
+Running D:/Documents/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe Development Win64 -Project="D:/Documents/GameDesign/ue4-ml.drone.shooting/DroneShooting/DroneShooting.uproject" -TargetType=Editor -Progress -NoEngineChanges -NoHotReloadFromIDE
+Using 'git status' to determine working set for adaptive non-unity build (D:\Documents\GameDesign\ue4-ml.drone.shooting).
+Creating makefile for DroneShootingEditor (no existing makefile)
+@progress push 5%
+Parsing headers for DroneShootingEditor
+  Running UnrealHeaderTool "D:\Documents\GameDesign\ue4-ml.drone.shooting\DroneShooting\DroneShooting.uproject" "D:\Documents\GameDesign\ue4-ml.drone.shooting\DroneShooting\Intermediate\Build\Win64\DroneShootingEditor\Development\DroneShootingEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\lipin\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+Reflection code generated for DroneShootingEditor in 19.7704265 seconds
+@progress pop
+Building DroneShootingEditor...
+Using Visual Studio 2019 14.27.29112 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+Building 6 actions with 12 processes...
+  @progress 'Compiling C++ source code...' 0%
+  @progress 'Compiling C++ source code...' 17%
+  [1/6] DroneShooting.init.gen.cpp
+  @progress 'Compiling C++ source code...' 33%
+  [2/6] CharacterBase.gen.cpp
+  @progress 'Compiling C++ source code...' 50%
+  [3/6] CharacterBase.cpp
+  @progress 'Compiling C++ source code...' 67%
+  [4/6] UE4Editor-DroneShooting.lib
+     Creating library D:\Documents\GameDesign\ue4-ml.drone.shooting\DroneShooting\Intermediate\Build\Win64\UE4Editor\Development\DroneShooting\UE4Editor-DroneShooting.lib and object D:\Documents\GameDesign\ue4-ml.drone.shooting\DroneShooting\Intermediate\Build\Win64\UE4Editor\Development\DroneShooting\UE4Editor-DroneShooting.exp
+  @progress 'Compiling C++ source code...' 83%
+  [5/6] UE4Editor-DroneShooting.dll
+     Creating library D:\Documents\GameDesign\ue4-ml.drone.shooting\DroneShooting\Intermediate\Build\Win64\UE4Editor\Development\DroneShooting\UE4Editor-DroneShooting.suppressed.lib and object D:\Documents\GameDesign\ue4-ml.drone.shooting\DroneShooting\Intermediate\Build\Win64\UE4Editor\Development\DroneShooting\UE4Editor-DroneShooting.suppressed.exp
+  @progress 'Compiling C++ source code...' 100%
+  [6/6] DroneShootingEditor.target
+Total time in Parallel executor: 8.61 seconds
+Total execution time: 30.91 seconds
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogOnline: OSS: Creating online subsystem instance for: NULL
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+LogInit: Build: ++UE4+Release-4.25-CL-14469661
+LogInit: Engine Version: 4.25.4-14469661+++UE4+Release-4.25
+LogInit: Compatible Engine Version: 4.25.0-13144385+++UE4+Release-4.25
+LogInit: Net CL: 13144385
+LogInit: OS: Windows 10 (Release 2009) (), CPU: Intel(R) Core(TM) i7-8750H CPU @ 2.20GHz, GPU: Intel(R) UHD Graphics 630
+LogInit: Compiled (64-bit): Oct 11 2020 08:10:49
+LogInit: Compiled with Visual C++: 19.24.28315.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.25
+LogInit: Command Line: 
+LogInit: Base Directory: D:/Documents/UE_4.25/Engine/Binaries/Win64/
+LogInit: Allocator: TBB
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 26
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 4
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 38
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 37
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 4
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 43
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 12
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 3
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 7
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 31
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 10
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 10
+LogDevObjectVersion:   Dev-Physics-Ext (35F94A83-E258-406C-A318-09F59610247C): 37
+LogDevObjectVersion:   Dev-PhysicsMaterial-Chaos (B68FC16E-8B1B-42E2-B453-215C058844FE): 1
+LogDevObjectVersion:   Dev-CineCamera (B2E18506-4273-CFC2-A54E-F4BB758BBA07): 1
+LogInit: Presizing for max 25165824 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [D:/Documents/GameDesign/ue4-ml.drone.shooting/DroneShooting/Saved/Config/Windows/Engine.ini]
+LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2021.01.11-21.26.27:350][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2021.01.11-21.26.27:350][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2021.01.11-21.26.27:350][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [D:/Documents/GameDesign/ue4-ml.drone.shooting/DroneShooting/Saved/Config/Windows/Engine.ini]
+[2021.01.11-21.26.27:350][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2021.01.11-21.26.27:350][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [D:/Documents/GameDesign/ue4-ml.drone.shooting/DroneShooting/Saved/Config/Windows/Engine.ini]
+[2021.01.11-21.26.27:350][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [D:/Documents/GameDesign/ue4-ml.drone.shooting/DroneShooting/Saved/Config/Windows/Engine.ini]
+[2021.01.11-21.26.27:350][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2021.01.11-21.26.27:350][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2021.01.11-21.26.27:350][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2021.01.11-21.26.27:350][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2021.01.11-21.26.27:350][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2021.01.11-21.26.27:350][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2021.01.11-21.26.27:350][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2021.01.11-21.26.27:350][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2021.01.11-21.26.27:350][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2021.01.11-21.26.27:350][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2021.01.11-21.26.27:350][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2021.01.11-21.26.27:350][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2021.01.11-21.26.27:350][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2021.01.11-21.26.27:350][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+[2021.01.11-21.26.27:351][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [D:/Documents/GameDesign/ue4-ml.drone.shooting/DroneShooting/Saved/Config/Windows/Engine.ini]
+[2021.01.11-21.26.27:351][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2021.01.11-21.26.27:351][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2021.01.11-21.26.27:351][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2021.01.11-21.26.27:351][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2021.01.11-21.26.27:351][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2021.01.11-21.26.27:351][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2021.01.11-21.26.27:351][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
+[2021.01.11-21.26.27:351][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2021.01.11-21.26.27:351][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2021.01.11-21.26.27:351][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2021.01.11-21.26.27:351][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2021.01.11-21.26.27:351][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2021.01.11-21.26.27:351][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2021.01.11-21.26.27:351][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [D:/Documents/GameDesign/ue4-ml.drone.shooting/DroneShooting/Saved/Config/Windows/Engine.ini]
+[2021.01.11-21.26.27:351][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [D:/Documents/GameDesign/ue4-ml.drone.shooting/DroneShooting/Saved/Config/Windows/Engine.ini]
+[2021.01.11-21.26.27:360][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/Documents/GameDesign/ue4-ml.drone.shooting/DroneShooting/Saved/Config/Windows/Scalability.ini]
+[2021.01.11-21.26.27:360][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2021.01.11-21.26.27:360][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2021.01.11-21.26.27:360][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/Documents/GameDesign/ue4-ml.drone.shooting/DroneShooting/Saved/Config/Windows/Scalability.ini]
+[2021.01.11-21.26.27:360][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2021.01.11-21.26.27:360][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/Documents/GameDesign/ue4-ml.drone.shooting/DroneShooting/Saved/Config/Windows/Scalability.ini]
+[2021.01.11-21.26.27:360][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2021.01.11-21.26.27:360][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2021.01.11-21.26.27:360][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2021.01.11-21.26.27:360][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2021.01.11-21.26.27:360][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2021.01.11-21.26.27:360][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2021.01.11-21.26.27:360][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2021.01.11-21.26.27:360][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2021.01.11-21.26.27:360][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2021.01.11-21.26.27:360][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2021.01.11-21.26.27:360][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2021.01.11-21.26.27:360][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2021.01.11-21.26.27:360][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2021.01.11-21.26.27:360][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2021.01.11-21.26.27:360][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2021.01.11-21.26.27:360][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2021.01.11-21.26.27:360][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2021.01.11-21.26.27:360][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2021.01.11-21.26.27:360][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/Documents/GameDesign/ue4-ml.drone.shooting/DroneShooting/Saved/Config/Windows/Scalability.ini]
+[2021.01.11-21.26.27:360][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2021.01.11-21.26.27:360][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2021.01.11-21.26.27:360][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2021.01.11-21.26.27:360][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2021.01.11-21.26.27:360][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2021.01.11-21.26.27:360][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2021.01.11-21.26.27:360][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2021.01.11-21.26.27:360][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2021.01.11-21.26.27:360][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2021.01.11-21.26.27:360][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2021.01.11-21.26.27:360][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2021.01.11-21.26.27:360][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2021.01.11-21.26.27:360][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2021.01.11-21.26.27:360][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2021.01.11-21.26.27:360][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2021.01.11-21.26.27:360][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2021.01.11-21.26.27:360][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2021.01.11-21.26.27:360][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2021.01.11-21.26.27:360][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2021.01.11-21.26.27:360][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2021.01.11-21.26.27:360][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2021.01.11-21.26.27:360][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2021.01.11-21.26.27:360][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2021.01.11-21.26.27:360][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2021.01.11-21.26.27:360][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2021.01.11-21.26.27:360][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2021.01.11-21.26.27:360][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2021.01.11-21.26.27:360][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2021.01.11-21.26.27:361][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2021.01.11-21.26.27:361][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2021.01.11-21.26.27:361][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/Documents/GameDesign/ue4-ml.drone.shooting/DroneShooting/Saved/Config/Windows/Scalability.ini]
+[2021.01.11-21.26.27:361][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2021.01.11-21.26.27:361][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2021.01.11-21.26.27:361][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2021.01.11-21.26.27:361][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2021.01.11-21.26.27:361][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2021.01.11-21.26.27:361][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2021.01.11-21.26.27:361][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2021.01.11-21.26.27:361][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2021.01.11-21.26.27:361][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2021.01.11-21.26.27:361][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/Documents/GameDesign/ue4-ml.drone.shooting/DroneShooting/Saved/Config/Windows/Scalability.ini]
+[2021.01.11-21.26.27:361][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2021.01.11-21.26.27:361][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2021.01.11-21.26.27:361][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2021.01.11-21.26.27:361][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2021.01.11-21.26.27:361][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2021.01.11-21.26.27:361][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2021.01.11-21.26.27:361][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2021.01.11-21.26.27:361][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2021.01.11-21.26.27:361][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2021.01.11-21.26.27:361][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2021.01.11-21.26.27:361][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2021.01.11-21.26.27:361][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2021.01.11-21.26.27:361][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2021.01.11-21.26.27:361][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2021.01.11-21.26.27:361][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2021.01.11-21.26.27:361][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2021.01.11-21.26.27:361][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2021.01.11-21.26.27:361][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2021.01.11-21.26.27:361][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2021.01.11-21.26.27:361][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2021.01.11-21.26.27:361][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2021.01.11-21.26.27:361][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2021.01.11-21.26.27:361][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2021.01.11-21.26.27:361][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2021.01.11-21.26.27:361][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2021.01.11-21.26.27:361][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2021.01.11-21.26.27:361][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/Documents/GameDesign/ue4-ml.drone.shooting/DroneShooting/Saved/Config/Windows/Scalability.ini]
+[2021.01.11-21.26.27:361][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2021.01.11-21.26.27:361][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2021.01.11-21.26.27:361][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [D:/Documents/GameDesign/ue4-ml.drone.shooting/DroneShooting/Saved/Config/Windows/Scalability.ini]
+[2021.01.11-21.26.27:361][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2021.01.11-21.26.27:361][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2021.01.11-21.26.27:361][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2021.01.11-21.26.27:361][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2021.01.11-21.26.27:361][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2021.01.11-21.26.27:361][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2021.01.11-21.26.27:361][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2021.01.11-21.26.27:361][  0]LogInit: Selected Device Profile: [Windows]
+[2021.01.11-21.26.27:361][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2021.01.11-21.26.27:361][  0]LogHAL: Display: Platform has ~ 16 GB [17023823872 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2021.01.11-21.26.27:362][  0]LogInit: Going up to parent DeviceProfile []
+[2021.01.11-21.26.27:362][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/Documents/GameDesign/ue4-ml.drone.shooting/DroneShooting/Saved/Config/Windows/Scalability.ini]
+[2021.01.11-21.26.27:362][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2021.01.11-21.26.27:362][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2021.01.11-21.26.27:362][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/Documents/GameDesign/ue4-ml.drone.shooting/DroneShooting/Saved/Config/Windows/Scalability.ini]
+[2021.01.11-21.26.27:362][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2021.01.11-21.26.27:362][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/Documents/GameDesign/ue4-ml.drone.shooting/DroneShooting/Saved/Config/Windows/Scalability.ini]
+[2021.01.11-21.26.27:362][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2021.01.11-21.26.27:362][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2021.01.11-21.26.27:362][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2021.01.11-21.26.27:362][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2021.01.11-21.26.27:362][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2021.01.11-21.26.27:362][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2021.01.11-21.26.27:362][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2021.01.11-21.26.27:362][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2021.01.11-21.26.27:362][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2021.01.11-21.26.27:362][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2021.01.11-21.26.27:362][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2021.01.11-21.26.27:362][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2021.01.11-21.26.27:362][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2021.01.11-21.26.27:362][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2021.01.11-21.26.27:362][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2021.01.11-21.26.27:362][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2021.01.11-21.26.27:362][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2021.01.11-21.26.27:362][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2021.01.11-21.26.27:362][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/Documents/GameDesign/ue4-ml.drone.shooting/DroneShooting/Saved/Config/Windows/Scalability.ini]
+[2021.01.11-21.26.27:362][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2021.01.11-21.26.27:362][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2021.01.11-21.26.27:362][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2021.01.11-21.26.27:362][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2021.01.11-21.26.27:362][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2021.01.11-21.26.27:362][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2021.01.11-21.26.27:362][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2021.01.11-21.26.27:362][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2021.01.11-21.26.27:362][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2021.01.11-21.26.27:362][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2021.01.11-21.26.27:362][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2021.01.11-21.26.27:362][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2021.01.11-21.26.27:362][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2021.01.11-21.26.27:362][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2021.01.11-21.26.27:362][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2021.01.11-21.26.27:362][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2021.01.11-21.26.27:362][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2021.01.11-21.26.27:362][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2021.01.11-21.26.27:362][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2021.01.11-21.26.27:362][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2021.01.11-21.26.27:362][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2021.01.11-21.26.27:362][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2021.01.11-21.26.27:362][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2021.01.11-21.26.27:362][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2021.01.11-21.26.27:362][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2021.01.11-21.26.27:362][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2021.01.11-21.26.27:362][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2021.01.11-21.26.27:362][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2021.01.11-21.26.27:362][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2021.01.11-21.26.27:362][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2021.01.11-21.26.27:362][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/Documents/GameDesign/ue4-ml.drone.shooting/DroneShooting/Saved/Config/Windows/Scalability.ini]
+[2021.01.11-21.26.27:362][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2021.01.11-21.26.27:363][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2021.01.11-21.26.27:363][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2021.01.11-21.26.27:363][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2021.01.11-21.26.27:363][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2021.01.11-21.26.27:363][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2021.01.11-21.26.27:363][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2021.01.11-21.26.27:363][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2021.01.11-21.26.27:363][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2021.01.11-21.26.27:363][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/Documents/GameDesign/ue4-ml.drone.shooting/DroneShooting/Saved/Config/Windows/Scalability.ini]
+[2021.01.11-21.26.27:363][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2021.01.11-21.26.27:363][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2021.01.11-21.26.27:363][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2021.01.11-21.26.27:363][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2021.01.11-21.26.27:363][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2021.01.11-21.26.27:363][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2021.01.11-21.26.27:363][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2021.01.11-21.26.27:363][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2021.01.11-21.26.27:363][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2021.01.11-21.26.27:363][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2021.01.11-21.26.27:363][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2021.01.11-21.26.27:363][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2021.01.11-21.26.27:363][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2021.01.11-21.26.27:363][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2021.01.11-21.26.27:363][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2021.01.11-21.26.27:363][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2021.01.11-21.26.27:363][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2021.01.11-21.26.27:363][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2021.01.11-21.26.27:363][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2021.01.11-21.26.27:363][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2021.01.11-21.26.27:363][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2021.01.11-21.26.27:363][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2021.01.11-21.26.27:363][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2021.01.11-21.26.27:363][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2021.01.11-21.26.27:363][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2021.01.11-21.26.27:363][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2021.01.11-21.26.27:363][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/Documents/GameDesign/ue4-ml.drone.shooting/DroneShooting/Saved/Config/Windows/Scalability.ini]
+[2021.01.11-21.26.27:363][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2021.01.11-21.26.27:363][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2021.01.11-21.26.27:363][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [D:/Documents/GameDesign/ue4-ml.drone.shooting/DroneShooting/Saved/Config/Windows/Scalability.ini]
+[2021.01.11-21.26.27:363][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2021.01.11-21.26.27:363][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2021.01.11-21.26.27:363][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2021.01.11-21.26.27:363][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2021.01.11-21.26.27:363][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2021.01.11-21.26.27:363][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2021.01.11-21.26.27:363][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2021.01.11-21.26.27:363][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2021.01.11-21.26.27:364][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2021.01.11-21.26.27:364][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2021.01.11-21.26.27:364][  0]LogConfig: Setting CVar [[fx.SkipVectorVMBackendOptimizations:1]]
+[2021.01.11-21.26.27:364][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [D:/Documents/GameDesign/ue4-ml.drone.shooting/DroneShooting/Saved/Config/Windows/Engine.ini]
+[2021.01.11-21.26.27:364][  0]LogInit: Computer: PHILNG
+[2021.01.11-21.26.27:364][  0]LogInit: User: philng
+[2021.01.11-21.26.27:364][  0]LogInit: CPU Page size=4096, Cores=6
+[2021.01.11-21.26.27:364][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2021.01.11-21.26.27:364][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2021.01.11-21.26.27:364][  0]LogMemory: Platform Memory Stats for Windows
+[2021.01.11-21.26.27:364][  0]LogMemory: Process Physical Memory: 122.71 MB used, 122.72 MB peak
+[2021.01.11-21.26.27:364][  0]LogMemory: Process Virtual Memory: 102.00 MB used, 102.00 MB peak
+[2021.01.11-21.26.27:364][  0]LogMemory: Physical Memory: 5639.33 MB used,  10595.85 MB free, 16235.18 MB total
+[2021.01.11-21.26.27:364][  0]LogMemory: Virtual Memory: 5210.42 MB used,  134212520.00 MB free, 134217728.00 MB total
+[2021.01.11-21.26.27:372][  0]LogWindows: WindowsPlatformFeatures enabled
+[2021.01.11-21.26.27:418][  0]LogInit: Physics initialised using underlying interface: PhysX
+[2021.01.11-21.26.27:419][  0]LogInit: Using OS detected language (en-GB).
+[2021.01.11-21.26.27:419][  0]LogInit: Using OS detected locale (en-CA).
+[2021.01.11-21.26.27:421][  0]LogTextLocalizationManager: No specific localization for 'en-GB' exists, so the 'en' localization will be used.
+[2021.01.11-21.26.27:631][  0]LogInit: Setting process to per monitor DPI aware
+[2021.01.11-21.26.27:674][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2021.01.11-21.26.27:674][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2021.01.11-21.26.27:860][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2021.01.11-21.26.27:860][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
+[2021.01.11-21.26.27:860][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
+[2021.01.11-21.26.27:860][  0]LogD3D11RHI: D3D11 adapters:
+[2021.01.11-21.26.27:957][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1060' (Feature Level 11_0)
+[2021.01.11-21.26.27:957][  0]LogD3D11RHI:       6052/0/8117 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2021.01.11-21.26.27:982][  0]LogD3D11RHI:    1. 'Intel(R) UHD Graphics 630' (Feature Level 11_0)
+[2021.01.11-21.26.27:982][  0]LogD3D11RHI:       128/0/8117 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x8086
+[2021.01.11-21.26.27:985][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2021.01.11-21.26.27:985][  0]LogD3D11RHI:       0/0/8117 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2021.01.11-21.26.27:985][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2021.01.11-21.26.27:993][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2021.01.11-21.26.27:993][  0]LogD3D11RHI:     GPU DeviceId: 0x1c20 (for the marketing name, search the web for "GPU Device Id")
+[2021.01.11-21.26.27:993][  0]LogWindows: EnumDisplayDevices:
+[2021.01.11-21.26.27:993][  0]LogWindows:    0. 'Intel(R) UHD Graphics 630' (P:0 D:1)
+[2021.01.11-21.26.27:994][  0]LogWindows:    1. 'Intel(R) UHD Graphics 630' (P:0 D:0)
+[2021.01.11-21.26.27:994][  0]LogWindows:    2. 'Intel(R) UHD Graphics 630' (P:0 D:0)
+[2021.01.11-21.26.27:995][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1060' (P:1 D:1)
+[2021.01.11-21.26.27:995][  0]LogWindows:    4. 'NVIDIA GeForce GTX 1060' (P:0 D:1)
+[2021.01.11-21.26.27:996][  0]LogWindows:    5. 'NVIDIA GeForce GTX 1060' (P:0 D:0)
+[2021.01.11-21.26.27:996][  0]LogWindows:    6. 'NVIDIA GeForce GTX 1060' (P:0 D:0)
+[2021.01.11-21.26.27:997][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
+[2021.01.11-21.26.27:997][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1060
+[2021.01.11-21.26.27:997][  0]LogD3D11RHI:   Driver Version: 451.67 (internal:27.21.14.5167, unified:451.67)
+[2021.01.11-21.26.27:997][  0]LogD3D11RHI:      Driver Date: 7-5-2020
+[2021.01.11-21.26.27:997][  0]LogRHI: Texture pool is 4236 MB (70% of 6052 MB)
+[2021.01.11-21.26.28:072][  0]LogD3D11RHI: RHI has support for 64 bit atomics
+[2021.01.11-21.26.28:073][  0]LogD3D11RHI: Async texture creation enabled
+[2021.01.11-21.26.28:073][  0]LogD3D11RHI: Array index from any shader is supported
+[2021.01.11-21.26.28:101][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2021.01.11-21.26.28:666][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
+[2021.01.11-21.26.28:693][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2021.01.11-21.26.28:693][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2021.01.11-21.26.28:693][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2021.01.11-21.26.28:693][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2021.01.11-21.26.28:693][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2021.01.11-21.26.28:693][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2021.01.11-21.26.28:693][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2021.01.11-21.26.28:693][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2021.01.11-21.26.28:693][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2021.01.11-21.26.28:693][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2021.01.11-21.26.28:722][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2021.01.11-21.26.28:722][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2021.01.11-21.26.28:735][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Linux'
+[2021.01.11-21.26.28:746][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
+[2021.01.11-21.26.28:757][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2021.01.11-21.26.28:769][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2021.01.11-21.26.28:780][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
+[2021.01.11-21.26.28:791][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
+[2021.01.11-21.26.28:803][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
+[2021.01.11-21.26.28:832][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
+[2021.01.11-21.26.28:832][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
+[2021.01.11-21.26.28:851][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2021.01.11-21.26.28:851][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2021.01.11-21.26.28:862][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
+[2021.01.11-21.26.28:874][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2021.01.11-21.26.28:886][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2021.01.11-21.26.28:897][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2021.01.11-21.26.28:897][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2021.01.11-21.26.28:907][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2021.01.11-21.26.28:984][  0]LogShaderCompilers: Guid format shader working directory is -12 characters bigger than the processId version (../../../../GameDesign/ue4-ml.drone.shooting/DroneShooting/Intermediate/Shaders/WorkingDirectory/6416/).
+[2021.01.11-21.26.28:985][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/lipin/AppData/Local/Temp/UnrealShaderWorkingDir/DF3A218C4A67D1BD725D53A24CEB2CBB/'.
+[2021.01.11-21.26.28:985][  0]LogXGEController: Cleaning working directory: C:/Users/lipin/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2021.01.11-21.26.28:985][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2021.01.11-21.26.28:985][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2021.01.11-21.26.28:985][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2021.01.11-21.26.29:856][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2021.01.11-21.26.29:913][  0]LogDerivedDataCache: Loaded boot cache 0.06s 76MB C:/Users/lipin/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2021.01.11-21.26.29:913][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/lipin/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc
+[2021.01.11-21.26.29:913][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../GameDesign/ue4-ml.drone.shooting/DroneShooting/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2021.01.11-21.26.29:913][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2021.01.11-21.26.29:913][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../GameDesign/ue4-ml.drone.shooting/DroneShooting/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2021.01.11-21.26.29:913][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2021.01.11-21.26.29:925][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2021.01.11-21.26.29:925][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2021.01.11-21.26.29:925][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2021.01.11-21.26.29:927][  0]LogDerivedDataCache: Using Local data cache path C:/Users/lipin/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2021.01.11-21.26.29:927][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2021.01.11-21.26.29:927][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2021.01.11-21.26.29:986][  0]LogSlate: Using FreeType 2.10.0
+[2021.01.11-21.26.29:987][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2021.01.11-21.26.30:019][  0]LogAssetRegistry: FAssetRegistry took 0.0031 seconds to start up
+[2021.01.11-21.26.30:283][  0]LogInit: Selected Device Profile: [Windows]
+[2021.01.11-21.26.30:416][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2021.01.11-21.26.30:416][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2021.01.11-21.26.30:416][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2021.01.11-21.26.30:416][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2021.01.11-21.26.30:416][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2021.01.11-21.26.30:440][  0]LogNetVersion: DroneShooting 1.0.0, NetCL: 13144385, EngineNetVer: 14, GameNetVer: 0 (Checksum: 457005733)
+[2021.01.11-21.26.30:939][  0]LogAISub: UAISubsystem::UAISubsystem AISubsystem (0000011A70844340), frame # 0
+[2021.01.11-21.26.30:939][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000011A7077F9C0), frame # 0
+[2021.01.11-21.26.30:940][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000011A707E1E00), frame # 0
+[2021.01.11-21.26.31:013][  0]LogPackageLocalizationCache: Processed 20 localized package path(s) for 1 prioritized culture(s) in 0.065241 seconds
+[2021.01.11-21.26.31:019][  0]LogUObjectArray: 15917 objects as part of root set at end of initial load.
+[2021.01.11-21.26.31:019][  0]LogUObjectAllocator: 3965568 out of 0 bytes used by permanent object pool.
+[2021.01.11-21.26.31:019][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2021.01.11-21.26.31:424][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2021.01.11-21.26.31:430][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2021.01.11-21.26.31:582][  0]SourceControl: Source control is disabled
+[2021.01.11-21.26.31:582][  0]SourceControl: Source control is disabled
+[2021.01.11-21.26.31:587][  0]SourceControl: Source control is disabled
+[2021.01.11-21.26.31:590][  0]SourceControl: Source control is disabled
+[2021.01.11-21.26.31:601][  0]SourceControl: Source control is disabled
+[2021.01.11-21.26.32:012][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2021.01.11-21.26.32:037][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2021.01.11-21.26.32:038][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2021.01.11-21.26.32:097][  0]LogOcInput: OculusInput pre-init called
+[2021.01.11-21.26.32:110][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
+[2021.01.11-21.26.32:110][  0]LogWindows: File 'OVRPlugin.dll' does not exist
+[2021.01.11-21.26.32:183][  0]LogEngine: Initializing Engine...
+[2021.01.11-21.26.32:185][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2021.01.11-21.26.32:185][  0]LogMagicLeap: Warning: VR disabled because ZI is not enabled.  To enable, in the editor, Edit -> Project Settings -> Plugins -> Magic Leap Plugin -> Enable Zero Iteration
+[2021.01.11-21.26.32:186][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2021.01.11-21.26.32:315][  0]LogInit: Initializing FReadOnlyCVARCache
+[2021.01.11-21.26.32:329][  0]LogAIModule: Creating AISystem for world Untitled
+[2021.01.11-21.26.32:330][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000011A777A7C00), frame # 0
+[2021.01.11-21.26.32:330][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000011A777F5A80), frame # 0
+[2021.01.11-21.26.32:349][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.01.11-21.26.32:349][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.01.11-21.26.32:349][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.01.11-21.26.32:349][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.01.11-21.26.32:349][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.01.11-21.26.32:349][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.01.11-21.26.32:349][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.01.11-21.26.32:349][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.01.11-21.26.32:350][  0]LogAudio: Display: Using built-in audio occlusion.
+[2021.01.11-21.26.32:350][  0]LogAudioMixer: Display: Initializing audio mixer.
+[2021.01.11-21.26.32:384][  0]LogAudioMixer: Display: 0: FrontLeft
+[2021.01.11-21.26.32:384][  0]LogAudioMixer: Display: 1: FrontRight
+[2021.01.11-21.26.32:674][  0]LogAudioMixer: Display: Using Audio Device Speakers (Bose SoundLink Wireless Mobile speaker Stereo)
+[2021.01.11-21.26.32:676][  0]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.01.11-21.26.32:677][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.01.11-21.26.32:677][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.01.11-21.26.32:678][  0]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.01.11-21.26.32:679][  0]LogInit: FAudioDevice initialized.
+[2021.01.11-21.26.32:680][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2021.01.11-21.26.32:725][  0]LogDerivedDataCache: Saved boot cache 0.04s 76MB C:/Users/lipin/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2021.01.11-21.26.32:728][  0]LogInit: Texture streaming: Enabled
+[2021.01.11-21.26.32:746][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2021.01.11-21.26.32:746][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2021.01.11-21.26.32:750][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2021.01.11-21.26.32:797][  0]LogInit: Transaction tracking system initialized
+[2021.01.11-21.26.32:819][  0]BlueprintLog: New page: Editor Load
+[2021.01.11-21.26.32:896][  0]LocalizationService: Localization service is disabled
+[2021.01.11-21.26.33:201][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2021.01.11-21.26.33:201][  0]LogCook: Display: Mobile HDR setting 1
+[2021.01.11-21.26.34:251][  0]LogFileCache: Scanning file cache for directory 'D:/Documents/GameDesign/ue4-ml.drone.shooting/DroneShooting/Content/' took 0.02s
+[2021.01.11-21.26.34:539][  0]LogImageWrapper: Warning: PNG Warning: iCCP: CRC error
+[2021.01.11-21.26.34:539][  0]LogImageWrapper: Warning: PNG Warning: iCCP: CRC error
+[2021.01.11-21.26.34:941][  0]LogImageWrapper: Warning: PNG Warning: iCCP: CRC error
+[2021.01.11-21.26.34:941][  0]LogImageWrapper: Warning: PNG Warning: iCCP: CRC error
+[2021.01.11-21.26.34:941][  0]SourceControl: Source control is disabled
+[2021.01.11-21.26.34:941][  0]LogUnrealEdMisc: Loading editor; pre map load, took 42.249
+[2021.01.11-21.26.34:941][  0]Cmd: MAP LOAD FILE="../../../../GameDesign/ue4-ml.drone.shooting/DroneShooting/Content/Maps/Sandbox.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2021.01.11-21.26.34:944][  0]LightingResults: New page: Lighting Build
+[2021.01.11-21.26.34:944][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2021.01.11-21.26.34:944][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.11-21.26.34:945][  0]MapCheck: New page: Map Check
+[2021.01.11-21.26.34:945][  0]LightingResults: New page: Lighting Build
+[2021.01.11-21.26.34:961][  0]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000011A777A7C00), frame # 0
+[2021.01.11-21.26.34:961][  0]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000011A777F5A80), frame # 0
+[2021.01.11-21.26.34:963][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.07ms
+[2021.01.11-21.26.35:035][  0]LogAIModule: Creating AISystem for world Sandbox
+[2021.01.11-21.26.35:035][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000011A77000800), frame # 0
+[2021.01.11-21.26.35:035][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000011A05E12340), frame # 0
+[2021.01.11-21.26.35:040][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2021.01.11-21.26.35:055][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.22ms
+[2021.01.11-21.26.35:055][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2021.01.11-21.26.35:055][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.121ms to complete.
+[2021.01.11-21.26.35:055][  0]LogFileHelpers: Loading map 'Sandbox' took 0.114
+[2021.01.11-21.26.35:059][  0]LogUnrealEdMisc: Total Editor Startup Time, took 42.367
+[2021.01.11-21.26.35:417][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.11-21.26.35:428][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.11-21.26.35:441][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.11-21.26.35:450][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.11-21.26.35:493][  0]LogCollectionManager: Loaded 0 collections in 0.002205 seconds
+[2021.01.11-21.26.35:535][  0]LogFileCache: Scanning file cache for directory 'D:/Documents/GameDesign/ue4-ml.drone.shooting/DroneShooting/Saved/Collections/' took 0.00s
+[2021.01.11-21.26.35:535][  0]LogFileCache: Scanning file cache for directory 'D:/Documents/GameDesign/ue4-ml.drone.shooting/DroneShooting/Content/Developers/philng/Collections/' took 0.00s
+[2021.01.11-21.26.35:535][  0]LogFileCache: Scanning file cache for directory 'D:/Documents/GameDesign/ue4-ml.drone.shooting/DroneShooting/Content/Collections/' took 0.00s
+[2021.01.11-21.26.35:535][  0]LogContentBrowser: Native class hierarchy populated in 0.0116 seconds. Added 3430 classes and 827 folders.
+[2021.01.11-21.26.35:543][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2021.01.11-21.26.35:937][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2021.01.11-21.26.37:310][  0]LogSlate: Took 0.000515 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2021.01.11-21.26.37:321][  0]LogSlate: Took 0.000502 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2021.01.11-21.26.37:344][  0]LogSlate: Took 0.005015 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2021.01.11-21.26.37:350][  0]LogSlate: Took 0.003868 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2021.01.11-21.26.37:565][  0]LogRenderer: Reallocating scene render targets to support 1056x648 Format 10 NumSamples 1 (Frame:1).
+[2021.01.11-21.26.37:775][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2021.01.11-21.26.37:775][  0]LogLoad: (Engine Initialization) Total time: 45.08 seconds
+[2021.01.11-21.26.37:775][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2021.01.11-21.26.37:865][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2021.01.11-21.26.37:891][  0]LogSlate: Took 0.003973 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2021.01.11-21.26.37:901][  1]LogAssetRegistry: Asset discovery search completed in 7.8842 seconds
+[2021.01.11-21.26.37:907][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000003 seconds (updated 0 objects)
+[2021.01.11-21.26.42:247][290]LogMaterial: Display: Missing cached shader map for material M_EyeRefractive, compiling. 
+[2021.01.11-21.26.42:259][290]LogMaterial: Warning: D:\Documents\GameDesign\ue4-ml.drone.shooting\DroneShooting\Content\ParagonMurdock\Characters\Global\Eyes\Materials\M_EyeRefractive.uasset: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2021.01.11-21.26.42:259][290]LogMaterial: Display: 	(Node TextureSampleParameterCube) ParamCube> Found NULL, requires TextureCube
+[2021.01.11-21.26.42:259][290]LogMaterial: Display: 	(Node MakeMaterialAttributes) Error on property EmissiveColor
+[2021.01.11-21.26.42:446][290]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/Character/BP_ShooterCharacter.BP_ShooterCharacter
+[2021.01.11-21.26.42:820][290]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0008 seconds. Added 125 classes and 0 folders.
+[2021.01.11-21.26.43:945][290]LogSlate: Took 0.000203 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2021.01.11-21.27.06:691][627]LogRenderer: Reallocating scene render targets to support 1056x1360 Format 10 NumSamples 1 (Frame:1).
+[2021.01.11-21.27.06:979][644]LogSlate: Took 0.000229 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2021.01.11-21.27.11:478][ 45]BlueprintLog: New page: Compile BP_ShooterCharacter
+[2021.01.11-21.27.11:531][ 45]LogUObjectHash: Compacting FUObjectHashTables data took   3.16ms
+[2021.01.11-21.27.12:498][141]LogSavePackage: Moving '../../../../GameDesign/ue4-ml.drone.shooting/DroneShooting/Saved/BP_ShooterCharacter32C4E8A24184B1C4A93451983201CD0E.tmp' to '../../../../GameDesign/ue4-ml.drone.shooting/DroneShooting/Content/Blueprints/Character/BP_ShooterCharacter.uasset'
+[2021.01.11-21.27.12:518][141]AssetCheck: New page: Asset Save: BP_ShooterCharacter
+[2021.01.11-21.27.12:518][141]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/Character/BP_ShooterCharacter.BP_ShooterCharacter
+[2021.01.11-21.27.15:049][413]LogSlate: Window 'BP_ShooterCharacter' being destroyed
+[2021.01.11-21.27.15:057][413]LogWorld: UWorld::CleanupWorld for World_1, bSessionEnded=true, bCleanupResources=true
+[2021.01.11-21.27.15:057][413]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.11-21.32.50:120][450]Candidate modules for hot reload:
+[2021.01.11-21.32.50:120][450]  DroneShooting
+[2021.01.11-21.32.50:120][450]Launching UnrealBuildTool... [D:/Documents/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=DroneShooting,3639 DroneShootingEditor Win64 Development -Project="D:/Documents/GameDesign/ue4-ml.drone.shooting/DroneShooting/DroneShooting.uproject" "D:/Documents/GameDesign/ue4-ml.drone.shooting/DroneShooting/DroneShooting.uproject"  -IgnoreJunk]
+[2021.01.11-21.32.55:128][450]Warning: Starting HotReload took  5.0s.
+[2021.01.11-21.33.06:429][ 94]CompilerResultsLog: New page: Compilation - Jan. 11, 2021, 11:33:06 a.m.
+[2021.01.11-21.33.06:429][ 94]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (D:\Documents\GameDesign\ue4-ml.drone.shooting).
+[2021.01.11-21.33.06:429][ 94]CompilerResultsLog: Parsing headers for DroneShootingEditor
+[2021.01.11-21.33.06:429][ 94]CompilerResultsLog:   Running UnrealHeaderTool "D:\Documents\GameDesign\ue4-ml.drone.shooting\DroneShooting\DroneShooting.uproject" "D:\Documents\GameDesign\ue4-ml.drone.shooting\DroneShooting\Intermediate\Build\Win64\DroneShootingEditor\Development\DroneShootingEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\lipin\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+[2021.01.11-21.33.06:429][ 94]CompilerResultsLog: Reflection code generated for DroneShootingEditor in 8.3553129 seconds
+[2021.01.11-21.33.06:429][ 94]CompilerResultsLog: Building DroneShootingEditor...
+[2021.01.11-21.33.06:430][ 94]CompilerResultsLog: Using Visual Studio 2019 14.27.29112 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2021.01.11-21.33.06:430][ 94]CompilerResultsLog: Building 6 actions with 12 processes...
+[2021.01.11-21.33.06:430][ 94]CompilerResultsLog:   [1/6] DroneShooting.init.gen.cpp
+[2021.01.11-21.33.06:430][ 94]CompilerResultsLog:   [2/6] CharacterBase.cpp
+[2021.01.11-21.33.06:430][ 94]CompilerResultsLog:    D:\Documents\UE_4.25\Engine\Source\Runtime\CoreUObject\Public\UObject/Object.h(107) : error C2027: use of undefined type 'UCameraComponent'
+[2021.01.11-21.33.06:430][ 94]CompilerResultsLog:   D:\Documents\GameDesign\ue4-ml.drone.shooting\DroneShooting\Source\DroneShooting\Characters\CharacterBase.h(44): note: see declaration of 'UCameraComponent'
+[2021.01.11-21.33.06:430][ 94]CompilerResultsLog:   D:\Documents\GameDesign\ue4-ml.drone.shooting\DroneShooting\Source\DroneShooting\Characters\CharacterBase.cpp(14): note: see reference to function template instantiation 'TReturnType *UObject::CreateDefaultSubobject<UCameraComponent>(FName,bool)' being compiled
+[2021.01.11-21.33.06:430][ 94]CompilerResultsLog:           with
+[2021.01.11-21.33.06:430][ 94]CompilerResultsLog:           [
+[2021.01.11-21.33.06:430][ 94]CompilerResultsLog:               TReturnType=UCameraComponent
+[2021.01.11-21.33.06:430][ 94]CompilerResultsLog:           ]
+[2021.01.11-21.33.06:430][ 94]CompilerResultsLog:    D:\Documents\UE_4.25\Engine\Source\Runtime\CoreUObject\Public\UObject/Object.h(108) : error C2440: 'static_cast': cannot convert from 'UObject *' to 'TReturnType *'
+[2021.01.11-21.33.06:430][ 94]CompilerResultsLog:           with
+[2021.01.11-21.33.06:430][ 94]CompilerResultsLog:           [
+[2021.01.11-21.33.06:430][ 94]CompilerResultsLog:               TReturnType=UCameraComponent
+[2021.01.11-21.33.06:430][ 94]CompilerResultsLog:           ]
+[2021.01.11-21.33.06:430][ 94]CompilerResultsLog:   D:\Documents\UE_4.25\Engine\Source\Runtime\CoreUObject\Public\UObject/Object.h(108): note: Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+[2021.01.11-21.33.06:430][ 94]CompilerResultsLog:   [3/6] CharacterBase.gen.cpp
+[2021.01.11-21.33.06:430][ 94]LogMainFrame: MainFrame: Module compiling took 16.321 seconds
+[2021.01.11-21.33.06:432][ 94]Warning: HotReload failed, recompile failed
+[2021.01.11-21.33.13:739][238]Candidate modules for hot reload:
+[2021.01.11-21.33.13:739][238]  DroneShooting
+[2021.01.11-21.33.13:739][238]Launching UnrealBuildTool... [D:/Documents/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=DroneShooting,5693 DroneShootingEditor Win64 Development -Project="D:/Documents/GameDesign/ue4-ml.drone.shooting/DroneShooting/DroneShooting.uproject" "D:/Documents/GameDesign/ue4-ml.drone.shooting/DroneShooting/DroneShooting.uproject"  -IgnoreJunk]
+[2021.01.11-21.33.13:906][238]Warning: Starting HotReload took  0.2s.
+[2021.01.11-21.33.18:526][365]CompilerResultsLog: New page: Compilation - Jan. 11, 2021, 11:33:18 a.m.
+[2021.01.11-21.33.18:526][365]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (D:\Documents\GameDesign\ue4-ml.drone.shooting).
+[2021.01.11-21.33.18:526][365]CompilerResultsLog: Building DroneShootingEditor...
+[2021.01.11-21.33.18:526][365]CompilerResultsLog: Using Visual Studio 2019 14.27.29112 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2021.01.11-21.33.18:526][365]CompilerResultsLog: Building 4 actions with 12 processes...
+[2021.01.11-21.33.18:526][365]CompilerResultsLog:   [1/4] CharacterBase.cpp
+[2021.01.11-21.33.18:526][365]CompilerResultsLog:   [2/4] UE4Editor-DroneShooting-5693.lib
+[2021.01.11-21.33.18:526][365]CompilerResultsLog:      Creating library D:\Documents\GameDesign\ue4-ml.drone.shooting\DroneShooting\Intermediate\Build\Win64\UE4Editor\Development\DroneShooting\UE4Editor-DroneShooting-5693.lib and object D:\Documents\GameDesign\ue4-ml.drone.shooting\DroneShooting\Intermediate\Build\Win64\UE4Editor\Development\DroneShooting\UE4Editor-DroneShooting-5693.exp
+[2021.01.11-21.33.18:526][365]CompilerResultsLog:   [3/4] UE4Editor-DroneShooting-5693.dll
+[2021.01.11-21.33.18:526][365]CompilerResultsLog:      Creating library D:\Documents\GameDesign\ue4-ml.drone.shooting\DroneShooting\Intermediate\Build\Win64\UE4Editor\Development\DroneShooting\UE4Editor-DroneShooting-5693.suppressed.lib and object D:\Documents\GameDesign\ue4-ml.drone.shooting\DroneShooting\Intermediate\Build\Win64\UE4Editor\Development\DroneShooting\UE4Editor-DroneShooting-5693.suppressed.exp
+[2021.01.11-21.33.18:526][365]CompilerResultsLog:   [4/4] DroneShootingEditor.target
+[2021.01.11-21.33.18:526][365]CompilerResultsLog: Total time in Parallel executor: 3.30 seconds
+[2021.01.11-21.33.18:526][365]CompilerResultsLog: Total execution time: 4.46 seconds
+[2021.01.11-21.33.18:526][365]LogMainFrame: MainFrame: Module compiling took 4.836 seconds
+[2021.01.11-21.33.18:540][365]LogClass: Could not find existing class CharacterBase in package /Script/DroneShooting for HotReload, assuming new class
+[2021.01.11-21.33.18:558][365]LogHotReload: Re-instancing CharacterBase after hot-reload.
+[2021.01.11-21.33.18:611][365]LogContentBrowser: Native class hierarchy updated for 'DroneShooting' in 0.0006 seconds. Added 2 classes and 3 folders.
+[2021.01.11-21.33.18:615][365]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2021.01.11-21.33.18:785][365]LogContentBrowser: Native class hierarchy populated in 0.0115 seconds. Added 3430 classes and 827 folders.
+[2021.01.11-21.33.18:798][365]Display: HotReload took  5.1s.
+[2021.01.11-21.33.46:784][922]Candidate modules for hot reload:
+[2021.01.11-21.33.46:784][922]  DroneShooting
+[2021.01.11-21.33.46:784][922]Launching UnrealBuildTool... [D:/Documents/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=DroneShooting,3359 DroneShootingEditor Win64 Development -Project="D:/Documents/GameDesign/ue4-ml.drone.shooting/DroneShooting/DroneShooting.uproject" "D:/Documents/GameDesign/ue4-ml.drone.shooting/DroneShooting/DroneShooting.uproject"  -IgnoreJunk]
+[2021.01.11-21.33.46:892][922]Warning: Starting HotReload took  0.2s.
+[2021.01.11-21.33.52:152][ 68]CompilerResultsLog: New page: Compilation - Jan. 11, 2021, 11:33:52 a.m.
+[2021.01.11-21.33.52:152][ 68]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (D:\Documents\GameDesign\ue4-ml.drone.shooting).
+[2021.01.11-21.33.52:152][ 68]CompilerResultsLog: Building DroneShootingEditor...
+[2021.01.11-21.33.52:152][ 68]CompilerResultsLog: Using Visual Studio 2019 14.27.29112 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2021.01.11-21.33.52:152][ 68]CompilerResultsLog: Building 4 actions with 12 processes...
+[2021.01.11-21.33.52:152][ 68]CompilerResultsLog:   [1/4] CharacterBase.cpp
+[2021.01.11-21.33.52:152][ 68]CompilerResultsLog:   [2/4] UE4Editor-DroneShooting-3359.lib
+[2021.01.11-21.33.52:152][ 68]CompilerResultsLog:      Creating library D:\Documents\GameDesign\ue4-ml.drone.shooting\DroneShooting\Intermediate\Build\Win64\UE4Editor\Development\DroneShooting\UE4Editor-DroneShooting-3359.lib and object D:\Documents\GameDesign\ue4-ml.drone.shooting\DroneShooting\Intermediate\Build\Win64\UE4Editor\Development\DroneShooting\UE4Editor-DroneShooting-3359.exp
+[2021.01.11-21.33.52:152][ 68]CompilerResultsLog:   [3/4] UE4Editor-DroneShooting-3359.dll
+[2021.01.11-21.33.52:152][ 68]CompilerResultsLog:      Creating library D:\Documents\GameDesign\ue4-ml.drone.shooting\DroneShooting\Intermediate\Build\Win64\UE4Editor\Development\DroneShooting\UE4Editor-DroneShooting-3359.suppressed.lib and object D:\Documents\GameDesign\ue4-ml.drone.shooting\DroneShooting\Intermediate\Build\Win64\UE4Editor\Development\DroneShooting\UE4Editor-DroneShooting-3359.suppressed.exp
+[2021.01.11-21.33.52:152][ 68]CompilerResultsLog:   [4/4] DroneShootingEditor.target
+[2021.01.11-21.33.52:152][ 68]CompilerResultsLog: Total time in Parallel executor: 3.86 seconds
+[2021.01.11-21.33.52:152][ 68]CompilerResultsLog: Total execution time: 5.05 seconds
+[2021.01.11-21.33.52:152][ 68]LogMainFrame: MainFrame: Module compiling took 5.425 seconds
+[2021.01.11-21.33.52:174][ 68]LogHotReload: Re-instancing CharacterBase after hot-reload.
+[2021.01.11-21.33.52:258][ 68]LogContentBrowser: Native class hierarchy updated for 'DroneShooting' in 0.0008 seconds. Added 2 classes and 3 folders.
+[2021.01.11-21.33.52:264][ 68]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2021.01.11-21.33.52:431][ 68]LogContentBrowser: Native class hierarchy populated in 0.0131 seconds. Added 3430 classes and 827 folders.
+[2021.01.11-21.33.52:441][ 68]Display: HotReload took  5.7s.
+[2021.01.11-21.33.59:830][285]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/Character/BP_ShooterCharacter.BP_ShooterCharacter
+[2021.01.11-21.34.02:376][384]LogSlate: Window 'BP_ShooterCharacter' being destroyed
+[2021.01.11-21.34.02:407][384]LogWorld: UWorld::CleanupWorld for World_4, bSessionEnded=true, bCleanupResources=true
+[2021.01.11-21.34.02:407][384]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.11-21.34.02:498][384]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/Character/BP_ShooterCharacter.BP_ShooterCharacter
+[2021.01.11-21.34.14:316][938]Candidate modules for hot reload:
+[2021.01.11-21.34.14:316][938]  DroneShooting
+[2021.01.11-21.34.14:316][938]Launching UnrealBuildTool... [D:/Documents/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=DroneShooting,2788 DroneShootingEditor Win64 Development -Project="D:/Documents/GameDesign/ue4-ml.drone.shooting/DroneShooting/DroneShooting.uproject" "D:/Documents/GameDesign/ue4-ml.drone.shooting/DroneShooting/DroneShooting.uproject"  -IgnoreJunk]
+[2021.01.11-21.34.14:436][938]Warning: Starting HotReload took  0.2s.
+[2021.01.11-21.34.17:996][ 12]CompilerResultsLog: New page: Compilation - Jan. 11, 2021, 11:34:17 a.m.
+[2021.01.11-21.34.17:996][ 12]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (D:\Documents\GameDesign\ue4-ml.drone.shooting).
+[2021.01.11-21.34.17:996][ 12]CompilerResultsLog: Building DroneShootingEditor...
+[2021.01.11-21.34.17:996][ 12]CompilerResultsLog: Using Visual Studio 2019 14.27.29112 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2021.01.11-21.34.17:996][ 12]CompilerResultsLog: Building 4 actions with 12 processes...
+[2021.01.11-21.34.17:996][ 12]CompilerResultsLog:   [1/4] CharacterBase.cpp
+[2021.01.11-21.34.17:996][ 12]CompilerResultsLog:   [2/4] UE4Editor-DroneShooting-2788.lib
+[2021.01.11-21.34.17:996][ 12]CompilerResultsLog:      Creating library D:\Documents\GameDesign\ue4-ml.drone.shooting\DroneShooting\Intermediate\Build\Win64\UE4Editor\Development\DroneShooting\UE4Editor-DroneShooting-2788.lib and object D:\Documents\GameDesign\ue4-ml.drone.shooting\DroneShooting\Intermediate\Build\Win64\UE4Editor\Development\DroneShooting\UE4Editor-DroneShooting-2788.exp
+[2021.01.11-21.34.17:996][ 12]CompilerResultsLog:   [3/4] UE4Editor-DroneShooting-2788.dll
+[2021.01.11-21.34.17:996][ 12]CompilerResultsLog:      Creating library D:\Documents\GameDesign\ue4-ml.drone.shooting\DroneShooting\Intermediate\Build\Win64\UE4Editor\Development\DroneShooting\UE4Editor-DroneShooting-2788.suppressed.lib and object D:\Documents\GameDesign\ue4-ml.drone.shooting\DroneShooting\Intermediate\Build\Win64\UE4Editor\Development\DroneShooting\UE4Editor-DroneShooting-2788.suppressed.exp
+[2021.01.11-21.34.17:996][ 12]CompilerResultsLog:   [4/4] DroneShootingEditor.target
+[2021.01.11-21.34.17:996][ 12]CompilerResultsLog: Total time in Parallel executor: 2.40 seconds
+[2021.01.11-21.34.17:996][ 12]CompilerResultsLog: Total execution time: 3.36 seconds
+[2021.01.11-21.34.17:996][ 12]LogMainFrame: MainFrame: Module compiling took 3.742 seconds
+[2021.01.11-21.34.18:019][ 12]LogContentBrowser: Native class hierarchy updated for 'DroneShooting' in 0.0005 seconds. Added 2 classes and 3 folders.
+[2021.01.11-21.34.18:025][ 12]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2021.01.11-21.34.18:203][ 12]LogContentBrowser: Native class hierarchy populated in 0.0105 seconds. Added 3430 classes and 827 folders.
+[2021.01.11-21.34.18:216][ 12]Display: HotReload took  4.0s.
+[2021.01.11-21.34.20:470][ 57]Candidate modules for hot reload:
+[2021.01.11-21.34.20:470][ 57]  DroneShooting
+[2021.01.11-21.34.20:470][ 57]Launching UnrealBuildTool... [D:/Documents/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=DroneShooting,295 DroneShootingEditor Win64 Development -Project="D:/Documents/GameDesign/ue4-ml.drone.shooting/DroneShooting/DroneShooting.uproject" "D:/Documents/GameDesign/ue4-ml.drone.shooting/DroneShooting/DroneShooting.uproject"  -IgnoreJunk]
+[2021.01.11-21.34.20:562][ 57]Warning: Starting HotReload took  0.1s.
+[2021.01.11-21.34.25:159][373]CompilerResultsLog: New page: Compilation - Jan. 11, 2021, 11:34:25 a.m.
+[2021.01.11-21.34.25:159][373]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (D:\Documents\GameDesign\ue4-ml.drone.shooting).
+[2021.01.11-21.34.25:159][373]CompilerResultsLog: Building DroneShootingEditor...
+[2021.01.11-21.34.25:159][373]CompilerResultsLog: Using Visual Studio 2019 14.27.29112 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2021.01.11-21.34.25:159][373]CompilerResultsLog: Building 3 actions with 12 processes...
+[2021.01.11-21.34.25:159][373]CompilerResultsLog:   [1/3] UE4Editor-DroneShooting-0295.lib
+[2021.01.11-21.34.25:159][373]CompilerResultsLog:      Creating library D:\Documents\GameDesign\ue4-ml.drone.shooting\DroneShooting\Intermediate\Build\Win64\UE4Editor\Development\DroneShooting\UE4Editor-DroneShooting-0295.lib and object D:\Documents\GameDesign\ue4-ml.drone.shooting\DroneShooting\Intermediate\Build\Win64\UE4Editor\Development\DroneShooting\UE4Editor-DroneShooting-0295.exp
+[2021.01.11-21.34.25:159][373]CompilerResultsLog:   [2/3] UE4Editor-DroneShooting-0295.dll
+[2021.01.11-21.34.25:159][373]CompilerResultsLog:      Creating library D:\Documents\GameDesign\ue4-ml.drone.shooting\DroneShooting\Intermediate\Build\Win64\UE4Editor\Development\DroneShooting\UE4Editor-DroneShooting-0295.suppressed.lib and object D:\Documents\GameDesign\ue4-ml.drone.shooting\DroneShooting\Intermediate\Build\Win64\UE4Editor\Development\DroneShooting\UE4Editor-DroneShooting-0295.suppressed.exp
+[2021.01.11-21.34.25:159][373]CompilerResultsLog:   [3/3] DroneShootingEditor.target
+[2021.01.11-21.34.25:159][373]CompilerResultsLog: Total time in Parallel executor: 3.44 seconds
+[2021.01.11-21.34.25:159][373]CompilerResultsLog: Total execution time: 4.43 seconds
+[2021.01.11-21.34.25:159][373]LogMainFrame: MainFrame: Module compiling took 4.695 seconds
+[2021.01.11-21.34.25:172][373]LogContentBrowser: Native class hierarchy populated in 0.0124 seconds. Added 3430 classes and 827 folders.
+[2021.01.11-21.34.25:182][373]Display: HotReload took  4.7s.
+[2021.01.11-21.34.30:950][474]LogSlate: Window 'BP_ShooterCharacter' being destroyed
+[2021.01.11-21.34.30:993][474]LogWorld: UWorld::CleanupWorld for World_6, bSessionEnded=true, bCleanupResources=true
+[2021.01.11-21.34.30:993][474]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.11-21.35.28:659][910]Candidate modules for hot reload:
+[2021.01.11-21.35.28:659][910]  DroneShooting
+[2021.01.11-21.35.28:659][910]Launching UnrealBuildTool... [D:/Documents/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=DroneShooting,3124 DroneShootingEditor Win64 Development -Project="D:/Documents/GameDesign/ue4-ml.drone.shooting/DroneShooting/DroneShooting.uproject" "D:/Documents/GameDesign/ue4-ml.drone.shooting/DroneShooting/DroneShooting.uproject"  -IgnoreJunk]
+[2021.01.11-21.35.28:763][910]Warning: Starting HotReload took  0.1s.
+[2021.01.11-21.35.32:358][ 34]CompilerResultsLog: New page: Compilation - Jan. 11, 2021, 11:35:32 a.m.
+[2021.01.11-21.35.32:358][ 34]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (D:\Documents\GameDesign\ue4-ml.drone.shooting).
+[2021.01.11-21.35.32:358][ 34]CompilerResultsLog: Building DroneShootingEditor...
+[2021.01.11-21.35.32:358][ 34]CompilerResultsLog: Using Visual Studio 2019 14.27.29112 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2021.01.11-21.35.32:358][ 34]CompilerResultsLog: Building 4 actions with 12 processes...
+[2021.01.11-21.35.32:358][ 34]CompilerResultsLog:   [1/4] CharacterBase.cpp
+[2021.01.11-21.35.32:358][ 34]CompilerResultsLog:   [2/4] UE4Editor-DroneShooting-3124.lib
+[2021.01.11-21.35.32:358][ 34]CompilerResultsLog:      Creating library D:\Documents\GameDesign\ue4-ml.drone.shooting\DroneShooting\Intermediate\Build\Win64\UE4Editor\Development\DroneShooting\UE4Editor-DroneShooting-3124.lib and object D:\Documents\GameDesign\ue4-ml.drone.shooting\DroneShooting\Intermediate\Build\Win64\UE4Editor\Development\DroneShooting\UE4Editor-DroneShooting-3124.exp
+[2021.01.11-21.35.32:358][ 34]CompilerResultsLog:   [3/4] UE4Editor-DroneShooting-3124.dll
+[2021.01.11-21.35.32:358][ 34]CompilerResultsLog:      Creating library D:\Documents\GameDesign\ue4-ml.drone.shooting\DroneShooting\Intermediate\Build\Win64\UE4Editor\Development\DroneShooting\UE4Editor-DroneShooting-3124.suppressed.lib and object D:\Documents\GameDesign\ue4-ml.drone.shooting\DroneShooting\Intermediate\Build\Win64\UE4Editor\Development\DroneShooting\UE4Editor-DroneShooting-3124.suppressed.exp
+[2021.01.11-21.35.32:358][ 34]CompilerResultsLog:   [4/4] DroneShootingEditor.target
+[2021.01.11-21.35.32:358][ 34]CompilerResultsLog: Total time in Parallel executor: 2.40 seconds
+[2021.01.11-21.35.32:358][ 34]CompilerResultsLog: Total execution time: 3.44 seconds
+[2021.01.11-21.35.32:358][ 34]LogMainFrame: MainFrame: Module compiling took 3.728 seconds
+[2021.01.11-21.35.32:388][ 34]LogContentBrowser: Native class hierarchy updated for 'DroneShooting' in 0.0005 seconds. Added 2 classes and 3 folders.
+[2021.01.11-21.35.32:397][ 34]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2021.01.11-21.35.32:624][ 34]LogContentBrowser: Native class hierarchy populated in 0.0109 seconds. Added 3430 classes and 827 folders.
+[2021.01.11-21.35.32:638][ 34]Display: HotReload took  4.0s.
+[2021.01.11-21.35.35:686][ 86]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/Character/BP_ShooterCharacter.BP_ShooterCharacter
+[2021.01.11-21.36.01:185][462]LogSlate: Window 'BP_ShooterCharacter' being destroyed
+[2021.01.11-21.36.01:246][462]LogWorld: UWorld::CleanupWorld for World_7, bSessionEnded=true, bCleanupResources=true
+[2021.01.11-21.36.01:246][462]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.11-21.36.55:289][129]Candidate modules for hot reload:
+[2021.01.11-21.36.55:289][129]  DroneShooting
+[2021.01.11-21.36.55:289][129]Launching UnrealBuildTool... [D:/Documents/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=DroneShooting,7567 DroneShootingEditor Win64 Development -Project="D:/Documents/GameDesign/ue4-ml.drone.shooting/DroneShooting/DroneShooting.uproject" "D:/Documents/GameDesign/ue4-ml.drone.shooting/DroneShooting/DroneShooting.uproject"  -IgnoreJunk]
+[2021.01.11-21.36.59:486][129]Warning: Starting HotReload took  4.2s.
+[2021.01.11-21.37.11:408][381]CompilerResultsLog: New page: Compilation - Jan. 11, 2021, 11:37:11 a.m.
+[2021.01.11-21.37.11:408][381]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (D:\Documents\GameDesign\ue4-ml.drone.shooting).
+[2021.01.11-21.37.11:408][381]CompilerResultsLog: Parsing headers for DroneShootingEditor
+[2021.01.11-21.37.11:408][381]CompilerResultsLog:   Running UnrealHeaderTool "D:\Documents\GameDesign\ue4-ml.drone.shooting\DroneShooting\DroneShooting.uproject" "D:\Documents\GameDesign\ue4-ml.drone.shooting\DroneShooting\Intermediate\Build\Win64\DroneShootingEditor\Development\DroneShootingEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\lipin\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+[2021.01.11-21.37.11:408][381]CompilerResultsLog: Reflection code generated for DroneShootingEditor in 7.9117491 seconds
+[2021.01.11-21.37.11:408][381]CompilerResultsLog: Building DroneShootingEditor...
+[2021.01.11-21.37.11:408][381]CompilerResultsLog: Using Visual Studio 2019 14.27.29112 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2021.01.11-21.37.11:408][381]CompilerResultsLog: Building 6 actions with 12 processes...
+[2021.01.11-21.37.11:408][381]CompilerResultsLog:   [1/6] DroneShooting.init.gen.cpp
+[2021.01.11-21.37.11:409][381]CompilerResultsLog:   [2/6] CharacterBase.gen.cpp
+[2021.01.11-21.37.11:409][381]CompilerResultsLog:   [3/6] CharacterBase.cpp
+[2021.01.11-21.37.11:409][381]CompilerResultsLog:   [4/6] UE4Editor-DroneShooting-7567.lib
+[2021.01.11-21.37.11:409][381]CompilerResultsLog:      Creating library D:\Documents\GameDesign\ue4-ml.drone.shooting\DroneShooting\Intermediate\Build\Win64\UE4Editor\Development\DroneShooting\UE4Editor-DroneShooting-7567.lib and object D:\Documents\GameDesign\ue4-ml.drone.shooting\DroneShooting\Intermediate\Build\Win64\UE4Editor\Development\DroneShooting\UE4Editor-DroneShooting-7567.exp
+[2021.01.11-21.37.11:409][381]CompilerResultsLog:   [5/6] UE4Editor-DroneShooting-7567.dll
+[2021.01.11-21.37.11:409][381]CompilerResultsLog:      Creating library D:\Documents\GameDesign\ue4-ml.drone.shooting\DroneShooting\Intermediate\Build\Win64\UE4Editor\Development\DroneShooting\UE4Editor-DroneShooting-7567.suppressed.lib and object D:\Documents\GameDesign\ue4-ml.drone.shooting\DroneShooting\Intermediate\Build\Win64\UE4Editor\Development\DroneShooting\UE4Editor-DroneShooting-7567.suppressed.exp
+[2021.01.11-21.37.11:409][381]CompilerResultsLog:   [6/6] DroneShootingEditor.target
+[2021.01.11-21.37.11:409][381]CompilerResultsLog: Total time in Parallel executor: 2.75 seconds
+[2021.01.11-21.37.11:409][381]CompilerResultsLog: Total execution time: 11.77 seconds
+[2021.01.11-21.37.11:409][381]LogMainFrame: MainFrame: Module compiling took 16.172 seconds
+[2021.01.11-21.37.11:421][381]LogClass: Could not find existing class CharacterBase in package /Script/DroneShooting for HotReload, assuming new class
+[2021.01.11-21.37.11:449][381]LogHotReload: Re-instancing CharacterBase after hot-reload.
+[2021.01.11-21.37.11:542][381]LogContentBrowser: Native class hierarchy updated for 'DroneShooting' in 0.0005 seconds. Added 2 classes and 3 folders.
+[2021.01.11-21.37.11:552][381]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2021.01.11-21.37.11:821][381]LogContentBrowser: Native class hierarchy populated in 0.0123 seconds. Added 3430 classes and 827 folders.
+[2021.01.11-21.37.11:831][381]Display: HotReload took 16.6s.
+[2021.01.11-21.37.25:111][705]Candidate modules for hot reload:
+[2021.01.11-21.37.25:111][705]  DroneShooting
+[2021.01.11-21.37.25:111][705]Launching UnrealBuildTool... [D:/Documents/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=DroneShooting,8665 DroneShootingEditor Win64 Development -Project="D:/Documents/GameDesign/ue4-ml.drone.shooting/DroneShooting/DroneShooting.uproject" "D:/Documents/GameDesign/ue4-ml.drone.shooting/DroneShooting/DroneShooting.uproject"  -IgnoreJunk]
+[2021.01.11-21.37.25:202][705]Warning: Starting HotReload took  0.1s.
+[2021.01.11-21.37.36:277][ 19]CompilerResultsLog: New page: Compilation - Jan. 11, 2021, 11:37:36 a.m.
+[2021.01.11-21.37.36:277][ 19]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (D:\Documents\GameDesign\ue4-ml.drone.shooting).
+[2021.01.11-21.37.36:277][ 19]CompilerResultsLog: Parsing headers for DroneShootingEditor
+[2021.01.11-21.37.36:277][ 19]CompilerResultsLog:   Running UnrealHeaderTool "D:\Documents\GameDesign\ue4-ml.drone.shooting\DroneShooting\DroneShooting.uproject" "D:\Documents\GameDesign\ue4-ml.drone.shooting\DroneShooting\Intermediate\Build\Win64\DroneShootingEditor\Development\DroneShootingEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\lipin\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+[2021.01.11-21.37.36:277][ 19]CompilerResultsLog: Reflection code generated for DroneShootingEditor in 7.1132391 seconds
+[2021.01.11-21.37.36:277][ 19]CompilerResultsLog: Building DroneShootingEditor...
+[2021.01.11-21.37.36:277][ 19]CompilerResultsLog: Using Visual Studio 2019 14.27.29112 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2021.01.11-21.37.36:277][ 19]CompilerResultsLog: Building 5 actions with 12 processes...
+[2021.01.11-21.37.36:277][ 19]CompilerResultsLog:   [1/5] CharacterBase.gen.cpp
+[2021.01.11-21.37.36:277][ 19]CompilerResultsLog:   [2/5] CharacterBase.cpp
+[2021.01.11-21.37.36:277][ 19]CompilerResultsLog:   [3/5] UE4Editor-DroneShooting-8665.lib
+[2021.01.11-21.37.36:277][ 19]CompilerResultsLog:      Creating library D:\Documents\GameDesign\ue4-ml.drone.shooting\DroneShooting\Intermediate\Build\Win64\UE4Editor\Development\DroneShooting\UE4Editor-DroneShooting-8665.lib and object D:\Documents\GameDesign\ue4-ml.drone.shooting\DroneShooting\Intermediate\Build\Win64\UE4Editor\Development\DroneShooting\UE4Editor-DroneShooting-8665.exp
+[2021.01.11-21.37.36:277][ 19]CompilerResultsLog:   [4/5] UE4Editor-DroneShooting-8665.dll
+[2021.01.11-21.37.36:277][ 19]CompilerResultsLog:      Creating library D:\Documents\GameDesign\ue4-ml.drone.shooting\DroneShooting\Intermediate\Build\Win64\UE4Editor\Development\DroneShooting\UE4Editor-DroneShooting-8665.suppressed.lib and object D:\Documents\GameDesign\ue4-ml.drone.shooting\DroneShooting\Intermediate\Build\Win64\UE4Editor\Development\DroneShooting\UE4Editor-DroneShooting-8665.suppressed.exp
+[2021.01.11-21.37.36:278][ 19]CompilerResultsLog:   [5/5] DroneShootingEditor.target
+[2021.01.11-21.37.36:278][ 19]CompilerResultsLog: Total time in Parallel executor: 2.50 seconds
+[2021.01.11-21.37.36:278][ 19]CompilerResultsLog: Total execution time: 10.86 seconds
+[2021.01.11-21.37.36:278][ 19]LogMainFrame: MainFrame: Module compiling took 11.172 seconds
+[2021.01.11-21.37.36:289][ 19]LogOutputDevice: Warning: 
+
+Script Stack (0 frames):
+
+[2021.01.11-21.37.36:290][ 19]LogWindows: Windows GetLastError: The operation completed successfully. (0)
