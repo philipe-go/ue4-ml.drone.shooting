@@ -2,9 +2,12 @@
 
 #include "CharacterBase.h"
 #include "Camera/CameraComponent.h"
+#include "Components/SkinnedMeshComponent.h"
 #include "GameFramework/Actor.h"
 #include "GameFramework/CharacterMovementComponent.h"
 #include "GameFramework/SpringArmComponent.h"
+#include "GameFramework/SpringArmComponent.h"
+#include "DroneShooting/Gun/GunShooter.h"
 
 // Sets default values
 ACharacterBase::ACharacterBase()
@@ -26,6 +29,15 @@ void ACharacterBase::BeginPlay()
 	SetCameraRight();
 	SetCameraFar();
 	Walk();
+
+	MainGun = GetWorld()->SpawnActor<AGunShooter>(GunClass);
+	if (MainGun)
+	{
+		MainGun->AttachToComponent(GetMesh(), FAttachmentTransformRules::KeepRelativeTransform, TEXT("gun"));
+		MainGun->SetOwner(this);
+	}
+	// GetMesh()->HideBoneByName(TEXT("gun"),EPhysBodyOp::PBO_None);
+	// GetMesh()->HideBoneByName(TEXT("shotgun_base"),EPhysBodyOp::PBO_None);
 }
 
 // Called every frame
