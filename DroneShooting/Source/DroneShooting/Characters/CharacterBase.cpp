@@ -1,9 +1,9 @@
 // Fill out your copyright notice in the Description page of Project Settings.
 
-
 #include "CharacterBase.h"
 #include "Camera/CameraComponent.h"
 #include "GameFramework/Actor.h"
+#include "GameFramework/CharacterMovementComponent.h"
 #include "GameFramework/SpringArmComponent.h"
 
 // Sets default values
@@ -22,8 +22,10 @@ ACharacterBase::ACharacterBase()
 void ACharacterBase::BeginPlay()
 {
 	Super::BeginPlay();
+
 	SetCameraRight();
 	SetCameraFar();
+	Walk();
 }
 
 // Called every frame
@@ -45,59 +47,107 @@ void ACharacterBase::SetupPlayerInputComponent(UInputComponent* PlayerInputCompo
 	
 	//Bind the jump function straight from the class ACharacter and execute in this instance
 	PlayerInputComponent->BindAction(TEXT("Jump"), EInputEvent::IE_Pressed, this, &ACharacter::Jump);
+	PlayerInputComponent->BindAction(TEXT("Run"), EInputEvent::IE_Pressed, this, &ACharacterBase::Run);
+	PlayerInputComponent->BindAction(TEXT("Run"), EInputEvent::IE_Released, this, &ACharacterBase::Walk);
 	PlayerInputComponent->BindAction(TEXT("CameraLeft"), EInputEvent::IE_Pressed, this, &ACharacterBase::SetCameraLeft);
 	PlayerInputComponent->BindAction(TEXT("CameraRight"), EInputEvent::IE_Pressed, this, &ACharacterBase::SetCameraRight);
 	PlayerInputComponent->BindAction(TEXT("AIM"), EInputEvent::IE_Pressed, this, &ACharacterBase::SetCameraClose);
 	PlayerInputComponent->BindAction(TEXT("AIM"), EInputEvent::IE_Released, this, &ACharacterBase::SetCameraFar);
 }
 
+/**
+ * @brief Vertical Move Input
+ * @param AxisValue 
+ */
 void ACharacterBase::MoveForward(float AxisValue) 
 {
 	AddMovementInput(GetActorForwardVector() * AxisValue);
 }
 
+/**
+ * @brief Horizontal Move Input
+ * @param AxisValue 
+ */
 void ACharacterBase::MoveRight(float AxisValue) 
 {
 	AddMovementInput(GetActorRightVector() * AxisValue);
 }
 
+/**
+ * @brief Look Axis input - Y axis
+ * @param AxisValue 
+ */
 void ACharacterBase::LookUp(float AxisValue) 
 {
 	if(bIsAiming) AddControllerPitchInput(AxisValue * RateOfTurn * GetWorld()->GetDeltaSeconds());
 }
 
+/**
+ * @brief Look Axis input - X axis
+ * @param AxisValue 
+ */
 void ACharacterBase::LookRight(float AxisValue) 
 {
 	AddControllerYawInput(AxisValue * RateOfTurn * GetWorld()->GetDeltaSeconds());
 }
 
+/**
+ * @brief Alter the speed of the player to running speed
+ */
+void ACharacterBase::Run() 
+{
+	GetCharacterMovement()->MaxWalkSpeed = MAX_WALK_SPEED * SpeedMultiplier;
+}
+
+/**
+ * @brief Alter the speed of the player to walk speed
+ */
+void ACharacterBase::Walk() 
+{
+	GetCharacterMovement()->MaxWalkSpeed = MAX_WALK_SPEED;
+}
+
+/**
+ * @brief Sets the camera to left shoulder
+ */
 void ACharacterBase::SetCameraLeft() 
 {
 	if (!SpringArm) return;
-	FVector CurrentLocation = SpringArm->GetRelativeLocation(); 
+	// FVector CurrentLocation = SpringArm->GetRelativeLocation(); 
+	FVector CurrentLocation = SpringArm->TargetOffset;
 	SpringArm->SetRelativeLocation(FVector(CurrentLocation.X, -CAMERA_Y_LOCATION, CurrentLocation.Z), true);
 }
 
+/**
+ * @brief Sets the camera to right shoulder
+ */
 void ACharacterBase::SetCameraRight() 
 {
 	if (!SpringArm) return;
-	FVector CurrentLocation = SpringArm->GetRelativeLocation(); 
+	// FVector CurrentLocation = SpringArm->GetRelativeLocation(); 
+	FVector CurrentLocation = SpringArm->TargetOffset;
 	SpringArm->SetRelativeLocation(FVector(CurrentLocation.X, CAMERA_Y_LOCATION, CurrentLocation.Z), true);
 	
 }
 
+/**
+ * @brief Sets the camera to close position (when aiming)
+ */
 void ACharacterBase::SetCameraClose() 
 {
 	if (!SpringArm) return;
-	SpringArm->TargetArmLength = CAMERA_DISTANCE/1.5;
+	SpringArm->TargetArmLength = CAMERA_DISTANCE/CameraChangeRate;
 	SpringArm->bUsePawnControlRotation = true;
 	bIsAiming = true;
 }
 
+/**
+ * @brief Sets the camera to far position (when not aiming)
+ */
 void ACharacterBase::SetCameraFar() 
 {
 	if (!SpringArm) return;
-	SpringArm->TargetArmLength = CAMERA_DISTANCE*1.5;
+	SpringArm->TargetArmLength = CAMERA_DISTANCE;
 	SpringArm->bUsePawnControlRotation = false;
 	bIsAiming = false;
 }

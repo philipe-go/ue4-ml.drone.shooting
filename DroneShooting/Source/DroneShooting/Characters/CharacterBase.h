@@ -27,6 +27,7 @@ public:
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
 
 private:
+#pragma region //INPUT HANDLER
 	void MoveForward(float AxisValue);
 	
 	void MoveRight(float AxisValue);
@@ -35,20 +36,40 @@ private:
 	
 	void LookRight(float AxisValue);
 
+	void Run();
+
+	void Walk();
+#pragma endregion
+
+#pragma region //MOVEMENT HANDLER
+	class AController* PlayerController;
+
 	UPROPERTY(EditAnywhere)
 	float RateOfTurn = 15.f;
 
+	UPROPERTY(EditAnywhere)
+	float SpeedMultiplier = 1.5f;
+
+	const float MAX_WALK_SPEED = 500.f;
+#pragma endregion
+
+#pragma region //CAMERA HANDLER
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category="Camera System", meta=(AllowPrivateAccess="true"))
 	class USpringArmComponent* SpringArm;
+	
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category="Camera System", meta=(AllowPrivateAccess="true"))
 	class UCameraComponent* Camera;
+	
+	const float CAMERA_Y_LOCATION = 60.f;
+	const float CAMERA_DISTANCE = 300.f;
+	UPROPERTY(EditAnywhere, Category="Camera System", meta=(AllowPrivateAccess="true"))
+	float CameraChangeRate = 2.f;
 
-	const float CAMERA_Y_LOCATION = 50.f;
-	const float CAMERA_DISTANCE = 150.f;
 	bool bIsAiming = false;
+	
 	void SetCameraLeft();
 	void SetCameraRight();
 	void SetCameraClose();
 	void SetCameraFar();
-
+#pragma endregion
 };
