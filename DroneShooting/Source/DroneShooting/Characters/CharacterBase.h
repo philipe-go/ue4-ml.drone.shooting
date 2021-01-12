@@ -41,6 +41,8 @@ private:
 	void Run();
 
 	void Walk();
+
+	void Shoot();
 #pragma endregion
 
 #pragma region //MOVEMENT HANDLER

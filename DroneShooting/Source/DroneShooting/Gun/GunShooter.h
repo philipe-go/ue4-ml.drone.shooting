@@ -28,4 +28,6 @@ public:
 
 	UPROPERTY(EditAnywhere)
 	class USkeletalMeshComponent* GunMesh;
+
+	void ShootProjectile();
 };

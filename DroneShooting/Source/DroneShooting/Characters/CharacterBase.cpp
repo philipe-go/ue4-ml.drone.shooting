@@ -65,6 +65,7 @@ void ACharacterBase::SetupPlayerInputComponent(UInputComponent* PlayerInputCompo
 	PlayerInputComponent->BindAction(TEXT("CameraRight"), EInputEvent::IE_Pressed, this, &ACharacterBase::SetCameraRight);
 	PlayerInputComponent->BindAction(TEXT("AIM"), EInputEvent::IE_Pressed, this, &ACharacterBase::SetCameraClose);
 	PlayerInputComponent->BindAction(TEXT("AIM"), EInputEvent::IE_Released, this, &ACharacterBase::SetCameraFar);
+	PlayerInputComponent->BindAction(TEXT("Shoot"), EInputEvent::IE_Pressed, this, &ACharacterBase::Shoot);
 }
 
 /**
@@ -117,6 +118,11 @@ void ACharacterBase::Run()
 void ACharacterBase::Walk() 
 {
 	GetCharacterMovement()->MaxWalkSpeed = MAX_WALK_SPEED;
+}
+
+void ACharacterBase::Shoot() 
+{
+	if (MainGun) MainGun->ShootProjectile();
 }
 
 /**
