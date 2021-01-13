@@ -1630,3 +1630,1240 @@ Script call stack:
 [2021.01.13-20.42.48:183][380]LogMainFrame: MainFrame: Module compiling took 12.806 seconds
 [2021.01.13-20.42.48:197][380]LogContentBrowser: Native class hierarchy populated in 0.0136 seconds. Added 3432 classes and 830 folders.
 [2021.01.13-20.42.48:211][380]Display: HotReload took 12.8s.
+[2021.01.13-20.45.20:778][742]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Sandbox" FILE="../../../../GameDesign/ue4-ml.drone.shooting/DroneShooting/Content/Maps/Sandbox.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2021.01.13-20.45.20:889][742]LogUObjectHash: Compacting FUObjectHashTables data took   4.94ms
+[2021.01.13-20.45.20:937][742]LogSavePackage: Moving '../../../../GameDesign/ue4-ml.drone.shooting/DroneShooting/Saved/Sandbox7364288D45DF9B6DA44CE7B2C302DFD0.tmp' to '../../../../GameDesign/ue4-ml.drone.shooting/DroneShooting/Content/Maps/Sandbox.umap'
+[2021.01.13-20.45.20:981][742]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Sandbox_BuiltData" FILE="../../../../GameDesign/ue4-ml.drone.shooting/DroneShooting/Content/Maps/Sandbox_BuiltData.uasset" SILENT=true
+[2021.01.13-20.45.21:022][742]LogSavePackage: Moving '../../../../GameDesign/ue4-ml.drone.shooting/DroneShooting/Saved/Sandbox_BuiltData8747F1CE42BE64017399FD99603E52D5.tmp' to '../../../../GameDesign/ue4-ml.drone.shooting/DroneShooting/Content/Maps/Sandbox_BuiltData.uasset'
+[2021.01.13-20.45.21:055][742]AssetCheck: New page: Asset Save: multiple assets
+[2021.01.13-20.45.21:056][742]LogContentValidation: Display: Validating World /Game/Maps/Sandbox.Sandbox
+[2021.01.13-20.45.21:056][742]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Maps/Sandbox_BuiltData.Sandbox_BuiltData
+[2021.01.13-20.46.05:682][283]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:ExecuteUbergraph_Murdock_AnimBlueprint
+
+[2021.01.13-20.46.07:262][375]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:ExecuteUbergraph_Murdock_AnimBlueprint
+
+[2021.01.13-20.46.07:263][375]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:ExecuteUbergraph_Murdock_AnimBlueprint
+
+[2021.01.13-20.46.07:265][375]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:ExecuteUbergraph_Murdock_AnimBlueprint
+
+[2021.01.13-20.46.08:643][455]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:ExecuteUbergraph_Murdock_AnimBlueprint
+
+[2021.01.13-20.46.08:645][455]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:ExecuteUbergraph_Murdock_AnimBlueprint
+
+[2021.01.13-20.46.08:776][455]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:ExecuteUbergraph_Murdock_AnimBlueprint
+
+[2021.01.13-20.46.10:523][547]LogTemp: Repeating last play command: Selected Viewport
+[2021.01.13-20.46.10:545][547]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.01.13-20.46.10:545][547]PIE: New page: PIE session: Sandbox (Jan. 13, 2021, 10:46:10 a.m.)
+[2021.01.13-20.46.10:545][547]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Sandbox
+[2021.01.13-20.46.10:548][547]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003222s)
+[2021.01.13-20.46.10:550][547]LogAIModule: Creating AISystem for world Sandbox
+[2021.01.13-20.46.10:550][547]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001BDAACDFE00), frame # 63547
+[2021.01.13-20.46.10:550][547]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001BD56981E40), frame # 63547
+[2021.01.13-20.46.10:550][547]LogPlayLevel: PIE: World Init took: (0.001524s)
+[2021.01.13-20.46.10:550][547]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Sandbox.Sandbox to /Game/Maps/UEDPIE_0_Sandbox.Sandbox (0.004916s)
+[2021.01.13-20.46.10:601][547]LogUObjectHash: Compacting FUObjectHashTables data took   2.98ms
+[2021.01.13-20.46.10:605][547]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.01.13-20.46.10:605][547]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.01.13-20.46.10:605][547]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.01.13-20.46.10:605][547]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.01.13-20.46.10:605][547]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.01.13-20.46.10:605][547]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.01.13-20.46.10:605][547]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.01.13-20.46.10:605][547]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.01.13-20.46.10:606][547]LogAudio: Display: Using built-in audio occlusion.
+[2021.01.13-20.46.10:606][547]LogAudioMixer: Display: Initializing audio mixer.
+[2021.01.13-20.46.10:611][547]LogAudioMixer: Display: 0: FrontLeft
+[2021.01.13-20.46.10:611][547]LogAudioMixer: Display: 1: FrontRight
+[2021.01.13-20.46.10:638][547]LogAudioMixer: Display: Using Audio Device Speakers (Bose SoundLink Wireless Mobile speaker Stereo)
+[2021.01.13-20.46.10:638][547]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.01.13-20.46.10:638][547]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.01.13-20.46.10:638][547]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.01.13-20.46.10:639][547]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.01.13-20.46.10:655][547]LogInit: FAudioDevice initialized.
+[2021.01.13-20.46.10:666][547]LogLoad: Game class is 'BP_ShooterGameMode_C'
+[2021.01.13-20.46.10:668][547]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:ExecuteUbergraph_Murdock_AnimBlueprint
+
+[2021.01.13-20.46.10:668][547]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Sandbox.Sandbox up for play (max tick rate 60) at 2021.01.13-15.46.10
+[2021.01.13-20.46.10:673][547]LogWorld: Bringing up level for play took: 0.006152
+[2021.01.13-20.46.10:674][547]LogOnline: OSS: Creating online subsystem instance for: :Context_27
+[2021.01.13-20.46.10:677][547]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:ExecuteUbergraph_Murdock_AnimBlueprint
+
+[2021.01.13-20.46.10:678][547]PIE: Server logged in
+[2021.01.13-20.46.10:679][547]PIE: Play in editor total start time 0.14 seconds.
+[2021.01.13-20.46.12:878][677]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/ParagonMurdock/Characters/Heroes/Murdock/Animations/LevelStart_Montage.LevelStart_Montage'
+[2021.01.13-20.46.12:878][677]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/ParagonMurdock/Characters/Heroes/Murdock/Animations/LevelStart_Montage.LevelStart_Montage'
+[2021.01.13-20.46.48:786][825]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.13-20.46.48:787][825]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Sandbox
+[2021.01.13-20.46.48:797][825]LogWorld: UWorld::CleanupWorld for Sandbox, bSessionEnded=true, bCleanupResources=true
+[2021.01.13-20.46.48:798][825]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.13-20.46.48:805][825]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.01.13-20.46.48:809][825]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.13-20.46.48:828][825]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.13-20.46.48:850][825]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001BD56981E40), frame # 65825
+[2021.01.13-20.46.48:850][825]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001BDAACDFE00), frame # 65825
+[2021.01.13-20.46.48:853][825]LogUObjectHash: Compacting FUObjectHashTables data took   2.46ms
+[2021.01.13-20.46.48:911][826]LogPlayLevel: Display: Destroying online subsystem :Context_27
+[2021.01.13-20.46.55:538][876]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Sandbox" FILE="../../../../GameDesign/ue4-ml.drone.shooting/DroneShooting/Content/Maps/Sandbox.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2021.01.13-20.46.55:564][876]LogUObjectHash: Compacting FUObjectHashTables data took   2.21ms
+[2021.01.13-20.46.55:594][876]LogSavePackage: Moving '../../../../GameDesign/ue4-ml.drone.shooting/DroneShooting/Saved/Sandbox26A5A4B54CC9AB945B620FA78637462C.tmp' to '../../../../GameDesign/ue4-ml.drone.shooting/DroneShooting/Content/Maps/Sandbox.umap'
+[2021.01.13-20.46.55:629][876]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Sandbox_BuiltData" FILE="../../../../GameDesign/ue4-ml.drone.shooting/DroneShooting/Content/Maps/Sandbox_BuiltData.uasset" SILENT=true
+[2021.01.13-20.46.55:657][876]LogSavePackage: Moving '../../../../GameDesign/ue4-ml.drone.shooting/DroneShooting/Saved/Sandbox_BuiltData025F0EBF46B426A08F8203883618FE21.tmp' to '../../../../GameDesign/ue4-ml.drone.shooting/DroneShooting/Content/Maps/Sandbox_BuiltData.uasset'
+[2021.01.13-20.46.55:678][876]AssetCheck: New page: Asset Save: multiple assets
+[2021.01.13-20.46.55:678][876]LogContentValidation: Display: Validating World /Game/Maps/Sandbox.Sandbox
+[2021.01.13-20.46.55:678][876]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Maps/Sandbox_BuiltData.Sandbox_BuiltData
+[2021.01.13-20.57.15:074][776]Candidate modules for hot reload:
+[2021.01.13-20.57.15:074][776]  DroneShooting
+[2021.01.13-20.57.15:075][776]Launching UnrealBuildTool... [D:/Documents/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=DroneShooting,7331 DroneShootingEditor Win64 Development -Project="D:/Documents/GameDesign/ue4-ml.drone.shooting/DroneShooting/DroneShooting.uproject" "D:/Documents/GameDesign/ue4-ml.drone.shooting/DroneShooting/DroneShooting.uproject"  -IgnoreJunk]
+[2021.01.13-20.57.15:343][776]Warning: Starting HotReload took  0.3s.
+[2021.01.13-20.57.28:411][548]CompilerResultsLog: New page: Compilation - Jan. 13, 2021, 10:57:28 a.m.
+[2021.01.13-20.57.28:411][548]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (D:\Documents\GameDesign\ue4-ml.drone.shooting).
+[2021.01.13-20.57.28:411][548]CompilerResultsLog: Parsing headers for DroneShootingEditor
+[2021.01.13-20.57.28:411][548]CompilerResultsLog:   Running UnrealHeaderTool "D:\Documents\GameDesign\ue4-ml.drone.shooting\DroneShooting\DroneShooting.uproject" "D:\Documents\GameDesign\ue4-ml.drone.shooting\DroneShooting\Intermediate\Build\Win64\DroneShootingEditor\Development\DroneShootingEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\lipin\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+[2021.01.13-20.57.28:411][548]CompilerResultsLog: Reflection code generated for DroneShootingEditor in 8.2001402 seconds
+[2021.01.13-20.57.28:411][548]CompilerResultsLog: Building DroneShootingEditor...
+[2021.01.13-20.57.28:411][548]CompilerResultsLog: Using Visual Studio 2019 14.27.29112 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2021.01.13-20.57.28:411][548]CompilerResultsLog: Building 6 actions with 12 processes...
+[2021.01.13-20.57.28:411][548]CompilerResultsLog:   [1/6] DroneShooting.init.gen.cpp
+[2021.01.13-20.57.28:412][548]CompilerResultsLog:   [2/6] CharacterBase.gen.cpp
+[2021.01.13-20.57.28:412][548]CompilerResultsLog:   [3/6] CharacterBase.cpp
+[2021.01.13-20.57.28:412][548]CompilerResultsLog:   [4/6] UE4Editor-DroneShooting-7331.lib
+[2021.01.13-20.57.28:412][548]CompilerResultsLog:      Creating library D:\Documents\GameDesign\ue4-ml.drone.shooting\DroneShooting\Intermediate\Build\Win64\UE4Editor\Development\DroneShooting\UE4Editor-DroneShooting-7331.lib and object D:\Documents\GameDesign\ue4-ml.drone.shooting\DroneShooting\Intermediate\Build\Win64\UE4Editor\Development\DroneShooting\UE4Editor-DroneShooting-7331.exp
+[2021.01.13-20.57.28:412][548]CompilerResultsLog:   [5/6] UE4Editor-DroneShooting-7331.dll
+[2021.01.13-20.57.28:412][548]CompilerResultsLog:      Creating library D:\Documents\GameDesign\ue4-ml.drone.shooting\DroneShooting\Intermediate\Build\Win64\UE4Editor\Development\DroneShooting\UE4Editor-DroneShooting-7331.suppressed.lib and object D:\Documents\GameDesign\ue4-ml.drone.shooting\DroneShooting\Intermediate\Build\Win64\UE4Editor\Development\DroneShooting\UE4Editor-DroneShooting-7331.suppressed.exp
+[2021.01.13-20.57.28:412][548]CompilerResultsLog:   [6/6] DroneShootingEditor.target
+[2021.01.13-20.57.28:412][548]CompilerResultsLog: Total time in Parallel executor: 3.54 seconds
+[2021.01.13-20.57.28:412][548]CompilerResultsLog: Total execution time: 12.87 seconds
+[2021.01.13-20.57.28:412][548]LogMainFrame: MainFrame: Module compiling took 13.342 seconds
+[2021.01.13-20.57.28:423][548]LogClass: Could not find existing class CharacterBase in package /Script/DroneShooting for HotReload, assuming new class
+[2021.01.13-20.57.28:448][548]LogHotReload: Re-instancing CharacterBase after hot-reload.
+[2021.01.13-20.57.28:463][548]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:ExecuteUbergraph_Murdock_AnimBlueprint
+
+[2021.01.13-20.57.28:465][548]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:ExecuteUbergraph_Murdock_AnimBlueprint
+
+[2021.01.13-20.57.28:466][548]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:ExecuteUbergraph_Murdock_AnimBlueprint
+
+[2021.01.13-20.57.28:467][548]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:ExecuteUbergraph_Murdock_AnimBlueprint
+
+[2021.01.13-20.57.28:496][548]LogContentBrowser: Native class hierarchy updated for 'DroneShooting' in 0.0006 seconds. Added 3 classes and 4 folders.
+[2021.01.13-20.57.28:500][548]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2021.01.13-20.57.28:638][548]LogContentBrowser: Native class hierarchy populated in 0.0108 seconds. Added 3432 classes and 830 folders.
+[2021.01.13-20.57.28:649][548]Display: HotReload took 13.6s.
+[2021.01.13-20.58.29:814][187]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:ExecuteUbergraph_Murdock_AnimBlueprint
+
+[2021.01.13-20.58.30:453][223]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/Character/BP_ShooterCharacter.BP_ShooterCharacter
+[2021.01.13-20.58.31:027][223]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:ExecuteUbergraph_Murdock_AnimBlueprint
+
+[2021.01.13-20.58.32:521][298]LogSlate: Window 'BP_ShooterCharacter' being destroyed
+[2021.01.13-20.58.32:574][298]LogWorld: UWorld::CleanupWorld for World_15, bSessionEnded=true, bCleanupResources=true
+[2021.01.13-20.58.32:574][298]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.13-20.58.32:642][298]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/Character/BP_ShooterCharacter.BP_ShooterCharacter
+[2021.01.13-20.58.33:146][298]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:ExecuteUbergraph_Murdock_AnimBlueprint
+
+[2021.01.13-20.58.34:370][363]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:ExecuteUbergraph_Murdock_AnimBlueprint
+
+[2021.01.13-20.58.34:425][364]LogRenderer: Reallocating scene render targets to support 1056x696 Format 10 NumSamples 1 (Frame:1).
+[2021.01.13-20.58.35:629][432]LogSlate: Took 0.004978 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2021.01.13-20.58.51:004][263]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:ExecuteUbergraph_Murdock_AnimBlueprint
+
+[2021.01.13-20.58.51:007][263]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:ExecuteUbergraph_Murdock_AnimBlueprint
+
+[2021.01.13-20.58.51:010][263]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:ExecuteUbergraph_Murdock_AnimBlueprint
+
+[2021.01.13-20.58.51:014][263]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:ExecuteUbergraph_Murdock_AnimBlueprint
+
+[2021.01.13-20.58.51:015][263]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:ExecuteUbergraph_Murdock_AnimBlueprint
+
+[2021.01.13-20.58.51:016][263]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:ExecuteUbergraph_Murdock_AnimBlueprint
+
+[2021.01.13-20.58.51:044][263]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:ExecuteUbergraph_Murdock_AnimBlueprint
+
+[2021.01.13-20.58.52:351][339]BlueprintLog: New page: Compile BP_ShooterCharacter
+[2021.01.13-20.58.52:370][339]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:ExecuteUbergraph_Murdock_AnimBlueprint
+
+[2021.01.13-20.58.52:372][339]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:ExecuteUbergraph_Murdock_AnimBlueprint
+
+[2021.01.13-20.58.52:373][339]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:ExecuteUbergraph_Murdock_AnimBlueprint
+
+[2021.01.13-20.58.52:375][339]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:ExecuteUbergraph_Murdock_AnimBlueprint
+
+[2021.01.13-20.58.52:375][339]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:ExecuteUbergraph_Murdock_AnimBlueprint
+
+[2021.01.13-20.58.52:377][339]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:ExecuteUbergraph_Murdock_AnimBlueprint
+
+[2021.01.13-20.58.52:493][339]LogUObjectHash: Compacting FUObjectHashTables data took   9.75ms
+[2021.01.13-20.58.52:498][339]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:ExecuteUbergraph_Murdock_AnimBlueprint
+
+[2021.01.13-20.58.52:500][339]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:ExecuteUbergraph_Murdock_AnimBlueprint
+
+[2021.01.13-20.58.52:501][339]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:ExecuteUbergraph_Murdock_AnimBlueprint
+
+[2021.01.13-20.58.52:503][339]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:ExecuteUbergraph_Murdock_AnimBlueprint
+
+[2021.01.13-20.58.52:510][339]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:ExecuteUbergraph_Murdock_AnimBlueprint
+
+[2021.01.13-20.58.52:511][339]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:ExecuteUbergraph_Murdock_AnimBlueprint
+
+[2021.01.13-20.58.52:512][339]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:ExecuteUbergraph_Murdock_AnimBlueprint
+
+[2021.01.13-20.58.52:543][339]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:ExecuteUbergraph_Murdock_AnimBlueprint
+
+[2021.01.13-20.58.53:039][363]LogSavePackage: Moving '../../../../GameDesign/ue4-ml.drone.shooting/DroneShooting/Saved/BP_ShooterCharacter54CD28CB474A0728147A8B90051D956B.tmp' to '../../../../GameDesign/ue4-ml.drone.shooting/DroneShooting/Content/Blueprints/Character/BP_ShooterCharacter.uasset'
+[2021.01.13-20.58.53:059][363]AssetCheck: New page: Asset Save: BP_ShooterCharacter
+[2021.01.13-20.58.53:059][363]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/Character/BP_ShooterCharacter.BP_ShooterCharacter
+[2021.01.13-20.58.54:581][452]LogSlate: Window 'BP_ShooterCharacter' being destroyed
+[2021.01.13-20.58.54:600][452]LogWorld: UWorld::CleanupWorld for World_16, bSessionEnded=true, bCleanupResources=true
+[2021.01.13-20.58.54:600][452]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.13-20.58.55:332][492]LogTemp: Repeating last play command: Selected Viewport
+[2021.01.13-20.58.55:354][492]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.01.13-20.58.55:354][492]PIE: New page: PIE session: Sandbox (Jan. 13, 2021, 10:58:55 a.m.)
+[2021.01.13-20.58.55:354][492]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Sandbox
+[2021.01.13-20.58.55:360][492]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005323s)
+[2021.01.13-20.58.55:361][492]LogAIModule: Creating AISystem for world Sandbox
+[2021.01.13-20.58.55:362][492]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001BD93C3AA00), frame # 75492
+[2021.01.13-20.58.55:362][492]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001BDB529F240), frame # 75492
+[2021.01.13-20.58.55:362][492]LogPlayLevel: PIE: World Init took: (0.002284s)
+[2021.01.13-20.58.55:362][492]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Sandbox.Sandbox to /Game/Maps/UEDPIE_0_Sandbox.Sandbox (0.007864s)
+[2021.01.13-20.58.55:412][492]LogUObjectHash: Compacting FUObjectHashTables data took   3.18ms
+[2021.01.13-20.58.55:414][492]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.01.13-20.58.55:414][492]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.01.13-20.58.55:414][492]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.01.13-20.58.55:414][492]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.01.13-20.58.55:414][492]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.01.13-20.58.55:414][492]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.01.13-20.58.55:414][492]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.01.13-20.58.55:415][492]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.01.13-20.58.55:415][492]LogAudio: Display: Using built-in audio occlusion.
+[2021.01.13-20.58.55:415][492]LogAudioMixer: Display: Initializing audio mixer.
+[2021.01.13-20.58.55:420][492]LogAudioMixer: Display: 0: FrontLeft
+[2021.01.13-20.58.55:420][492]LogAudioMixer: Display: 1: FrontRight
+[2021.01.13-20.58.55:447][492]LogAudioMixer: Display: Using Audio Device Speakers (Bose SoundLink Wireless Mobile speaker Stereo)
+[2021.01.13-20.58.55:447][492]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.01.13-20.58.55:448][492]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.01.13-20.58.55:448][492]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.01.13-20.58.55:448][492]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.01.13-20.58.55:465][492]LogInit: FAudioDevice initialized.
+[2021.01.13-20.58.55:476][492]LogLoad: Game class is 'BP_ShooterGameMode_C'
+[2021.01.13-20.58.55:478][492]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:ExecuteUbergraph_Murdock_AnimBlueprint
+
+[2021.01.13-20.58.55:479][492]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Sandbox.Sandbox up for play (max tick rate 60) at 2021.01.13-15.58.55
+[2021.01.13-20.58.55:479][492]LogWorld: Bringing up level for play took: 0.001714
+[2021.01.13-20.58.55:479][492]LogOnline: OSS: Creating online subsystem instance for: :Context_31
+[2021.01.13-20.58.55:482][492]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:ExecuteUbergraph_Murdock_AnimBlueprint
+
+[2021.01.13-20.58.55:483][492]PIE: Server logged in
+[2021.01.13-20.58.55:485][492]PIE: Play in editor total start time 0.136 seconds.
+[2021.01.13-20.58.57:681][623]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/ParagonMurdock/Characters/Heroes/Murdock/Animations/LevelStart_Montage.LevelStart_Montage'
+[2021.01.13-20.58.57:681][623]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/ParagonMurdock/Characters/Heroes/Murdock/Animations/LevelStart_Montage.LevelStart_Montage'
+[2021.01.13-20.59.34:955][858]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.13-20.59.34:955][858]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Sandbox
+[2021.01.13-20.59.34:955][858]LogWorld: UWorld::CleanupWorld for Sandbox, bSessionEnded=true, bCleanupResources=true
+[2021.01.13-20.59.34:956][858]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.13-20.59.34:966][858]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.01.13-20.59.34:971][858]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.13-20.59.35:013][858]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.13-20.59.35:015][858]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001BDB529F240), frame # 77858
+[2021.01.13-20.59.35:015][858]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001BD93C3AA00), frame # 77858
+[2021.01.13-20.59.35:017][858]LogUObjectHash: Compacting FUObjectHashTables data took   2.39ms
+[2021.01.13-20.59.35:067][859]LogPlayLevel: Display: Destroying online subsystem :Context_31
+[2021.01.13-20.59.43:549][114]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/Character/BP_ShooterCharacter.BP_ShooterCharacter
+[2021.01.13-20.59.44:060][114]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:ExecuteUbergraph_Murdock_AnimBlueprint
+
+[2021.01.13-20.59.47:843][309]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:ExecuteUbergraph_Murdock_AnimBlueprint
+
+[2021.01.13-20.59.47:844][309]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:ExecuteUbergraph_Murdock_AnimBlueprint
+
+[2021.01.13-20.59.47:845][309]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:ExecuteUbergraph_Murdock_AnimBlueprint
+
+[2021.01.13-20.59.47:847][309]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:ExecuteUbergraph_Murdock_AnimBlueprint
+
+[2021.01.13-20.59.47:848][309]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:ExecuteUbergraph_Murdock_AnimBlueprint
+
+[2021.01.13-20.59.47:848][309]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:ExecuteUbergraph_Murdock_AnimBlueprint
+
+[2021.01.13-20.59.48:672][355]BlueprintLog: New page: Compile BP_ShooterCharacter
+[2021.01.13-20.59.48:692][355]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:ExecuteUbergraph_Murdock_AnimBlueprint
+
+[2021.01.13-20.59.48:694][355]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:ExecuteUbergraph_Murdock_AnimBlueprint
+
+[2021.01.13-20.59.48:695][355]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:ExecuteUbergraph_Murdock_AnimBlueprint
+
+[2021.01.13-20.59.48:696][355]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:ExecuteUbergraph_Murdock_AnimBlueprint
+
+[2021.01.13-20.59.48:697][355]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:ExecuteUbergraph_Murdock_AnimBlueprint
+
+[2021.01.13-20.59.48:699][355]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:ExecuteUbergraph_Murdock_AnimBlueprint
+
+[2021.01.13-20.59.48:743][355]LogUObjectHash: Compacting FUObjectHashTables data took   2.74ms
+[2021.01.13-20.59.48:746][355]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:ExecuteUbergraph_Murdock_AnimBlueprint
+
+[2021.01.13-20.59.48:746][355]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:ExecuteUbergraph_Murdock_AnimBlueprint
+
+[2021.01.13-20.59.48:747][355]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:ExecuteUbergraph_Murdock_AnimBlueprint
+
+[2021.01.13-20.59.48:748][355]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:ExecuteUbergraph_Murdock_AnimBlueprint
+
+[2021.01.13-20.59.48:755][355]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:ExecuteUbergraph_Murdock_AnimBlueprint
+
+[2021.01.13-20.59.48:757][355]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:ExecuteUbergraph_Murdock_AnimBlueprint
+
+[2021.01.13-20.59.48:757][355]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:ExecuteUbergraph_Murdock_AnimBlueprint
+
+[2021.01.13-20.59.49:088][367]LogSavePackage: Moving '../../../../GameDesign/ue4-ml.drone.shooting/DroneShooting/Saved/BP_ShooterCharacter6D7E13194F948F4D9129C38DA2135519.tmp' to '../../../../GameDesign/ue4-ml.drone.shooting/DroneShooting/Content/Blueprints/Character/BP_ShooterCharacter.uasset'
+[2021.01.13-20.59.49:106][367]AssetCheck: New page: Asset Save: BP_ShooterCharacter
+[2021.01.13-20.59.49:106][367]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/Character/BP_ShooterCharacter.BP_ShooterCharacter
+[2021.01.13-20.59.50:166][425]LogSlate: Window 'BP_ShooterCharacter' being destroyed
+[2021.01.13-20.59.50:185][425]LogWorld: UWorld::CleanupWorld for World_18, bSessionEnded=true, bCleanupResources=true
+[2021.01.13-20.59.50:185][425]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.13-20.59.51:033][471]LogTemp: Repeating last play command: Selected Viewport
+[2021.01.13-20.59.51:060][471]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.01.13-20.59.51:060][471]PIE: New page: PIE session: Sandbox (Jan. 13, 2021, 10:59:51 a.m.)
+[2021.01.13-20.59.51:060][471]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Sandbox
+[2021.01.13-20.59.51:064][471]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003556s)
+[2021.01.13-20.59.51:065][471]LogAIModule: Creating AISystem for world Sandbox
+[2021.01.13-20.59.51:065][471]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001BD678F3800), frame # 78471
+[2021.01.13-20.59.51:065][471]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001BDA9874CC0), frame # 78471
+[2021.01.13-20.59.51:065][471]LogPlayLevel: PIE: World Init took: (0.001286s)
+[2021.01.13-20.59.51:065][471]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Sandbox.Sandbox to /Game/Maps/UEDPIE_0_Sandbox.Sandbox (0.004988s)
+[2021.01.13-20.59.51:090][471]LogUObjectHash: Compacting FUObjectHashTables data took   2.82ms
+[2021.01.13-20.59.51:092][471]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.01.13-20.59.51:092][471]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.01.13-20.59.51:092][471]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.01.13-20.59.51:092][471]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.01.13-20.59.51:092][471]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.01.13-20.59.51:092][471]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.01.13-20.59.51:092][471]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.01.13-20.59.51:092][471]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.01.13-20.59.51:093][471]LogAudio: Display: Using built-in audio occlusion.
+[2021.01.13-20.59.51:093][471]LogAudioMixer: Display: Initializing audio mixer.
+[2021.01.13-20.59.51:097][471]LogAudioMixer: Display: 0: FrontLeft
+[2021.01.13-20.59.51:097][471]LogAudioMixer: Display: 1: FrontRight
+[2021.01.13-20.59.51:123][471]LogAudioMixer: Display: Using Audio Device Speakers (Bose SoundLink Wireless Mobile speaker Stereo)
+[2021.01.13-20.59.51:123][471]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.01.13-20.59.51:123][471]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.01.13-20.59.51:123][471]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.01.13-20.59.51:123][471]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.01.13-20.59.51:141][471]LogInit: FAudioDevice initialized.
+[2021.01.13-20.59.51:151][471]LogLoad: Game class is 'BP_ShooterGameMode_C'
+[2021.01.13-20.59.51:153][471]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:ExecuteUbergraph_Murdock_AnimBlueprint
+
+[2021.01.13-20.59.51:154][471]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Sandbox.Sandbox up for play (max tick rate 60) at 2021.01.13-15.59.51
+[2021.01.13-20.59.51:154][471]LogWorld: Bringing up level for play took: 0.001900
+[2021.01.13-20.59.51:154][471]LogOnline: OSS: Creating online subsystem instance for: :Context_33
+[2021.01.13-20.59.51:157][471]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:ExecuteUbergraph_Murdock_AnimBlueprint
+
+[2021.01.13-20.59.51:159][471]PIE: Server logged in
+[2021.01.13-20.59.51:160][471]PIE: Play in editor total start time 0.107 seconds.
+[2021.01.13-20.59.53:373][603]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/ParagonMurdock/Characters/Heroes/Murdock/Animations/LevelStart_Montage.LevelStart_Montage'
+[2021.01.13-20.59.53:373][603]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/ParagonMurdock/Characters/Heroes/Murdock/Animations/LevelStart_Montage.LevelStart_Montage'
+[2021.01.13-21.00.05:095][303]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.13-21.00.05:095][303]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Sandbox
+[2021.01.13-21.00.05:095][303]LogWorld: UWorld::CleanupWorld for Sandbox, bSessionEnded=true, bCleanupResources=true
+[2021.01.13-21.00.05:096][303]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.13-21.00.05:106][303]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.01.13-21.00.05:110][303]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.13-21.00.05:152][303]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.13-21.00.05:153][303]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001BDA9874CC0), frame # 79303
+[2021.01.13-21.00.05:153][303]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001BD678F3800), frame # 79303
+[2021.01.13-21.00.05:157][303]LogUObjectHash: Compacting FUObjectHashTables data took   3.88ms
+[2021.01.13-21.00.05:200][304]LogPlayLevel: Display: Destroying online subsystem :Context_33
+[2021.01.13-21.00.10:028][494]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Sandbox" FILE="../../../../GameDesign/ue4-ml.drone.shooting/DroneShooting/Content/Maps/Sandbox.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2021.01.13-21.00.10:056][494]LogUObjectHash: Compacting FUObjectHashTables data took   2.36ms
+[2021.01.13-21.00.10:088][494]LogSavePackage: Moving '../../../../GameDesign/ue4-ml.drone.shooting/DroneShooting/Saved/SandboxFE5977CB4A453F1CC7484397B2B9AFD2.tmp' to '../../../../GameDesign/ue4-ml.drone.shooting/DroneShooting/Content/Maps/Sandbox.umap'
+[2021.01.13-21.00.10:133][494]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Sandbox_BuiltData" FILE="../../../../GameDesign/ue4-ml.drone.shooting/DroneShooting/Content/Maps/Sandbox_BuiltData.uasset" SILENT=true
+[2021.01.13-21.00.10:163][494]LogSavePackage: Moving '../../../../GameDesign/ue4-ml.drone.shooting/DroneShooting/Saved/Sandbox_BuiltDataC248327949D33EF269F8ADB44FB5CD08.tmp' to '../../../../GameDesign/ue4-ml.drone.shooting/DroneShooting/Content/Maps/Sandbox_BuiltData.uasset'
+[2021.01.13-21.00.10:184][494]AssetCheck: New page: Asset Save: multiple assets
+[2021.01.13-21.00.10:184][494]LogContentValidation: Display: Validating World /Game/Maps/Sandbox.Sandbox
+[2021.01.13-21.00.10:184][494]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Maps/Sandbox_BuiltData.Sandbox_BuiltData
+[2021.01.13-21.00.12:318][618]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/Character/BP_ShooterCharacter.BP_ShooterCharacter
+[2021.01.13-21.00.12:768][618]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:ExecuteUbergraph_Murdock_AnimBlueprint
+
+[2021.01.13-21.00.15:978][773]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:ExecuteUbergraph_Murdock_AnimBlueprint
+
+[2021.01.13-21.00.15:980][773]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:ExecuteUbergraph_Murdock_AnimBlueprint
+
+[2021.01.13-21.00.15:981][773]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:ExecuteUbergraph_Murdock_AnimBlueprint
+
+[2021.01.13-21.00.15:982][773]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:ExecuteUbergraph_Murdock_AnimBlueprint
+
+[2021.01.13-21.00.15:983][773]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:ExecuteUbergraph_Murdock_AnimBlueprint
+
+[2021.01.13-21.00.15:983][773]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:ExecuteUbergraph_Murdock_AnimBlueprint
+
+[2021.01.13-21.00.17:172][837]BlueprintLog: New page: Compile BP_ShooterCharacter
+[2021.01.13-21.00.17:196][837]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:ExecuteUbergraph_Murdock_AnimBlueprint
+
+[2021.01.13-21.00.17:198][837]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:ExecuteUbergraph_Murdock_AnimBlueprint
+
+[2021.01.13-21.00.17:199][837]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:ExecuteUbergraph_Murdock_AnimBlueprint
+
+[2021.01.13-21.00.17:201][837]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:ExecuteUbergraph_Murdock_AnimBlueprint
+
+[2021.01.13-21.00.17:201][837]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:ExecuteUbergraph_Murdock_AnimBlueprint
+
+[2021.01.13-21.00.17:203][837]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:ExecuteUbergraph_Murdock_AnimBlueprint
+
+[2021.01.13-21.00.17:248][837]LogUObjectHash: Compacting FUObjectHashTables data took   4.20ms
+[2021.01.13-21.00.17:251][837]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:ExecuteUbergraph_Murdock_AnimBlueprint
+
+[2021.01.13-21.00.17:253][837]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:ExecuteUbergraph_Murdock_AnimBlueprint
+
+[2021.01.13-21.00.17:253][837]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:ExecuteUbergraph_Murdock_AnimBlueprint
+
+[2021.01.13-21.00.17:254][837]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:ExecuteUbergraph_Murdock_AnimBlueprint
+
+[2021.01.13-21.00.17:261][837]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:ExecuteUbergraph_Murdock_AnimBlueprint
+
+[2021.01.13-21.00.17:261][837]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:ExecuteUbergraph_Murdock_AnimBlueprint
+
+[2021.01.13-21.00.17:262][837]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:ExecuteUbergraph_Murdock_AnimBlueprint
+
+[2021.01.13-21.00.17:695][856]LogSavePackage: Moving '../../../../GameDesign/ue4-ml.drone.shooting/DroneShooting/Saved/BP_ShooterCharacterF4FD681D458D2775BA3B6786EEA12C54.tmp' to '../../../../GameDesign/ue4-ml.drone.shooting/DroneShooting/Content/Blueprints/Character/BP_ShooterCharacter.uasset'
+[2021.01.13-21.00.17:712][856]AssetCheck: New page: Asset Save: BP_ShooterCharacter
+[2021.01.13-21.00.17:712][856]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/Character/BP_ShooterCharacter.BP_ShooterCharacter
+[2021.01.13-21.00.37:309][984]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:ExecuteUbergraph_Murdock_AnimBlueprint
+
+[2021.01.13-21.00.37:311][984]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:ExecuteUbergraph_Murdock_AnimBlueprint
+
+[2021.01.13-21.00.37:312][984]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:ExecuteUbergraph_Murdock_AnimBlueprint
+
+[2021.01.13-21.00.37:313][984]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:ExecuteUbergraph_Murdock_AnimBlueprint
+
+[2021.01.13-21.00.37:314][984]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:ExecuteUbergraph_Murdock_AnimBlueprint
+
+[2021.01.13-21.00.37:315][984]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:ExecuteUbergraph_Murdock_AnimBlueprint
+
+[2021.01.13-21.00.38:316][ 41]BlueprintLog: New page: Compile BP_ShooterCharacter
+[2021.01.13-21.00.38:338][ 41]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:ExecuteUbergraph_Murdock_AnimBlueprint
+
+[2021.01.13-21.00.38:340][ 41]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:ExecuteUbergraph_Murdock_AnimBlueprint
+
+[2021.01.13-21.00.38:341][ 41]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:ExecuteUbergraph_Murdock_AnimBlueprint
+
+[2021.01.13-21.00.38:343][ 41]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:ExecuteUbergraph_Murdock_AnimBlueprint
+
+[2021.01.13-21.00.38:344][ 41]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:ExecuteUbergraph_Murdock_AnimBlueprint
+
+[2021.01.13-21.00.38:346][ 41]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:ExecuteUbergraph_Murdock_AnimBlueprint
+
+[2021.01.13-21.00.38:389][ 41]LogUObjectHash: Compacting FUObjectHashTables data took   3.01ms
+[2021.01.13-21.00.38:392][ 41]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:ExecuteUbergraph_Murdock_AnimBlueprint
+
+[2021.01.13-21.00.38:394][ 41]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:ExecuteUbergraph_Murdock_AnimBlueprint
+
+[2021.01.13-21.00.38:395][ 41]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:ExecuteUbergraph_Murdock_AnimBlueprint
+
+[2021.01.13-21.00.38:396][ 41]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:ExecuteUbergraph_Murdock_AnimBlueprint
+
+[2021.01.13-21.00.38:402][ 41]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:ExecuteUbergraph_Murdock_AnimBlueprint
+
+[2021.01.13-21.00.38:403][ 41]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:ExecuteUbergraph_Murdock_AnimBlueprint
+
+[2021.01.13-21.00.38:403][ 41]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:ExecuteUbergraph_Murdock_AnimBlueprint
+
+[2021.01.13-21.00.39:175][ 83]LogSlate: Window 'BP_ShooterCharacter' being destroyed
+[2021.01.13-21.00.39:186][ 83]LogWorld: UWorld::CleanupWorld for World_19, bSessionEnded=true, bCleanupResources=true
+[2021.01.13-21.00.39:186][ 83]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.13-21.00.39:999][126]LogTemp: Repeating last play command: Selected Viewport
+[2021.01.13-21.00.40:029][126]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.01.13-21.00.40:029][126]PIE: New page: PIE session: Sandbox (Jan. 13, 2021, 11:00:40 a.m.)
+[2021.01.13-21.00.40:029][126]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Sandbox
+[2021.01.13-21.00.40:033][126]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003335s)
+[2021.01.13-21.00.40:034][126]LogAIModule: Creating AISystem for world Sandbox
+[2021.01.13-21.00.40:034][126]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001BD38FEA200), frame # 81126
+[2021.01.13-21.00.40:034][126]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001BDB4BE0540), frame # 81126
+[2021.01.13-21.00.40:034][126]LogPlayLevel: PIE: World Init took: (0.001320s)
+[2021.01.13-21.00.40:034][126]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Sandbox.Sandbox to /Game/Maps/UEDPIE_0_Sandbox.Sandbox (0.004792s)
+[2021.01.13-21.00.40:060][126]LogUObjectHash: Compacting FUObjectHashTables data took   2.80ms
+[2021.01.13-21.00.40:062][126]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.01.13-21.00.40:062][126]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.01.13-21.00.40:062][126]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.01.13-21.00.40:062][126]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.01.13-21.00.40:062][126]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.01.13-21.00.40:062][126]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.01.13-21.00.40:062][126]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.01.13-21.00.40:062][126]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.01.13-21.00.40:063][126]LogAudio: Display: Using built-in audio occlusion.
+[2021.01.13-21.00.40:063][126]LogAudioMixer: Display: Initializing audio mixer.
+[2021.01.13-21.00.40:068][126]LogAudioMixer: Display: 0: FrontLeft
+[2021.01.13-21.00.40:069][126]LogAudioMixer: Display: 1: FrontRight
+[2021.01.13-21.00.40:093][126]LogAudioMixer: Display: Using Audio Device Speakers (Bose SoundLink Wireless Mobile speaker Stereo)
+[2021.01.13-21.00.40:093][126]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.01.13-21.00.40:093][126]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.01.13-21.00.40:093][126]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.01.13-21.00.40:093][126]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.01.13-21.00.40:110][126]LogInit: FAudioDevice initialized.
+[2021.01.13-21.00.40:121][126]LogLoad: Game class is 'BP_ShooterGameMode_C'
+[2021.01.13-21.00.40:123][126]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:ExecuteUbergraph_Murdock_AnimBlueprint
+
+[2021.01.13-21.00.40:124][126]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Sandbox.Sandbox up for play (max tick rate 60) at 2021.01.13-16.00.40
+[2021.01.13-21.00.40:124][126]LogWorld: Bringing up level for play took: 0.001874
+[2021.01.13-21.00.40:124][126]LogOnline: OSS: Creating online subsystem instance for: :Context_35
+[2021.01.13-21.00.40:127][126]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:ExecuteUbergraph_Murdock_AnimBlueprint
+
+[2021.01.13-21.00.40:128][126]PIE: Server logged in
+[2021.01.13-21.00.40:129][126]PIE: Play in editor total start time 0.106 seconds.
+[2021.01.13-21.00.42:344][258]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/ParagonMurdock/Characters/Heroes/Murdock/Animations/LevelStart_Montage.LevelStart_Montage'
+[2021.01.13-21.00.42:344][258]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/ParagonMurdock/Characters/Heroes/Murdock/Animations/LevelStart_Montage.LevelStart_Montage'
+[2021.01.13-21.00.52:996][895]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.13-21.00.52:996][895]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Sandbox
+[2021.01.13-21.00.52:996][895]LogWorld: UWorld::CleanupWorld for Sandbox, bSessionEnded=true, bCleanupResources=true
+[2021.01.13-21.00.52:997][895]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.13-21.00.53:004][895]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.01.13-21.00.53:009][895]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.13-21.00.53:050][895]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.13-21.00.53:051][895]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001BDB4BE0540), frame # 81895
+[2021.01.13-21.00.53:051][895]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001BD38FEA200), frame # 81895
+[2021.01.13-21.00.53:054][895]LogUObjectHash: Compacting FUObjectHashTables data took   2.48ms
+[2021.01.13-21.00.53:092][896]LogPlayLevel: Display: Destroying online subsystem :Context_35
+[2021.01.13-21.00.55:412][ 29]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/Character/BP_ShooterCharacter.BP_ShooterCharacter
+[2021.01.13-21.00.55:888][ 29]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:ExecuteUbergraph_Murdock_AnimBlueprint
+
+[2021.01.13-21.00.58:317][148]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:ExecuteUbergraph_Murdock_AnimBlueprint
+
+[2021.01.13-21.00.58:319][148]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:ExecuteUbergraph_Murdock_AnimBlueprint
+
+[2021.01.13-21.00.58:321][148]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:ExecuteUbergraph_Murdock_AnimBlueprint
+
+[2021.01.13-21.00.58:322][148]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:ExecuteUbergraph_Murdock_AnimBlueprint
+
+[2021.01.13-21.00.58:324][148]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:ExecuteUbergraph_Murdock_AnimBlueprint
+
+[2021.01.13-21.00.58:324][148]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:ExecuteUbergraph_Murdock_AnimBlueprint
+
+[2021.01.13-21.00.59:192][197]BlueprintLog: New page: Compile BP_ShooterCharacter
+[2021.01.13-21.00.59:209][197]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:ExecuteUbergraph_Murdock_AnimBlueprint
+
+[2021.01.13-21.00.59:211][197]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:ExecuteUbergraph_Murdock_AnimBlueprint
+
+[2021.01.13-21.00.59:212][197]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:ExecuteUbergraph_Murdock_AnimBlueprint
+
+[2021.01.13-21.00.59:214][197]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:ExecuteUbergraph_Murdock_AnimBlueprint
+
+[2021.01.13-21.00.59:215][197]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:ExecuteUbergraph_Murdock_AnimBlueprint
+
+[2021.01.13-21.00.59:216][197]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:ExecuteUbergraph_Murdock_AnimBlueprint
+
+[2021.01.13-21.00.59:257][197]LogUObjectHash: Compacting FUObjectHashTables data took   2.48ms
+[2021.01.13-21.00.59:260][197]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:ExecuteUbergraph_Murdock_AnimBlueprint
+
+[2021.01.13-21.00.59:260][197]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:ExecuteUbergraph_Murdock_AnimBlueprint
+
+[2021.01.13-21.00.59:261][197]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:ExecuteUbergraph_Murdock_AnimBlueprint
+
+[2021.01.13-21.00.59:262][197]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:ExecuteUbergraph_Murdock_AnimBlueprint
+
+[2021.01.13-21.00.59:268][197]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:ExecuteUbergraph_Murdock_AnimBlueprint
+
+[2021.01.13-21.00.59:269][197]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:ExecuteUbergraph_Murdock_AnimBlueprint
+
+[2021.01.13-21.00.59:269][197]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:ExecuteUbergraph_Murdock_AnimBlueprint
+
+[2021.01.13-21.00.59:628][211]LogSavePackage: Moving '../../../../GameDesign/ue4-ml.drone.shooting/DroneShooting/Saved/BP_ShooterCharacterD43C06744CC86640BB8E76B5F8B20F86.tmp' to '../../../../GameDesign/ue4-ml.drone.shooting/DroneShooting/Content/Blueprints/Character/BP_ShooterCharacter.uasset'
+[2021.01.13-21.00.59:652][211]AssetCheck: New page: Asset Save: BP_ShooterCharacter
+[2021.01.13-21.00.59:652][211]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/Character/BP_ShooterCharacter.BP_ShooterCharacter
+[2021.01.13-21.01.00:167][241]LogSlate: Window 'BP_ShooterCharacter' being destroyed
+[2021.01.13-21.01.00:203][241]LogWorld: UWorld::CleanupWorld for World_20, bSessionEnded=true, bCleanupResources=true
+[2021.01.13-21.01.00:203][241]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.13-21.01.00:863][276]LogTemp: Repeating last play command: Selected Viewport
+[2021.01.13-21.01.00:889][276]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.01.13-21.01.00:889][276]PIE: New page: PIE session: Sandbox (Jan. 13, 2021, 11:01:00 a.m.)
+[2021.01.13-21.01.00:889][276]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Sandbox
+[2021.01.13-21.01.00:894][276]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004953s)
+[2021.01.13-21.01.00:895][276]LogAIModule: Creating AISystem for world Sandbox
+[2021.01.13-21.01.00:895][276]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001BD85FD7A00), frame # 82276
+[2021.01.13-21.01.00:895][276]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001BD8990F100), frame # 82276
+[2021.01.13-21.01.00:895][276]LogPlayLevel: PIE: World Init took: (0.001197s)
+[2021.01.13-21.01.00:895][276]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Sandbox.Sandbox to /Game/Maps/UEDPIE_0_Sandbox.Sandbox (0.006314s)
+[2021.01.13-21.01.00:920][276]LogUObjectHash: Compacting FUObjectHashTables data took   3.53ms
+[2021.01.13-21.01.00:921][276]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.01.13-21.01.00:921][276]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.01.13-21.01.00:921][276]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.01.13-21.01.00:921][276]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.01.13-21.01.00:921][276]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.01.13-21.01.00:921][276]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.01.13-21.01.00:921][276]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.01.13-21.01.00:921][276]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.01.13-21.01.00:922][276]LogAudio: Display: Using built-in audio occlusion.
+[2021.01.13-21.01.00:922][276]LogAudioMixer: Display: Initializing audio mixer.
+[2021.01.13-21.01.00:928][276]LogAudioMixer: Display: 0: FrontLeft
+[2021.01.13-21.01.00:928][276]LogAudioMixer: Display: 1: FrontRight
+[2021.01.13-21.01.00:953][276]LogAudioMixer: Display: Using Audio Device Speakers (Bose SoundLink Wireless Mobile speaker Stereo)
+[2021.01.13-21.01.00:953][276]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.01.13-21.01.00:953][276]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.01.13-21.01.00:953][276]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.01.13-21.01.00:954][276]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.01.13-21.01.00:970][276]LogInit: FAudioDevice initialized.
+[2021.01.13-21.01.00:982][276]LogLoad: Game class is 'BP_ShooterGameMode_C'
+[2021.01.13-21.01.00:984][276]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:ExecuteUbergraph_Murdock_AnimBlueprint
+
+[2021.01.13-21.01.00:985][276]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Sandbox.Sandbox up for play (max tick rate 60) at 2021.01.13-16.01.00
+[2021.01.13-21.01.00:985][276]LogWorld: Bringing up level for play took: 0.001664
+[2021.01.13-21.01.00:985][276]LogOnline: OSS: Creating online subsystem instance for: :Context_37
+[2021.01.13-21.01.00:988][276]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:ExecuteUbergraph_Murdock_AnimBlueprint
+
+[2021.01.13-21.01.00:989][276]PIE: Server logged in
+[2021.01.13-21.01.00:990][276]PIE: Play in editor total start time 0.108 seconds.
+[2021.01.13-21.01.03:204][408]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/ParagonMurdock/Characters/Heroes/Murdock/Animations/LevelStart_Montage.LevelStart_Montage'
+[2021.01.13-21.01.03:204][408]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/ParagonMurdock/Characters/Heroes/Murdock/Animations/LevelStart_Montage.LevelStart_Montage'
+[2021.01.13-21.01.44:986][801]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.13-21.01.44:986][801]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Sandbox
+[2021.01.13-21.01.44:987][801]LogWorld: UWorld::CleanupWorld for Sandbox, bSessionEnded=true, bCleanupResources=true
+[2021.01.13-21.01.44:988][801]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.13-21.01.45:071][801]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.01.13-21.01.45:076][801]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.13-21.01.45:122][801]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.13-21.01.45:123][801]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001BD8990F100), frame # 84801
+[2021.01.13-21.01.45:123][801]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001BD85FD7A00), frame # 84801
+[2021.01.13-21.01.45:128][801]LogUObjectHash: Compacting FUObjectHashTables data took   3.92ms
+[2021.01.13-21.01.45:171][802]LogPlayLevel: Display: Destroying online subsystem :Context_37
+[2021.01.13-21.01.46:554][829]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Sandbox" FILE="../../../../GameDesign/ue4-ml.drone.shooting/DroneShooting/Content/Maps/Sandbox.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2021.01.13-21.01.46:581][829]LogUObjectHash: Compacting FUObjectHashTables data took   2.33ms
+[2021.01.13-21.01.46:608][829]LogSavePackage: Moving '../../../../GameDesign/ue4-ml.drone.shooting/DroneShooting/Saved/Sandbox3291D0D54A3EFAE50B5F679913480114.tmp' to '../../../../GameDesign/ue4-ml.drone.shooting/DroneShooting/Content/Maps/Sandbox.umap'
+[2021.01.13-21.01.46:646][829]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Sandbox_BuiltData" FILE="../../../../GameDesign/ue4-ml.drone.shooting/DroneShooting/Content/Maps/Sandbox_BuiltData.uasset" SILENT=true
+[2021.01.13-21.01.46:672][829]LogSavePackage: Moving '../../../../GameDesign/ue4-ml.drone.shooting/DroneShooting/Saved/Sandbox_BuiltData828309A1456611AFBE9C23847101DD8D.tmp' to '../../../../GameDesign/ue4-ml.drone.shooting/DroneShooting/Content/Maps/Sandbox_BuiltData.uasset'
+[2021.01.13-21.01.46:693][829]AssetCheck: New page: Asset Save: multiple assets
+[2021.01.13-21.01.46:693][829]LogContentValidation: Display: Validating World /Game/Maps/Sandbox.Sandbox
+[2021.01.13-21.01.46:693][829]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Maps/Sandbox_BuiltData.Sandbox_BuiltData
+[2021.01.13-21.03.17:742][192]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Sandbox" FILE="../../../../GameDesign/ue4-ml.drone.shooting/DroneShooting/Content/Maps/Sandbox.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2021.01.13-21.03.17:771][192]LogUObjectHash: Compacting FUObjectHashTables data took   2.39ms
+[2021.01.13-21.03.17:798][192]LogSavePackage: Moving '../../../../GameDesign/ue4-ml.drone.shooting/DroneShooting/Saved/Sandbox90CCD9AC4BDE17C99F2609B00B2B7D06.tmp' to '../../../../GameDesign/ue4-ml.drone.shooting/DroneShooting/Content/Maps/Sandbox.umap'
+[2021.01.13-21.03.17:832][192]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Sandbox_BuiltData" FILE="../../../../GameDesign/ue4-ml.drone.shooting/DroneShooting/Content/Maps/Sandbox_BuiltData.uasset" SILENT=true
+[2021.01.13-21.03.17:860][192]LogSavePackage: Moving '../../../../GameDesign/ue4-ml.drone.shooting/DroneShooting/Saved/Sandbox_BuiltDataED2C199B49D462233EBA4D8F89E67BA5.tmp' to '../../../../GameDesign/ue4-ml.drone.shooting/DroneShooting/Content/Maps/Sandbox_BuiltData.uasset'
+[2021.01.13-21.03.17:888][192]AssetCheck: New page: Asset Save: multiple assets
+[2021.01.13-21.03.17:888][192]LogContentValidation: Display: Validating World /Game/Maps/Sandbox.Sandbox
+[2021.01.13-21.03.17:888][192]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Maps/Sandbox_BuiltData.Sandbox_BuiltData
+[2021.01.13-21.03.36:157][285]LogTemp: Repeating last play command: Selected Viewport
+[2021.01.13-21.03.36:177][285]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.01.13-21.03.36:177][285]PIE: New page: PIE session: Sandbox (Jan. 13, 2021, 11:03:36 a.m.)
+[2021.01.13-21.03.36:213][285]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Sandbox
+[2021.01.13-21.03.36:224][285]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009564s)
+[2021.01.13-21.03.36:228][285]LogAIModule: Creating AISystem for world Sandbox
+[2021.01.13-21.03.36:228][285]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001BDC988D400), frame # 86285
+[2021.01.13-21.03.36:228][285]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001BD90C56840), frame # 86285
+[2021.01.13-21.03.36:229][285]LogPlayLevel: PIE: World Init took: (0.005370s)
+[2021.01.13-21.03.36:229][285]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Sandbox.Sandbox to /Game/Maps/UEDPIE_0_Sandbox.Sandbox (0.015420s)
+[2021.01.13-21.03.36:295][285]LogUObjectHash: Compacting FUObjectHashTables data took   3.38ms
+[2021.01.13-21.03.36:299][285]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.01.13-21.03.36:299][285]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.01.13-21.03.36:299][285]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.01.13-21.03.36:299][285]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.01.13-21.03.36:299][285]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.01.13-21.03.36:299][285]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.01.13-21.03.36:299][285]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.01.13-21.03.36:299][285]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.01.13-21.03.36:299][285]LogAudio: Display: Using built-in audio occlusion.
+[2021.01.13-21.03.36:299][285]LogAudioMixer: Display: Initializing audio mixer.
+[2021.01.13-21.03.36:306][285]LogAudioMixer: Display: 0: FrontLeft
+[2021.01.13-21.03.36:307][285]LogAudioMixer: Display: 1: FrontRight
+[2021.01.13-21.03.36:340][285]LogAudioMixer: Display: Using Audio Device Speakers (Bose SoundLink Wireless Mobile speaker Stereo)
+[2021.01.13-21.03.36:341][285]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.01.13-21.03.36:341][285]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.01.13-21.03.36:341][285]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.01.13-21.03.36:341][285]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.01.13-21.03.36:363][285]LogInit: FAudioDevice initialized.
+[2021.01.13-21.03.36:378][285]LogLoad: Game class is 'BP_ShooterGameMode_C'
+[2021.01.13-21.03.36:381][285]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:ExecuteUbergraph_Murdock_AnimBlueprint
+
+[2021.01.13-21.03.36:382][285]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Sandbox.Sandbox up for play (max tick rate 60) at 2021.01.13-16.03.36
+[2021.01.13-21.03.36:383][285]LogWorld: Bringing up level for play took: 0.002671
+[2021.01.13-21.03.36:383][285]LogOnline: OSS: Creating online subsystem instance for: :Context_38
+[2021.01.13-21.03.36:386][285]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:ExecuteUbergraph_Murdock_AnimBlueprint
+
+[2021.01.13-21.03.36:388][285]PIE: Server logged in
+[2021.01.13-21.03.36:390][285]PIE: Play in editor total start time 0.216 seconds.
+[2021.01.13-21.03.38:497][410]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/ParagonMurdock/Characters/Heroes/Murdock/Animations/LevelStart_Montage.LevelStart_Montage'
+[2021.01.13-21.03.38:497][410]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/ParagonMurdock/Characters/Heroes/Murdock/Animations/LevelStart_Montage.LevelStart_Montage'
+[2021.01.13-21.04.37:597][769]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.13-21.04.37:597][769]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Sandbox
+[2021.01.13-21.04.37:598][769]LogWorld: UWorld::CleanupWorld for Sandbox, bSessionEnded=true, bCleanupResources=true
+[2021.01.13-21.04.37:598][769]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.13-21.04.37:608][769]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.01.13-21.04.37:615][769]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.13-21.04.37:656][769]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.13-21.04.37:694][769]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001BD90C56840), frame # 89769
+[2021.01.13-21.04.37:694][769]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001BDC988D400), frame # 89769
+[2021.01.13-21.04.37:699][769]LogUObjectHash: Compacting FUObjectHashTables data took   4.36ms
+[2021.01.13-21.04.37:765][770]LogPlayLevel: Display: Destroying online subsystem :Context_38
+[2021.01.13-21.05.34:775][ 95]Candidate modules for hot reload:
+[2021.01.13-21.05.34:775][ 95]  DroneShooting
+[2021.01.13-21.05.34:776][ 95]Launching UnrealBuildTool... [D:/Documents/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=DroneShooting,3236 DroneShootingEditor Win64 Development -Project="D:/Documents/GameDesign/ue4-ml.drone.shooting/DroneShooting/DroneShooting.uproject" "D:/Documents/GameDesign/ue4-ml.drone.shooting/DroneShooting/DroneShooting.uproject"  -IgnoreJunk]
+[2021.01.13-21.05.36:123][ 95]Warning: Starting HotReload took  1.4s.
+[2021.01.13-21.05.48:188][804]CompilerResultsLog: New page: Compilation - Jan. 13, 2021, 11:05:48 a.m.
+[2021.01.13-21.05.48:188][804]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (D:\Documents\GameDesign\ue4-ml.drone.shooting).
+[2021.01.13-21.05.48:188][804]CompilerResultsLog: Parsing headers for DroneShootingEditor
+[2021.01.13-21.05.48:188][804]CompilerResultsLog:   Running UnrealHeaderTool "D:\Documents\GameDesign\ue4-ml.drone.shooting\DroneShooting\DroneShooting.uproject" "D:\Documents\GameDesign\ue4-ml.drone.shooting\DroneShooting\Intermediate\Build\Win64\DroneShootingEditor\Development\DroneShootingEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\lipin\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+[2021.01.13-21.05.48:188][804]CompilerResultsLog: Reflection code generated for DroneShootingEditor in 7.9942296 seconds
+[2021.01.13-21.05.48:188][804]CompilerResultsLog: Building DroneShootingEditor...
+[2021.01.13-21.05.48:188][804]CompilerResultsLog: Using Visual Studio 2019 14.27.29112 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2021.01.13-21.05.48:188][804]CompilerResultsLog: Building 5 actions with 12 processes...
+[2021.01.13-21.05.48:188][804]CompilerResultsLog:   [1/5] CharacterBase.gen.cpp
+[2021.01.13-21.05.48:189][804]CompilerResultsLog:   [2/5] CharacterBase.cpp
+[2021.01.13-21.05.48:189][804]CompilerResultsLog:   [3/5] UE4Editor-DroneShooting-3236.lib
+[2021.01.13-21.05.48:189][804]CompilerResultsLog:      Creating library D:\Documents\GameDesign\ue4-ml.drone.shooting\DroneShooting\Intermediate\Build\Win64\UE4Editor\Development\DroneShooting\UE4Editor-DroneShooting-3236.lib and object D:\Documents\GameDesign\ue4-ml.drone.shooting\DroneShooting\Intermediate\Build\Win64\UE4Editor\Development\DroneShooting\UE4Editor-DroneShooting-3236.exp
+[2021.01.13-21.05.48:189][804]CompilerResultsLog:   [4/5] UE4Editor-DroneShooting-3236.dll
+[2021.01.13-21.05.48:189][804]CompilerResultsLog:      Creating library D:\Documents\GameDesign\ue4-ml.drone.shooting\DroneShooting\Intermediate\Build\Win64\UE4Editor\Development\DroneShooting\UE4Editor-DroneShooting-3236.suppressed.lib and object D:\Documents\GameDesign\ue4-ml.drone.shooting\DroneShooting\Intermediate\Build\Win64\UE4Editor\Development\DroneShooting\UE4Editor-DroneShooting-3236.suppressed.exp
+[2021.01.13-21.05.48:189][804]CompilerResultsLog:   [5/5] DroneShootingEditor.target
+[2021.01.13-21.05.48:189][804]CompilerResultsLog: Total time in Parallel executor: 2.79 seconds
+[2021.01.13-21.05.48:189][804]CompilerResultsLog: Total execution time: 11.91 seconds
+[2021.01.13-21.05.48:189][804]LogMainFrame: MainFrame: Module compiling took 13.418 seconds
+[2021.01.13-21.05.48:213][804]LogContentBrowser: Native class hierarchy updated for 'DroneShooting' in 0.0007 seconds. Added 3 classes and 4 folders.
+[2021.01.13-21.05.48:218][804]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2021.01.13-21.05.48:425][804]LogContentBrowser: Native class hierarchy populated in 0.0112 seconds. Added 3432 classes and 830 folders.
+[2021.01.13-21.05.48:436][804]Display: HotReload took 13.7s.
+[2021.01.13-21.05.56:730][273]LogTemp: Repeating last play command: Selected Viewport
+[2021.01.13-21.05.56:751][273]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.01.13-21.05.56:751][273]PIE: New page: PIE session: Sandbox (Jan. 13, 2021, 11:05:56 a.m.)
+[2021.01.13-21.05.56:774][273]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Sandbox
+[2021.01.13-21.05.56:777][273]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003057s)
+[2021.01.13-21.05.56:778][273]LogAIModule: Creating AISystem for world Sandbox
+[2021.01.13-21.05.56:778][273]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001BD90894200), frame # 91273
+[2021.01.13-21.05.56:778][273]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001BDAC175300), frame # 91273
+[2021.01.13-21.05.56:778][273]LogPlayLevel: PIE: World Init took: (0.001316s)
+[2021.01.13-21.05.56:778][273]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Sandbox.Sandbox to /Game/Maps/UEDPIE_0_Sandbox.Sandbox (0.004572s)
+[2021.01.13-21.05.56:856][273]LogUObjectHash: Compacting FUObjectHashTables data took   3.98ms
+[2021.01.13-21.05.56:859][273]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.01.13-21.05.56:859][273]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.01.13-21.05.56:859][273]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.01.13-21.05.56:859][273]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.01.13-21.05.56:859][273]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.01.13-21.05.56:859][273]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.01.13-21.05.56:859][273]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.01.13-21.05.56:859][273]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.01.13-21.05.56:860][273]LogAudio: Display: Using built-in audio occlusion.
+[2021.01.13-21.05.56:860][273]LogAudioMixer: Display: Initializing audio mixer.
+[2021.01.13-21.05.56:865][273]LogAudioMixer: Display: 0: FrontLeft
+[2021.01.13-21.05.56:865][273]LogAudioMixer: Display: 1: FrontRight
+[2021.01.13-21.05.56:893][273]LogAudioMixer: Display: Using Audio Device Speakers (Bose SoundLink Wireless Mobile speaker Stereo)
+[2021.01.13-21.05.56:893][273]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.01.13-21.05.56:894][273]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.01.13-21.05.56:894][273]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.01.13-21.05.56:894][273]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.01.13-21.05.56:910][273]LogInit: FAudioDevice initialized.
+[2021.01.13-21.05.56:922][273]LogLoad: Game class is 'BP_ShooterGameMode_C'
+[2021.01.13-21.05.56:924][273]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:ExecuteUbergraph_Murdock_AnimBlueprint
+
+[2021.01.13-21.05.56:924][273]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Sandbox.Sandbox up for play (max tick rate 60) at 2021.01.13-16.05.56
+[2021.01.13-21.05.56:925][273]LogWorld: Bringing up level for play took: 0.001678
+[2021.01.13-21.05.56:925][273]LogOnline: OSS: Creating online subsystem instance for: :Context_39
+[2021.01.13-21.05.56:928][273]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:ExecuteUbergraph_Murdock_AnimBlueprint
+
+[2021.01.13-21.05.56:929][273]PIE: Server logged in
+[2021.01.13-21.05.56:930][273]PIE: Play in editor total start time 0.185 seconds.
+[2021.01.13-21.05.59:078][401]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/ParagonMurdock/Characters/Heroes/Murdock/Animations/LevelStart_Montage.LevelStart_Montage'
+[2021.01.13-21.05.59:078][401]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/ParagonMurdock/Characters/Heroes/Murdock/Animations/LevelStart_Montage.LevelStart_Montage'
+[2021.01.13-21.06.48:876][387]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.13-21.06.48:876][387]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Sandbox
+[2021.01.13-21.06.48:876][387]LogWorld: UWorld::CleanupWorld for Sandbox, bSessionEnded=true, bCleanupResources=true
+[2021.01.13-21.06.48:877][387]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.13-21.06.48:889][387]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.01.13-21.06.48:897][387]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.13-21.06.49:021][387]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.13-21.06.49:069][387]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001BDAC175300), frame # 94387
+[2021.01.13-21.06.49:069][387]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001BD90894200), frame # 94387
+[2021.01.13-21.06.49:089][387]LogUObjectHash: Compacting FUObjectHashTables data took   9.22ms
+[2021.01.13-21.06.49:185][388]LogPlayLevel: Display: Destroying online subsystem :Context_39
+[2021.01.13-21.07.48:913][740]Candidate modules for hot reload:
+[2021.01.13-21.07.48:913][740]  DroneShooting
+[2021.01.13-21.07.48:913][740]Launching UnrealBuildTool... [D:/Documents/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=DroneShooting,2123 DroneShootingEditor Win64 Development -Project="D:/Documents/GameDesign/ue4-ml.drone.shooting/DroneShooting/DroneShooting.uproject" "D:/Documents/GameDesign/ue4-ml.drone.shooting/DroneShooting/DroneShooting.uproject"  -IgnoreJunk]
+[2021.01.13-21.07.49:105][740]Warning: Starting HotReload took  0.2s.
+[2021.01.13-21.08.03:012][558]CompilerResultsLog: New page: Compilation - Jan. 13, 2021, 11:08:03 a.m.
+[2021.01.13-21.08.03:012][558]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (D:\Documents\GameDesign\ue4-ml.drone.shooting).
+[2021.01.13-21.08.03:012][558]CompilerResultsLog: Parsing headers for DroneShootingEditor
+[2021.01.13-21.08.03:012][558]CompilerResultsLog:   Running UnrealHeaderTool "D:\Documents\GameDesign\ue4-ml.drone.shooting\DroneShooting\DroneShooting.uproject" "D:\Documents\GameDesign\ue4-ml.drone.shooting\DroneShooting\Intermediate\Build\Win64\DroneShootingEditor\Development\DroneShootingEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\lipin\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+[2021.01.13-21.08.03:012][558]CompilerResultsLog: Reflection code generated for DroneShootingEditor in 9.4373439 seconds
+[2021.01.13-21.08.03:012][558]CompilerResultsLog: Building DroneShootingEditor...
+[2021.01.13-21.08.03:012][558]CompilerResultsLog: Using Visual Studio 2019 14.27.29112 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2021.01.13-21.08.03:012][558]CompilerResultsLog: Building 5 actions with 12 processes...
+[2021.01.13-21.08.03:013][558]CompilerResultsLog:   [1/5] CharacterBase.gen.cpp
+[2021.01.13-21.08.03:013][558]CompilerResultsLog:   [2/5] CharacterBase.cpp
+[2021.01.13-21.08.03:013][558]CompilerResultsLog:   [3/5] UE4Editor-DroneShooting-2123.lib
+[2021.01.13-21.08.03:013][558]CompilerResultsLog:      Creating library D:\Documents\GameDesign\ue4-ml.drone.shooting\DroneShooting\Intermediate\Build\Win64\UE4Editor\Development\DroneShooting\UE4Editor-DroneShooting-2123.lib and object D:\Documents\GameDesign\ue4-ml.drone.shooting\DroneShooting\Intermediate\Build\Win64\UE4Editor\Development\DroneShooting\UE4Editor-DroneShooting-2123.exp
+[2021.01.13-21.08.03:013][558]CompilerResultsLog:   [4/5] UE4Editor-DroneShooting-2123.dll
+[2021.01.13-21.08.03:013][558]CompilerResultsLog:      Creating library D:\Documents\GameDesign\ue4-ml.drone.shooting\DroneShooting\Intermediate\Build\Win64\UE4Editor\Development\DroneShooting\UE4Editor-DroneShooting-2123.suppressed.lib and object D:\Documents\GameDesign\ue4-ml.drone.shooting\DroneShooting\Intermediate\Build\Win64\UE4Editor\Development\DroneShooting\UE4Editor-DroneShooting-2123.suppressed.exp
+[2021.01.13-21.08.03:013][558]CompilerResultsLog:   [5/5] DroneShootingEditor.target
+[2021.01.13-21.08.03:013][558]CompilerResultsLog: Total time in Parallel executor: 2.93 seconds
+[2021.01.13-21.08.03:013][558]CompilerResultsLog: Total execution time: 13.72 seconds
+[2021.01.13-21.08.03:013][558]LogMainFrame: MainFrame: Module compiling took 14.106 seconds
+[2021.01.13-21.08.03:034][558]LogHotReload: Re-instancing CharacterBase after hot-reload.
+[2021.01.13-21.08.03:041][558]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:ExecuteUbergraph_Murdock_AnimBlueprint
+
+[2021.01.13-21.08.03:043][558]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:ExecuteUbergraph_Murdock_AnimBlueprint
+
+[2021.01.13-21.08.03:044][558]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:ExecuteUbergraph_Murdock_AnimBlueprint
+
+[2021.01.13-21.08.03:046][558]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:ExecuteUbergraph_Murdock_AnimBlueprint
+
+[2021.01.13-21.08.03:079][558]LogContentBrowser: Native class hierarchy updated for 'DroneShooting' in 0.0005 seconds. Added 3 classes and 4 folders.
+[2021.01.13-21.08.03:083][558]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2021.01.13-21.08.03:237][558]LogContentBrowser: Native class hierarchy populated in 0.0109 seconds. Added 3432 classes and 830 folders.
+[2021.01.13-21.08.03:247][558]Display: HotReload took 14.3s.
+[2021.01.13-21.08.12:987][114]LogTemp: Repeating last play command: Selected Viewport
+[2021.01.13-21.08.13:014][114]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.01.13-21.08.13:014][114]PIE: New page: PIE session: Sandbox (Jan. 13, 2021, 11:08:13 a.m.)
+[2021.01.13-21.08.13:014][114]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Sandbox
+[2021.01.13-21.08.13:017][114]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003147s)
+[2021.01.13-21.08.13:019][114]LogAIModule: Creating AISystem for world Sandbox
+[2021.01.13-21.08.13:019][114]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001BD567BAE00), frame # 96114
+[2021.01.13-21.08.13:019][114]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001BD8B4F2FC0), frame # 96114
+[2021.01.13-21.08.13:019][114]LogPlayLevel: PIE: World Init took: (0.001559s)
+[2021.01.13-21.08.13:019][114]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Sandbox.Sandbox to /Game/Maps/UEDPIE_0_Sandbox.Sandbox (0.004853s)
+[2021.01.13-21.08.13:107][114]LogUObjectHash: Compacting FUObjectHashTables data took   6.19ms
+[2021.01.13-21.08.13:110][114]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.01.13-21.08.13:110][114]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.01.13-21.08.13:110][114]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.01.13-21.08.13:110][114]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.01.13-21.08.13:110][114]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.01.13-21.08.13:110][114]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.01.13-21.08.13:110][114]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.01.13-21.08.13:110][114]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.01.13-21.08.13:111][114]LogAudio: Display: Using built-in audio occlusion.
+[2021.01.13-21.08.13:111][114]LogAudioMixer: Display: Initializing audio mixer.
+[2021.01.13-21.08.13:116][114]LogAudioMixer: Display: 0: FrontLeft
+[2021.01.13-21.08.13:117][114]LogAudioMixer: Display: 1: FrontRight
+[2021.01.13-21.08.13:145][114]LogAudioMixer: Display: Using Audio Device Speakers (Bose SoundLink Wireless Mobile speaker Stereo)
+[2021.01.13-21.08.13:146][114]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.01.13-21.08.13:146][114]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.01.13-21.08.13:146][114]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.01.13-21.08.13:146][114]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.01.13-21.08.13:163][114]LogInit: FAudioDevice initialized.
+[2021.01.13-21.08.13:176][114]LogLoad: Game class is 'BP_ShooterGameMode_C'
+[2021.01.13-21.08.13:178][114]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:ExecuteUbergraph_Murdock_AnimBlueprint
+
+[2021.01.13-21.08.13:178][114]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Sandbox.Sandbox up for play (max tick rate 60) at 2021.01.13-16.08.13
+[2021.01.13-21.08.13:179][114]LogWorld: Bringing up level for play took: 0.001653
+[2021.01.13-21.08.13:179][114]LogOnline: OSS: Creating online subsystem instance for: :Context_40
+[2021.01.13-21.08.13:182][114]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:ExecuteUbergraph_Murdock_AnimBlueprint
+
+[2021.01.13-21.08.13:183][114]PIE: Server logged in
+[2021.01.13-21.08.13:184][114]PIE: Play in editor total start time 0.175 seconds.
+[2021.01.13-21.08.15:334][240]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/ParagonMurdock/Characters/Heroes/Murdock/Animations/LevelStart_Montage.LevelStart_Montage'
+[2021.01.13-21.09.42:116][437]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.13-21.09.42:116][437]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Sandbox
+[2021.01.13-21.09.42:116][437]LogWorld: UWorld::CleanupWorld for Sandbox, bSessionEnded=true, bCleanupResources=true
+[2021.01.13-21.09.42:116][437]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.13-21.09.42:125][437]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.01.13-21.09.42:129][437]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.13-21.09.42:181][437]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.13-21.09.42:182][437]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001BD8B4F2FC0), frame # 101437
+[2021.01.13-21.09.42:182][437]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001BD567BAE00), frame # 101437
+[2021.01.13-21.09.42:185][437]LogUObjectHash: Compacting FUObjectHashTables data took   3.39ms
+[2021.01.13-21.09.42:243][438]LogPlayLevel: Display: Destroying online subsystem :Context_40
+[2021.01.13-21.09.43:509][513]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Sandbox" FILE="../../../../GameDesign/ue4-ml.drone.shooting/DroneShooting/Content/Maps/Sandbox.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2021.01.13-21.09.43:543][513]LogUObjectHash: Compacting FUObjectHashTables data took   2.18ms
+[2021.01.13-21.09.43:575][513]LogSavePackage: Moving '../../../../GameDesign/ue4-ml.drone.shooting/DroneShooting/Saved/SandboxC37B926345B83A91B364ABA6BB1DEF0A.tmp' to '../../../../GameDesign/ue4-ml.drone.shooting/DroneShooting/Content/Maps/Sandbox.umap'
+[2021.01.13-21.09.43:607][513]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Sandbox_BuiltData" FILE="../../../../GameDesign/ue4-ml.drone.shooting/DroneShooting/Content/Maps/Sandbox_BuiltData.uasset" SILENT=true
+[2021.01.13-21.09.43:637][513]LogSavePackage: Moving '../../../../GameDesign/ue4-ml.drone.shooting/DroneShooting/Saved/Sandbox_BuiltData1FC4FE69457C252DC47E99933E3B19A4.tmp' to '../../../../GameDesign/ue4-ml.drone.shooting/DroneShooting/Content/Maps/Sandbox_BuiltData.uasset'
+[2021.01.13-21.09.43:657][513]AssetCheck: New page: Asset Save: multiple assets
+[2021.01.13-21.09.43:657][513]LogContentValidation: Display: Validating World /Game/Maps/Sandbox.Sandbox
+[2021.01.13-21.09.43:657][513]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Maps/Sandbox_BuiltData.Sandbox_BuiltData
+[2021.01.13-21.09.48:006][710]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:ExecuteUbergraph_Murdock_AnimBlueprint
+

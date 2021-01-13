@@ -54,6 +54,9 @@ private:
 	UPROPERTY(EditAnywhere)
 	float SpeedMultiplier = 1.5f;
 
+	UPROPERTY(EditAnywhere)
+	class UAnimMontage* ShootAnimMontage;
+
 	const float MAX_WALK_SPEED = 500.f;
 
 	bool bIsRunning = false;
@@ -66,10 +69,10 @@ private:
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Camera System", meta = (AllowPrivateAccess = "true"))
 	class UCameraComponent *Camera;
 
-	const float CAMERA_Y_LOCATION = 60.f;
+	const float CAMERA_Y_LOCATION = 100.f;
 	const float CAMERA_DISTANCE = 300.f;
 	UPROPERTY(EditAnywhere, Category = "Camera System", meta = (AllowPrivateAccess = "true"))
-	float CameraChangeRate = 2.f;
+	float CameraChangeRate = 2.5f;
 
 	bool bIsAiming = false;
 

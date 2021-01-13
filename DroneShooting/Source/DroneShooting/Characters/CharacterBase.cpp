@@ -1,12 +1,14 @@
 // Fill out your copyright notice in the Description page of Project Settings.
 
 #include "CharacterBase.h"
+#include "Animation/AnimMontage.h"
 #include "Camera/CameraComponent.h"
 #include "Components/SkinnedMeshComponent.h"
 #include "GameFramework/Actor.h"
 #include "GameFramework/CharacterMovementComponent.h"
 #include "GameFramework/SpringArmComponent.h"
 #include "DroneShooting/Gun/GunShooter.h"
+
 
 // Sets default values
 ACharacterBase::ACharacterBase()
@@ -123,7 +125,10 @@ void ACharacterBase::Walk()
 void ACharacterBase::Shoot()
 {
 	if (MainGun && !bIsRunning)
+	{
 		MainGun->ShootProjectile();
+		PlayAnimMontage(ShootAnimMontage,1.f,NAME_None);
+	}
 }
 
 /**
@@ -135,7 +140,7 @@ void ACharacterBase::SetCameraLeft()
 		return;
 	// FVector CurrentLocation = SpringArm->GetRelativeLocation();
 	FVector CurrentLocation = SpringArm->TargetOffset;
-	SpringArm->SetRelativeLocation(FVector(CurrentLocation.X, -CAMERA_Y_LOCATION, CurrentLocation.Z), true);
+	SpringArm->SetRelativeLocation(FVector(CurrentLocation.X, -CAMERA_Y_LOCATION*0.5f, CurrentLocation.Z), true);
 }
 
 /**
