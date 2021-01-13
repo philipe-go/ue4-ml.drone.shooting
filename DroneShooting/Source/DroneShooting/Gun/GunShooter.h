@@ -29,15 +29,20 @@ public:
 	// UPROPERTY(EditAnywhere)
 	// class USkeletalMeshComponent* GunMesh;
 
-	class USkeletalMeshComponent* PlayerSkeletal;
+	void ShootProjectile();
 
+	UPROPERTY()	
+	class USkeletalMeshComponent* PlayerSkeletal;
 
 	UPROPERTY(EditAnywhere)
 	class UParticleSystem* MuzzleFlash;
 	
-	void ShootProjectile();
+
+	UPROPERTY(EditAnywhere)
+	class UParticleSystem* HitParticle;
 
 private: 
-UPROPERTY(VisibleAnywhere, Category="Bullet", meta=(AllowPrivateAccess="true"))
-	float BULLET_RANGE = 1000.f; 
+	const float BULLET_RANGE = 1000.f; 
+
+
 };

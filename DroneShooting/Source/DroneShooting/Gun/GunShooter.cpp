@@ -31,27 +31,30 @@ void AGunShooter::BeginPlay()
 void AGunShooter::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
+
+#if WITH_EDITOR
+		FVector StartPoint = PlayerSkeletal->GetSocketLocation(TEXT("Muzzle"));
+		FVector Direction = PlayerSkeletal->GetSocketRotation(TEXT("Muzzle")).Vector();
+		FVector EndPoint = StartPoint + Direction * BULLET_RANGE;
+		DrawDebugLine(GetWorld(), StartPoint, 
+						EndPoint, FColor::Red, false, -1.f, 0, 1.f);
+#endif
 }
 
 void AGunShooter::ShootProjectile()
 {
 	if (MuzzleFlash && PlayerSkeletal)
 	{
-		UGameplayStatics::SpawnEmitterAttached(MuzzleFlash, PlayerSkeletal, TEXT("Muzzle"));
+		if (MuzzleFlash) UGameplayStatics::SpawnEmitterAttached(MuzzleFlash, PlayerSkeletal, TEXT("Muzzle"));
 
 		FVector StartPoint = PlayerSkeletal->GetSocketLocation(TEXT("Muzzle"));
-		FRotator Rotation = PlayerSkeletal->GetSocketRotation(TEXT("Muzzle"));
-		FVector EndPoint = StartPoint + Rotation.Vector() * BULLET_RANGE;
+		FVector Direction = PlayerSkeletal->GetSocketRotation(TEXT("Muzzle")).Vector();
+		FVector EndPoint = StartPoint + Direction * BULLET_RANGE;
 
 		FHitResult OutHit;
 		if (GetWorld()->LineTraceSingleByChannel(OutHit, StartPoint,EndPoint,ECollisionChannel::ECC_GameTraceChannel1))
 		{
-			DrawDebugPoint(GetWorld(), OutHit.Location, 20, FColor::Yellow, true);
+			if (HitParticle) UGameplayStatics::SpawnEmitterAtLocation(GetWorld(), HitParticle,OutHit.Location, Direction.Rotation());
 		}
-
-#if WITH_EDITOR
-		DrawDebugCamera(GetWorld(), StartPoint, Rotation, 90, 1.f, FColor::Red, true, 1.f);
-		DrawDebugLine(GetWorld(), StartPoint, EndPoint, FColor::Green, true, 10.f, 0, 1.f);
-#endif
 	}
 }
