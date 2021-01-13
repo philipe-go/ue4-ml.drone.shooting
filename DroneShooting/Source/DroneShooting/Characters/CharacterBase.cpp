@@ -6,7 +6,6 @@
 #include "GameFramework/Actor.h"
 #include "GameFramework/CharacterMovementComponent.h"
 #include "GameFramework/SpringArmComponent.h"
-#include "GameFramework/SpringArmComponent.h"
 #include "DroneShooting/Gun/GunShooter.h"
 
 // Sets default values
@@ -35,6 +34,7 @@ void ACharacterBase::BeginPlay()
 	{
 		MainGun->AttachToComponent(GetMesh(), FAttachmentTransformRules::KeepRelativeTransform, TEXT("gun"));
 		MainGun->SetOwner(this);
+		MainGun->PlayerSkeletal = GetMesh();
 	}
 	// GetMesh()->HideBoneByName(TEXT("gun"),EPhysBodyOp::PBO_None);
 	// GetMesh()->HideBoneByName(TEXT("shotgun_base"),EPhysBodyOp::PBO_None);
@@ -101,7 +101,7 @@ void ACharacterBase::LookUp(float AxisValue)
  */
 void ACharacterBase::LookRight(float AxisValue) 
 {
-	AddControllerYawInput(AxisValue * RateOfTurn * GetWorld()->GetDeltaSeconds());
+	AddControllerYawInput(FMath::Clamp(45.f,-45.f, AxisValue) * RateOfTurn * GetWorld()->GetDeltaSeconds());
 }
 
 /**

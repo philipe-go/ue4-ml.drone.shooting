@@ -26,8 +26,14 @@ public:
 	UPROPERTY(EditAnywhere)
 	class USceneComponent* RootMesh;
 
-	UPROPERTY(EditAnywhere)
-	class USkeletalMeshComponent* GunMesh;
+	// UPROPERTY(EditAnywhere)
+	// class USkeletalMeshComponent* GunMesh;
 
+	class USkeletalMeshComponent* PlayerSkeletal;
+
+
+	UPROPERTY(EditAnywhere)
+	class UParticleSystem* MuzzleFlash;
+	
 	void ShootProjectile();
 };
