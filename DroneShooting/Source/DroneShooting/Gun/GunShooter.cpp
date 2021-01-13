@@ -15,10 +15,6 @@ AGunShooter::AGunShooter()
 	PrimaryActorTick.bCanEverTick = true;
 	RootMesh = CreateDefaultSubobject<USceneComponent>(TEXT("Root Mesh"));
 	SetRootComponent(RootMesh);
-
-	//TODO REMOVE MESH UPROPERTY
-	// GunMesh = CreateDefaultSubobject<USkeletalMeshComponent>(TEXT("Gun Mesh"));
-	// GunMesh->SetupAttachment(RootMesh);
 }
 
 // Called when the game starts or when spawned

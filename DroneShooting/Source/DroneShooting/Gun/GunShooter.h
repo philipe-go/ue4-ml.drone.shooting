@@ -26,9 +26,6 @@ public:
 	UPROPERTY(EditAnywhere)
 	class USceneComponent* RootMesh;
 
-	// UPROPERTY(EditAnywhere)
-	// class USkeletalMeshComponent* GunMesh;
-
 	void ShootProjectile();
 
 	UPROPERTY()	
@@ -42,7 +39,5 @@ public:
 	class UParticleSystem* HitParticle;
 
 private: 
-	const float BULLET_RANGE = 1000.f; 
-
-
+	const float BULLET_RANGE = 1300.f; 
 };

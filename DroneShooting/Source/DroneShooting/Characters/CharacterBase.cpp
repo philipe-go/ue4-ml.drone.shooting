@@ -122,6 +122,9 @@ void ACharacterBase::Walk()
 	bIsRunning = false;
 }
 
+/**
+ * @brief Handles the Shoot Input and calls the Gun instance method
+ */
 void ACharacterBase::Shoot()
 {
 	if (MainGun && !bIsRunning)
