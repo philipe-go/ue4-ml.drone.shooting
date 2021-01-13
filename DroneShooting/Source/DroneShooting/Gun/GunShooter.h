@@ -36,4 +36,8 @@ public:
 	class UParticleSystem* MuzzleFlash;
 	
 	void ShootProjectile();
+
+private: 
+UPROPERTY(VisibleAnywhere, Category="Bullet", meta=(AllowPrivateAccess="true"))
+	float BULLET_RANGE = 1000.f; 
 };

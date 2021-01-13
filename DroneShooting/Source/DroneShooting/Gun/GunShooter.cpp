@@ -4,8 +4,9 @@
 #include "Components/SceneComponent.h"
 #include "Components/SkeletalMeshComponent.h"
 #include "Components/SkinnedMeshComponent.h"
+#include "DrawDebugHelpers.h"
+#include "Engine/World.h"
 #include "Kismet/GameplayStatics.h"
-
 
 // Sets default values
 AGunShooter::AGunShooter()
@@ -14,6 +15,8 @@ AGunShooter::AGunShooter()
 	PrimaryActorTick.bCanEverTick = true;
 	RootMesh = CreateDefaultSubobject<USceneComponent>(TEXT("Root Mesh"));
 	SetRootComponent(RootMesh);
+
+	//TODO REMOVE MESH UPROPERTY
 	// GunMesh = CreateDefaultSubobject<USkeletalMeshComponent>(TEXT("Gun Mesh"));
 	// GunMesh->SetupAttachment(RootMesh);
 }
@@ -32,8 +35,23 @@ void AGunShooter::Tick(float DeltaTime)
 
 void AGunShooter::ShootProjectile()
 {
+	if (MuzzleFlash && PlayerSkeletal)
+	{
+		UGameplayStatics::SpawnEmitterAttached(MuzzleFlash, PlayerSkeletal, TEXT("Muzzle"));
+
+		FVector StartPoint = PlayerSkeletal->GetSocketLocation(TEXT("Muzzle"));
+		FRotator Rotation = PlayerSkeletal->GetSocketRotation(TEXT("Muzzle"));
+		FVector EndPoint = StartPoint + Rotation.Vector() * BULLET_RANGE;
+
+		FHitResult OutHit;
+		if (GetWorld()->LineTraceSingleByChannel(OutHit, StartPoint,EndPoint,ECollisionChannel::ECC_GameTraceChannel1))
+		{
+			DrawDebugPoint(GetWorld(), OutHit.Location, 20, FColor::Yellow, true);
+		}
+
 #if WITH_EDITOR
-	UE_LOG(LogTemp, Warning, TEXT("PEW PEW"));
+		DrawDebugCamera(GetWorld(), StartPoint, Rotation, 90, 1.f, FColor::Red, true, 1.f);
+		DrawDebugLine(GetWorld(), StartPoint, EndPoint, FColor::Green, true, 10.f, 0, 1.f);
 #endif
-	if (MuzzleFlash && PlayerSkeletal) UGameplayStatics::SpawnEmitterAttached(MuzzleFlash, PlayerSkeletal,TEXT("Muzzle"));
+	}
 }

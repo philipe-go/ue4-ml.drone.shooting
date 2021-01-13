@@ -55,6 +55,8 @@ private:
 	float SpeedMultiplier = 1.5f;
 
 	const float MAX_WALK_SPEED = 500.f;
+
+	bool bIsRunning = false;
 #pragma endregion
 
 #pragma region //CAMERA HANDLER

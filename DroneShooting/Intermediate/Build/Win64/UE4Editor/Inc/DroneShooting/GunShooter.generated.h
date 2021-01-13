@@ -58,7 +58,10 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AGunShooter); \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(AGunShooter)
 
 
-#define DroneShooting_Source_DroneShooting_Gun_GunShooter_h_12_PRIVATE_PROPERTY_OFFSET
+#define DroneShooting_Source_DroneShooting_Gun_GunShooter_h_12_PRIVATE_PROPERTY_OFFSET \
+	FORCEINLINE static uint32 __PPO__BULLET_RANGE() { return STRUCT_OFFSET(AGunShooter, BULLET_RANGE); }
+
+
 #define DroneShooting_Source_DroneShooting_Gun_GunShooter_h_9_PROLOG
 #define DroneShooting_Source_DroneShooting_Gun_GunShooter_h_12_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \

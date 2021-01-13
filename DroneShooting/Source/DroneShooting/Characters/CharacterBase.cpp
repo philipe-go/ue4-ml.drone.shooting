@@ -11,7 +11,7 @@
 // Sets default values
 ACharacterBase::ACharacterBase()
 {
- 	// Set this character to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
+	// Set this character to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
 
 	SpringArm = CreateDefaultSubobject<USpringArmComponent>(TEXT("SpringArm"));
@@ -36,19 +36,16 @@ void ACharacterBase::BeginPlay()
 		MainGun->SetOwner(this);
 		MainGun->PlayerSkeletal = GetMesh();
 	}
-	// GetMesh()->HideBoneByName(TEXT("gun"),EPhysBodyOp::PBO_None);
-	// GetMesh()->HideBoneByName(TEXT("shotgun_base"),EPhysBodyOp::PBO_None);
 }
 
 // Called every frame
 void ACharacterBase::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
-
 }
 
 // Called to bind functionality to input
-void ACharacterBase::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
+void ACharacterBase::SetupPlayerInputComponent(UInputComponent *PlayerInputComponent)
 {
 	Super::SetupPlayerInputComponent(PlayerInputComponent);
 
@@ -56,7 +53,7 @@ void ACharacterBase::SetupPlayerInputComponent(UInputComponent* PlayerInputCompo
 	PlayerInputComponent->BindAxis(TEXT("MoveRight"), this, &ACharacterBase::MoveRight);
 	PlayerInputComponent->BindAxis(TEXT("LookUp"), this, &ACharacterBase::LookUp);
 	PlayerInputComponent->BindAxis(TEXT("LookRight"), this, &ACharacterBase::LookRight);
-	
+
 	//Bind the jump function straight from the class ACharacter and execute in this instance
 	PlayerInputComponent->BindAction(TEXT("Jump"), EInputEvent::IE_Pressed, this, &ACharacter::Jump);
 	PlayerInputComponent->BindAction(TEXT("Run"), EInputEvent::IE_Pressed, this, &ACharacterBase::Run);
@@ -72,7 +69,7 @@ void ACharacterBase::SetupPlayerInputComponent(UInputComponent* PlayerInputCompo
  * @brief Vertical Move Input
  * @param AxisValue 
  */
-void ACharacterBase::MoveForward(float AxisValue) 
+void ACharacterBase::MoveForward(float AxisValue)
 {
 	AddMovementInput(GetActorForwardVector() * AxisValue);
 }
@@ -81,7 +78,7 @@ void ACharacterBase::MoveForward(float AxisValue)
  * @brief Horizontal Move Input
  * @param AxisValue 
  */
-void ACharacterBase::MoveRight(float AxisValue) 
+void ACharacterBase::MoveRight(float AxisValue)
 {
 	AddMovementInput(GetActorRightVector() * AxisValue);
 }
@@ -90,48 +87,53 @@ void ACharacterBase::MoveRight(float AxisValue)
  * @brief Look Axis input - Y axis
  * @param AxisValue 
  */
-void ACharacterBase::LookUp(float AxisValue) 
+void ACharacterBase::LookUp(float AxisValue)
 {
-	if(bIsAiming) AddControllerPitchInput(AxisValue * RateOfTurn * GetWorld()->GetDeltaSeconds());
+	if (bIsAiming)
+		AddControllerPitchInput(AxisValue * RateOfTurn * GetWorld()->GetDeltaSeconds());
 }
 
 /**
  * @brief Look Axis input - X axis
  * @param AxisValue 
  */
-void ACharacterBase::LookRight(float AxisValue) 
+void ACharacterBase::LookRight(float AxisValue)
 {
-	AddControllerYawInput(FMath::Clamp(45.f,-45.f, AxisValue) * RateOfTurn * GetWorld()->GetDeltaSeconds());
+	AddControllerYawInput(FMath::Clamp(45.f, -45.f, AxisValue) * RateOfTurn * GetWorld()->GetDeltaSeconds());
 }
 
 /**
  * @brief Alter the speed of the player to running speed
  */
-void ACharacterBase::Run() 
+void ACharacterBase::Run()
 {
 	GetCharacterMovement()->MaxWalkSpeed = MAX_WALK_SPEED * SpeedMultiplier;
+	bIsRunning = true;
 }
 
 /**
  * @brief Alter the speed of the player to walk speed
  */
-void ACharacterBase::Walk() 
+void ACharacterBase::Walk()
 {
 	GetCharacterMovement()->MaxWalkSpeed = MAX_WALK_SPEED;
+	bIsRunning = false;
 }
 
-void ACharacterBase::Shoot() 
+void ACharacterBase::Shoot()
 {
-	if (MainGun) MainGun->ShootProjectile();
+	if (MainGun && !bIsRunning)
+		MainGun->ShootProjectile();
 }
 
 /**
  * @brief Sets the camera to left shoulder
  */
-void ACharacterBase::SetCameraLeft() 
+void ACharacterBase::SetCameraLeft()
 {
-	if (!SpringArm) return;
-	// FVector CurrentLocation = SpringArm->GetRelativeLocation(); 
+	if (!SpringArm || bIsRunning)
+		return;
+	// FVector CurrentLocation = SpringArm->GetRelativeLocation();
 	FVector CurrentLocation = SpringArm->TargetOffset;
 	SpringArm->SetRelativeLocation(FVector(CurrentLocation.X, -CAMERA_Y_LOCATION, CurrentLocation.Z), true);
 }
@@ -139,22 +141,22 @@ void ACharacterBase::SetCameraLeft()
 /**
  * @brief Sets the camera to right shoulder
  */
-void ACharacterBase::SetCameraRight() 
+void ACharacterBase::SetCameraRight()
 {
-	if (!SpringArm) return;
-	// FVector CurrentLocation = SpringArm->GetRelativeLocation(); 
+	if (!SpringArm || bIsRunning)
+		return;
+	// FVector CurrentLocation = SpringArm->GetRelativeLocation();
 	FVector CurrentLocation = SpringArm->TargetOffset;
 	SpringArm->SetRelativeLocation(FVector(CurrentLocation.X, CAMERA_Y_LOCATION, CurrentLocation.Z), true);
-	
 }
 
 /**
  * @brief Sets the camera to close position (when aiming)
  */
-void ACharacterBase::SetCameraClose() 
+void ACharacterBase::SetCameraClose()
 {
-	if (!SpringArm) return;
-	SpringArm->TargetArmLength = CAMERA_DISTANCE/CameraChangeRate;
+	if (!SpringArm || bIsRunning) return;
+	SpringArm->TargetArmLength = CAMERA_DISTANCE / CameraChangeRate;
 	SpringArm->bUsePawnControlRotation = true;
 	bIsAiming = true;
 }
@@ -162,12 +164,11 @@ void ACharacterBase::SetCameraClose()
 /**
  * @brief Sets the camera to far position (when not aiming)
  */
-void ACharacterBase::SetCameraFar() 
+void ACharacterBase::SetCameraFar()
 {
-	if (!SpringArm) return;
+	if (!SpringArm)
+		return;
 	SpringArm->TargetArmLength = CAMERA_DISTANCE;
 	SpringArm->bUsePawnControlRotation = false;
 	bIsAiming = false;
 }
-
-

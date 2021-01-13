@@ -18,7 +18,6 @@ void EmptyLinkFunctionForGeneratedCodeGunShooter() {}
 	ENGINE_API UClass* Z_Construct_UClass_AActor();
 	UPackage* Z_Construct_UPackage__Script_DroneShooting();
 	ENGINE_API UClass* Z_Construct_UClass_UParticleSystem_NoRegister();
-	ENGINE_API UClass* Z_Construct_UClass_USkeletalMeshComponent_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_USceneComponent_NoRegister();
 // End Cross Module References
 	void AGunShooter::StaticRegisterNativesAGunShooter()
@@ -35,13 +34,13 @@ void EmptyLinkFunctionForGeneratedCodeGunShooter() {}
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
 #if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_BULLET_RANGE_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_BULLET_RANGE;
+#if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_MuzzleFlash_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_MuzzleFlash;
-#if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_GunMesh_MetaData[];
-#endif
-		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_GunMesh;
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_RootMesh_MetaData[];
 #endif
@@ -61,20 +60,20 @@ void EmptyLinkFunctionForGeneratedCodeGunShooter() {}
 	};
 #endif
 #if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AGunShooter_Statics::NewProp_BULLET_RANGE_MetaData[] = {
+		{ "AllowPrivateAccess", "true" },
+		{ "Category", "Bullet" },
+		{ "ModuleRelativePath", "Gun/GunShooter.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AGunShooter_Statics::NewProp_BULLET_RANGE = { "BULLET_RANGE", nullptr, (EPropertyFlags)0x0040000000020001, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AGunShooter, BULLET_RANGE), METADATA_PARAMS(Z_Construct_UClass_AGunShooter_Statics::NewProp_BULLET_RANGE_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AGunShooter_Statics::NewProp_BULLET_RANGE_MetaData)) };
+#if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AGunShooter_Statics::NewProp_MuzzleFlash_MetaData[] = {
 		{ "Category", "GunShooter" },
 		{ "ModuleRelativePath", "Gun/GunShooter.h" },
 	};
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AGunShooter_Statics::NewProp_MuzzleFlash = { "MuzzleFlash", nullptr, (EPropertyFlags)0x0010000000000001, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AGunShooter, MuzzleFlash), Z_Construct_UClass_UParticleSystem_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AGunShooter_Statics::NewProp_MuzzleFlash_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AGunShooter_Statics::NewProp_MuzzleFlash_MetaData)) };
-#if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AGunShooter_Statics::NewProp_GunMesh_MetaData[] = {
-		{ "Category", "GunShooter" },
-		{ "EditInline", "true" },
-		{ "ModuleRelativePath", "Gun/GunShooter.h" },
-	};
-#endif
-	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AGunShooter_Statics::NewProp_GunMesh = { "GunMesh", nullptr, (EPropertyFlags)0x0010000000080009, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AGunShooter, GunMesh), Z_Construct_UClass_USkeletalMeshComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AGunShooter_Statics::NewProp_GunMesh_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AGunShooter_Statics::NewProp_GunMesh_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AGunShooter_Statics::NewProp_RootMesh_MetaData[] = {
 		{ "Category", "GunShooter" },
@@ -84,8 +83,8 @@ void EmptyLinkFunctionForGeneratedCodeGunShooter() {}
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AGunShooter_Statics::NewProp_RootMesh = { "RootMesh", nullptr, (EPropertyFlags)0x0010000000080009, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AGunShooter, RootMesh), Z_Construct_UClass_USceneComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AGunShooter_Statics::NewProp_RootMesh_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AGunShooter_Statics::NewProp_RootMesh_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AGunShooter_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AGunShooter_Statics::NewProp_BULLET_RANGE,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AGunShooter_Statics::NewProp_MuzzleFlash,
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AGunShooter_Statics::NewProp_GunMesh,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AGunShooter_Statics::NewProp_RootMesh,
 	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_AGunShooter_Statics::StaticCppClassTypeInfo = {
@@ -115,7 +114,7 @@ void EmptyLinkFunctionForGeneratedCodeGunShooter() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AGunShooter, 4246593561);
+	IMPLEMENT_CLASS(AGunShooter, 1479528547);
 	template<> DRONESHOOTING_API UClass* StaticClass<AGunShooter>()
 	{
 		return AGunShooter::StaticClass();
