@@ -57,7 +57,7 @@ void ACharacterBase::SetupPlayerInputComponent(UInputComponent *PlayerInputCompo
 	PlayerInputComponent->BindAxis(TEXT("LookRight"), this, &ACharacterBase::LookRight);
 
 	//Bind the jump function straight from the class ACharacter and execute in this instance
-	PlayerInputComponent->BindAction(TEXT("Jump"), EInputEvent::IE_Pressed, this, &ACharacter::Jump);
+	PlayerInputComponent->BindAction(TEXT("Jump"), EInputEvent::IE_Pressed, this, &ACharacterBase::Jump);
 	PlayerInputComponent->BindAction(TEXT("Run"), EInputEvent::IE_Pressed, this, &ACharacterBase::Run);
 	PlayerInputComponent->BindAction(TEXT("Run"), EInputEvent::IE_Released, this, &ACharacterBase::Walk);
 	PlayerInputComponent->BindAction(TEXT("CameraLeft"), EInputEvent::IE_Pressed, this, &ACharacterBase::SetCameraLeft);
@@ -120,6 +120,15 @@ void ACharacterBase::Walk()
 {
 	GetCharacterMovement()->MaxWalkSpeed = MAX_WALK_SPEED;
 	bIsRunning = false;
+}
+
+/**
+ * @brief Call parent Jump method and add impulse
+ */
+void ACharacterBase::Jump() 
+{
+	Super::Jump();
+	LaunchCharacter(GetActorUpVector() * 1000.f, false, false); 
 }
 
 /**

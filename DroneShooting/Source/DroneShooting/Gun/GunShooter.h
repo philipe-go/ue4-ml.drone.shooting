@@ -40,4 +40,7 @@ public:
 
 private: 
 	const float BULLET_RANGE = 1300.f; 
+
+	UPROPERTY(EditAnywhere)
+	float DamageRate = 10.f;
 };

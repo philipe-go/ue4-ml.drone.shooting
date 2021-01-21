@@ -43,6 +43,8 @@ private:
 	void Walk();
 
 	void Shoot();
+
+	void Jump() override;
 #pragma endregion
 
 #pragma region //MOVEMENT HANDLER

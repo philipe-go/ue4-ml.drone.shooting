@@ -51,6 +51,14 @@ void AGunShooter::ShootProjectile()
 		if (GetWorld()->LineTraceSingleByChannel(OutHit, StartPoint,EndPoint,ECollisionChannel::ECC_GameTraceChannel1))
 		{
 			if (HitParticle) UGameplayStatics::SpawnEmitterAtLocation(GetWorld(), HitParticle,OutHit.Location, Direction.Rotation());
+			FPointDamageEvent DamageEvent(DamageRate, OutHit, Direction, nullptr);
+			if (OutHit.GetActor()) 
+			{
+				APawn* Pawn = Cast<APawn>(GetOwner());
+				if (!Pawn) return;
+				
+				OutHit.GetActor()->TakeDamage(DamageRate, DamageEvent, Pawn->GetController(), this);
+			}
 		}
 	}
 }

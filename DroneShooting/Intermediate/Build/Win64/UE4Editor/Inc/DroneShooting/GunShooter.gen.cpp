@@ -35,6 +35,10 @@ void EmptyLinkFunctionForGeneratedCodeGunShooter() {}
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
 #if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_DamageRate_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_DamageRate;
+#if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_HitParticle_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_HitParticle;
@@ -65,6 +69,13 @@ void EmptyLinkFunctionForGeneratedCodeGunShooter() {}
 	};
 #endif
 #if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AGunShooter_Statics::NewProp_DamageRate_MetaData[] = {
+		{ "Category", "GunShooter" },
+		{ "ModuleRelativePath", "Gun/GunShooter.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AGunShooter_Statics::NewProp_DamageRate = { "DamageRate", nullptr, (EPropertyFlags)0x0040000000000001, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AGunShooter, DamageRate), METADATA_PARAMS(Z_Construct_UClass_AGunShooter_Statics::NewProp_DamageRate_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AGunShooter_Statics::NewProp_DamageRate_MetaData)) };
+#if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AGunShooter_Statics::NewProp_HitParticle_MetaData[] = {
 		{ "Category", "GunShooter" },
 		{ "ModuleRelativePath", "Gun/GunShooter.h" },
@@ -94,6 +105,7 @@ void EmptyLinkFunctionForGeneratedCodeGunShooter() {}
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AGunShooter_Statics::NewProp_RootMesh = { "RootMesh", nullptr, (EPropertyFlags)0x0010000000080009, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AGunShooter, RootMesh), Z_Construct_UClass_USceneComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AGunShooter_Statics::NewProp_RootMesh_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AGunShooter_Statics::NewProp_RootMesh_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AGunShooter_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AGunShooter_Statics::NewProp_DamageRate,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AGunShooter_Statics::NewProp_HitParticle,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AGunShooter_Statics::NewProp_MuzzleFlash,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AGunShooter_Statics::NewProp_PlayerSkeletal,
@@ -126,7 +138,7 @@ void EmptyLinkFunctionForGeneratedCodeGunShooter() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AGunShooter, 3764155601);
+	IMPLEMENT_CLASS(AGunShooter, 873366599);
 	template<> DRONESHOOTING_API UClass* StaticClass<AGunShooter>()
 	{
 		return AGunShooter::StaticClass();
