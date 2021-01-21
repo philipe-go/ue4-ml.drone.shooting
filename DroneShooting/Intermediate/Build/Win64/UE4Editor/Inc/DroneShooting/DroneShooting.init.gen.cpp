@@ -21,7 +21,7 @@ void EmptyLinkFunctionForGeneratedCodeDroneShooting_init() {}
 				nullptr,
 				0,
 				PKG_CompiledIn | 0x00000000,
-				0x6B7CF441,
+				0xDB2304AD,
 				0x757490EB,
 				METADATA_PARAMS(nullptr, 0)
 			};

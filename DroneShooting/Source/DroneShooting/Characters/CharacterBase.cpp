@@ -4,11 +4,11 @@
 #include "Animation/AnimMontage.h"
 #include "Camera/CameraComponent.h"
 #include "Components/SkinnedMeshComponent.h"
+#include "DroneShooting/Gun/GunShooter.h"
 #include "GameFramework/Actor.h"
 #include "GameFramework/CharacterMovementComponent.h"
 #include "GameFramework/SpringArmComponent.h"
-#include "DroneShooting/Gun/GunShooter.h"
-
+#include "Kismet/GameplayStatics.h"
 
 // Sets default values
 ACharacterBase::ACharacterBase()
@@ -125,10 +125,16 @@ void ACharacterBase::Walk()
 /**
  * @brief Call parent Jump method and add impulse
  */
-void ACharacterBase::Jump() 
+void ACharacterBase::Jump()
 {
 	Super::Jump();
-	LaunchCharacter(GetActorUpVector() * 1000.f, false, false); 
+	if (JumpParticle)
+	{
+		UGameplayStatics::SpawnEmitterAttached(JumpParticle, GetMesh(), TEXT("Foot_R"));
+		UGameplayStatics::SpawnEmitterAttached(JumpParticle, GetMesh(), TEXT("Foot_L"));
+	}
+
+	LaunchCharacter(GetActorUpVector() * JUMP_BOOSTER_FORCE, false, false);
 }
 
 /**
@@ -139,7 +145,7 @@ void ACharacterBase::Shoot()
 	if (MainGun && !bIsRunning)
 	{
 		MainGun->ShootProjectile();
-		PlayAnimMontage(ShootAnimMontage,1.f,NAME_None);
+		PlayAnimMontage(ShootAnimMontage, 1.f, NAME_None);
 	}
 }
 
@@ -152,7 +158,7 @@ void ACharacterBase::SetCameraLeft()
 		return;
 	// FVector CurrentLocation = SpringArm->GetRelativeLocation();
 	FVector CurrentLocation = SpringArm->TargetOffset;
-	SpringArm->SetRelativeLocation(FVector(CurrentLocation.X, -CAMERA_Y_LOCATION*0.5f, CurrentLocation.Z), true);
+	SpringArm->SetRelativeLocation(FVector(CurrentLocation.X, -CAMERA_Y_LOCATION * 0.5f, CurrentLocation.Z), true);
 }
 
 /**
@@ -172,7 +178,8 @@ void ACharacterBase::SetCameraRight()
  */
 void ACharacterBase::SetCameraClose()
 {
-	if (!SpringArm || bIsRunning) return;
+	if (!SpringArm || bIsRunning)
+		return;
 	SpringArm->TargetArmLength = CAMERA_DISTANCE / CameraChangeRate;
 	SpringArm->bUsePawnControlRotation = true;
 	bIsAiming = true;

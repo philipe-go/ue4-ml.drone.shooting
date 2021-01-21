@@ -60,6 +60,7 @@ private:
 	class UAnimMontage* ShootAnimMontage;
 
 	const float MAX_WALK_SPEED = 500.f;
+	const float JUMP_BOOSTER_FORCE = 700.f;
 
 	bool bIsRunning = false;
 #pragma endregion
@@ -88,4 +89,7 @@ private:
 	TSubclassOf<AGunShooter> GunClass;
 
 	AGunShooter* MainGun;
+
+	UPROPERTY(EditAnywhere)
+	class UParticleSystem* JumpParticle;
 };

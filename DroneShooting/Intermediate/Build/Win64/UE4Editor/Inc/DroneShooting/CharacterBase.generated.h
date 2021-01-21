@@ -65,7 +65,8 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ACharacterBase); \
 	FORCEINLINE static uint32 __PPO__SpringArm() { return STRUCT_OFFSET(ACharacterBase, SpringArm); } \
 	FORCEINLINE static uint32 __PPO__Camera() { return STRUCT_OFFSET(ACharacterBase, Camera); } \
 	FORCEINLINE static uint32 __PPO__CameraChangeRate() { return STRUCT_OFFSET(ACharacterBase, CameraChangeRate); } \
-	FORCEINLINE static uint32 __PPO__GunClass() { return STRUCT_OFFSET(ACharacterBase, GunClass); }
+	FORCEINLINE static uint32 __PPO__GunClass() { return STRUCT_OFFSET(ACharacterBase, GunClass); } \
+	FORCEINLINE static uint32 __PPO__JumpParticle() { return STRUCT_OFFSET(ACharacterBase, JumpParticle); }
 
 
 #define DroneShooting_Source_DroneShooting_Characters_CharacterBase_h_11_PROLOG
