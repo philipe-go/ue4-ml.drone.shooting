@@ -38,6 +38,8 @@ void ACharacterBase::BeginPlay()
 		MainGun->SetOwner(this);
 		MainGun->PlayerSkeletal = GetMesh();
 	}
+
+	CurrentHealth = MaxHealth;
 }
 
 // Called every frame
@@ -45,6 +47,31 @@ void ACharacterBase::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
 }
+
+float ACharacterBase::TakeDamage(float DamageAmount, struct FDamageEvent const& DamageEvent, class AController* EventInstigator, AActor* DamageCauser) 
+{
+	float DamageApplied = Super::TakeDamage(DamageAmount, DamageEvent, EventInstigator, DamageCauser);
+	
+	CurrentHealth -= DamageApplied;
+	CurrentHealth = FMath::Clamp(CurrentHealth, 0.f,MaxHealth);
+
+	UE_LOG(LogTemp, Warning, TEXT("Character Health = %f"), CurrentHealth);
+
+	return DamageApplied;
+}
+
+bool ACharacterBase::IsDead() const
+{
+	return CurrentHealth <= 0;
+}
+
+bool ACharacterBase::IsAiming() const
+{
+	return GetCharacterMovement()->GetCurrentAcceleration() == FVector().ZeroVector;
+}
+
+//INPUT METHODS IMPLEMENTATION
+#pragma region 
 
 // Called to bind functionality to input
 void ACharacterBase::SetupPlayerInputComponent(UInputComponent *PlayerInputComponent)
@@ -66,6 +93,7 @@ void ACharacterBase::SetupPlayerInputComponent(UInputComponent *PlayerInputCompo
 	PlayerInputComponent->BindAction(TEXT("AIM"), EInputEvent::IE_Released, this, &ACharacterBase::SetCameraFar);
 	PlayerInputComponent->BindAction(TEXT("Shoot"), EInputEvent::IE_Pressed, this, &ACharacterBase::Shoot);
 }
+
 
 /**
  * @brief Vertical Move Input
@@ -196,3 +224,5 @@ void ACharacterBase::SetCameraFar()
 	SpringArm->bUsePawnControlRotation = false;
 	bIsAiming = false;
 }
+
+#pragma endregion

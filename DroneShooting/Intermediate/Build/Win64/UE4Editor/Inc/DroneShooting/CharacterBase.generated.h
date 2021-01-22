@@ -14,8 +14,18 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #define DRONESHOOTING_CharacterBase_generated_h
 
 #define DroneShooting_Source_DroneShooting_Characters_CharacterBase_h_14_SPARSE_DATA
-#define DroneShooting_Source_DroneShooting_Characters_CharacterBase_h_14_RPC_WRAPPERS
-#define DroneShooting_Source_DroneShooting_Characters_CharacterBase_h_14_RPC_WRAPPERS_NO_PURE_DECLS
+#define DroneShooting_Source_DroneShooting_Characters_CharacterBase_h_14_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execIsAiming); \
+	DECLARE_FUNCTION(execIsDead);
+
+
+#define DroneShooting_Source_DroneShooting_Characters_CharacterBase_h_14_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execIsAiming); \
+	DECLARE_FUNCTION(execIsDead);
+
+
 #define DroneShooting_Source_DroneShooting_Characters_CharacterBase_h_14_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesACharacterBase(); \
@@ -66,7 +76,9 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ACharacterBase); \
 	FORCEINLINE static uint32 __PPO__Camera() { return STRUCT_OFFSET(ACharacterBase, Camera); } \
 	FORCEINLINE static uint32 __PPO__CameraChangeRate() { return STRUCT_OFFSET(ACharacterBase, CameraChangeRate); } \
 	FORCEINLINE static uint32 __PPO__GunClass() { return STRUCT_OFFSET(ACharacterBase, GunClass); } \
-	FORCEINLINE static uint32 __PPO__JumpParticle() { return STRUCT_OFFSET(ACharacterBase, JumpParticle); }
+	FORCEINLINE static uint32 __PPO__JumpParticle() { return STRUCT_OFFSET(ACharacterBase, JumpParticle); } \
+	FORCEINLINE static uint32 __PPO__MaxHealth() { return STRUCT_OFFSET(ACharacterBase, MaxHealth); } \
+	FORCEINLINE static uint32 __PPO__CurrentHealth() { return STRUCT_OFFSET(ACharacterBase, CurrentHealth); }
 
 
 #define DroneShooting_Source_DroneShooting_Characters_CharacterBase_h_11_PROLOG

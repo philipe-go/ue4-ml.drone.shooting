@@ -28,6 +28,14 @@ public:
 	// Called to bind functionality to input
 	virtual void SetupPlayerInputComponent(class UInputComponent *PlayerInputComponent) override;
 
+	virtual float TakeDamage(float DamageAmount, struct FDamageEvent const& DamageEvent, class AController* EventInstigator, AActor* DamageCauser) override;
+
+	UFUNCTION(BlueprintPure)
+	bool IsDead() const;
+
+	UFUNCTION(BlueprintPure)
+	bool IsAiming() const;
+
 private:
 #pragma region //INPUT HANDLER
 	void MoveForward(float AxisValue);
@@ -85,6 +93,7 @@ private:
 	void SetCameraFar();
 #pragma endregion
 
+	
 	UPROPERTY(EditDefaultsOnly)
 	TSubclassOf<AGunShooter> GunClass;
 
@@ -92,4 +101,9 @@ private:
 
 	UPROPERTY(EditAnywhere)
 	class UParticleSystem* JumpParticle;
+
+	UPROPERTY(EditDefaultsOnly)
+	float MaxHealth = 100.f;
+	UPROPERTY(VisibleAnywhere)
+	float CurrentHealth;  
 };
