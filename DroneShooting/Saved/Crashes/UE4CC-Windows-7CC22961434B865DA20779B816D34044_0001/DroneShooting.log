@@ -1,0 +1,793 @@
+﻿Log file open, 01/22/21 20:49:28
+LogInit: Display: Running engine for game: DroneShooting
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 35 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.563474
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: -5:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CameraShakePreviewer
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin AnimationSharing
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin PlasticSourceControl
+LogPluginManager: Mounting plugin RiderSourceCodeAccess
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin CurveEditorTools
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin EditorScriptingUtilities
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin GeometryMode
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MaterialAnalyzer
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AutomationUtils
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin ChaosCloth
+LogPluginManager: Mounting plugin ChaosClothEditor
+LogPluginManager: Mounting plugin ChaosEditor
+LogPluginManager: Mounting plugin ChaosNiagara
+LogPluginManager: Mounting plugin ChaosSolverPlugin
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin GeometryCollectionPlugin
+LogPluginManager: Mounting plugin GeometryProcessing
+LogPluginManager: Mounting plugin PlanarCut
+LogPluginManager: Mounting plugin PlatformCrypto
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin SkeletalReduction
+LogPluginManager: Mounting plugin Niagara
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapLightEstimation
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin MagicLeapPassableWorld
+LogPluginManager: Mounting plugin MLSDK
+LogPluginManager: Mounting plugin BlockoutToolsPlugin
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin MeshPainting
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin MovieRenderPipeline
+LogPluginManager: Mounting plugin TemplateSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AssetTags
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin GooglePAD
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin PostSplashScreen
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin SoundFields
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin Synthesis
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogPluginManager: Mounting plugin ScreenshotTools
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogOnline: OSS: Creating online subsystem instance for: NULL
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+LogInit: Build: ++UE4+Release-4.25-CL-14469661
+LogInit: Engine Version: 4.25.4-14469661+++UE4+Release-4.25
+LogInit: Compatible Engine Version: 4.25.0-13144385+++UE4+Release-4.25
+LogInit: Net CL: 13144385
+LogInit: OS: Windows 10 (Release 2009) (), CPU: Intel(R) Core(TM) i7-8750H CPU @ 2.20GHz, GPU: Intel(R) UHD Graphics 630
+LogInit: Compiled (64-bit): Oct 11 2020 08:10:49
+LogInit: Compiled with Visual C++: 19.24.28315.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.25
+LogInit: Command Line: 
+LogInit: Base Directory: D:/Documents/UE_4.25/Engine/Binaries/Win64/
+LogInit: Allocator: TBB
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 26
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 4
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 38
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 37
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 4
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 43
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 12
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 3
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 7
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 31
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 10
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 10
+LogDevObjectVersion:   Dev-Physics-Ext (35F94A83-E258-406C-A318-09F59610247C): 37
+LogDevObjectVersion:   Dev-PhysicsMaterial-Chaos (B68FC16E-8B1B-42E2-B453-215C058844FE): 1
+LogDevObjectVersion:   Dev-CineCamera (B2E18506-4273-CFC2-A54E-F4BB758BBA07): 1
+LogInit: Presizing for max 25165824 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [D:/Documents/GameDesign/ue4-ml.drone.shooting/DroneShooting/Saved/Config/Windows/Engine.ini]
+LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2021.01.23-01.49.29:389][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2021.01.23-01.49.29:389][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2021.01.23-01.49.29:389][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [D:/Documents/GameDesign/ue4-ml.drone.shooting/DroneShooting/Saved/Config/Windows/Engine.ini]
+[2021.01.23-01.49.29:389][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2021.01.23-01.49.29:389][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [D:/Documents/GameDesign/ue4-ml.drone.shooting/DroneShooting/Saved/Config/Windows/Engine.ini]
+[2021.01.23-01.49.29:389][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [D:/Documents/GameDesign/ue4-ml.drone.shooting/DroneShooting/Saved/Config/Windows/Engine.ini]
+[2021.01.23-01.49.29:390][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2021.01.23-01.49.29:390][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2021.01.23-01.49.29:390][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2021.01.23-01.49.29:390][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2021.01.23-01.49.29:390][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2021.01.23-01.49.29:390][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2021.01.23-01.49.29:390][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2021.01.23-01.49.29:390][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2021.01.23-01.49.29:390][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2021.01.23-01.49.29:390][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2021.01.23-01.49.29:390][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2021.01.23-01.49.29:390][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2021.01.23-01.49.29:390][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2021.01.23-01.49.29:390][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+[2021.01.23-01.49.29:390][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [D:/Documents/GameDesign/ue4-ml.drone.shooting/DroneShooting/Saved/Config/Windows/Engine.ini]
+[2021.01.23-01.49.29:390][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2021.01.23-01.49.29:390][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2021.01.23-01.49.29:390][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2021.01.23-01.49.29:390][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2021.01.23-01.49.29:390][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2021.01.23-01.49.29:390][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2021.01.23-01.49.29:390][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
+[2021.01.23-01.49.29:390][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2021.01.23-01.49.29:390][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2021.01.23-01.49.29:390][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2021.01.23-01.49.29:390][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2021.01.23-01.49.29:390][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2021.01.23-01.49.29:390][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2021.01.23-01.49.29:390][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [D:/Documents/GameDesign/ue4-ml.drone.shooting/DroneShooting/Saved/Config/Windows/Engine.ini]
+[2021.01.23-01.49.29:390][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [D:/Documents/GameDesign/ue4-ml.drone.shooting/DroneShooting/Saved/Config/Windows/Engine.ini]
+[2021.01.23-01.49.29:402][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/Documents/GameDesign/ue4-ml.drone.shooting/DroneShooting/Saved/Config/Windows/Scalability.ini]
+[2021.01.23-01.49.29:402][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2021.01.23-01.49.29:402][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2021.01.23-01.49.29:402][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/Documents/GameDesign/ue4-ml.drone.shooting/DroneShooting/Saved/Config/Windows/Scalability.ini]
+[2021.01.23-01.49.29:402][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2021.01.23-01.49.29:402][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/Documents/GameDesign/ue4-ml.drone.shooting/DroneShooting/Saved/Config/Windows/Scalability.ini]
+[2021.01.23-01.49.29:402][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2021.01.23-01.49.29:402][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2021.01.23-01.49.29:402][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2021.01.23-01.49.29:402][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2021.01.23-01.49.29:402][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2021.01.23-01.49.29:402][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2021.01.23-01.49.29:402][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2021.01.23-01.49.29:402][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2021.01.23-01.49.29:402][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2021.01.23-01.49.29:402][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2021.01.23-01.49.29:402][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2021.01.23-01.49.29:402][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2021.01.23-01.49.29:403][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2021.01.23-01.49.29:403][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2021.01.23-01.49.29:403][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2021.01.23-01.49.29:403][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2021.01.23-01.49.29:403][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2021.01.23-01.49.29:403][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2021.01.23-01.49.29:403][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/Documents/GameDesign/ue4-ml.drone.shooting/DroneShooting/Saved/Config/Windows/Scalability.ini]
+[2021.01.23-01.49.29:403][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2021.01.23-01.49.29:403][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2021.01.23-01.49.29:403][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2021.01.23-01.49.29:403][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2021.01.23-01.49.29:403][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2021.01.23-01.49.29:403][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2021.01.23-01.49.29:403][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2021.01.23-01.49.29:403][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2021.01.23-01.49.29:403][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2021.01.23-01.49.29:403][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2021.01.23-01.49.29:403][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2021.01.23-01.49.29:403][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2021.01.23-01.49.29:403][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2021.01.23-01.49.29:403][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2021.01.23-01.49.29:403][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2021.01.23-01.49.29:403][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2021.01.23-01.49.29:403][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2021.01.23-01.49.29:403][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2021.01.23-01.49.29:403][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2021.01.23-01.49.29:403][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2021.01.23-01.49.29:403][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2021.01.23-01.49.29:403][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2021.01.23-01.49.29:403][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2021.01.23-01.49.29:403][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2021.01.23-01.49.29:403][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2021.01.23-01.49.29:403][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2021.01.23-01.49.29:403][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2021.01.23-01.49.29:403][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2021.01.23-01.49.29:403][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2021.01.23-01.49.29:403][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2021.01.23-01.49.29:403][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/Documents/GameDesign/ue4-ml.drone.shooting/DroneShooting/Saved/Config/Windows/Scalability.ini]
+[2021.01.23-01.49.29:403][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2021.01.23-01.49.29:403][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2021.01.23-01.49.29:403][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2021.01.23-01.49.29:403][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2021.01.23-01.49.29:403][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2021.01.23-01.49.29:403][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2021.01.23-01.49.29:403][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2021.01.23-01.49.29:404][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2021.01.23-01.49.29:404][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2021.01.23-01.49.29:404][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/Documents/GameDesign/ue4-ml.drone.shooting/DroneShooting/Saved/Config/Windows/Scalability.ini]
+[2021.01.23-01.49.29:404][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2021.01.23-01.49.29:404][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2021.01.23-01.49.29:404][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2021.01.23-01.49.29:404][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2021.01.23-01.49.29:404][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2021.01.23-01.49.29:404][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2021.01.23-01.49.29:404][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2021.01.23-01.49.29:404][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2021.01.23-01.49.29:404][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2021.01.23-01.49.29:404][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2021.01.23-01.49.29:404][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2021.01.23-01.49.29:404][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2021.01.23-01.49.29:404][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2021.01.23-01.49.29:404][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2021.01.23-01.49.29:404][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2021.01.23-01.49.29:404][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2021.01.23-01.49.29:404][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2021.01.23-01.49.29:404][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2021.01.23-01.49.29:404][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2021.01.23-01.49.29:404][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2021.01.23-01.49.29:404][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2021.01.23-01.49.29:404][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2021.01.23-01.49.29:404][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2021.01.23-01.49.29:404][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2021.01.23-01.49.29:404][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2021.01.23-01.49.29:404][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2021.01.23-01.49.29:404][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/Documents/GameDesign/ue4-ml.drone.shooting/DroneShooting/Saved/Config/Windows/Scalability.ini]
+[2021.01.23-01.49.29:404][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2021.01.23-01.49.29:404][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2021.01.23-01.49.29:404][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [D:/Documents/GameDesign/ue4-ml.drone.shooting/DroneShooting/Saved/Config/Windows/Scalability.ini]
+[2021.01.23-01.49.29:404][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2021.01.23-01.49.29:404][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2021.01.23-01.49.29:404][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2021.01.23-01.49.29:404][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2021.01.23-01.49.29:404][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2021.01.23-01.49.29:404][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2021.01.23-01.49.29:404][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2021.01.23-01.49.29:404][  0]LogInit: Selected Device Profile: [Windows]
+[2021.01.23-01.49.29:404][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2021.01.23-01.49.29:404][  0]LogHAL: Display: Platform has ~ 16 GB [17023823872 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2021.01.23-01.49.29:404][  0]LogInit: Going up to parent DeviceProfile []
+[2021.01.23-01.49.29:404][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/Documents/GameDesign/ue4-ml.drone.shooting/DroneShooting/Saved/Config/Windows/Scalability.ini]
+[2021.01.23-01.49.29:404][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2021.01.23-01.49.29:404][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2021.01.23-01.49.29:405][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/Documents/GameDesign/ue4-ml.drone.shooting/DroneShooting/Saved/Config/Windows/Scalability.ini]
+[2021.01.23-01.49.29:405][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2021.01.23-01.49.29:405][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/Documents/GameDesign/ue4-ml.drone.shooting/DroneShooting/Saved/Config/Windows/Scalability.ini]
+[2021.01.23-01.49.29:405][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2021.01.23-01.49.29:405][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2021.01.23-01.49.29:405][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2021.01.23-01.49.29:405][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2021.01.23-01.49.29:405][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2021.01.23-01.49.29:405][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2021.01.23-01.49.29:405][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2021.01.23-01.49.29:405][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2021.01.23-01.49.29:405][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2021.01.23-01.49.29:405][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2021.01.23-01.49.29:405][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2021.01.23-01.49.29:405][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2021.01.23-01.49.29:405][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2021.01.23-01.49.29:405][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2021.01.23-01.49.29:405][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2021.01.23-01.49.29:405][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2021.01.23-01.49.29:405][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2021.01.23-01.49.29:405][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2021.01.23-01.49.29:405][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/Documents/GameDesign/ue4-ml.drone.shooting/DroneShooting/Saved/Config/Windows/Scalability.ini]
+[2021.01.23-01.49.29:405][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2021.01.23-01.49.29:405][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2021.01.23-01.49.29:405][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2021.01.23-01.49.29:405][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2021.01.23-01.49.29:405][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2021.01.23-01.49.29:405][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2021.01.23-01.49.29:406][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2021.01.23-01.49.29:406][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2021.01.23-01.49.29:406][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2021.01.23-01.49.29:406][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2021.01.23-01.49.29:406][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2021.01.23-01.49.29:406][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2021.01.23-01.49.29:406][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2021.01.23-01.49.29:406][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2021.01.23-01.49.29:406][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2021.01.23-01.49.29:406][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2021.01.23-01.49.29:406][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2021.01.23-01.49.29:406][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2021.01.23-01.49.29:406][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2021.01.23-01.49.29:406][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2021.01.23-01.49.29:406][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2021.01.23-01.49.29:406][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2021.01.23-01.49.29:406][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2021.01.23-01.49.29:406][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2021.01.23-01.49.29:406][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2021.01.23-01.49.29:406][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2021.01.23-01.49.29:406][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2021.01.23-01.49.29:406][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2021.01.23-01.49.29:406][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2021.01.23-01.49.29:406][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2021.01.23-01.49.29:406][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/Documents/GameDesign/ue4-ml.drone.shooting/DroneShooting/Saved/Config/Windows/Scalability.ini]
+[2021.01.23-01.49.29:406][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2021.01.23-01.49.29:406][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2021.01.23-01.49.29:407][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2021.01.23-01.49.29:407][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2021.01.23-01.49.29:407][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2021.01.23-01.49.29:407][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2021.01.23-01.49.29:407][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2021.01.23-01.49.29:407][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2021.01.23-01.49.29:407][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2021.01.23-01.49.29:407][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/Documents/GameDesign/ue4-ml.drone.shooting/DroneShooting/Saved/Config/Windows/Scalability.ini]
+[2021.01.23-01.49.29:407][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2021.01.23-01.49.29:407][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2021.01.23-01.49.29:407][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2021.01.23-01.49.29:407][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2021.01.23-01.49.29:407][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2021.01.23-01.49.29:407][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2021.01.23-01.49.29:407][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2021.01.23-01.49.29:407][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2021.01.23-01.49.29:407][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2021.01.23-01.49.29:407][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2021.01.23-01.49.29:407][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2021.01.23-01.49.29:407][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2021.01.23-01.49.29:407][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2021.01.23-01.49.29:407][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2021.01.23-01.49.29:407][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2021.01.23-01.49.29:407][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2021.01.23-01.49.29:407][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2021.01.23-01.49.29:407][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2021.01.23-01.49.29:408][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2021.01.23-01.49.29:408][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2021.01.23-01.49.29:408][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2021.01.23-01.49.29:408][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2021.01.23-01.49.29:408][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2021.01.23-01.49.29:408][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2021.01.23-01.49.29:408][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2021.01.23-01.49.29:408][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2021.01.23-01.49.29:408][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/Documents/GameDesign/ue4-ml.drone.shooting/DroneShooting/Saved/Config/Windows/Scalability.ini]
+[2021.01.23-01.49.29:408][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2021.01.23-01.49.29:408][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2021.01.23-01.49.29:408][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [D:/Documents/GameDesign/ue4-ml.drone.shooting/DroneShooting/Saved/Config/Windows/Scalability.ini]
+[2021.01.23-01.49.29:408][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2021.01.23-01.49.29:408][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2021.01.23-01.49.29:408][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2021.01.23-01.49.29:408][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2021.01.23-01.49.29:408][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2021.01.23-01.49.29:408][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2021.01.23-01.49.29:408][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2021.01.23-01.49.29:408][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2021.01.23-01.49.29:409][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2021.01.23-01.49.29:409][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2021.01.23-01.49.29:409][  0]LogConfig: Setting CVar [[fx.SkipVectorVMBackendOptimizations:1]]
+[2021.01.23-01.49.29:409][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [D:/Documents/GameDesign/ue4-ml.drone.shooting/DroneShooting/Saved/Config/Windows/Engine.ini]
+[2021.01.23-01.49.29:409][  0]LogInit: Computer: PHILNG
+[2021.01.23-01.49.29:409][  0]LogInit: User: philng
+[2021.01.23-01.49.29:409][  0]LogInit: CPU Page size=4096, Cores=6
+[2021.01.23-01.49.29:409][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2021.01.23-01.49.29:410][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2021.01.23-01.49.29:410][  0]LogMemory: Platform Memory Stats for Windows
+[2021.01.23-01.49.29:410][  0]LogMemory: Process Physical Memory: 118.93 MB used, 118.93 MB peak
+[2021.01.23-01.49.29:410][  0]LogMemory: Process Virtual Memory: 101.38 MB used, 101.38 MB peak
+[2021.01.23-01.49.29:410][  0]LogMemory: Physical Memory: 9567.67 MB used,  6667.52 MB free, 16235.18 MB total
+[2021.01.23-01.49.29:410][  0]LogMemory: Virtual Memory: 5150.08 MB used,  134212576.00 MB free, 134217728.00 MB total
+[2021.01.23-01.49.29:422][  0]LogWindows: WindowsPlatformFeatures enabled
+[2021.01.23-01.49.29:543][  0]LogInit: Physics initialised using underlying interface: PhysX
+[2021.01.23-01.49.29:544][  0]LogInit: Using OS detected language (en-GB).
+[2021.01.23-01.49.29:545][  0]LogInit: Using OS detected locale (en-CA).
+[2021.01.23-01.49.29:548][  0]LogTextLocalizationManager: No specific localization for 'en-GB' exists, so the 'en' localization will be used.
+[2021.01.23-01.49.30:006][  0]LogInit: Setting process to per monitor DPI aware
+[2021.01.23-01.49.30:129][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2021.01.23-01.49.30:130][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2021.01.23-01.49.30:470][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2021.01.23-01.49.30:470][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
+[2021.01.23-01.49.30:470][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
+[2021.01.23-01.49.30:470][  0]LogD3D11RHI: D3D11 adapters:
+[2021.01.23-01.49.30:699][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1060' (Feature Level 11_0)
+[2021.01.23-01.49.30:699][  0]LogD3D11RHI:       6052/0/8117 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2021.01.23-01.49.30:744][  0]LogD3D11RHI:    1. 'Intel(R) UHD Graphics 630' (Feature Level 11_0)
+[2021.01.23-01.49.30:744][  0]LogD3D11RHI:       128/0/8117 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x8086
+[2021.01.23-01.49.30:751][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2021.01.23-01.49.30:751][  0]LogD3D11RHI:       0/0/8117 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2021.01.23-01.49.30:751][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2021.01.23-01.49.30:769][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2021.01.23-01.49.30:769][  0]LogD3D11RHI:     GPU DeviceId: 0x1c20 (for the marketing name, search the web for "GPU Device Id")
+[2021.01.23-01.49.30:769][  0]LogWindows: EnumDisplayDevices:
+[2021.01.23-01.49.30:770][  0]LogWindows:    0. 'Intel(R) UHD Graphics 630' (P:0 D:1)
+[2021.01.23-01.49.30:771][  0]LogWindows:    1. 'Intel(R) UHD Graphics 630' (P:0 D:0)
+[2021.01.23-01.49.30:772][  0]LogWindows:    2. 'Intel(R) UHD Graphics 630' (P:0 D:0)
+[2021.01.23-01.49.30:773][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1060' (P:1 D:1)
+[2021.01.23-01.49.30:774][  0]LogWindows:    4. 'NVIDIA GeForce GTX 1060' (P:0 D:1)
+[2021.01.23-01.49.30:775][  0]LogWindows:    5. 'NVIDIA GeForce GTX 1060' (P:0 D:0)
+[2021.01.23-01.49.30:777][  0]LogWindows:    6. 'NVIDIA GeForce GTX 1060' (P:0 D:0)
+[2021.01.23-01.49.30:778][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
+[2021.01.23-01.49.30:778][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1060
+[2021.01.23-01.49.30:778][  0]LogD3D11RHI:   Driver Version: 460.89 (internal:27.21.14.6089, unified:460.89)
+[2021.01.23-01.49.30:778][  0]LogD3D11RHI:      Driver Date: 12-11-2020
+[2021.01.23-01.49.30:778][  0]LogRHI: Texture pool is 4236 MB (70% of 6052 MB)
+[2021.01.23-01.49.30:955][  0]LogD3D11RHI: RHI has support for 64 bit atomics
+[2021.01.23-01.49.30:955][  0]LogD3D11RHI: Async texture creation enabled
+[2021.01.23-01.49.30:955][  0]LogD3D11RHI: Array index from any shader is supported
+[2021.01.23-01.49.31:022][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2021.01.23-01.49.35:866][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
+[2021.01.23-01.49.35:896][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2021.01.23-01.49.35:896][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2021.01.23-01.49.35:896][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2021.01.23-01.49.35:896][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2021.01.23-01.49.35:896][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2021.01.23-01.49.35:896][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2021.01.23-01.49.35:897][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2021.01.23-01.49.35:897][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2021.01.23-01.49.35:897][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2021.01.23-01.49.35:897][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2021.01.23-01.49.35:932][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2021.01.23-01.49.35:932][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2021.01.23-01.49.35:945][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Linux'
+[2021.01.23-01.49.35:959][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
+[2021.01.23-01.49.35:972][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2021.01.23-01.49.35:987][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2021.01.23-01.49.36:002][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
+[2021.01.23-01.49.36:021][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
+[2021.01.23-01.49.36:038][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
+[2021.01.23-01.49.36:077][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
+[2021.01.23-01.49.36:077][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
+[2021.01.23-01.49.36:100][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2021.01.23-01.49.36:100][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2021.01.23-01.49.36:116][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
+[2021.01.23-01.49.36:129][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2021.01.23-01.49.36:142][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2021.01.23-01.49.36:155][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2021.01.23-01.49.36:155][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2021.01.23-01.49.36:171][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2021.01.23-01.49.36:269][  0]LogShaderCompilers: Guid format shader working directory is -13 characters bigger than the processId version (../../../../GameDesign/ue4-ml.drone.shooting/DroneShooting/Intermediate/Shaders/WorkingDirectory/16272/).
+[2021.01.23-01.49.36:270][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/lipin/AppData/Local/Temp/UnrealShaderWorkingDir/458D149044ABC5B4FE1CA0BC90735DFE/'.
+[2021.01.23-01.49.36:270][  0]LogXGEController: Cleaning working directory: C:/Users/lipin/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2021.01.23-01.49.36:270][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2021.01.23-01.49.36:271][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2021.01.23-01.49.36:271][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2021.01.23-01.49.37:340][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2021.01.23-01.49.37:422][  0]LogDerivedDataCache: Loaded boot cache 0.08s 76MB C:/Users/lipin/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2021.01.23-01.49.37:423][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/lipin/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc
+[2021.01.23-01.49.37:423][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../GameDesign/ue4-ml.drone.shooting/DroneShooting/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2021.01.23-01.49.37:423][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2021.01.23-01.49.37:423][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../GameDesign/ue4-ml.drone.shooting/DroneShooting/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2021.01.23-01.49.37:423][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2021.01.23-01.49.37:436][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2021.01.23-01.49.37:437][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2021.01.23-01.49.37:437][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2021.01.23-01.49.37:438][  0]LogDerivedDataCache: Using Local data cache path C:/Users/lipin/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2021.01.23-01.49.37:438][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2021.01.23-01.49.37:439][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2021.01.23-01.49.37:512][  0]LogSlate: Using FreeType 2.10.0
+[2021.01.23-01.49.37:513][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2021.01.23-01.49.37:548][  0]LogAssetRegistry: FAssetRegistry took 0.0040 seconds to start up
+[2021.01.23-01.49.37:877][  0]LogInit: Selected Device Profile: [Windows]
+[2021.01.23-01.49.38:061][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2021.01.23-01.49.38:061][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2021.01.23-01.49.38:061][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2021.01.23-01.49.38:061][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2021.01.23-01.49.38:061][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2021.01.23-01.49.38:094][  0]LogNetVersion: DroneShooting 1.0.0, NetCL: 13144385, EngineNetVer: 14, GameNetVer: 0 (Checksum: 457005733)
+[2021.01.23-01.49.38:713][  0]LogAISub: UAISubsystem::UAISubsystem AISubsystem (0000016F7166D340), frame # 0
+[2021.01.23-01.49.38:713][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000016F715C2AC0), frame # 0
+[2021.01.23-01.49.38:715][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000016F71619E00), frame # 0
+[2021.01.23-01.49.38:806][  0]LogPackageLocalizationCache: Processed 20 localized package path(s) for 1 prioritized culture(s) in 0.083108 seconds
+[2021.01.23-01.49.38:813][  0]LogUObjectArray: 15917 objects as part of root set at end of initial load.
+[2021.01.23-01.49.38:813][  0]LogUObjectAllocator: 3965568 out of 0 bytes used by permanent object pool.
+[2021.01.23-01.49.38:813][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2021.01.23-01.49.39:317][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2021.01.23-01.49.39:323][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2021.01.23-01.49.39:510][  0]SourceControl: Source control is disabled
+[2021.01.23-01.49.39:510][  0]SourceControl: Source control is disabled
+[2021.01.23-01.49.39:517][  0]SourceControl: Source control is disabled
+[2021.01.23-01.49.39:524][  0]SourceControl: Source control is disabled
+[2021.01.23-01.49.39:543][  0]SourceControl: Source control is disabled
+[2021.01.23-01.49.39:957][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2021.01.23-01.49.39:986][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2021.01.23-01.49.39:986][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2021.01.23-01.49.40:055][  0]LogOcInput: OculusInput pre-init called
+[2021.01.23-01.49.40:070][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
+[2021.01.23-01.49.40:070][  0]LogWindows: File 'OVRPlugin.dll' does not exist
+[2021.01.23-01.49.40:148][  0]LogEngine: Initializing Engine...
+[2021.01.23-01.49.40:149][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2021.01.23-01.49.40:149][  0]LogMagicLeap: Warning: VR disabled because ZI is not enabled.  To enable, in the editor, Edit -> Project Settings -> Plugins -> Magic Leap Plugin -> Enable Zero Iteration
+[2021.01.23-01.49.40:150][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2021.01.23-01.49.40:307][  0]LogInit: Initializing FReadOnlyCVARCache
+[2021.01.23-01.49.40:317][  0]LogAIModule: Creating AISystem for world Untitled
+[2021.01.23-01.49.40:317][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000016F786C7C00), frame # 0
+[2021.01.23-01.49.40:317][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000016F786D3B00), frame # 0
+[2021.01.23-01.49.40:345][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.01.23-01.49.40:345][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.01.23-01.49.40:345][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.01.23-01.49.40:345][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.01.23-01.49.40:345][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.01.23-01.49.40:345][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.01.23-01.49.40:345][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.01.23-01.49.40:345][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.01.23-01.49.40:346][  0]LogAudio: Display: Using built-in audio occlusion.
+[2021.01.23-01.49.40:346][  0]LogAudioMixer: Display: Initializing audio mixer.
+[2021.01.23-01.49.40:378][  0]LogAudioMixer: Display: 0: FrontLeft
+[2021.01.23-01.49.40:378][  0]LogAudioMixer: Display: 1: FrontRight
+[2021.01.23-01.49.40:469][  0]LogAudioMixer: Display: Using Audio Device Headphones (Realtek(R) Audio)
+[2021.01.23-01.49.40:473][  0]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.01.23-01.49.40:476][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.01.23-01.49.40:476][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.01.23-01.49.40:477][  0]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.01.23-01.49.40:479][  0]LogInit: FAudioDevice initialized.
+[2021.01.23-01.49.40:479][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2021.01.23-01.49.40:535][  0]LogDerivedDataCache: Saved boot cache 0.06s 76MB C:/Users/lipin/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2021.01.23-01.49.40:537][  0]LogInit: Texture streaming: Enabled
+[2021.01.23-01.49.40:564][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2021.01.23-01.49.40:564][  0]LogEngineSessionManager: EngineSessionManager sent abnormal shutdown report. Type=Crashed, SessionId={BFE5C391-4506-92A7-5802-D49D9A58FB8F}
+[2021.01.23-01.49.40:564][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2021.01.23-01.49.40:569][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2021.01.23-01.49.40:650][  0]LogInit: Transaction tracking system initialized
+[2021.01.23-01.49.40:683][  0]BlueprintLog: New page: Editor Load
+[2021.01.23-01.49.40:791][  0]LocalizationService: Localization service is disabled
+[2021.01.23-01.49.40:994][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2021.01.23-01.49.40:994][  0]LogCook: Display: Mobile HDR setting 1
+[2021.01.23-01.49.41:308][  0]LogFileCache: Scanning file cache for directory 'D:/Documents/GameDesign/ue4-ml.drone.shooting/DroneShooting/Content/' took 0.03s
+[2021.01.23-01.49.41:542][  0]LogImageWrapper: Warning: PNG Warning: iCCP: CRC error
+[2021.01.23-01.49.41:542][  0]LogImageWrapper: Warning: PNG Warning: iCCP: CRC error
+[2021.01.23-01.49.41:962][  0]LogImageWrapper: Warning: PNG Warning: iCCP: CRC error
+[2021.01.23-01.49.41:962][  0]LogImageWrapper: Warning: PNG Warning: iCCP: CRC error
+[2021.01.23-01.49.41:962][  0]SourceControl: Source control is disabled
+[2021.01.23-01.49.41:962][  0]LogUnrealEdMisc: Loading editor; pre map load, took 15.985
+[2021.01.23-01.49.41:962][  0]Cmd: MAP LOAD FILE="../../../../GameDesign/ue4-ml.drone.shooting/DroneShooting/Content/Maps/Sandbox.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2021.01.23-01.49.41:963][  0]LightingResults: New page: Lighting Build
+[2021.01.23-01.49.41:964][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2021.01.23-01.49.41:964][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.23-01.49.41:964][  0]MapCheck: New page: Map Check
+[2021.01.23-01.49.41:964][  0]LightingResults: New page: Lighting Build
+[2021.01.23-01.49.41:985][  0]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000016F786C7C00), frame # 0
+[2021.01.23-01.49.41:986][  0]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000016F786D3B00), frame # 0
+[2021.01.23-01.49.41:988][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.55ms
+[2021.01.23-01.49.42:007][  0]LogLinker: Warning: While loading '../../../../GameDesign/ue4-ml.drone.shooting/DroneShooting/Content/ParagonMurdock/Characters/Heroes/Murdock/Animations/LevelStart_Montage.uasset' failed to load '/Game/ParagonShinbi/Characters/Heroes/Shinbi/Animations/LevelStart': Can't find file.
+[2021.01.23-01.49.42:007][  0]LogLinker: Warning: While loading '../../../../GameDesign/ue4-ml.drone.shooting/DroneShooting/Content/ParagonMurdock/Characters/Heroes/Murdock/Animations/LevelStart_Montage.uasset' failed to load '/Game/ParagonShinbi/Characters/Heroes/Shinbi/Animations/LevelStart': Can't find file.
+[2021.01.23-01.49.42:007][  0]LogLinker: Warning: While loading '../../../../GameDesign/ue4-ml.drone.shooting/DroneShooting/Content/ParagonMurdock/Characters/Heroes/Murdock/Animations/LevelStart_Montage.uasset' failed to load '/Game/ParagonShinbi/Characters/Heroes/Shinbi/Animations/LevelStart': Can't find file.
+[2021.01.23-01.49.42:008][  0]LogLinker: Warning: While loading '../../../../GameDesign/ue4-ml.drone.shooting/DroneShooting/Content/ParagonMurdock/Characters/Heroes/Murdock/Animations/LevelStart_Montage.uasset' failed to load '/Game/ParagonShinbi/Characters/Heroes/Shinbi/Animations/LevelStart': Can't find file.
+[2021.01.23-01.49.42:387][  0]LogBlueprint: Warning: [Compiler MurdockPlayerCharacter] InputAction Event references unknown Action 'ResetVR' for  InputAction ResetVR
+[2021.01.23-01.49.42:387][  0]LogBlueprint: Warning: [Compiler MurdockPlayerCharacter] Input Axis Event references unknown Axis 'LookUpRate' for  InputAxis LookUpRate
+[2021.01.23-01.49.42:388][  0]LogBlueprint: Warning: [Compiler MurdockPlayerCharacter] Input Axis Event references unknown Axis 'TurnRate' for  InputAxis TurnRate
+[2021.01.23-01.49.42:388][  0]LogBlueprint: Warning: [Compiler MurdockPlayerCharacter] Input Axis Event references unknown Axis 'Turn' for  InputAxis Turn
+[2021.01.23-01.49.43:611][  0]LogLinker: Warning: While loading '../../../../GameDesign/ue4-ml.drone.shooting/DroneShooting/Content/ParagonMurdock/Characters/Heroes/Murdock/Animations/LevelStart_Montage.uasset' failed to load '/Game/ParagonShinbi/Characters/Heroes/Shinbi/Animations/LevelStart': Can't find file.
+[2021.01.23-01.49.43:611][  0]LoadErrors: Failed to load /Game/ParagonShinbi/Characters/Heroes/Shinbi/Animations/LevelStart.LevelStart Referenced by LevelStart_Montage
+[2021.01.23-01.49.43:611][  0]LogLinker: Warning: While loading '../../../../GameDesign/ue4-ml.drone.shooting/DroneShooting/Content/ParagonMurdock/Characters/Heroes/Murdock/Animations/LevelStart_Montage.uasset' failed to load '/Game/ParagonShinbi/Characters/Heroes/Shinbi/Animations/LevelStart': Can't find file.
+[2021.01.23-01.49.43:611][  0]LoadErrors: Failed to load /Game/ParagonShinbi/Characters/Heroes/Shinbi/Animations/LevelStart.LevelStart Referenced by LevelStart_Montage
+[2021.01.23-01.49.43:612][  0]LogLinker: Warning: While loading '../../../../GameDesign/ue4-ml.drone.shooting/DroneShooting/Content/ParagonMurdock/Characters/Heroes/Murdock/Animations/LevelStart_Montage.uasset' failed to load '/Game/ParagonShinbi/Characters/Heroes/Shinbi/Animations/LevelStart': Can't find file.
+[2021.01.23-01.49.43:612][  0]LoadErrors: Failed to load /Game/ParagonShinbi/Characters/Heroes/Shinbi/Animations/LevelStart.LevelStart Referenced by LevelStart_Montage
+[2021.01.23-01.49.43:612][  0]LogLinker: Warning: While loading '../../../../GameDesign/ue4-ml.drone.shooting/DroneShooting/Content/ParagonMurdock/Characters/Heroes/Murdock/Animations/LevelStart_Montage.uasset' failed to load '/Game/ParagonShinbi/Characters/Heroes/Shinbi/Animations/LevelStart': Can't find file.
+[2021.01.23-01.49.43:612][  0]LoadErrors: Failed to load /Game/ParagonShinbi/Characters/Heroes/Shinbi/Animations/LevelStart.LevelStart Referenced by LevelStart_Montage
+[2021.01.23-01.49.43:865][  0]LogMaterial: Display: Missing cached shader map for material M_EyeRefractive, compiling. 
+[2021.01.23-01.49.43:876][  0]LogMaterial: Warning: D:\Documents\GameDesign\ue4-ml.drone.shooting\DroneShooting\Content\ParagonMurdock\Characters\Global\Eyes\Materials\M_EyeRefractive.uasset: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2021.01.23-01.49.43:876][  0]LogMaterial: Display: 	(Node TextureSampleParameterCube) ParamCube> Found NULL, requires TextureCube
+[2021.01.23-01.49.43:876][  0]LogMaterial: Display: 	(Node MakeMaterialAttributes) Error on property EmissiveColor
+[2021.01.23-01.49.43:999][  0]LogAIModule: Creating AISystem for world Sandbox
+[2021.01.23-01.49.43:999][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000016F0ED37E00), frame # 0
+[2021.01.23-01.49.43:999][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000016F0EE16200), frame # 0
+[2021.01.23-01.49.44:005][  0]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:ExecuteUbergraph_Murdock_AnimBlueprint
+
+[2021.01.23-01.49.44:008][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2021.01.23-01.49.44:033][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.83ms
+[2021.01.23-01.49.44:034][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2021.01.23-01.49.44:034][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.122ms to complete.
+[2021.01.23-01.49.44:034][  0]LogFileHelpers: Loading map 'Sandbox' took 2.071
+[2021.01.23-01.49.44:038][  0]LogUnrealEdMisc: Total Editor Startup Time, took 18.060
+[2021.01.23-01.49.44:499][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.23-01.49.44:508][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.23-01.49.44:518][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.23-01.49.44:527][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.23-01.49.44:547][  0]LogCollectionManager: Loaded 0 collections in 0.002501 seconds
+[2021.01.23-01.49.44:566][  0]LogFileCache: Scanning file cache for directory 'D:/Documents/GameDesign/ue4-ml.drone.shooting/DroneShooting/Saved/Collections/' took 0.00s
+[2021.01.23-01.49.44:566][  0]LogFileCache: Scanning file cache for directory 'D:/Documents/GameDesign/ue4-ml.drone.shooting/DroneShooting/Content/Developers/philng/Collections/' took 0.00s
+[2021.01.23-01.49.44:566][  0]LogFileCache: Scanning file cache for directory 'D:/Documents/GameDesign/ue4-ml.drone.shooting/DroneShooting/Content/Collections/' took 0.00s
+[2021.01.23-01.49.44:566][  0]LogContentBrowser: Native class hierarchy populated in 0.0115 seconds. Added 3432 classes and 828 folders.
+[2021.01.23-01.49.44:569][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2021.01.23-01.49.44:650][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2021.01.23-01.49.45:177][  0]LogSlate: Took 0.000233 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2021.01.23-01.49.45:180][  0]LogSlate: Took 0.000188 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2021.01.23-01.49.45:186][  0]LogSlate: Took 0.000207 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2021.01.23-01.49.45:187][  0]LogSlate: Took 0.000247 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2021.01.23-01.49.45:365][  0]LogRenderer: Reallocating scene render targets to support 1056x648 Format 10 NumSamples 1 (Frame:1).
+[2021.01.23-01.49.45:558][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2021.01.23-01.49.45:559][  0]LogLoad: (Engine Initialization) Total time: 19.58 seconds
+[2021.01.23-01.49.45:559][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2021.01.23-01.49.45:652][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2021.01.23-01.49.45:721][  0]LogSlate: Took 0.000201 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2021.01.23-01.49.45:858][  2]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:ExecuteUbergraph_Murdock_AnimBlueprint
+
+[2021.01.23-01.49.45:872][  2]LogAssetRegistry: Asset discovery search completed in 8.3269 seconds
+[2021.01.23-01.49.45:885][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000006 seconds (updated 0 objects)
+[2021.01.23-01.49.49:525][132]LogSlate: Window 'Message Log' being destroyed
+[2021.01.23-01.49.49:535][132]LogSlate: Window 'Message Log' being destroyed
+[2021.01.23-01.50.46:325][ 78]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:ExecuteUbergraph_Murdock_AnimBlueprint
+
+[2021.01.23-01.50.51:680][223]LogAssetEditorSubsystem: Opening Asset editor for BlendSpace /Game/ParagonMurdock/Characters/Heroes/Murdock/Animations/BlendSpaces/Murdock_Locomotion_BS.Murdock_Locomotion_BS
+[2021.01.23-01.50.51:718][223]LogContentBrowser: Native class hierarchy updated for 'SkeletonEditor' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2021.01.23-01.50.52:017][223]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_6:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2021.01.23-01.50.52:022][223]LogContentBrowser: Native class hierarchy updated for 'PinnedCommandList' in 0.0005 seconds. Added 1 classes and 0 folders.
+[2021.01.23-01.50.52:150][223]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_6:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2021.01.23-01.50.52:896][223]LogRenderer: Reallocating scene render targets to support 1144x648 Format 10 NumSamples 1 (Frame:1).
+[2021.01.23-01.50.52:896][223]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2021.01.23-01.50.55:269][234]LogAssetEditorSubsystem: Opening Asset editor for AnimBlueprint /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint
+[2021.01.23-01.50.55:284][234]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_11:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2021.01.23-01.50.55:486][234]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0008 seconds. Added 125 classes and 0 folders.
+[2021.01.23-01.50.56:580][234]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_11:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2021.01.23-01.50.56:954][234]LogSlate: Took 0.000287 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2021.01.23-01.50.57:122][234]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2021.01.23-01.50.57:154][235]LogSlate: Took 0.000276 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2021.01.23-01.51.20:602][  1]LogSavePackage: Moving '../../../../GameDesign/ue4-ml.drone.shooting/DroneShooting/Saved/Murdock_AnimBlueprintCF08014D4FA7E4F987D170B7DA044E9A.tmp' to '../../../../GameDesign/ue4-ml.drone.shooting/DroneShooting/Content/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.uasset'
+[2021.01.23-01.51.20:628][  1]AssetCheck: New page: Asset Save: Murdock_AnimBlueprint
+[2021.01.23-01.51.20:628][  1]LogContentValidation: Display: Validating AnimBlueprint /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint
+[2021.01.23-01.51.21:885][ 17]LogWorld: UWorld::CleanupWorld for World_11, bSessionEnded=true, bCleanupResources=true
+[2021.01.23-01.51.21:885][ 17]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.23-01.51.21:889][ 17]LogWorld: UWorld::CleanupWorld for World_10, bSessionEnded=true, bCleanupResources=true
+[2021.01.23-01.51.21:889][ 17]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.23-01.51.22:094][ 17]LogWorld: UWorld::CleanupWorld for World_12, bSessionEnded=true, bCleanupResources=true
+[2021.01.23-01.51.22:094][ 17]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.23-01.51.22:877][ 27]LogSlate: Window 'Murdock_Locomotion_BS' being destroyed
+[2021.01.23-01.51.23:022][ 27]LogWorld: UWorld::CleanupWorld for World_6, bSessionEnded=true, bCleanupResources=true
+[2021.01.23-01.51.23:022][ 27]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.23-01.51.23:158][ 27]LogWorld: UWorld::CleanupWorld for World_7, bSessionEnded=true, bCleanupResources=true
+[2021.01.23-01.51.23:158][ 27]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.23-01.51.24:034][ 46]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2021.01.23-01.51.24:054][ 46]BlueprintLog: New page: Pre-Play auto-recompile
+[2021.01.23-01.51.24:055][ 46]LogPlayLevel: [PlayLevel] Compiling Murdock_AnimBlueprint before play...
+[2021.01.23-01.51.24:110][ 46]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:ExecuteUbergraph_Murdock_AnimBlueprint
+
+[2021.01.23-01.51.24:111][ 46]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:ExecuteUbergraph_Murdock_AnimBlueprint
+
+[2021.01.23-01.51.24:112][ 46]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:ExecuteUbergraph_Murdock_AnimBlueprint
+
+[2021.01.23-01.51.24:158][ 46]LogUObjectHash: Compacting FUObjectHashTables data took   3.48ms
+[2021.01.23-01.51.24:162][ 46]LogPlayLevel: PlayLevel: Blueprint regeneration took 108 ms (1 blueprints)
+[2021.01.23-01.51.24:162][ 46]PIE: New page: PIE session: Sandbox (Jan. 22, 2021, 3:51:24 p.m.)
+[2021.01.23-01.51.24:163][ 46]LogOnline: OSS: Creating online subsystem instance for: NULL
+[2021.01.23-01.51.24:165][ 46]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+[2021.01.23-01.51.24:166][ 46]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Sandbox
+[2021.01.23-01.51.24:170][ 46]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004621s)
+[2021.01.23-01.51.24:172][ 46]LogAIModule: Creating AISystem for world Sandbox
+[2021.01.23-01.51.24:172][ 46]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000016F7873A600), frame # 4046
+[2021.01.23-01.51.24:172][ 46]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000016FD59B0900), frame # 4046
+[2021.01.23-01.51.24:172][ 46]LogPlayLevel: PIE: World Init took: (0.001870s)
+[2021.01.23-01.51.24:172][ 46]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Sandbox.Sandbox to /Game/Maps/UEDPIE_0_Sandbox.Sandbox (0.006726s)
+[2021.01.23-01.51.24:196][ 46]LogUObjectHash: Compacting FUObjectHashTables data took   2.35ms
+[2021.01.23-01.51.24:197][ 46]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.01.23-01.51.24:197][ 46]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.01.23-01.51.24:197][ 46]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.01.23-01.51.24:197][ 46]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.01.23-01.51.24:197][ 46]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.01.23-01.51.24:197][ 46]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.01.23-01.51.24:197][ 46]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.01.23-01.51.24:197][ 46]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.01.23-01.51.24:198][ 46]LogAudio: Display: Using built-in audio occlusion.
+[2021.01.23-01.51.24:198][ 46]LogAudioMixer: Display: Initializing audio mixer.
+[2021.01.23-01.51.24:203][ 46]LogAudioMixer: Display: 0: FrontLeft
+[2021.01.23-01.51.24:203][ 46]LogAudioMixer: Display: 1: FrontRight
+[2021.01.23-01.51.24:272][ 46]LogAudioMixer: Display: Using Audio Device Headphones (Realtek(R) Audio)
+[2021.01.23-01.51.24:273][ 46]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.01.23-01.51.24:273][ 46]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.01.23-01.51.24:273][ 46]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.01.23-01.51.24:273][ 46]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.01.23-01.51.24:291][ 46]LogInit: FAudioDevice initialized.
+[2021.01.23-01.51.24:323][ 46]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.23-01.51.24:585][ 46]LogLoad: Game class is 'BP_ShooterGameMode_C'
+[2021.01.23-01.51.24:587][ 46]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:ExecuteUbergraph_Murdock_AnimBlueprint
+
+[2021.01.23-01.51.24:587][ 46]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Sandbox.Sandbox up for play (max tick rate 0) at 2021.01.22-20.51.24
+[2021.01.23-01.51.24:588][ 46]LogWorld: Bringing up level for play took: 0.002051
+[2021.01.23-01.51.24:588][ 46]LogOnline: OSS: Creating online subsystem instance for: :Context_14
+[2021.01.23-01.51.24:593][ 46]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0006 seconds. Added 20 classes and 0 folders.
+[2021.01.23-01.51.24:594][ 46]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:ExecuteUbergraph_Murdock_AnimBlueprint
+
+[2021.01.23-01.51.24:598][ 46]PIE: Server logged in
+[2021.01.23-01.51.24:599][ 46]PIE: Play in editor total start time 0.548 seconds.

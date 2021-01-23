@@ -68,7 +68,7 @@ private:
 	class UAnimMontage* ShootAnimMontage;
 
 	const float MAX_WALK_SPEED = 500.f;
-	const float JUMP_BOOSTER_FORCE = 700.f;
+	const float JUMP_BOOSTER_FORCE = 400.f;
 
 	bool bIsRunning = false;
 #pragma endregion
