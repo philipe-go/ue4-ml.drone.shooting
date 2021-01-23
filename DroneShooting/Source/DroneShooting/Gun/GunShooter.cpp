@@ -46,9 +46,11 @@ void AGunShooter::ShootProjectile()
 		FVector StartPoint = PlayerSkeletal->GetSocketLocation(TEXT("Muzzle"));
 		FVector Direction = PlayerSkeletal->GetSocketRotation(TEXT("Muzzle")).Vector();
 		FVector EndPoint = StartPoint + Direction * BULLET_RANGE;
-
+		FCollisionQueryParams Params;
+		Params.AddIgnoredActor(this);
+		Params.AddIgnoredActor(GetOwner());
 		FHitResult OutHit;
-		if (GetWorld()->LineTraceSingleByChannel(OutHit, StartPoint,EndPoint,ECollisionChannel::ECC_GameTraceChannel1))
+		if (GetWorld()->LineTraceSingleByChannel(OutHit, StartPoint,EndPoint,ECollisionChannel::ECC_GameTraceChannel1, Params))
 		{
 			if (HitParticle) UGameplayStatics::SpawnEmitterAtLocation(GetWorld(), HitParticle,OutHit.Location, Direction.Rotation());
 			FPointDamageEvent DamageEvent(DamageRate, OutHit, Direction, nullptr);

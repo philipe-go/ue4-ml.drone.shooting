@@ -7,6 +7,10 @@ D:\Documents\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\Charac
 D:\Documents\GameDesign\ue4-ml.drone.shooting\DroneShooting\Intermediate\Build\Win64\UE4Editor\Inc\DroneShooting\CharacterBase.generated.h
 D:\Documents\UE_4.25\Engine\Source\Runtime\Engine\Classes\Camera/CameraComponent.h
 D:\Documents\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\CameraComponent.generated.h
+D:\Documents\UE_4.25\Engine\Source\Runtime\Engine\Classes\Components/CapsuleComponent.h
+D:\Documents\UE_4.25\Engine\Source\Runtime\Engine\Classes\Components/ShapeComponent.h
+D:\Documents\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ShapeComponent.generated.h
+D:\Documents\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\CapsuleComponent.generated.h
 D:\Documents\GameDesign\ue4-ml.drone.shooting\DroneShooting\Source\DroneShooting/Gun/GunShooter.h
 D:\Documents\GameDesign\ue4-ml.drone.shooting\DroneShooting\Intermediate\Build\Win64\UE4Editor\Inc\DroneShooting\GunShooter.generated.h
 D:\Documents\UE_4.25\Engine\Source\Runtime\Engine\Classes\GameFramework/CharacterMovementComponent.h

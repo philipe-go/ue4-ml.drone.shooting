@@ -36,7 +36,7 @@ public: \
 
 #define DroneShooting_Source_DroneShooting_AI_BTTask_Shoot_h_15_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
-	NO_API UBTTask_Shoot(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	NO_API UBTTask_Shoot(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UBTTask_Shoot) \
 	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UBTTask_Shoot); \
 DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UBTTask_Shoot); \
@@ -48,8 +48,6 @@ public:
 
 
 #define DroneShooting_Source_DroneShooting_AI_BTTask_Shoot_h_15_ENHANCED_CONSTRUCTORS \
-	/** Standard constructor, called after all reflected properties have been initialized */ \
-	NO_API UBTTask_Shoot(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()) : Super(ObjectInitializer) { }; \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API UBTTask_Shoot(UBTTask_Shoot&&); \
@@ -57,7 +55,7 @@ private: \
 public: \
 	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UBTTask_Shoot); \
 DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UBTTask_Shoot); \
-	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UBTTask_Shoot)
+	DEFINE_DEFAULT_CONSTRUCTOR_CALL(UBTTask_Shoot)
 
 
 #define DroneShooting_Source_DroneShooting_AI_BTTask_Shoot_h_15_PRIVATE_PROPERTY_OFFSET

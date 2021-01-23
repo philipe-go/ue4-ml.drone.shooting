@@ -26,7 +26,7 @@ void AEnemyAIController::Tick(float DeltaSeconds)
 {
     Super::Tick(DeltaSeconds);
 
-    if (PlayerPawn && LineOfSightTo(PlayerPawn))
+    if (PlayerPawn && LineOfSightTo(PlayerPawn)) 
     {
         SetFocus(PlayerPawn);
         AIBlackboard->SetValueAsVector(TEXT("PlayerLocation"), PlayerPawn->GetActorLocation());

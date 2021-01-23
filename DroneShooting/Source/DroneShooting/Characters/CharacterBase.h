@@ -36,7 +36,7 @@ public:
 	UFUNCTION(BlueprintPure)
 	bool IsAiming() const;
 
-private:
+public:
 #pragma region //INPUT HANDLER
 	void MoveForward(float AxisValue);
 
@@ -55,6 +55,7 @@ private:
 	void Jump() override;
 #pragma endregion
 
+private:
 #pragma region //MOVEMENT HANDLER
 	class AController *PlayerController;
 
