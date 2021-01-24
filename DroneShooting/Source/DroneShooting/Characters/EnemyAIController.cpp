@@ -39,3 +39,11 @@ void AEnemyAIController::Tick(float DeltaSeconds)
         AIBlackboard->SetValueAsVector(TEXT("LastPlayerLocation"), PlayerPawn->GetActorLocation());
     }
 }
+
+bool AEnemyAIController::IsDead() const
+{
+    ACharacterBase* ControlledPawn = Cast<ACharacterBase>(GetPawn());
+    if (ControlledPawn) return ControlledPawn->IsDead();
+
+    return true; //if a controller is not an intented pawn
+}

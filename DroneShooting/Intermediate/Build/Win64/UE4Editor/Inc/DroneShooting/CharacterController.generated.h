@@ -36,7 +36,7 @@ public: \
 
 #define DroneShooting_Source_DroneShooting_Controller_CharacterController_h_15_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
-	NO_API ACharacterController(const FObjectInitializer& ObjectInitializer); \
+	NO_API ACharacterController(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(ACharacterController) \
 	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, ACharacterController); \
 DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ACharacterController); \
@@ -48,6 +48,8 @@ public:
 
 
 #define DroneShooting_Source_DroneShooting_Controller_CharacterController_h_15_ENHANCED_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API ACharacterController(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()) : Super(ObjectInitializer) { }; \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API ACharacterController(ACharacterController&&); \
@@ -55,11 +57,12 @@ private: \
 public: \
 	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, ACharacterController); \
 DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ACharacterController); \
-	DEFINE_DEFAULT_CONSTRUCTOR_CALL(ACharacterController)
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(ACharacterController)
 
 
 #define DroneShooting_Source_DroneShooting_Controller_CharacterController_h_15_PRIVATE_PROPERTY_OFFSET \
 	FORCEINLINE static uint32 __PPO__LoseUI() { return STRUCT_OFFSET(ACharacterController, LoseUI); } \
+	FORCEINLINE static uint32 __PPO__WonUI() { return STRUCT_OFFSET(ACharacterController, WonUI); } \
 	FORCEINLINE static uint32 __PPO__RestartCounter() { return STRUCT_OFFSET(ACharacterController, RestartCounter); } \
 	FORCEINLINE static uint32 __PPO__Timer() { return STRUCT_OFFSET(ACharacterController, Timer); }
 

@@ -14,8 +14,9 @@ class DRONESHOOTING_API AIntenseDroneShootingGameModeBase : public ADroneShootin
 {
 	GENERATED_BODY()
 
-	
-	public:
-	virtual void PawnDie(APawn* DeadPawn) override;
-	
+public:
+	virtual void PawnDie(APawn *DeadPawn) override;
+
+private:
+	void EndGame(bool bIsPlayerWinner);
 };

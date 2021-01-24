@@ -4214,3 +4214,1284 @@ Script call stack:
 [2021.01.24-00.24.26:748][113]AssetCheck: New page: Asset Save: multiple assets
 [2021.01.24-00.24.26:748][113]LogContentValidation: Display: Validating World /Game/Maps/Sandbox.Sandbox
 [2021.01.24-00.24.26:748][113]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Maps/Sandbox_BuiltData.Sandbox_BuiltData
+[2021.01.24-00.52.15:941][164]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Sandbox" FILE="../../../../GameDesign/ue4-ml.drone.shooting/DroneShooting/Content/Maps/Sandbox.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2021.01.24-00.52.15:967][164]LogUObjectHash: Compacting FUObjectHashTables data took   1.01ms
+[2021.01.24-00.52.16:004][164]LogSavePackage: Moving '../../../../GameDesign/ue4-ml.drone.shooting/DroneShooting/Saved/Sandbox9B09E5FA4DDDD3BD1BA78C9E5701FCAB.tmp' to '../../../../GameDesign/ue4-ml.drone.shooting/DroneShooting/Content/Maps/Sandbox.umap'
+[2021.01.24-00.52.16:036][164]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Sandbox_BuiltData" FILE="../../../../GameDesign/ue4-ml.drone.shooting/DroneShooting/Content/Maps/Sandbox_BuiltData.uasset" SILENT=true
+[2021.01.24-00.52.16:081][164]LogSavePackage: Moving '../../../../GameDesign/ue4-ml.drone.shooting/DroneShooting/Saved/Sandbox_BuiltData186775EC425594117770B9954874858B.tmp' to '../../../../GameDesign/ue4-ml.drone.shooting/DroneShooting/Content/Maps/Sandbox_BuiltData.uasset'
+[2021.01.24-00.52.16:104][164]AssetCheck: New page: Asset Save: multiple assets
+[2021.01.24-00.52.16:104][164]LogContentValidation: Display: Validating World /Game/Maps/Sandbox.Sandbox
+[2021.01.24-00.52.16:104][164]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Maps/Sandbox_BuiltData.Sandbox_BuiltData
+[2021.01.24-00.57.58:246][896]Candidate modules for hot reload:
+[2021.01.24-00.57.58:246][896]  DroneShooting
+[2021.01.24-00.57.58:246][896]Launching UnrealBuildTool... [D:/Documents/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=DroneShooting,2100 DroneShootingEditor Win64 Development -Project="D:/Documents/GameDesign/ue4-ml.drone.shooting/DroneShooting/DroneShooting.uproject" "D:/Documents/GameDesign/ue4-ml.drone.shooting/DroneShooting/DroneShooting.uproject"  -IgnoreJunk]
+[2021.01.24-00.57.58:448][896]Warning: Starting HotReload took  0.2s.
+[2021.01.24-00.58.39:300][496]CompilerResultsLog: New page: Compilation - Jan. 23, 2021, 2:58:39 p.m.
+[2021.01.24-00.58.39:301][496]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (D:\Documents\GameDesign\ue4-ml.drone.shooting).
+[2021.01.24-00.58.39:301][496]CompilerResultsLog: Parsing headers for DroneShootingEditor
+[2021.01.24-00.58.39:301][496]CompilerResultsLog:   Running UnrealHeaderTool "D:\Documents\GameDesign\ue4-ml.drone.shooting\DroneShooting\DroneShooting.uproject" "D:\Documents\GameDesign\ue4-ml.drone.shooting\DroneShooting\Intermediate\Build\Win64\DroneShootingEditor\Development\DroneShootingEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\lipin\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+[2021.01.24-00.58.39:301][496]CompilerResultsLog: Reflection code generated for DroneShootingEditor in 9.1119521 seconds
+[2021.01.24-00.58.39:301][496]CompilerResultsLog: Building DroneShootingEditor...
+[2021.01.24-00.58.39:301][496]CompilerResultsLog: Using Visual Studio 2019 14.27.29112 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2021.01.24-00.58.39:301][496]CompilerResultsLog: Building 5 actions with 12 processes...
+[2021.01.24-00.58.39:302][496]CompilerResultsLog:   [1/5] CharacterController.gen.cpp
+[2021.01.24-00.58.39:302][496]CompilerResultsLog:   [2/5] CharacterController.cpp
+[2021.01.24-00.58.39:302][496]CompilerResultsLog:   [3/5] UE4Editor-DroneShooting-2100.lib
+[2021.01.24-00.58.39:302][496]CompilerResultsLog:      Creating library D:\Documents\GameDesign\ue4-ml.drone.shooting\DroneShooting\Intermediate\Build\Win64\UE4Editor\Development\DroneShooting\UE4Editor-DroneShooting-2100.lib and object D:\Documents\GameDesign\ue4-ml.drone.shooting\DroneShooting\Intermediate\Build\Win64\UE4Editor\Development\DroneShooting\UE4Editor-DroneShooting-2100.exp
+[2021.01.24-00.58.39:302][496]CompilerResultsLog:   [4/5] UE4Editor-DroneShooting-2100.dll
+[2021.01.24-00.58.39:302][496]CompilerResultsLog:      Creating library D:\Documents\GameDesign\ue4-ml.drone.shooting\DroneShooting\Intermediate\Build\Win64\UE4Editor\Development\DroneShooting\UE4Editor-DroneShooting-2100.suppressed.lib and object D:\Documents\GameDesign\ue4-ml.drone.shooting\DroneShooting\Intermediate\Build\Win64\UE4Editor\Development\DroneShooting\UE4Editor-DroneShooting-2100.suppressed.exp
+[2021.01.24-00.58.39:302][496]CompilerResultsLog:   [5/5] DroneShootingEditor.target
+[2021.01.24-00.58.39:302][496]CompilerResultsLog: Total time in Parallel executor: 21.85 seconds
+[2021.01.24-00.58.39:302][496]CompilerResultsLog: Total execution time: 40.64 seconds
+[2021.01.24-00.58.39:302][496]LogMainFrame: MainFrame: Module compiling took 41.062 seconds
+[2021.01.24-00.58.39:349][496]LogContentBrowser: Native class hierarchy updated for 'DroneShooting' in 0.0006 seconds. Added 8 classes and 6 folders.
+[2021.01.24-00.58.39:354][496]Display: HotReload successful (2 functions remapped  0 scriptstructs remapped)
+[2021.01.24-00.58.39:515][496]LogContentBrowser: Native class hierarchy populated in 0.0107 seconds. Added 3436 classes and 830 folders.
+[2021.01.24-00.58.39:524][496]Display: HotReload took 41.3s.
+[2021.01.24-01.26.37:209][531]Candidate modules for hot reload:
+[2021.01.24-01.26.37:209][531]  DroneShooting
+[2021.01.24-01.26.37:209][531]Launching UnrealBuildTool... [D:/Documents/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=DroneShooting,1197 DroneShootingEditor Win64 Development -Project="D:/Documents/GameDesign/ue4-ml.drone.shooting/DroneShooting/DroneShooting.uproject" "D:/Documents/GameDesign/ue4-ml.drone.shooting/DroneShooting/DroneShooting.uproject"  -IgnoreJunk]
+[2021.01.24-01.26.37:510][531]Warning: Starting HotReload took  0.3s.
+[2021.01.24-01.26.58:566][777]CompilerResultsLog: New page: Compilation - Jan. 23, 2021, 3:26:58 p.m.
+[2021.01.24-01.26.58:567][777]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (D:\Documents\GameDesign\ue4-ml.drone.shooting).
+[2021.01.24-01.26.58:567][777]CompilerResultsLog: Parsing headers for DroneShootingEditor
+[2021.01.24-01.26.58:567][777]CompilerResultsLog:   Running UnrealHeaderTool "D:\Documents\GameDesign\ue4-ml.drone.shooting\DroneShooting\DroneShooting.uproject" "D:\Documents\GameDesign\ue4-ml.drone.shooting\DroneShooting\Intermediate\Build\Win64\DroneShootingEditor\Development\DroneShootingEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\lipin\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+[2021.01.24-01.26.58:567][777]CompilerResultsLog: Reflection code generated for DroneShootingEditor in 8.0599867 seconds
+[2021.01.24-01.26.58:567][777]CompilerResultsLog: Building DroneShootingEditor...
+[2021.01.24-01.26.58:567][777]CompilerResultsLog: Using Visual Studio 2019 14.27.29112 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2021.01.24-01.26.58:567][777]CompilerResultsLog: Building 5 actions with 12 processes...
+[2021.01.24-01.26.58:568][777]CompilerResultsLog:   [1/5] IntenseDroneShootingGameModeBase.gen.cpp
+[2021.01.24-01.26.58:568][777]CompilerResultsLog:   [2/5] IntenseDroneShootingGameModeBase.cpp
+[2021.01.24-01.26.58:568][777]CompilerResultsLog:   [3/5] UE4Editor-DroneShooting-1197.lib
+[2021.01.24-01.26.58:568][777]CompilerResultsLog:      Creating library D:\Documents\GameDesign\ue4-ml.drone.shooting\DroneShooting\Intermediate\Build\Win64\UE4Editor\Development\DroneShooting\UE4Editor-DroneShooting-1197.lib and object D:\Documents\GameDesign\ue4-ml.drone.shooting\DroneShooting\Intermediate\Build\Win64\UE4Editor\Development\DroneShooting\UE4Editor-DroneShooting-1197.exp
+[2021.01.24-01.26.58:568][777]CompilerResultsLog:   [4/5] UE4Editor-DroneShooting-1197.dll
+[2021.01.24-01.26.58:568][777]CompilerResultsLog:      Creating library D:\Documents\GameDesign\ue4-ml.drone.shooting\DroneShooting\Intermediate\Build\Win64\UE4Editor\Development\DroneShooting\UE4Editor-DroneShooting-1197.suppressed.lib and object D:\Documents\GameDesign\ue4-ml.drone.shooting\DroneShooting\Intermediate\Build\Win64\UE4Editor\Development\DroneShooting\UE4Editor-DroneShooting-1197.suppressed.exp
+[2021.01.24-01.26.58:568][777]CompilerResultsLog:   [5/5] DroneShootingEditor.target
+[2021.01.24-01.26.58:568][777]CompilerResultsLog: Total time in Parallel executor: 3.07 seconds
+[2021.01.24-01.26.58:568][777]CompilerResultsLog: Total execution time: 20.89 seconds
+[2021.01.24-01.26.58:568][777]LogMainFrame: MainFrame: Module compiling took 21.366 seconds
+[2021.01.24-01.26.58:626][777]LogContentBrowser: Native class hierarchy updated for 'DroneShooting' in 0.0007 seconds. Added 8 classes and 6 folders.
+[2021.01.24-01.26.58:632][777]Display: HotReload successful (2 functions remapped  0 scriptstructs remapped)
+[2021.01.24-01.26.58:838][777]LogContentBrowser: Native class hierarchy populated in 0.0112 seconds. Added 3436 classes and 830 folders.
+[2021.01.24-01.26.58:848][777]Display: HotReload took 21.6s.
+[2021.01.24-01.27.05:370][135]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2021.01.24-01.27.05:402][135]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.01.24-01.27.05:402][135]PIE: New page: PIE session: Sandbox (Jan. 23, 2021, 3:27:05 p.m.)
+[2021.01.24-01.27.05:405][135]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Sandbox
+[2021.01.24-01.27.05:416][135]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010797s)
+[2021.01.24-01.27.05:419][135]LogAIModule: Creating AISystem for world Sandbox
+[2021.01.24-01.27.05:419][135]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000021F788A5400), frame # 176135
+[2021.01.24-01.27.05:419][135]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000021FDA7E6E80), frame # 176135
+[2021.01.24-01.27.05:420][135]LogPlayLevel: PIE: World Init took: (0.003462s)
+[2021.01.24-01.27.05:420][135]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Sandbox.Sandbox to /Game/Maps/UEDPIE_0_Sandbox.Sandbox (0.014694s)
+[2021.01.24-01.27.05:778][135]LogUObjectHash: Compacting FUObjectHashTables data took   7.56ms
+[2021.01.24-01.27.05:787][135]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.01.24-01.27.05:787][135]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.01.24-01.27.05:787][135]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.01.24-01.27.05:787][135]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.01.24-01.27.05:787][135]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.01.24-01.27.05:787][135]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.01.24-01.27.05:787][135]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.01.24-01.27.05:787][135]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.01.24-01.27.05:788][135]LogAudio: Display: Using built-in audio occlusion.
+[2021.01.24-01.27.05:788][135]LogAudioMixer: Display: Initializing audio mixer.
+[2021.01.24-01.27.05:795][135]LogAudioMixer: Display: 0: FrontLeft
+[2021.01.24-01.27.05:796][135]LogAudioMixer: Display: 1: FrontRight
+[2021.01.24-01.27.05:869][135]LogAudioMixer: Display: Using Audio Device Headphones (Realtek(R) Audio)
+[2021.01.24-01.27.05:869][135]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.01.24-01.27.05:870][135]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.01.24-01.27.05:870][135]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.01.24-01.27.05:872][135]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.01.24-01.27.05:892][135]LogInit: FAudioDevice initialized.
+[2021.01.24-01.27.05:926][135]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.24-01.27.05:926][135]LogLoad: Game class is 'BP_IntenseGameMode_C'
+[2021.01.24-01.27.05:930][135]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:ExecuteUbergraph_Murdock_AnimBlueprint
+
+[2021.01.24-01.27.05:931][135]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Sandbox.Sandbox up for play (max tick rate 60) at 2021.01.23-20.27.05
+[2021.01.24-01.27.05:932][135]LogWorld: Bringing up level for play took: 0.004270
+[2021.01.24-01.27.05:934][135]LogOnline: OSS: Creating online subsystem instance for: :Context_54
+[2021.01.24-01.27.05:937][135]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:ExecuteUbergraph_Murdock_AnimBlueprint
+
+[2021.01.24-01.27.05:955][135]PIE: Server logged in
+[2021.01.24-01.27.05:959][135]PIE: Play in editor total start time 0.565 seconds.
+[2021.01.24-01.27.07:754][234]LogTemp: Warning: Character Health = 90.000000
+[2021.01.24-01.27.08:771][295]LogTemp: Warning: Character Health = 80.000000
+[2021.01.24-01.27.09:789][356]LogTemp: Warning: Character Health = 70.000000
+[2021.01.24-01.27.10:804][417]LogTemp: Warning: Character Health = 60.000000
+[2021.01.24-01.27.11:823][478]LogTemp: Warning: Character Health = 50.000000
+[2021.01.24-01.27.12:838][539]LogTemp: Warning: Character Health = 40.000000
+[2021.01.24-01.27.13:855][600]LogTemp: Warning: Character Health = 30.000000
+[2021.01.24-01.27.14:881][661]LogTemp: Warning: Character Health = 20.000000
+[2021.01.24-01.27.15:906][722]LogTemp: Warning: Character Health = 10.000000
+[2021.01.24-01.27.16:917][783]LogTemp: Warning: Character Health = 0.000000
+[2021.01.24-01.27.21:937][ 84]LogNet: Browse: /Game/Maps/Sandbox?restart
+[2021.01.24-01.27.21:937][ 84]LogLoad: LoadMap: /Game/Maps/Sandbox
+[2021.01.24-01.27.21:937][ 84]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Sandbox
+[2021.01.24-01.27.21:938][ 84]LogWorld: UWorld::CleanupWorld for Sandbox, bSessionEnded=true, bCleanupResources=true
+[2021.01.24-01.27.21:938][ 84]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.24-01.27.22:013][ 84]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000021FDA7E6E80), frame # 177084
+[2021.01.24-01.27.22:014][ 84]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000021F788A5400), frame # 177084
+[2021.01.24-01.27.22:097][ 84]LogUObjectHash: Compacting FUObjectHashTables data took   8.57ms
+[2021.01.24-01.27.22:106][ 84]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Sandbox
+[2021.01.24-01.27.22:111][ 84]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004507s)
+[2021.01.24-01.27.22:112][ 84]LogAIModule: Creating AISystem for world Sandbox
+[2021.01.24-01.27.22:112][ 84]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000021F514D9200), frame # 177084
+[2021.01.24-01.27.22:112][ 84]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000021F673ADD00), frame # 177084
+[2021.01.24-01.27.22:112][ 84]LogPlayLevel: PIE: World Init took: (0.001511s)
+[2021.01.24-01.27.22:112][ 84]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Sandbox.Sandbox to /Game/Maps/UEDPIE_0_Sandbox.Sandbox (0.006225s)
+[2021.01.24-01.27.22:112][ 84]LogLoad: Game class is 'BP_IntenseGameMode_C'
+[2021.01.24-01.27.22:114][ 84]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:ExecuteUbergraph_Murdock_AnimBlueprint
+
+[2021.01.24-01.27.22:115][ 84]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Sandbox.Sandbox up for play (max tick rate 60) at 2021.01.23-20.27.22
+[2021.01.24-01.27.22:115][ 84]LogWorld: Bringing up level for play took: 0.001492
+[2021.01.24-01.27.22:116][ 84]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:ExecuteUbergraph_Murdock_AnimBlueprint
+
+[2021.01.24-01.27.22:119][ 84]LogLoad: Took 0.181223 seconds to LoadMap(/Game/Maps/UEDPIE_0_Sandbox)
+[2021.01.24-01.27.23:827][184]LogTemp: Warning: Character Health = 90.000000
+[2021.01.24-01.27.24:596][230]LogTemp: Warning: Character Health = 90.000000
+[2021.01.24-01.27.24:843][245]LogTemp: Warning: Character Health = 80.000000
+[2021.01.24-01.27.24:914][249]LogTemp: Warning: Character Health = 80.000000
+[2021.01.24-01.27.25:132][262]LogTemp: Warning: Character Health = 70.000000
+[2021.01.24-01.27.25:332][274]LogTemp: Warning: Character Health = 60.000000
+[2021.01.24-01.27.25:516][285]LogTemp: Warning: Character Health = 50.000000
+[2021.01.24-01.27.25:684][295]LogTemp: Warning: Character Health = 40.000000
+[2021.01.24-01.27.25:852][305]LogTemp: Warning: Character Health = 30.000000
+[2021.01.24-01.27.25:871][306]LogTemp: Warning: Character Health = 70.000000
+[2021.01.24-01.27.26:023][315]LogTemp: Warning: Character Health = 20.000000
+[2021.01.24-01.27.26:227][327]LogTemp: Warning: Character Health = 10.000000
+[2021.01.24-01.27.26:413][338]LogTemp: Warning: Character Health = 0.000000
+[2021.01.24-01.27.31:432][639]LogNet: Browse: /Game/Maps/Sandbox?restart
+[2021.01.24-01.27.31:432][639]LogLoad: LoadMap: /Game/Maps/Sandbox
+[2021.01.24-01.27.31:432][639]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Sandbox
+[2021.01.24-01.27.31:433][639]LogWorld: UWorld::CleanupWorld for Sandbox, bSessionEnded=true, bCleanupResources=true
+[2021.01.24-01.27.31:433][639]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.24-01.27.31:456][639]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000021F673ADD00), frame # 177639
+[2021.01.24-01.27.31:456][639]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000021F514D9200), frame # 177639
+[2021.01.24-01.27.31:459][639]LogUObjectHash: Compacting FUObjectHashTables data took   2.47ms
+[2021.01.24-01.27.31:465][639]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Sandbox
+[2021.01.24-01.27.31:469][639]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003860s)
+[2021.01.24-01.27.31:471][639]LogAIModule: Creating AISystem for world Sandbox
+[2021.01.24-01.27.31:471][639]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000021F8F823600), frame # 177639
+[2021.01.24-01.27.31:471][639]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000021EBEEE25C0), frame # 177639
+[2021.01.24-01.27.31:471][639]LogPlayLevel: PIE: World Init took: (0.001451s)
+[2021.01.24-01.27.31:471][639]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Sandbox.Sandbox to /Game/Maps/UEDPIE_0_Sandbox.Sandbox (0.005558s)
+[2021.01.24-01.27.31:471][639]LogLoad: Game class is 'BP_IntenseGameMode_C'
+[2021.01.24-01.27.31:473][639]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:ExecuteUbergraph_Murdock_AnimBlueprint
+
+[2021.01.24-01.27.31:473][639]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Sandbox.Sandbox up for play (max tick rate 60) at 2021.01.23-20.27.31
+[2021.01.24-01.27.31:474][639]LogWorld: Bringing up level for play took: 0.001500
+[2021.01.24-01.27.31:475][639]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:ExecuteUbergraph_Murdock_AnimBlueprint
+
+[2021.01.24-01.27.31:476][639]LogLoad: Took 0.044073 seconds to LoadMap(/Game/Maps/UEDPIE_0_Sandbox)
+[2021.01.24-01.27.32:653][705]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.24-01.27.32:654][705]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Sandbox
+[2021.01.24-01.27.32:655][705]LogSlate: Window 'DroneShooting Preview [NetMode: Standalone] (64-bit/Windows) ' being destroyed
+[2021.01.24-01.27.32:668][705]LogWorld: UWorld::CleanupWorld for Sandbox, bSessionEnded=true, bCleanupResources=true
+[2021.01.24-01.27.32:669][705]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.24-01.27.32:681][705]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.01.24-01.27.32:685][705]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.24-01.27.32:764][705]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000021EBEEE25C0), frame # 177705
+[2021.01.24-01.27.32:764][705]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000021F8F823600), frame # 177705
+[2021.01.24-01.27.32:767][705]LogUObjectHash: Compacting FUObjectHashTables data took   2.81ms
+[2021.01.24-01.27.32:806][706]LogPlayLevel: Display: Destroying online subsystem :Context_54
+[2021.01.24-01.28.00:554][653]LogUObjectHash: Compacting FUObjectHashTables data took   3.14ms
+[2021.01.24-01.28.00:591][653]LogPackageName: SearchForPackageOnDisk took   0.000s, but failed to resolve /Game/UI/WBP_WinUI.
+[2021.01.24-01.28.25:410][ 84]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/UI/WBP_WinUI.WBP_WinUI
+[2021.01.24-01.28.36:070][656]LogSlate: Window 'Color Picker' being destroyed
+[2021.01.24-01.28.40:686][906]LogSlate: Window 'Color Picker' being destroyed
+[2021.01.24-01.28.45:101][151]LogSlate: Window 'Color Picker' being destroyed
+[2021.01.24-01.28.46:186][207]BlueprintLog: New page: Compile WBP_WinUI
+[2021.01.24-01.28.46:236][207]LogUObjectHash: Compacting FUObjectHashTables data took   3.19ms
+[2021.01.24-01.28.46:720][227]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/WBP_WinUI" FILE="../../../../GameDesign/ue4-ml.drone.shooting/DroneShooting/Content/UI/WBP_WinUI.uasset" SILENT=true
+[2021.01.24-01.28.46:747][227]LogSavePackage: Moving '../../../../GameDesign/ue4-ml.drone.shooting/DroneShooting/Saved/WBP_WinUI04332E0C406E4776518B749950CF7B4D.tmp' to '../../../../GameDesign/ue4-ml.drone.shooting/DroneShooting/Content/UI/WBP_WinUI.uasset'
+[2021.01.24-01.28.46:772][227]LogPackageName: SearchForPackageOnDisk took   0.000s to resolve /Game/UI/WBP_WinUI.
+[2021.01.24-01.28.46:786][227]AssetCheck: New page: Asset Save: WBP_WinUI
+[2021.01.24-01.28.46:786][227]LogContentValidation: Display: Validating WidgetBlueprint /Game/UI/WBP_WinUI.WBP_WinUI
+[2021.01.24-01.28.49:139][359]LogSlate: Window 'WBP_WinUI' being destroyed
+[2021.01.24-01.28.49:153][359]LogWorld: UWorld::CleanupWorld for World_26, bSessionEnded=true, bCleanupResources=true
+[2021.01.24-01.28.49:153][359]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.24-01.28.49:174][359]LogWorld: UWorld::CleanupWorld for World_25, bSessionEnded=true, bCleanupResources=true
+[2021.01.24-01.28.49:174][359]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.24-01.39.32:281][335]Candidate modules for hot reload:
+[2021.01.24-01.39.32:281][335]  DroneShooting
+[2021.01.24-01.39.32:281][335]Launching UnrealBuildTool... [D:/Documents/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=DroneShooting,5909 DroneShootingEditor Win64 Development -Project="D:/Documents/GameDesign/ue4-ml.drone.shooting/DroneShooting/DroneShooting.uproject" "D:/Documents/GameDesign/ue4-ml.drone.shooting/DroneShooting/DroneShooting.uproject"  -IgnoreJunk]
+[2021.01.24-01.39.32:520][335]Warning: Starting HotReload took  0.2s.
+[2021.01.24-01.40.03:208][162]CompilerResultsLog: New page: Compilation - Jan. 23, 2021, 3:40:03 p.m.
+[2021.01.24-01.40.03:208][162]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (D:\Documents\GameDesign\ue4-ml.drone.shooting).
+[2021.01.24-01.40.03:208][162]CompilerResultsLog: Parsing headers for DroneShootingEditor
+[2021.01.24-01.40.03:209][162]CompilerResultsLog:   Running UnrealHeaderTool "D:\Documents\GameDesign\ue4-ml.drone.shooting\DroneShooting\DroneShooting.uproject" "D:\Documents\GameDesign\ue4-ml.drone.shooting\DroneShooting\Intermediate\Build\Win64\DroneShootingEditor\Development\DroneShootingEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\lipin\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+[2021.01.24-01.40.03:209][162]CompilerResultsLog: Reflection code generated for DroneShootingEditor in 8.1398878 seconds
+[2021.01.24-01.40.03:209][162]CompilerResultsLog: Building DroneShootingEditor...
+[2021.01.24-01.40.03:209][162]CompilerResultsLog: Using Visual Studio 2019 14.27.29112 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2021.01.24-01.40.03:209][162]CompilerResultsLog: Building 9 actions with 12 processes...
+[2021.01.24-01.40.03:209][162]CompilerResultsLog:   [1/9] DroneShooting.init.gen.cpp
+[2021.01.24-01.40.03:209][162]CompilerResultsLog:   [2/9] CharacterController.gen.cpp
+[2021.01.24-01.40.03:209][162]CompilerResultsLog:   [3/9] IntenseDroneShootingGameModeBase.cpp
+[2021.01.24-01.40.03:209][162]CompilerResultsLog:   [4/9] EnemyAIController.gen.cpp
+[2021.01.24-01.40.03:209][162]CompilerResultsLog:   [5/9] EnemyAIController.cpp
+[2021.01.24-01.40.03:209][162]CompilerResultsLog:   [6/9] CharacterController.cpp
+[2021.01.24-01.40.03:209][162]CompilerResultsLog:   [7/9] UE4Editor-DroneShooting-5909.lib
+[2021.01.24-01.40.03:209][162]CompilerResultsLog:      Creating library D:\Documents\GameDesign\ue4-ml.drone.shooting\DroneShooting\Intermediate\Build\Win64\UE4Editor\Development\DroneShooting\UE4Editor-DroneShooting-5909.lib and object D:\Documents\GameDesign\ue4-ml.drone.shooting\DroneShooting\Intermediate\Build\Win64\UE4Editor\Development\DroneShooting\UE4Editor-DroneShooting-5909.exp
+[2021.01.24-01.40.03:210][162]CompilerResultsLog:   [8/9] UE4Editor-DroneShooting-5909.dll
+[2021.01.24-01.40.03:210][162]CompilerResultsLog:      Creating library D:\Documents\GameDesign\ue4-ml.drone.shooting\DroneShooting\Intermediate\Build\Win64\UE4Editor\Development\DroneShooting\UE4Editor-DroneShooting-5909.suppressed.lib and object D:\Documents\GameDesign\ue4-ml.drone.shooting\DroneShooting\Intermediate\Build\Win64\UE4Editor\Development\DroneShooting\UE4Editor-DroneShooting-5909.suppressed.exp
+[2021.01.24-01.40.03:210][162]CompilerResultsLog:   [9/9] DroneShootingEditor.target
+[2021.01.24-01.40.03:210][162]CompilerResultsLog: Total time in Parallel executor: 12.58 seconds
+[2021.01.24-01.40.03:210][162]CompilerResultsLog: Total execution time: 30.50 seconds
+[2021.01.24-01.40.03:210][162]LogMainFrame: MainFrame: Module compiling took 30.935 seconds
+[2021.01.24-01.40.03:236][162]LogClass: Could not find existing class CharacterController in package /Script/DroneShooting for HotReload, assuming new class
+[2021.01.24-01.40.03:267][162]LogHotReload: Re-instancing CharacterController after hot-reload.
+[2021.01.24-01.40.03:311][162]LogContentBrowser: Native class hierarchy updated for 'DroneShooting' in 0.0009 seconds. Added 8 classes and 6 folders.
+[2021.01.24-01.40.03:317][162]Display: HotReload successful (2 functions remapped  0 scriptstructs remapped)
+[2021.01.24-01.40.03:502][162]LogContentBrowser: Native class hierarchy populated in 0.0137 seconds. Added 3436 classes and 830 folders.
+[2021.01.24-01.40.03:516][162]Display: HotReload took 31.2s.
+[2021.01.24-01.40.05:438][247]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2021.01.24-01.40.05:469][247]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.01.24-01.40.05:469][247]PIE: New page: PIE session: Sandbox (Jan. 23, 2021, 3:40:05 p.m.)
+[2021.01.24-01.40.05:470][247]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Sandbox
+[2021.01.24-01.40.05:474][247]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004411s)
+[2021.01.24-01.40.05:475][247]LogAIModule: Creating AISystem for world Sandbox
+[2021.01.24-01.40.05:476][247]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000021FC9518E00), frame # 184247
+[2021.01.24-01.40.05:476][247]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000021FAE46AD40), frame # 184247
+[2021.01.24-01.40.05:476][247]LogPlayLevel: PIE: World Init took: (0.001567s)
+[2021.01.24-01.40.05:476][247]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Sandbox.Sandbox to /Game/Maps/UEDPIE_0_Sandbox.Sandbox (0.006150s)
+[2021.01.24-01.40.05:585][247]LogUObjectHash: Compacting FUObjectHashTables data took   4.87ms
+[2021.01.24-01.40.05:590][247]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.01.24-01.40.05:590][247]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.01.24-01.40.05:590][247]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.01.24-01.40.05:590][247]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.01.24-01.40.05:590][247]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.01.24-01.40.05:590][247]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.01.24-01.40.05:590][247]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.01.24-01.40.05:590][247]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.01.24-01.40.05:590][247]LogAudio: Display: Using built-in audio occlusion.
+[2021.01.24-01.40.05:590][247]LogAudioMixer: Display: Initializing audio mixer.
+[2021.01.24-01.40.05:596][247]LogAudioMixer: Display: 0: FrontLeft
+[2021.01.24-01.40.05:596][247]LogAudioMixer: Display: 1: FrontRight
+[2021.01.24-01.40.05:662][247]LogAudioMixer: Display: Using Audio Device Headphones (Realtek(R) Audio)
+[2021.01.24-01.40.05:663][247]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.01.24-01.40.05:663][247]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.01.24-01.40.05:663][247]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.01.24-01.40.05:664][247]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.01.24-01.40.05:684][247]LogInit: FAudioDevice initialized.
+[2021.01.24-01.40.05:718][247]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.24-01.40.05:718][247]LogLoad: Game class is 'BP_IntenseGameMode_C'
+[2021.01.24-01.40.05:721][247]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:ExecuteUbergraph_Murdock_AnimBlueprint
+
+[2021.01.24-01.40.05:722][247]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Sandbox.Sandbox up for play (max tick rate 60) at 2021.01.23-20.40.05
+[2021.01.24-01.40.05:722][247]LogWorld: Bringing up level for play took: 0.002976
+[2021.01.24-01.40.05:723][247]LogOnline: OSS: Creating online subsystem instance for: :Context_57
+[2021.01.24-01.40.05:727][247]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:ExecuteUbergraph_Murdock_AnimBlueprint
+
+[2021.01.24-01.40.05:732][247]PIE: Server logged in
+[2021.01.24-01.40.05:735][247]PIE: Play in editor total start time 0.271 seconds.
+[2021.01.24-01.40.07:526][346]LogTemp: Warning: Character Health = 90.000000
+[2021.01.24-01.40.07:979][373]LogTemp: Warning: Character Health = 90.000000
+[2021.01.24-01.40.08:195][386]LogTemp: Warning: Character Health = 80.000000
+[2021.01.24-01.40.08:399][398]LogTemp: Warning: Character Health = 70.000000
+[2021.01.24-01.40.08:547][407]LogTemp: Warning: Character Health = 80.000000
+[2021.01.24-01.40.08:649][413]LogTemp: Warning: Character Health = 60.000000
+[2021.01.24-01.40.08:868][426]LogTemp: Warning: Character Health = 50.000000
+[2021.01.24-01.40.09:073][438]LogTemp: Warning: Character Health = 40.000000
+[2021.01.24-01.40.09:275][450]LogTemp: Warning: Character Health = 30.000000
+[2021.01.24-01.40.09:480][462]LogTemp: Warning: Character Health = 20.000000
+[2021.01.24-01.40.09:580][468]LogTemp: Warning: Character Health = 70.000000
+[2021.01.24-01.40.09:700][475]LogTemp: Warning: Character Health = 10.000000
+[2021.01.24-01.40.10:152][502]LogTemp: Warning: Character Health = 0.000000
+[2021.01.24-01.40.19:041][ 29]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.24-01.40.19:041][ 29]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Sandbox
+[2021.01.24-01.40.19:041][ 29]LogSlate: Window 'DroneShooting Preview [NetMode: Standalone] (64-bit/Windows) ' being destroyed
+[2021.01.24-01.40.19:048][ 29]LogWorld: UWorld::CleanupWorld for Sandbox, bSessionEnded=true, bCleanupResources=true
+[2021.01.24-01.40.19:048][ 29]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.24-01.40.19:054][ 29]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.01.24-01.40.19:059][ 29]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.24-01.40.19:118][ 29]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000021FAE46AD40), frame # 185029
+[2021.01.24-01.40.19:118][ 29]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000021FC9518E00), frame # 185029
+[2021.01.24-01.40.19:121][ 29]LogUObjectHash: Compacting FUObjectHashTables data took   3.02ms
+[2021.01.24-01.40.19:171][ 30]LogPlayLevel: Display: Destroying online subsystem :Context_57
+[2021.01.24-01.40.37:029][155]Candidate modules for hot reload:
+[2021.01.24-01.40.37:029][155]  DroneShooting
+[2021.01.24-01.40.37:029][155]Launching UnrealBuildTool... [D:/Documents/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=DroneShooting,9871 DroneShootingEditor Win64 Development -Project="D:/Documents/GameDesign/ue4-ml.drone.shooting/DroneShooting/DroneShooting.uproject" "D:/Documents/GameDesign/ue4-ml.drone.shooting/DroneShooting/DroneShooting.uproject"  -IgnoreJunk]
+[2021.01.24-01.40.37:150][155]Warning: Starting HotReload took  0.1s.
+[2021.01.24-01.40.53:536][277]CompilerResultsLog: New page: Compilation - Jan. 23, 2021, 3:40:53 p.m.
+[2021.01.24-01.40.53:536][277]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (D:\Documents\GameDesign\ue4-ml.drone.shooting).
+[2021.01.24-01.40.53:536][277]CompilerResultsLog: Building DroneShootingEditor...
+[2021.01.24-01.40.53:536][277]CompilerResultsLog: Using Visual Studio 2019 14.27.29112 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2021.01.24-01.40.53:536][277]CompilerResultsLog: Building 5 actions with 12 processes...
+[2021.01.24-01.40.53:536][277]CompilerResultsLog:   [1/5] IntenseDroneShootingGameModeBase.cpp
+[2021.01.24-01.40.53:536][277]CompilerResultsLog:   [2/5] CharacterController.cpp
+[2021.01.24-01.40.53:536][277]CompilerResultsLog:   [3/5] UE4Editor-DroneShooting-9871.lib
+[2021.01.24-01.40.53:536][277]CompilerResultsLog:      Creating library D:\Documents\GameDesign\ue4-ml.drone.shooting\DroneShooting\Intermediate\Build\Win64\UE4Editor\Development\DroneShooting\UE4Editor-DroneShooting-9871.lib and object D:\Documents\GameDesign\ue4-ml.drone.shooting\DroneShooting\Intermediate\Build\Win64\UE4Editor\Development\DroneShooting\UE4Editor-DroneShooting-9871.exp
+[2021.01.24-01.40.53:536][277]CompilerResultsLog:   [4/5] UE4Editor-DroneShooting-9871.dll
+[2021.01.24-01.40.53:536][277]CompilerResultsLog:      Creating library D:\Documents\GameDesign\ue4-ml.drone.shooting\DroneShooting\Intermediate\Build\Win64\UE4Editor\Development\DroneShooting\UE4Editor-DroneShooting-9871.suppressed.lib and object D:\Documents\GameDesign\ue4-ml.drone.shooting\DroneShooting\Intermediate\Build\Win64\UE4Editor\Development\DroneShooting\UE4Editor-DroneShooting-9871.suppressed.exp
+[2021.01.24-01.40.53:536][277]CompilerResultsLog:   [5/5] DroneShootingEditor.target
+[2021.01.24-01.40.53:536][277]CompilerResultsLog: Total time in Parallel executor: 6.78 seconds
+[2021.01.24-01.40.53:536][277]CompilerResultsLog: Total execution time: 16.04 seconds
+[2021.01.24-01.40.53:536][277]LogMainFrame: MainFrame: Module compiling took 16.513 seconds
+[2021.01.24-01.40.53:578][277]LogContentBrowser: Native class hierarchy updated for 'DroneShooting' in 0.0011 seconds. Added 8 classes and 6 folders.
+[2021.01.24-01.40.53:585][277]Display: HotReload successful (2 functions remapped  0 scriptstructs remapped)
+[2021.01.24-01.40.53:741][277]LogContentBrowser: Native class hierarchy populated in 0.0150 seconds. Added 3436 classes and 830 folders.
+[2021.01.24-01.40.53:750][277]Display: HotReload took 16.7s.
+[2021.01.24-01.40.56:665][341]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2021.01.24-01.40.56:688][341]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.01.24-01.40.56:688][341]PIE: New page: PIE session: Sandbox (Jan. 23, 2021, 3:40:56 p.m.)
+[2021.01.24-01.40.56:688][341]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Sandbox
+[2021.01.24-01.40.56:692][341]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003845s)
+[2021.01.24-01.40.56:693][341]LogAIModule: Creating AISystem for world Sandbox
+[2021.01.24-01.40.56:693][341]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000021E8CB7E000), frame # 185341
+[2021.01.24-01.40.56:693][341]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000021FAEB53D80), frame # 185341
+[2021.01.24-01.40.56:693][341]LogPlayLevel: PIE: World Init took: (0.001510s)
+[2021.01.24-01.40.56:694][341]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Sandbox.Sandbox to /Game/Maps/UEDPIE_0_Sandbox.Sandbox (0.005547s)
+[2021.01.24-01.40.56:785][341]LogUObjectHash: Compacting FUObjectHashTables data took   4.26ms
+[2021.01.24-01.40.56:788][341]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.01.24-01.40.56:788][341]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.01.24-01.40.56:788][341]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.01.24-01.40.56:788][341]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.01.24-01.40.56:789][341]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.01.24-01.40.56:789][341]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.01.24-01.40.56:789][341]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.01.24-01.40.56:789][341]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.01.24-01.40.56:789][341]LogAudio: Display: Using built-in audio occlusion.
+[2021.01.24-01.40.56:789][341]LogAudioMixer: Display: Initializing audio mixer.
+[2021.01.24-01.40.56:794][341]LogAudioMixer: Display: 0: FrontLeft
+[2021.01.24-01.40.56:794][341]LogAudioMixer: Display: 1: FrontRight
+[2021.01.24-01.40.56:859][341]LogAudioMixer: Display: Using Audio Device Headphones (Realtek(R) Audio)
+[2021.01.24-01.40.56:859][341]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.01.24-01.40.56:859][341]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.01.24-01.40.56:859][341]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.01.24-01.40.56:860][341]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.01.24-01.40.56:876][341]LogInit: FAudioDevice initialized.
+[2021.01.24-01.40.56:911][341]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.24-01.40.56:911][341]LogLoad: Game class is 'BP_IntenseGameMode_C'
+[2021.01.24-01.40.56:913][341]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:ExecuteUbergraph_Murdock_AnimBlueprint
+
+[2021.01.24-01.40.56:914][341]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Sandbox.Sandbox up for play (max tick rate 60) at 2021.01.23-20.40.56
+[2021.01.24-01.40.56:915][341]LogWorld: Bringing up level for play took: 0.002634
+[2021.01.24-01.40.56:915][341]LogOnline: OSS: Creating online subsystem instance for: :Context_58
+[2021.01.24-01.40.56:918][341]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:ExecuteUbergraph_Murdock_AnimBlueprint
+
+[2021.01.24-01.40.56:923][341]PIE: Server logged in
+[2021.01.24-01.40.56:925][341]PIE: Play in editor total start time 0.243 seconds.
+[2021.01.24-01.40.58:387][421]LogTemp: Warning: Character Health = 90.000000
+[2021.01.24-01.40.58:705][440]LogTemp: Warning: Character Health = 80.000000
+[2021.01.24-01.40.58:752][443]LogTemp: Warning: Character Health = 90.000000
+[2021.01.24-01.40.59:088][463]LogTemp: Warning: Character Health = 70.000000
+[2021.01.24-01.40.59:337][478]LogTemp: Warning: Character Health = 60.000000
+[2021.01.24-01.40.59:705][500]LogTemp: Warning: Character Health = 50.000000
+[2021.01.24-01.40.59:769][504]LogTemp: Warning: Character Health = 80.000000
+[2021.01.24-01.40.59:957][515]LogTemp: Warning: Character Health = 40.000000
+[2021.01.24-01.41.00:257][533]LogTemp: Warning: Character Health = 30.000000
+[2021.01.24-01.41.00:795][565]LogTemp: Warning: Character Health = 70.000000
+[2021.01.24-01.41.00:849][568]LogTemp: Warning: Character Health = 20.000000
+[2021.01.24-01.41.01:152][586]LogTemp: Warning: Character Health = 10.000000
+[2021.01.24-01.41.01:471][605]LogTemp: Warning: Character Health = 0.000000
+[2021.01.24-01.41.01:471][605]PIE: Error: CreateWidget called with a null class.
+[2021.01.24-01.41.05:449][842]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.24-01.41.05:449][842]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Sandbox
+[2021.01.24-01.41.05:450][842]LogSlate: Window 'DroneShooting Preview [NetMode: Standalone] (64-bit/Windows) ' being destroyed
+[2021.01.24-01.41.05:457][842]LogWorld: UWorld::CleanupWorld for Sandbox, bSessionEnded=true, bCleanupResources=true
+[2021.01.24-01.41.05:457][842]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.24-01.41.05:466][842]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.01.24-01.41.05:470][842]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.24-01.41.05:554][842]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000021FAEB53D80), frame # 185842
+[2021.01.24-01.41.05:554][842]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000021E8CB7E000), frame # 185842
+[2021.01.24-01.41.05:578][842]LogUObjectHash: Compacting FUObjectHashTables data took   3.65ms
+[2021.01.24-01.41.05:702][843]LogPlayLevel: Display: Destroying online subsystem :Context_58
+[2021.01.24-01.41.07:279][929]LogSlate: Window 'Message Log' being destroyed
+[2021.01.24-01.41.07:288][929]LogSlate: Window 'Message Log' being destroyed
+[2021.01.24-01.41.19:025][372]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/GameMode/BP_IntenseGameMode.BP_IntenseGameMode
+[2021.01.24-01.41.23:770][600]BlueprintLog: New page: Compile BP_IntenseGameMode
+[2021.01.24-01.41.23:826][600]LogUObjectHash: Compacting FUObjectHashTables data took   3.00ms
+[2021.01.24-01.41.27:211][786]LogSlate: Window 'BP_IntenseGameMode' being destroyed
+[2021.01.24-01.41.27:228][786]LogWorld: UWorld::CleanupWorld for World_27, bSessionEnded=true, bCleanupResources=true
+[2021.01.24-01.41.27:228][786]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.24-01.41.37:208][260]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/Controller/BP_CharacterController.BP_CharacterController
+[2021.01.24-01.41.39:423][354]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2021.01.24-01.41.42:854][545]BlueprintLog: New page: Compile BP_CharacterController
+[2021.01.24-01.41.42:908][545]LogUObjectHash: Compacting FUObjectHashTables data took   3.55ms
+[2021.01.24-01.41.43:343][564]LogSavePackage: Moving '../../../../GameDesign/ue4-ml.drone.shooting/DroneShooting/Saved/BP_CharacterController2E0623FE435ABC99A0C473B4DE353A33.tmp' to '../../../../GameDesign/ue4-ml.drone.shooting/DroneShooting/Content/Blueprints/Controller/BP_CharacterController.uasset'
+[2021.01.24-01.41.43:363][564]AssetCheck: New page: Asset Save: BP_CharacterController
+[2021.01.24-01.41.43:364][564]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/Controller/BP_CharacterController.BP_CharacterController
+[2021.01.24-01.41.44:307][619]LogSlate: Window 'BP_CharacterController' being destroyed
+[2021.01.24-01.41.44:317][619]LogWorld: UWorld::CleanupWorld for World_28, bSessionEnded=true, bCleanupResources=true
+[2021.01.24-01.41.44:317][619]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.24-01.41.45:476][683]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2021.01.24-01.41.45:494][683]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.01.24-01.41.45:494][683]PIE: New page: PIE session: Sandbox (Jan. 23, 2021, 3:41:45 p.m.)
+[2021.01.24-01.41.45:498][683]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Sandbox
+[2021.01.24-01.41.45:502][683]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003856s)
+[2021.01.24-01.41.45:503][683]LogAIModule: Creating AISystem for world Sandbox
+[2021.01.24-01.41.45:503][683]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000021FABE0E600), frame # 187683
+[2021.01.24-01.41.45:503][683]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000021F6D5551C0), frame # 187683
+[2021.01.24-01.41.45:504][683]LogPlayLevel: PIE: World Init took: (0.001583s)
+[2021.01.24-01.41.45:504][683]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Sandbox.Sandbox to /Game/Maps/UEDPIE_0_Sandbox.Sandbox (0.005615s)
+[2021.01.24-01.41.45:531][683]LogUObjectHash: Compacting FUObjectHashTables data took   3.11ms
+[2021.01.24-01.41.45:533][683]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.01.24-01.41.45:533][683]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.01.24-01.41.45:533][683]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.01.24-01.41.45:533][683]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.01.24-01.41.45:533][683]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.01.24-01.41.45:533][683]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.01.24-01.41.45:533][683]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.01.24-01.41.45:533][683]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.01.24-01.41.45:533][683]LogAudio: Display: Using built-in audio occlusion.
+[2021.01.24-01.41.45:533][683]LogAudioMixer: Display: Initializing audio mixer.
+[2021.01.24-01.41.45:538][683]LogAudioMixer: Display: 0: FrontLeft
+[2021.01.24-01.41.45:538][683]LogAudioMixer: Display: 1: FrontRight
+[2021.01.24-01.41.45:597][683]LogAudioMixer: Display: Using Audio Device Headphones (Realtek(R) Audio)
+[2021.01.24-01.41.45:597][683]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.01.24-01.41.45:597][683]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.01.24-01.41.45:597][683]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.01.24-01.41.45:598][683]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.01.24-01.41.45:614][683]LogInit: FAudioDevice initialized.
+[2021.01.24-01.41.45:648][683]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.24-01.41.45:648][683]LogLoad: Game class is 'BP_IntenseGameMode_C'
+[2021.01.24-01.41.45:650][683]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:ExecuteUbergraph_Murdock_AnimBlueprint
+
+[2021.01.24-01.41.45:651][683]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Sandbox.Sandbox up for play (max tick rate 60) at 2021.01.23-20.41.45
+[2021.01.24-01.41.45:652][683]LogWorld: Bringing up level for play took: 0.001973
+[2021.01.24-01.41.45:652][683]LogOnline: OSS: Creating online subsystem instance for: :Context_61
+[2021.01.24-01.41.45:655][683]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:ExecuteUbergraph_Murdock_AnimBlueprint
+
+[2021.01.24-01.41.45:660][683]PIE: Server logged in
+[2021.01.24-01.41.45:664][683]PIE: Play in editor total start time 0.171 seconds.
+[2021.01.24-01.41.47:449][783]LogTemp: Warning: Character Health = 90.000000
+[2021.01.24-01.41.47:586][791]LogTemp: Warning: Character Health = 90.000000
+[2021.01.24-01.41.47:803][804]LogTemp: Warning: Character Health = 80.000000
+[2021.01.24-01.41.48:002][816]LogTemp: Warning: Character Health = 70.000000
+[2021.01.24-01.41.48:202][828]LogTemp: Warning: Character Health = 60.000000
+[2021.01.24-01.41.48:386][839]LogTemp: Warning: Character Health = 50.000000
+[2021.01.24-01.41.48:466][844]LogTemp: Warning: Character Health = 80.000000
+[2021.01.24-01.41.48:570][850]LogTemp: Warning: Character Health = 40.000000
+[2021.01.24-01.41.48:770][862]LogTemp: Warning: Character Health = 30.000000
+[2021.01.24-01.41.48:954][873]LogTemp: Warning: Character Health = 20.000000
+[2021.01.24-01.41.49:143][884]LogTemp: Warning: Character Health = 10.000000
+[2021.01.24-01.41.49:332][895]LogTemp: Warning: Character Health = 0.000000
+[2021.01.24-01.41.54:349][196]LogNet: Browse: /Game/Maps/Sandbox?restart
+[2021.01.24-01.41.54:349][196]LogLoad: LoadMap: /Game/Maps/Sandbox
+[2021.01.24-01.41.54:349][196]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Sandbox
+[2021.01.24-01.41.54:350][196]LogWorld: UWorld::CleanupWorld for Sandbox, bSessionEnded=true, bCleanupResources=true
+[2021.01.24-01.41.54:350][196]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.24-01.41.54:376][196]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000021F6D5551C0), frame # 188196
+[2021.01.24-01.41.54:376][196]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000021FABE0E600), frame # 188196
+[2021.01.24-01.41.54:380][196]LogUObjectHash: Compacting FUObjectHashTables data took   3.99ms
+[2021.01.24-01.41.54:386][196]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Sandbox
+[2021.01.24-01.41.54:390][196]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004002s)
+[2021.01.24-01.41.54:391][196]LogAIModule: Creating AISystem for world Sandbox
+[2021.01.24-01.41.54:391][196]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000021F1581D600), frame # 188196
+[2021.01.24-01.41.54:391][196]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000021EBDF01E40), frame # 188196
+[2021.01.24-01.41.54:391][196]LogPlayLevel: PIE: World Init took: (0.001476s)
+[2021.01.24-01.41.54:392][196]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Sandbox.Sandbox to /Game/Maps/UEDPIE_0_Sandbox.Sandbox (0.005687s)
+[2021.01.24-01.41.54:392][196]LogLoad: Game class is 'BP_IntenseGameMode_C'
+[2021.01.24-01.41.54:395][196]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:ExecuteUbergraph_Murdock_AnimBlueprint
+
+[2021.01.24-01.41.54:396][196]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Sandbox.Sandbox up for play (max tick rate 60) at 2021.01.23-20.41.54
+[2021.01.24-01.41.54:396][196]LogWorld: Bringing up level for play took: 0.003192
+[2021.01.24-01.41.54:397][196]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:ExecuteUbergraph_Murdock_AnimBlueprint
+
+[2021.01.24-01.41.54:399][196]LogLoad: Took 0.050142 seconds to LoadMap(/Game/Maps/UEDPIE_0_Sandbox)
+[2021.01.24-01.41.56:094][297]LogTemp: Warning: Character Health = 90.000000
+[2021.01.24-01.41.56:347][312]LogTemp: Warning: Character Health = 90.000000
+[2021.01.24-01.41.56:597][327]LogTemp: Warning: Character Health = 80.000000
+[2021.01.24-01.41.56:814][340]LogTemp: Warning: Character Health = 70.000000
+[2021.01.24-01.41.57:112][358]LogTemp: Warning: Character Health = 80.000000
+[2021.01.24-01.41.57:815][400]LogTemp: Warning: Character Health = 60.000000
+[2021.01.24-01.41.58:033][413]LogTemp: Warning: Character Health = 50.000000
+[2021.01.24-01.41.58:131][419]LogTemp: Warning: Character Health = 70.000000
+[2021.01.24-01.41.58:250][426]LogTemp: Warning: Character Health = 40.000000
+[2021.01.24-01.41.58:450][438]LogTemp: Warning: Character Health = 30.000000
+[2021.01.24-01.41.58:633][449]LogTemp: Warning: Character Health = 20.000000
+[2021.01.24-01.41.58:820][460]LogTemp: Warning: Character Health = 10.000000
+[2021.01.24-01.41.58:988][470]LogTemp: Warning: Character Health = 0.000000
+[2021.01.24-01.42.04:010][771]LogNet: Browse: /Game/Maps/Sandbox?restart
+[2021.01.24-01.42.04:010][771]LogLoad: LoadMap: /Game/Maps/Sandbox
+[2021.01.24-01.42.04:010][771]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Sandbox
+[2021.01.24-01.42.04:011][771]LogWorld: UWorld::CleanupWorld for Sandbox, bSessionEnded=true, bCleanupResources=true
+[2021.01.24-01.42.04:011][771]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.24-01.42.04:073][771]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000021EBDF01E40), frame # 188771
+[2021.01.24-01.42.04:073][771]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000021F1581D600), frame # 188771
+[2021.01.24-01.42.04:075][771]LogUObjectHash: Compacting FUObjectHashTables data took   2.66ms
+[2021.01.24-01.42.04:081][771]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Sandbox
+[2021.01.24-01.42.04:085][771]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003885s)
+[2021.01.24-01.42.04:086][771]LogAIModule: Creating AISystem for world Sandbox
+[2021.01.24-01.42.04:086][771]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000021FB5F91800), frame # 188771
+[2021.01.24-01.42.04:086][771]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000021F35288400), frame # 188771
+[2021.01.24-01.42.04:086][771]LogPlayLevel: PIE: World Init took: (0.001246s)
+[2021.01.24-01.42.04:086][771]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Sandbox.Sandbox to /Game/Maps/UEDPIE_0_Sandbox.Sandbox (0.005329s)
+[2021.01.24-01.42.04:086][771]LogLoad: Game class is 'BP_IntenseGameMode_C'
+[2021.01.24-01.42.04:088][771]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:ExecuteUbergraph_Murdock_AnimBlueprint
+
+[2021.01.24-01.42.04:088][771]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Sandbox.Sandbox up for play (max tick rate 60) at 2021.01.23-20.42.04
+[2021.01.24-01.42.04:089][771]LogWorld: Bringing up level for play took: 0.001580
+[2021.01.24-01.42.04:090][771]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:ExecuteUbergraph_Murdock_AnimBlueprint
+
+[2021.01.24-01.42.04:092][771]LogLoad: Took 0.081288 seconds to LoadMap(/Game/Maps/UEDPIE_0_Sandbox)
+[2021.01.24-01.42.04:689][804]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.24-01.42.04:699][804]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Sandbox
+[2021.01.24-01.42.04:700][804]LogSlate: Window 'DroneShooting Preview [NetMode: Standalone] (64-bit/Windows) ' being destroyed
+[2021.01.24-01.42.04:708][804]LogWorld: UWorld::CleanupWorld for Sandbox, bSessionEnded=true, bCleanupResources=true
+[2021.01.24-01.42.04:709][804]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.24-01.42.04:716][804]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.01.24-01.42.04:721][804]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.24-01.42.04:772][804]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000021F35288400), frame # 188804
+[2021.01.24-01.42.04:772][804]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000021FB5F91800), frame # 188804
+[2021.01.24-01.42.04:775][804]LogUObjectHash: Compacting FUObjectHashTables data took   2.74ms
+[2021.01.24-01.42.04:813][805]LogPlayLevel: Display: Destroying online subsystem :Context_61
+[2021.01.24-01.42.06:051][877]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Sandbox" FILE="../../../../GameDesign/ue4-ml.drone.shooting/DroneShooting/Content/Maps/Sandbox.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2021.01.24-01.42.06:076][877]LogUObjectHash: Compacting FUObjectHashTables data took   2.64ms
+[2021.01.24-01.42.06:112][877]LogSavePackage: Moving '../../../../GameDesign/ue4-ml.drone.shooting/DroneShooting/Saved/SandboxFA7EBA2247303BAE5BF2539F9DC6F874.tmp' to '../../../../GameDesign/ue4-ml.drone.shooting/DroneShooting/Content/Maps/Sandbox.umap'
+[2021.01.24-01.42.06:147][877]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Sandbox_BuiltData" FILE="../../../../GameDesign/ue4-ml.drone.shooting/DroneShooting/Content/Maps/Sandbox_BuiltData.uasset" SILENT=true
+[2021.01.24-01.42.06:208][877]LogSavePackage: Moving '../../../../GameDesign/ue4-ml.drone.shooting/DroneShooting/Saved/Sandbox_BuiltDataF8AA7FF14895CF8F3E176F8993B9EFCC.tmp' to '../../../../GameDesign/ue4-ml.drone.shooting/DroneShooting/Content/Maps/Sandbox_BuiltData.uasset'
+[2021.01.24-01.42.06:229][877]AssetCheck: New page: Asset Save: multiple assets
+[2021.01.24-01.42.06:229][877]LogContentValidation: Display: Validating World /Game/Maps/Sandbox.Sandbox
+[2021.01.24-01.42.06:229][877]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Maps/Sandbox_BuiltData.Sandbox_BuiltData
+[2021.01.24-01.42.46:914][ 37]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2021.01.24-01.42.46:935][ 37]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.01.24-01.42.46:935][ 37]PIE: New page: PIE session: Sandbox (Jan. 23, 2021, 3:42:46 p.m.)
+[2021.01.24-01.42.46:945][ 37]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Sandbox
+[2021.01.24-01.42.46:950][ 37]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005799s)
+[2021.01.24-01.42.46:952][ 37]LogAIModule: Creating AISystem for world Sandbox
+[2021.01.24-01.42.46:952][ 37]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000021E8B395800), frame # 189037
+[2021.01.24-01.42.46:952][ 37]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000021FB6E90A40), frame # 189037
+[2021.01.24-01.42.46:953][ 37]LogPlayLevel: PIE: World Init took: (0.002471s)
+[2021.01.24-01.42.46:953][ 37]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Sandbox.Sandbox to /Game/Maps/UEDPIE_0_Sandbox.Sandbox (0.008589s)
+[2021.01.24-01.42.46:985][ 37]LogUObjectHash: Compacting FUObjectHashTables data took   3.44ms
+[2021.01.24-01.42.46:987][ 37]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.01.24-01.42.46:987][ 37]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.01.24-01.42.46:987][ 37]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.01.24-01.42.46:987][ 37]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.01.24-01.42.46:987][ 37]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.01.24-01.42.46:987][ 37]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.01.24-01.42.46:987][ 37]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.01.24-01.42.46:987][ 37]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.01.24-01.42.46:988][ 37]LogAudio: Display: Using built-in audio occlusion.
+[2021.01.24-01.42.46:988][ 37]LogAudioMixer: Display: Initializing audio mixer.
+[2021.01.24-01.42.46:993][ 37]LogAudioMixer: Display: 0: FrontLeft
+[2021.01.24-01.42.46:993][ 37]LogAudioMixer: Display: 1: FrontRight
+[2021.01.24-01.42.47:059][ 37]LogAudioMixer: Display: Using Audio Device Headphones (Realtek(R) Audio)
+[2021.01.24-01.42.47:059][ 37]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.01.24-01.42.47:060][ 37]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.01.24-01.42.47:060][ 37]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.01.24-01.42.47:060][ 37]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.01.24-01.42.47:078][ 37]LogInit: FAudioDevice initialized.
+[2021.01.24-01.42.47:109][ 37]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.24-01.42.47:109][ 37]LogLoad: Game class is 'BP_IntenseGameMode_C'
+[2021.01.24-01.42.47:111][ 37]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:ExecuteUbergraph_Murdock_AnimBlueprint
+
+[2021.01.24-01.42.47:112][ 37]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Sandbox.Sandbox up for play (max tick rate 60) at 2021.01.23-20.42.47
+[2021.01.24-01.42.47:113][ 37]LogWorld: Bringing up level for play took: 0.002761
+[2021.01.24-01.42.47:113][ 37]LogOnline: OSS: Creating online subsystem instance for: :Context_62
+[2021.01.24-01.42.47:117][ 37]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:ExecuteUbergraph_Murdock_AnimBlueprint
+
+[2021.01.24-01.42.47:123][ 37]PIE: Server logged in
+[2021.01.24-01.42.47:125][ 37]PIE: Play in editor total start time 0.193 seconds.
+[2021.01.24-01.42.48:713][125]LogTemp: Warning: Character Health = 90.000000
+[2021.01.24-01.42.48:943][139]LogTemp: Warning: Character Health = 90.000000
+[2021.01.24-01.42.48:982][141]LogTemp: Warning: Character Health = 80.000000
+[2021.01.24-01.42.49:201][154]LogTemp: Warning: Character Health = 70.000000
+[2021.01.24-01.42.49:385][165]LogTemp: Warning: Character Health = 60.000000
+[2021.01.24-01.42.49:572][176]LogTemp: Warning: Character Health = 50.000000
+[2021.01.24-01.42.49:758][187]LogTemp: Warning: Character Health = 40.000000
+[2021.01.24-01.42.49:943][198]LogTemp: Warning: Character Health = 30.000000
+[2021.01.24-01.42.49:977][200]LogTemp: Warning: Character Health = 80.000000
+[2021.01.24-01.42.50:184][212]LogTemp: Warning: Character Health = 20.000000
+[2021.01.24-01.42.50:621][238]LogTemp: Warning: Character Health = 10.000000
+[2021.01.24-01.42.50:992][260]LogTemp: Warning: Character Health = 0.000000
+[2021.01.24-01.42.56:010][560]LogNet: Browse: /Game/Maps/Sandbox?restart
+[2021.01.24-01.42.56:010][560]LogLoad: LoadMap: /Game/Maps/Sandbox
+[2021.01.24-01.42.56:010][560]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Sandbox
+[2021.01.24-01.42.56:011][560]LogWorld: UWorld::CleanupWorld for Sandbox, bSessionEnded=true, bCleanupResources=true
+[2021.01.24-01.42.56:011][560]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.24-01.42.56:066][560]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000021FB6E90A40), frame # 189560
+[2021.01.24-01.42.56:066][560]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000021E8B395800), frame # 189560
+[2021.01.24-01.42.56:069][560]LogUObjectHash: Compacting FUObjectHashTables data took   3.07ms
+[2021.01.24-01.42.56:074][560]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Sandbox
+[2021.01.24-01.42.56:079][560]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004598s)
+[2021.01.24-01.42.56:080][560]LogAIModule: Creating AISystem for world Sandbox
+[2021.01.24-01.42.56:080][560]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000021EBEA48A00), frame # 189560
+[2021.01.24-01.42.56:080][560]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000021EBDF00B80), frame # 189560
+[2021.01.24-01.42.56:081][560]LogPlayLevel: PIE: World Init took: (0.001654s)
+[2021.01.24-01.42.56:081][560]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Sandbox.Sandbox to /Game/Maps/UEDPIE_0_Sandbox.Sandbox (0.006482s)
+[2021.01.24-01.42.56:081][560]LogLoad: Game class is 'BP_IntenseGameMode_C'
+[2021.01.24-01.42.56:083][560]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:ExecuteUbergraph_Murdock_AnimBlueprint
+
+[2021.01.24-01.42.56:083][560]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Sandbox.Sandbox up for play (max tick rate 60) at 2021.01.23-20.42.56
+[2021.01.24-01.42.56:084][560]LogWorld: Bringing up level for play took: 0.002090
+[2021.01.24-01.42.56:086][560]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:ExecuteUbergraph_Murdock_AnimBlueprint
+
+[2021.01.24-01.42.56:088][560]LogLoad: Took 0.077945 seconds to LoadMap(/Game/Maps/UEDPIE_0_Sandbox)
+[2021.01.24-01.42.57:788][661]LogTemp: Warning: Character Health = 90.000000
+[2021.01.24-01.42.58:805][722]LogTemp: Warning: Character Health = 80.000000
+[2021.01.24-01.43.02:579][948]LogTemp: Warning: Character Health = 90.000000
+[2021.01.24-01.43.05:469][121]LogTemp: Warning: Character Health = 70.000000
+[2021.01.24-01.43.07:511][243]LogTemp: Warning: Character Health = 80.000000
+[2021.01.24-01.43.07:910][267]LogTemp: Warning: Character Health = 70.000000
+[2021.01.24-01.43.07:925][268]LogTemp: Warning: Character Health = 60.000000
+[2021.01.24-01.43.08:995][309]LogTemp: Warning: Character Health = 50.000000
+[2021.01.24-01.43.16:046][510]LogTemp: Warning: Character Health = 60.000000
+[2021.01.24-01.43.16:775][530]LogTemp: Warning: Character Health = 40.000000
+[2021.01.24-01.43.17:200][541]LogTemp: Warning: Character Health = 50.000000
+[2021.01.24-01.43.17:423][547]LogTemp: Warning: Character Health = 40.000000
+[2021.01.24-01.43.17:618][552]LogTemp: Warning: Character Health = 30.000000
+[2021.01.24-01.43.17:818][557]LogTemp: Warning: Character Health = 30.000000
+[2021.01.24-01.43.17:861][558]LogTemp: Warning: Character Health = 20.000000
+[2021.01.24-01.43.18:105][564]LogTemp: Warning: Character Health = 10.000000
+[2021.01.24-01.43.18:315][569]LogTemp: Warning: Character Health = 0.000000
+[2021.01.24-01.43.21:449][654]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.24-01.43.21:449][654]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Sandbox
+[2021.01.24-01.43.21:450][654]LogSlate: Window 'DroneShooting Preview [NetMode: Standalone] (64-bit/Windows) ' being destroyed
+[2021.01.24-01.43.21:501][654]LogWorld: UWorld::CleanupWorld for Sandbox, bSessionEnded=true, bCleanupResources=true
+[2021.01.24-01.43.21:503][654]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.24-01.43.21:527][654]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.01.24-01.43.21:533][654]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.24-01.43.21:594][654]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000021EBDF00B80), frame # 190654
+[2021.01.24-01.43.21:594][654]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000021EBEA48A00), frame # 190654
+[2021.01.24-01.43.21:597][654]LogUObjectHash: Compacting FUObjectHashTables data took   3.08ms
+[2021.01.24-01.43.21:642][655]LogPlayLevel: Display: Destroying online subsystem :Context_62
+[2021.01.24-01.43.31:998][805]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Sandbox" FILE="../../../../GameDesign/ue4-ml.drone.shooting/DroneShooting/Content/Maps/Sandbox.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2021.01.24-01.43.32:029][805]LogUObjectHash: Compacting FUObjectHashTables data took   3.35ms
+[2021.01.24-01.43.32:067][805]LogSavePackage: Moving '../../../../GameDesign/ue4-ml.drone.shooting/DroneShooting/Saved/Sandbox3CB262184CD19F0060454E8FEFF17EDC.tmp' to '../../../../GameDesign/ue4-ml.drone.shooting/DroneShooting/Content/Maps/Sandbox.umap'
+[2021.01.24-01.43.32:102][805]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Sandbox_BuiltData" FILE="../../../../GameDesign/ue4-ml.drone.shooting/DroneShooting/Content/Maps/Sandbox_BuiltData.uasset" SILENT=true
+[2021.01.24-01.43.32:150][805]LogSavePackage: Moving '../../../../GameDesign/ue4-ml.drone.shooting/DroneShooting/Saved/Sandbox_BuiltData612F52084197B60CE2A76B8CA950A125.tmp' to '../../../../GameDesign/ue4-ml.drone.shooting/DroneShooting/Content/Maps/Sandbox_BuiltData.uasset'
+[2021.01.24-01.43.32:173][805]AssetCheck: New page: Asset Save: multiple assets
+[2021.01.24-01.43.32:173][805]LogContentValidation: Display: Validating World /Game/Maps/Sandbox.Sandbox
+[2021.01.24-01.43.32:173][805]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Maps/Sandbox_BuiltData.Sandbox_BuiltData
+[2021.01.24-01.43.38:793][893]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Sandbox" FILE="../../../../GameDesign/ue4-ml.drone.shooting/DroneShooting/Content/Maps/Sandbox.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2021.01.24-01.43.38:824][893]LogUObjectHash: Compacting FUObjectHashTables data took   0.77ms
+[2021.01.24-01.43.38:859][893]LogSavePackage: Moving '../../../../GameDesign/ue4-ml.drone.shooting/DroneShooting/Saved/SandboxE8BBC91847236F35A651EDA627CCD90A.tmp' to '../../../../GameDesign/ue4-ml.drone.shooting/DroneShooting/Content/Maps/Sandbox.umap'
+[2021.01.24-01.43.38:895][893]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Sandbox_BuiltData" FILE="../../../../GameDesign/ue4-ml.drone.shooting/DroneShooting/Content/Maps/Sandbox_BuiltData.uasset" SILENT=true
+[2021.01.24-01.43.38:942][893]LogSavePackage: Moving '../../../../GameDesign/ue4-ml.drone.shooting/DroneShooting/Saved/Sandbox_BuiltData4A5D3DBE430C95527BF90DB45AEE5A24.tmp' to '../../../../GameDesign/ue4-ml.drone.shooting/DroneShooting/Content/Maps/Sandbox_BuiltData.uasset'
+[2021.01.24-01.43.38:963][893]AssetCheck: New page: Asset Save: multiple assets
+[2021.01.24-01.43.38:963][893]LogContentValidation: Display: Validating World /Game/Maps/Sandbox.Sandbox
+[2021.01.24-01.43.38:963][893]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Maps/Sandbox_BuiltData.Sandbox_BuiltData
+[2021.01.24-01.46.50:121][517]Candidate modules for hot reload:
+[2021.01.24-01.46.50:121][517]  DroneShooting
+[2021.01.24-01.46.50:121][517]Launching UnrealBuildTool... [D:/Documents/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=DroneShooting,7021 DroneShootingEditor Win64 Development -Project="D:/Documents/GameDesign/ue4-ml.drone.shooting/DroneShooting/DroneShooting.uproject" "D:/Documents/GameDesign/ue4-ml.drone.shooting/DroneShooting/DroneShooting.uproject"  -IgnoreJunk]
+[2021.01.24-01.46.50:380][517]Warning: Starting HotReload took  0.3s.
+[2021.01.24-01.47.08:572][588]CompilerResultsLog: New page: Compilation - Jan. 23, 2021, 3:47:08 p.m.
+[2021.01.24-01.47.08:573][588]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (D:\Documents\GameDesign\ue4-ml.drone.shooting).
+[2021.01.24-01.47.08:573][588]CompilerResultsLog: Building DroneShootingEditor...
+[2021.01.24-01.47.08:573][588]CompilerResultsLog: Using Visual Studio 2019 14.27.29112 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2021.01.24-01.47.08:573][588]CompilerResultsLog: Building 5 actions with 12 processes...
+[2021.01.24-01.47.08:573][588]CompilerResultsLog:   [1/5] IntenseDroneShootingGameModeBase.cpp
+[2021.01.24-01.47.08:573][588]CompilerResultsLog:   [2/5] CharacterController.cpp
+[2021.01.24-01.47.08:573][588]CompilerResultsLog:   [3/5] UE4Editor-DroneShooting-7021.lib
+[2021.01.24-01.47.08:573][588]CompilerResultsLog:      Creating library D:\Documents\GameDesign\ue4-ml.drone.shooting\DroneShooting\Intermediate\Build\Win64\UE4Editor\Development\DroneShooting\UE4Editor-DroneShooting-7021.lib and object D:\Documents\GameDesign\ue4-ml.drone.shooting\DroneShooting\Intermediate\Build\Win64\UE4Editor\Development\DroneShooting\UE4Editor-DroneShooting-7021.exp
+[2021.01.24-01.47.08:573][588]CompilerResultsLog:   [4/5] UE4Editor-DroneShooting-7021.dll
+[2021.01.24-01.47.08:573][588]CompilerResultsLog:      Creating library D:\Documents\GameDesign\ue4-ml.drone.shooting\DroneShooting\Intermediate\Build\Win64\UE4Editor\Development\DroneShooting\UE4Editor-DroneShooting-7021.suppressed.lib and object D:\Documents\GameDesign\ue4-ml.drone.shooting\DroneShooting\Intermediate\Build\Win64\UE4Editor\Development\DroneShooting\UE4Editor-DroneShooting-7021.suppressed.exp
+[2021.01.24-01.47.08:573][588]CompilerResultsLog:   [5/5] DroneShootingEditor.target
+[2021.01.24-01.47.08:573][588]CompilerResultsLog: Total time in Parallel executor: 8.37 seconds
+[2021.01.24-01.47.08:573][588]CompilerResultsLog: Total execution time: 18.00 seconds
+[2021.01.24-01.47.08:573][588]LogMainFrame: MainFrame: Module compiling took 18.459 seconds
+[2021.01.24-01.47.08:652][588]LogContentBrowser: Native class hierarchy updated for 'DroneShooting' in 0.0011 seconds. Added 8 classes and 6 folders.
+[2021.01.24-01.47.08:663][588]Display: HotReload successful (2 functions remapped  0 scriptstructs remapped)
+[2021.01.24-01.47.08:871][588]LogContentBrowser: Native class hierarchy populated in 0.0163 seconds. Added 3436 classes and 830 folders.
+[2021.01.24-01.47.08:885][588]Display: HotReload took 18.8s.
+[2021.01.24-01.47.11:343][700]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2021.01.24-01.47.11:375][700]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.01.24-01.47.11:376][700]PIE: New page: PIE session: Sandbox (Jan. 23, 2021, 3:47:11 p.m.)
+[2021.01.24-01.47.11:376][700]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Sandbox
+[2021.01.24-01.47.11:382][700]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005371s)
+[2021.01.24-01.47.11:383][700]LogAIModule: Creating AISystem for world Sandbox
+[2021.01.24-01.47.11:383][700]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000021F22961400), frame # 192700
+[2021.01.24-01.47.11:383][700]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000021FBF481080), frame # 192700
+[2021.01.24-01.47.11:383][700]LogPlayLevel: PIE: World Init took: (0.001611s)
+[2021.01.24-01.47.11:383][700]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Sandbox.Sandbox to /Game/Maps/UEDPIE_0_Sandbox.Sandbox (0.007176s)
+[2021.01.24-01.47.11:474][700]LogUObjectHash: Compacting FUObjectHashTables data took   7.16ms
+[2021.01.24-01.47.11:478][700]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.01.24-01.47.11:478][700]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.01.24-01.47.11:478][700]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.01.24-01.47.11:478][700]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.01.24-01.47.11:478][700]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.01.24-01.47.11:478][700]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.01.24-01.47.11:478][700]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.01.24-01.47.11:478][700]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.01.24-01.47.11:479][700]LogAudio: Display: Using built-in audio occlusion.
+[2021.01.24-01.47.11:479][700]LogAudioMixer: Display: Initializing audio mixer.
+[2021.01.24-01.47.11:484][700]LogAudioMixer: Display: 0: FrontLeft
+[2021.01.24-01.47.11:484][700]LogAudioMixer: Display: 1: FrontRight
+[2021.01.24-01.47.11:560][700]LogAudioMixer: Display: Using Audio Device Headphones (Realtek(R) Audio)
+[2021.01.24-01.47.11:561][700]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.01.24-01.47.11:561][700]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.01.24-01.47.11:561][700]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.01.24-01.47.11:561][700]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.01.24-01.47.11:580][700]LogInit: FAudioDevice initialized.
+[2021.01.24-01.47.11:615][700]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.24-01.47.11:615][700]LogLoad: Game class is 'BP_IntenseGameMode_C'
+[2021.01.24-01.47.11:617][700]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:ExecuteUbergraph_Murdock_AnimBlueprint
+
+[2021.01.24-01.47.11:618][700]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Sandbox.Sandbox up for play (max tick rate 60) at 2021.01.23-20.47.11
+[2021.01.24-01.47.11:619][700]LogWorld: Bringing up level for play took: 0.002689
+[2021.01.24-01.47.11:620][700]LogOnline: OSS: Creating online subsystem instance for: :Context_63
+[2021.01.24-01.47.11:622][700]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:ExecuteUbergraph_Murdock_AnimBlueprint
+
+[2021.01.24-01.47.11:628][700]PIE: Server logged in
+[2021.01.24-01.47.11:632][700]PIE: Play in editor total start time 0.265 seconds.
+[2021.01.24-01.47.13:358][796]LogTemp: Warning: Character Health = 90.000000
+[2021.01.24-01.47.13:575][809]LogTemp: Warning: Character Health = 80.000000
+[2021.01.24-01.47.13:723][818]LogTemp: Warning: Character Health = 90.000000
+[2021.01.24-01.47.13:794][822]LogTemp: Warning: Character Health = 70.000000
+[2021.01.24-01.47.14:048][837]LogTemp: Warning: Character Health = 60.000000
+[2021.01.24-01.47.14:235][848]LogTemp: Warning: Character Health = 50.000000
+[2021.01.24-01.47.14:422][859]LogTemp: Warning: Character Health = 40.000000
+[2021.01.24-01.47.14:627][871]LogTemp: Warning: Character Health = 30.000000
+[2021.01.24-01.47.14:749][878]LogTemp: Warning: Character Health = 80.000000
+[2021.01.24-01.47.14:809][881]LogTemp: Warning: Character Health = 20.000000
+[2021.01.24-01.47.14:998][892]LogTemp: Warning: Character Health = 10.000000
+[2021.01.24-01.47.15:208][904]LogTemp: Warning: Character Health = 0.000000
+[2021.01.24-01.47.20:499][215]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.24-01.47.20:499][215]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Sandbox
+[2021.01.24-01.47.20:500][215]LogSlate: Window 'DroneShooting Preview [NetMode: Standalone] (64-bit/Windows) ' being destroyed
+[2021.01.24-01.47.20:507][215]LogWorld: UWorld::CleanupWorld for Sandbox, bSessionEnded=true, bCleanupResources=true
+[2021.01.24-01.47.20:507][215]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.24-01.47.20:516][215]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.01.24-01.47.20:521][215]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.24-01.47.20:599][215]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000021FBF481080), frame # 193215
+[2021.01.24-01.47.20:599][215]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000021F22961400), frame # 193215
+[2021.01.24-01.47.20:629][215]LogUObjectHash: Compacting FUObjectHashTables data took   4.52ms
+[2021.01.24-01.47.20:673][216]LogPlayLevel: Display: Destroying online subsystem :Context_63
+[2021.01.24-01.49.57:811][858]Candidate modules for hot reload:
+[2021.01.24-01.49.57:811][858]  DroneShooting
+[2021.01.24-01.49.57:811][858]Launching UnrealBuildTool... [D:/Documents/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=DroneShooting,7070 DroneShootingEditor Win64 Development -Project="D:/Documents/GameDesign/ue4-ml.drone.shooting/DroneShooting/DroneShooting.uproject" "D:/Documents/GameDesign/ue4-ml.drone.shooting/DroneShooting/DroneShooting.uproject"  -IgnoreJunk]
+[2021.01.24-01.49.58:077][858]Warning: Starting HotReload took  0.3s.
+[2021.01.24-01.50.11:660][655]CompilerResultsLog: New page: Compilation - Jan. 23, 2021, 3:50:11 p.m.
+[2021.01.24-01.50.11:661][655]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (D:\Documents\GameDesign\ue4-ml.drone.shooting).
+[2021.01.24-01.50.11:661][655]CompilerResultsLog: Building DroneShootingEditor...
+[2021.01.24-01.50.11:661][655]CompilerResultsLog: Using Visual Studio 2019 14.27.29112 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2021.01.24-01.50.11:661][655]CompilerResultsLog: Building 4 actions with 12 processes...
+[2021.01.24-01.50.11:661][655]CompilerResultsLog:   [1/4] IntenseDroneShootingGameModeBase.cpp
+[2021.01.24-01.50.11:661][655]CompilerResultsLog:   [2/4] UE4Editor-DroneShooting-7070.lib
+[2021.01.24-01.50.11:662][655]CompilerResultsLog:      Creating library D:\Documents\GameDesign\ue4-ml.drone.shooting\DroneShooting\Intermediate\Build\Win64\UE4Editor\Development\DroneShooting\UE4Editor-DroneShooting-7070.lib and object D:\Documents\GameDesign\ue4-ml.drone.shooting\DroneShooting\Intermediate\Build\Win64\UE4Editor\Development\DroneShooting\UE4Editor-DroneShooting-7070.exp
+[2021.01.24-01.50.11:662][655]CompilerResultsLog:   [3/4] UE4Editor-DroneShooting-7070.dll
+[2021.01.24-01.50.11:662][655]CompilerResultsLog:      Creating library D:\Documents\GameDesign\ue4-ml.drone.shooting\DroneShooting\Intermediate\Build\Win64\UE4Editor\Development\DroneShooting\UE4Editor-DroneShooting-7070.suppressed.lib and object D:\Documents\GameDesign\ue4-ml.drone.shooting\DroneShooting\Intermediate\Build\Win64\UE4Editor\Development\DroneShooting\UE4Editor-DroneShooting-7070.suppressed.exp
+[2021.01.24-01.50.11:662][655]CompilerResultsLog:   [4/4] DroneShootingEditor.target
+[2021.01.24-01.50.11:662][655]CompilerResultsLog: Total time in Parallel executor: 4.03 seconds
+[2021.01.24-01.50.11:662][655]CompilerResultsLog: Total execution time: 13.38 seconds
+[2021.01.24-01.50.11:662][655]LogMainFrame: MainFrame: Module compiling took 13.857 seconds
+[2021.01.24-01.50.11:711][655]LogContentBrowser: Native class hierarchy updated for 'DroneShooting' in 0.0006 seconds. Added 8 classes and 6 folders.
+[2021.01.24-01.50.11:715][655]Display: HotReload successful (2 functions remapped  0 scriptstructs remapped)
+[2021.01.24-01.50.11:877][655]LogContentBrowser: Native class hierarchy populated in 0.0119 seconds. Added 3436 classes and 830 folders.
+[2021.01.24-01.50.11:887][655]Display: HotReload took 14.1s.
+[2021.01.24-01.50.14:545][783]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2021.01.24-01.50.14:569][783]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.01.24-01.50.14:569][783]PIE: New page: PIE session: Sandbox (Jan. 23, 2021, 3:50:14 p.m.)
+[2021.01.24-01.50.14:570][783]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Sandbox
+[2021.01.24-01.50.14:574][783]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004168s)
+[2021.01.24-01.50.14:575][783]LogAIModule: Creating AISystem for world Sandbox
+[2021.01.24-01.50.14:576][783]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000021FA356F200), frame # 194783
+[2021.01.24-01.50.14:576][783]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000021FDAB23D80), frame # 194783
+[2021.01.24-01.50.14:576][783]LogPlayLevel: PIE: World Init took: (0.001865s)
+[2021.01.24-01.50.14:576][783]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Sandbox.Sandbox to /Game/Maps/UEDPIE_0_Sandbox.Sandbox (0.006210s)
+[2021.01.24-01.50.14:662][783]LogUObjectHash: Compacting FUObjectHashTables data took   4.96ms
+[2021.01.24-01.50.14:665][783]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.01.24-01.50.14:665][783]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.01.24-01.50.14:665][783]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.01.24-01.50.14:665][783]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.01.24-01.50.14:665][783]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.01.24-01.50.14:665][783]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.01.24-01.50.14:665][783]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.01.24-01.50.14:665][783]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.01.24-01.50.14:666][783]LogAudio: Display: Using built-in audio occlusion.
+[2021.01.24-01.50.14:666][783]LogAudioMixer: Display: Initializing audio mixer.
+[2021.01.24-01.50.14:672][783]LogAudioMixer: Display: 0: FrontLeft
+[2021.01.24-01.50.14:672][783]LogAudioMixer: Display: 1: FrontRight
+[2021.01.24-01.50.14:741][783]LogAudioMixer: Display: Using Audio Device Headphones (Realtek(R) Audio)
+[2021.01.24-01.50.14:741][783]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.01.24-01.50.14:741][783]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.01.24-01.50.14:741][783]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.01.24-01.50.14:742][783]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.01.24-01.50.14:760][783]LogInit: FAudioDevice initialized.
+[2021.01.24-01.50.14:793][783]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.24-01.50.14:793][783]LogLoad: Game class is 'BP_IntenseGameMode_C'
+[2021.01.24-01.50.14:796][783]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:ExecuteUbergraph_Murdock_AnimBlueprint
+
+[2021.01.24-01.50.14:797][783]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Sandbox.Sandbox up for play (max tick rate 60) at 2021.01.23-20.50.14
+[2021.01.24-01.50.14:798][783]LogWorld: Bringing up level for play took: 0.002921
+[2021.01.24-01.50.14:798][783]LogOnline: OSS: Creating online subsystem instance for: :Context_64
+[2021.01.24-01.50.14:801][783]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:ExecuteUbergraph_Murdock_AnimBlueprint
+
+[2021.01.24-01.50.14:807][783]PIE: Server logged in
+[2021.01.24-01.50.14:810][783]PIE: Play in editor total start time 0.247 seconds.
+[2021.01.24-01.50.16:808][895]LogTemp: Warning: Character Health = 90.000000
+[2021.01.24-01.50.16:823][896]LogTemp: Warning: Character Health = 90.000000
+[2021.01.24-01.50.17:044][909]LogTemp: Warning: Character Health = 80.000000
+[2021.01.24-01.50.17:260][922]LogTemp: Warning: Character Health = 70.000000
+[2021.01.24-01.50.17:461][934]LogTemp: Warning: Character Health = 60.000000
+[2021.01.24-01.50.17:648][945]LogTemp: Warning: Character Health = 50.000000
+[2021.01.24-01.50.17:831][956]LogTemp: Warning: Character Health = 40.000000
+[2021.01.24-01.50.17:848][957]LogTemp: Warning: Character Health = 80.000000
+[2021.01.24-01.50.18:035][968]LogTemp: Warning: Character Health = 30.000000
+[2021.01.24-01.50.18:239][980]LogTemp: Warning: Character Health = 20.000000
+[2021.01.24-01.50.18:428][991]LogTemp: Warning: Character Health = 10.000000
+[2021.01.24-01.50.18:633][  3]LogTemp: Warning: Character Health = 0.000000
+[2021.01.24-01.50.23:649][300]LogNet: Browse: /Game/Maps/Sandbox?restart
+[2021.01.24-01.50.23:649][300]LogLoad: LoadMap: /Game/Maps/Sandbox
+[2021.01.24-01.50.23:649][300]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Sandbox
+[2021.01.24-01.50.23:650][300]LogWorld: UWorld::CleanupWorld for Sandbox, bSessionEnded=true, bCleanupResources=true
+[2021.01.24-01.50.23:650][300]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.24-01.50.23:708][300]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000021FDAB23D80), frame # 195300
+[2021.01.24-01.50.23:708][300]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000021FA356F200), frame # 195300
+[2021.01.24-01.50.23:730][300]LogUObjectHash: Compacting FUObjectHashTables data took   3.22ms
+[2021.01.24-01.50.23:736][300]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Sandbox
+[2021.01.24-01.50.23:740][300]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003975s)
+[2021.01.24-01.50.23:741][300]LogAIModule: Creating AISystem for world Sandbox
+[2021.01.24-01.50.23:741][300]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000021FB6BCEE00), frame # 195300
+[2021.01.24-01.50.23:741][300]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000021FAEE2E0C0), frame # 195300
+[2021.01.24-01.50.23:741][300]LogPlayLevel: PIE: World Init took: (0.001244s)
+[2021.01.24-01.50.23:741][300]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Sandbox.Sandbox to /Game/Maps/UEDPIE_0_Sandbox.Sandbox (0.005416s)
+[2021.01.24-01.50.23:741][300]LogLoad: Game class is 'BP_IntenseGameMode_C'
+[2021.01.24-01.50.23:743][300]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:ExecuteUbergraph_Murdock_AnimBlueprint
+
+[2021.01.24-01.50.23:744][300]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Sandbox.Sandbox up for play (max tick rate 60) at 2021.01.23-20.50.23
+[2021.01.24-01.50.23:744][300]LogWorld: Bringing up level for play took: 0.001663
+[2021.01.24-01.50.23:745][300]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:ExecuteUbergraph_Murdock_AnimBlueprint
+
+[2021.01.24-01.50.23:747][300]LogLoad: Took 0.098221 seconds to LoadMap(/Game/Maps/UEDPIE_0_Sandbox)
+[2021.01.24-01.50.25:201][386]LogTemp: Warning: Character Health = 90.000000
+[2021.01.24-01.50.26:219][447]LogTemp: Warning: Character Health = 80.000000
+[2021.01.24-01.50.27:243][508]LogTemp: Warning: Character Health = 70.000000
+[2021.01.24-01.50.28:268][568]LogTemp: Warning: Character Health = 60.000000
+[2021.01.24-01.50.29:293][628]LogTemp: Warning: Character Health = 50.000000
+[2021.01.24-01.50.33:371][872]LogTemp: Warning: Character Health = 40.000000
+[2021.01.24-01.50.34:393][933]LogTemp: Warning: Character Health = 30.000000
+[2021.01.24-01.50.34:533][941]LogTemp: Warning: Character Health = 90.000000
+[2021.01.24-01.50.35:421][994]LogTemp: Warning: Character Health = 20.000000
+[2021.01.24-01.50.36:444][ 55]LogTemp: Warning: Character Health = 10.000000
+[2021.01.24-01.50.37:272][104]LogTemp: Warning: Character Health = 80.000000
+[2021.01.24-01.50.37:471][116]LogTemp: Warning: Character Health = 0.000000
+[2021.01.24-01.50.42:486][417]LogNet: Browse: /Game/Maps/Sandbox?restart
+[2021.01.24-01.50.42:487][417]LogLoad: LoadMap: /Game/Maps/Sandbox
+[2021.01.24-01.50.42:487][417]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Sandbox
+[2021.01.24-01.50.42:487][417]LogWorld: UWorld::CleanupWorld for Sandbox, bSessionEnded=true, bCleanupResources=true
+[2021.01.24-01.50.42:488][417]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.24-01.50.42:512][417]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000021FAEE2E0C0), frame # 196417
+[2021.01.24-01.50.42:512][417]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000021FB6BCEE00), frame # 196417
+[2021.01.24-01.50.42:515][417]LogUObjectHash: Compacting FUObjectHashTables data took   2.65ms
+[2021.01.24-01.50.42:520][417]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Sandbox
+[2021.01.24-01.50.42:524][417]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003936s)
+[2021.01.24-01.50.42:525][417]LogAIModule: Creating AISystem for world Sandbox
+[2021.01.24-01.50.42:525][417]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000021E8B300400), frame # 196417
+[2021.01.24-01.50.42:525][417]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000021F879A82C0), frame # 196417
+[2021.01.24-01.50.42:526][417]LogPlayLevel: PIE: World Init took: (0.001396s)
+[2021.01.24-01.50.42:526][417]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Sandbox.Sandbox to /Game/Maps/UEDPIE_0_Sandbox.Sandbox (0.005527s)
+[2021.01.24-01.50.42:526][417]LogLoad: Game class is 'BP_IntenseGameMode_C'
+[2021.01.24-01.50.42:528][417]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:ExecuteUbergraph_Murdock_AnimBlueprint
+
+[2021.01.24-01.50.42:528][417]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Sandbox.Sandbox up for play (max tick rate 60) at 2021.01.23-20.50.42
+[2021.01.24-01.50.42:529][417]LogWorld: Bringing up level for play took: 0.001929
+[2021.01.24-01.50.42:530][417]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:ExecuteUbergraph_Murdock_AnimBlueprint
+
+[2021.01.24-01.50.42:532][417]LogLoad: Took 0.045710 seconds to LoadMap(/Game/Maps/UEDPIE_0_Sandbox)
+[2021.01.24-01.50.44:232][518]LogTemp: Warning: Character Health = 90.000000
+[2021.01.24-01.50.45:247][579]LogTemp: Warning: Character Health = 80.000000
+[2021.01.24-01.50.45:284][581]LogTemp: Warning: Character Health = 90.000000
+[2021.01.24-01.50.46:268][640]LogTemp: Warning: Character Health = 70.000000
+[2021.01.24-01.50.46:725][667]LogTemp: Warning: Character Health = 80.000000
+[2021.01.24-01.50.47:109][690]LogTemp: Warning: Character Health = 70.000000
+[2021.01.24-01.50.47:291][701]LogTemp: Warning: Character Health = 60.000000
+[2021.01.24-01.50.47:378][706]LogTemp: Warning: Character Health = 60.000000
+[2021.01.24-01.50.47:648][722]LogTemp: Warning: Character Health = 50.000000
+[2021.01.24-01.50.48:324][762]LogTemp: Warning: Character Health = 50.000000
+[2021.01.24-01.50.48:748][787]LogTemp: Warning: Character Health = 40.000000
+[2021.01.24-01.50.49:201][814]LogTemp: Warning: Character Health = 30.000000
+[2021.01.24-01.50.49:353][823]LogTemp: Warning: Character Health = 40.000000
+[2021.01.24-01.50.49:641][840]LogTemp: Warning: Character Health = 20.000000
+[2021.01.24-01.50.50:084][866]LogTemp: Warning: Character Health = 10.000000
+[2021.01.24-01.50.50:386][884]LogTemp: Warning: Character Health = 30.000000
+[2021.01.24-01.50.50:524][892]LogTemp: Warning: Character Health = 0.000000
+[2021.01.24-01.50.55:537][192]LogNet: Browse: /Game/Maps/Sandbox?restart
+[2021.01.24-01.50.55:537][192]LogLoad: LoadMap: /Game/Maps/Sandbox
+[2021.01.24-01.50.55:537][192]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Sandbox
+[2021.01.24-01.50.55:538][192]LogWorld: UWorld::CleanupWorld for Sandbox, bSessionEnded=true, bCleanupResources=true
+[2021.01.24-01.50.55:539][192]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.24-01.50.55:564][192]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000021F879A82C0), frame # 197192
+[2021.01.24-01.50.55:565][192]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000021E8B300400), frame # 197192
+[2021.01.24-01.50.55:568][192]LogUObjectHash: Compacting FUObjectHashTables data took   3.22ms
+[2021.01.24-01.50.55:574][192]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Sandbox
+[2021.01.24-01.50.55:578][192]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004583s)
+[2021.01.24-01.50.55:579][192]LogAIModule: Creating AISystem for world Sandbox
+[2021.01.24-01.50.55:579][192]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000021F8F820800), frame # 197192
+[2021.01.24-01.50.55:580][192]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000021F71C34540), frame # 197192
+[2021.01.24-01.50.55:580][192]LogPlayLevel: PIE: World Init took: (0.001593s)
+[2021.01.24-01.50.55:580][192]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Sandbox.Sandbox to /Game/Maps/UEDPIE_0_Sandbox.Sandbox (0.006398s)
+[2021.01.24-01.50.55:580][192]LogLoad: Game class is 'BP_IntenseGameMode_C'
+[2021.01.24-01.50.55:582][192]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:ExecuteUbergraph_Murdock_AnimBlueprint
+
+[2021.01.24-01.50.55:582][192]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Sandbox.Sandbox up for play (max tick rate 60) at 2021.01.23-20.50.55
+[2021.01.24-01.50.55:583][192]LogWorld: Bringing up level for play took: 0.001575
+[2021.01.24-01.50.55:584][192]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:ExecuteUbergraph_Murdock_AnimBlueprint
+
+[2021.01.24-01.50.55:586][192]LogLoad: Took 0.048745 seconds to LoadMap(/Game/Maps/UEDPIE_0_Sandbox)
+[2021.01.24-01.50.57:218][289]LogTemp: Warning: Character Health = 90.000000
+[2021.01.24-01.51.00:165][464]LogTemp: Warning: Character Health = 90.000000
+[2021.01.24-01.51.00:583][489]LogTemp: Warning: Character Health = 80.000000
+[2021.01.24-01.51.00:883][507]LogTemp: Warning: Character Health = 70.000000
+[2021.01.24-01.51.01:300][532]LogTemp: Warning: Character Health = 80.000000
+[2021.01.24-01.51.02:325][593]LogTemp: Warning: Character Health = 70.000000
+[2021.01.24-01.51.02:667][613]LogTemp: Warning: Character Health = 60.000000
+[2021.01.24-01.51.02:896][625]LogTemp: Warning: Character Health = 50.000000
+[2021.01.24-01.51.03:161][639]LogTemp: Warning: Character Health = 40.000000
+[2021.01.24-01.51.03:398][646]LogTemp: Warning: Character Health = 30.000000
+[2021.01.24-01.51.03:399][646]LogTemp: Warning: Character Health = 60.000000
+[2021.01.24-01.51.03:659][652]LogTemp: Warning: Character Health = 20.000000
+[2021.01.24-01.51.04:196][665]LogTemp: Warning: Character Health = 10.000000
+[2021.01.24-01.51.04:471][672]LogTemp: Warning: Character Health = 50.000000
+[2021.01.24-01.51.04:628][676]LogTemp: Warning: Character Health = 0.000000
+[2021.01.24-01.51.09:678][815]LogNet: Browse: /Game/Maps/Sandbox?restart
+[2021.01.24-01.51.09:678][815]LogLoad: LoadMap: /Game/Maps/Sandbox
+[2021.01.24-01.51.09:678][815]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Sandbox
+[2021.01.24-01.51.09:679][815]LogWorld: UWorld::CleanupWorld for Sandbox, bSessionEnded=true, bCleanupResources=true
+[2021.01.24-01.51.09:679][815]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.24-01.51.09:714][815]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000021F71C34540), frame # 197815
+[2021.01.24-01.51.09:714][815]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000021F8F820800), frame # 197815
+[2021.01.24-01.51.09:717][815]LogUObjectHash: Compacting FUObjectHashTables data took   2.68ms
+[2021.01.24-01.51.09:748][815]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Sandbox
+[2021.01.24-01.51.09:752][815]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003968s)
+[2021.01.24-01.51.09:752][815]LogAIModule: Creating AISystem for world Sandbox
+[2021.01.24-01.51.09:752][815]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000021F1C374200), frame # 197815
+[2021.01.24-01.51.09:753][815]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000021F8EA0A980), frame # 197815
+[2021.01.24-01.51.09:753][815]LogPlayLevel: PIE: World Init took: (0.001360s)
+[2021.01.24-01.51.09:753][815]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Sandbox.Sandbox to /Game/Maps/UEDPIE_0_Sandbox.Sandbox (0.005548s)
+[2021.01.24-01.51.09:753][815]LogLoad: Game class is 'BP_IntenseGameMode_C'
+[2021.01.24-01.51.09:755][815]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:ExecuteUbergraph_Murdock_AnimBlueprint
+
+[2021.01.24-01.51.09:756][815]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Sandbox.Sandbox up for play (max tick rate 60) at 2021.01.23-20.51.09
+[2021.01.24-01.51.09:756][815]LogWorld: Bringing up level for play took: 0.002146
+[2021.01.24-01.51.09:757][815]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:ExecuteUbergraph_Murdock_AnimBlueprint
+
+[2021.01.24-01.51.09:760][815]LogLoad: Took 0.081311 seconds to LoadMap(/Game/Maps/UEDPIE_0_Sandbox)
+[2021.01.24-01.51.13:492][ 38]LogTemp: Warning: Character Health = 90.000000
+[2021.01.24-01.51.14:508][ 99]LogTemp: Warning: Character Health = 80.000000
+[2021.01.24-01.51.15:526][160]LogTemp: Warning: Character Health = 70.000000
+[2021.01.24-01.51.16:544][221]LogTemp: Warning: Character Health = 60.000000
+[2021.01.24-01.51.17:561][282]LogTemp: Warning: Character Health = 50.000000
+[2021.01.24-01.51.18:580][343]LogTemp: Warning: Character Health = 40.000000
+[2021.01.24-01.51.18:634][346]LogTemp: Warning: Character Health = 90.000000
+[2021.01.24-01.51.19:140][376]LogTemp: Warning: Character Health = 80.000000
+[2021.01.24-01.51.19:609][404]LogTemp: Warning: Character Health = 30.000000
+[2021.01.24-01.51.19:746][412]LogTemp: Warning: Character Health = 70.000000
+[2021.01.24-01.51.20:186][438]LogTemp: Warning: Character Health = 60.000000
+[2021.01.24-01.51.20:636][465]LogTemp: Warning: Character Health = 20.000000
+[2021.01.24-01.51.21:687][497]LogTemp: Warning: Character Health = 10.000000
+[2021.01.24-01.51.22:573][521]LogTemp: Warning: Character Health = 50.000000
+[2021.01.24-01.51.22:757][526]LogTemp: Warning: Character Health = 0.000000
+[2021.01.24-01.51.27:816][680]LogNet: Browse: /Game/Maps/Sandbox?restart
+[2021.01.24-01.51.27:816][680]LogLoad: LoadMap: /Game/Maps/Sandbox
+[2021.01.24-01.51.27:816][680]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Sandbox
+[2021.01.24-01.51.27:816][680]LogWorld: UWorld::CleanupWorld for Sandbox, bSessionEnded=true, bCleanupResources=true
+[2021.01.24-01.51.27:817][680]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.24-01.51.27:849][680]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000021F8EA0A980), frame # 198680
+[2021.01.24-01.51.27:849][680]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000021F1C374200), frame # 198680
+[2021.01.24-01.51.27:852][680]LogUObjectHash: Compacting FUObjectHashTables data took   2.43ms
+[2021.01.24-01.51.27:880][680]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Sandbox
+[2021.01.24-01.51.27:884][680]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004210s)
+[2021.01.24-01.51.27:885][680]LogAIModule: Creating AISystem for world Sandbox
+[2021.01.24-01.51.27:885][680]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000021EBE292E00), frame # 198680
+[2021.01.24-01.51.27:885][680]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000021F71C35A80), frame # 198680
+[2021.01.24-01.51.27:886][680]LogPlayLevel: PIE: World Init took: (0.001393s)
+[2021.01.24-01.51.27:886][680]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Sandbox.Sandbox to /Game/Maps/UEDPIE_0_Sandbox.Sandbox (0.005819s)
+[2021.01.24-01.51.27:886][680]LogLoad: Game class is 'BP_IntenseGameMode_C'
+[2021.01.24-01.51.27:888][680]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:ExecuteUbergraph_Murdock_AnimBlueprint
+
+[2021.01.24-01.51.27:889][680]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Sandbox.Sandbox up for play (max tick rate 60) at 2021.01.23-20.51.27
+[2021.01.24-01.51.27:890][680]LogWorld: Bringing up level for play took: 0.002717
+[2021.01.24-01.51.27:891][680]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:ExecuteUbergraph_Murdock_AnimBlueprint
+
+[2021.01.24-01.51.27:893][680]LogLoad: Took 0.077457 seconds to LoadMap(/Game/Maps/UEDPIE_0_Sandbox)
+[2021.01.24-01.51.30:025][741]LogTemp: Warning: Character Health = 90.000000
+[2021.01.24-01.51.43:768][463]LogTemp: Warning: Character Health = 80.000000
+[2021.01.24-01.51.44:370][499]LogTemp: Warning: Character Health = 90.000000
+[2021.01.24-01.51.44:783][524]LogTemp: Warning: Character Health = 70.000000
+[2021.01.24-01.51.44:805][525]LogTemp: Warning: Character Health = 80.000000
+[2021.01.24-01.51.45:775][549]LogTemp: Warning: Character Health = 70.000000
+[2021.01.24-01.51.45:929][551]LogTemp: Warning: Character Health = 60.000000
+[2021.01.24-01.51.48:157][580]LogTemp: Warning: Character Health = 50.000000
+[2021.01.24-01.51.49:259][595]LogTemp: Warning: Character Health = 40.000000
+[2021.01.24-01.51.50:373][611]LogTemp: Warning: Character Health = 30.000000
+[2021.01.24-01.51.51:504][627]LogTemp: Warning: Character Health = 20.000000
+[2021.01.24-01.51.52:338][638]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.24-01.51.52:338][638]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Sandbox
+[2021.01.24-01.51.52:339][638]LogSlate: Window 'DroneShooting Preview [NetMode: Standalone] (64-bit/Windows) ' being destroyed
+[2021.01.24-01.51.52:446][638]LogWorld: UWorld::CleanupWorld for Sandbox, bSessionEnded=true, bCleanupResources=true
+[2021.01.24-01.51.52:447][638]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.24-01.51.52:495][638]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.01.24-01.51.52:500][638]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.24-01.51.52:564][638]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000021F71C35A80), frame # 199638
+[2021.01.24-01.51.52:564][638]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000021EBE292E00), frame # 199638
+[2021.01.24-01.51.52:567][638]LogUObjectHash: Compacting FUObjectHashTables data took   2.93ms
+[2021.01.24-01.51.52:622][639]LogPlayLevel: Display: Destroying online subsystem :Context_64
+[2021.01.24-01.51.53:997][666]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Sandbox" FILE="../../../../GameDesign/ue4-ml.drone.shooting/DroneShooting/Content/Maps/Sandbox.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2021.01.24-01.51.54:023][666]LogUObjectHash: Compacting FUObjectHashTables data took   2.66ms
+[2021.01.24-01.51.54:069][666]LogSavePackage: Moving '../../../../GameDesign/ue4-ml.drone.shooting/DroneShooting/Saved/Sandbox550A11424FB103999B10CF897F6091D3.tmp' to '../../../../GameDesign/ue4-ml.drone.shooting/DroneShooting/Content/Maps/Sandbox.umap'
+[2021.01.24-01.51.54:106][666]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Sandbox_BuiltData" FILE="../../../../GameDesign/ue4-ml.drone.shooting/DroneShooting/Content/Maps/Sandbox_BuiltData.uasset" SILENT=true
+[2021.01.24-01.51.54:158][666]LogSavePackage: Moving '../../../../GameDesign/ue4-ml.drone.shooting/DroneShooting/Saved/Sandbox_BuiltDataBA5B79A0485A4B66994B0B9BFEB6D23B.tmp' to '../../../../GameDesign/ue4-ml.drone.shooting/DroneShooting/Content/Maps/Sandbox_BuiltData.uasset'
+[2021.01.24-01.51.54:178][666]AssetCheck: New page: Asset Save: multiple assets
+[2021.01.24-01.51.54:178][666]LogContentValidation: Display: Validating World /Game/Maps/Sandbox.Sandbox
+[2021.01.24-01.51.54:178][666]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Maps/Sandbox_BuiltData.Sandbox_BuiltData
+[2021.01.24-01.51.57:941][890]LogEditorViewport: Clicking on Actor (LMB): BP_Enemy_C (BP_Enemy)
+[2021.01.24-01.52.01:661][ 85]Cmd: DUPLICATE
+[2021.01.24-01.52.01:661][ 85]Cmd: ACTOR DUPLICATE
+[2021.01.24-01.52.01:710][ 85]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:ExecuteUbergraph_Murdock_AnimBlueprint
+
+[2021.01.24-01.52.01:721][ 85]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:ExecuteUbergraph_Murdock_AnimBlueprint
+
+[2021.01.24-01.52.01:722][ 85]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:ExecuteUbergraph_Murdock_AnimBlueprint
+
+[2021.01.24-01.52.01:725][ 85]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:ExecuteUbergraph_Murdock_AnimBlueprint
+
+[2021.01.24-01.52.02:927][137]Cmd: TRANSACTION UNDO
+[2021.01.24-01.52.02:927][137]LogEditorTransaction: Undo Duplicate Actors
+[2021.01.24-01.52.05:139][245]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:ExecuteUbergraph_Murdock_AnimBlueprint
+
+[2021.01.24-01.52.05:144][245]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:ExecuteUbergraph_Murdock_AnimBlueprint
+
+[2021.01.24-01.52.05:145][245]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:ExecuteUbergraph_Murdock_AnimBlueprint
+
+[2021.01.24-01.52.05:149][245]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:ExecuteUbergraph_Murdock_AnimBlueprint
+
+[2021.01.24-01.52.08:172][347]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Sandbox" FILE="../../../../GameDesign/ue4-ml.drone.shooting/DroneShooting/Content/Maps/Sandbox.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2021.01.24-01.52.08:208][347]LogUObjectHash: Compacting FUObjectHashTables data took   3.46ms
+[2021.01.24-01.52.08:252][347]LogSavePackage: Moving '../../../../GameDesign/ue4-ml.drone.shooting/DroneShooting/Saved/Sandbox9EC9DE354AAF0139065E16B2016020A4.tmp' to '../../../../GameDesign/ue4-ml.drone.shooting/DroneShooting/Content/Maps/Sandbox.umap'
+[2021.01.24-01.52.08:290][347]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Sandbox_BuiltData" FILE="../../../../GameDesign/ue4-ml.drone.shooting/DroneShooting/Content/Maps/Sandbox_BuiltData.uasset" SILENT=true
+[2021.01.24-01.52.08:347][347]LogSavePackage: Moving '../../../../GameDesign/ue4-ml.drone.shooting/DroneShooting/Saved/Sandbox_BuiltData5139694B4EB5F24C747F2C9D73983275.tmp' to '../../../../GameDesign/ue4-ml.drone.shooting/DroneShooting/Content/Maps/Sandbox_BuiltData.uasset'
+[2021.01.24-01.52.08:370][347]AssetCheck: New page: Asset Save: multiple assets
+[2021.01.24-01.52.08:370][347]LogContentValidation: Display: Validating World /Game/Maps/Sandbox.Sandbox
+[2021.01.24-01.52.08:370][347]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Maps/Sandbox_BuiltData.Sandbox_BuiltData
+[2021.01.24-01.52.09:696][366]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2021.01.24-01.52.09:722][366]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.01.24-01.52.09:722][366]PIE: New page: PIE session: Sandbox (Jan. 23, 2021, 3:52:09 p.m.)
+[2021.01.24-01.52.09:724][366]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Sandbox
+[2021.01.24-01.52.09:729][366]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004333s)
+[2021.01.24-01.52.09:730][366]LogAIModule: Creating AISystem for world Sandbox
+[2021.01.24-01.52.09:730][366]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000021FDA772A00), frame # 200366
+[2021.01.24-01.52.09:730][366]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000021F8EA0AD40), frame # 200366
+[2021.01.24-01.52.09:730][366]LogPlayLevel: PIE: World Init took: (0.001458s)
+[2021.01.24-01.52.09:730][366]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Sandbox.Sandbox to /Game/Maps/UEDPIE_0_Sandbox.Sandbox (0.005980s)
+[2021.01.24-01.52.09:759][366]LogUObjectHash: Compacting FUObjectHashTables data took   3.71ms
+[2021.01.24-01.52.09:760][366]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.01.24-01.52.09:760][366]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.01.24-01.52.09:760][366]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.01.24-01.52.09:760][366]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.01.24-01.52.09:760][366]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.01.24-01.52.09:760][366]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.01.24-01.52.09:760][366]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.01.24-01.52.09:760][366]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.01.24-01.52.09:761][366]LogAudio: Display: Using built-in audio occlusion.
+[2021.01.24-01.52.09:761][366]LogAudioMixer: Display: Initializing audio mixer.
+[2021.01.24-01.52.09:766][366]LogAudioMixer: Display: 0: FrontLeft
+[2021.01.24-01.52.09:766][366]LogAudioMixer: Display: 1: FrontRight
+[2021.01.24-01.52.09:833][366]LogAudioMixer: Display: Using Audio Device Headphones (Realtek(R) Audio)
+[2021.01.24-01.52.09:834][366]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.01.24-01.52.09:834][366]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.01.24-01.52.09:834][366]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.01.24-01.52.09:835][366]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.01.24-01.52.09:836][366]LogInit: FAudioDevice initialized.
+[2021.01.24-01.52.09:871][366]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.24-01.52.09:871][366]LogLoad: Game class is 'BP_IntenseGameMode_C'
+[2021.01.24-01.52.09:873][366]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:ExecuteUbergraph_Murdock_AnimBlueprint
+
+[2021.01.24-01.52.09:874][366]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:ExecuteUbergraph_Murdock_AnimBlueprint
+
+[2021.01.24-01.52.09:875][366]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Sandbox.Sandbox up for play (max tick rate 60) at 2021.01.23-20.52.09
+[2021.01.24-01.52.09:876][366]LogWorld: Bringing up level for play took: 0.003893
+[2021.01.24-01.52.09:877][366]LogOnline: OSS: Creating online subsystem instance for: :Context_65
+[2021.01.24-01.52.09:880][366]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:ExecuteUbergraph_Murdock_AnimBlueprint
+
+[2021.01.24-01.52.09:885][366]PIE: Server logged in
+[2021.01.24-01.52.09:888][366]PIE: Play in editor total start time 0.172 seconds.
+[2021.01.24-01.52.11:760][392]LogTemp: Warning: Character Health = 90.000000
+[2021.01.24-01.52.12:888][407]LogTemp: Warning: Character Health = 90.000000
+[2021.01.24-01.52.14:017][422]LogTemp: Warning: Character Health = 80.000000
+[2021.01.24-01.52.14:247][425]LogTemp: Warning: Character Health = 80.000000
+[2021.01.24-01.52.15:000][434]LogTemp: Warning: Character Health = 70.000000
+[2021.01.24-01.52.15:159][436]LogTemp: Warning: Character Health = 60.000000
+[2021.01.24-01.52.15:161][436]LogTemp: Warning: Character Health = 70.000000
+[2021.01.24-01.52.15:419][439]LogTemp: Warning: Character Health = 50.000000
+[2021.01.24-01.52.15:420][439]LogTemp: Warning: Character Health = 60.000000
+[2021.01.24-01.52.15:579][441]LogTemp: Warning: Character Health = 40.000000
+[2021.01.24-01.52.15:841][444]LogTemp: Warning: Character Health = 30.000000
+[2021.01.24-01.52.16:002][446]LogTemp: Warning: Character Health = 20.000000
+[2021.01.24-01.52.16:175][448]LogTemp: Warning: Character Health = 10.000000
+[2021.01.24-01.52.16:258][449]LogTemp: Warning: Character Health = 50.000000
+[2021.01.24-01.52.16:456][450]LogTemp: Warning: Character Health = 0.000000
+[2021.01.24-01.52.17:411][461]LogTemp: Warning: Character Health = 40.000000
+[2021.01.24-01.52.18:229][471]LogTemp: Warning: Character Health = 90.000000
+[2021.01.24-01.52.18:386][473]LogTemp: Warning: Character Health = 80.000000
+[2021.01.24-01.52.18:545][475]LogTemp: Warning: Character Health = 30.000000
+[2021.01.24-01.52.18:647][476]LogTemp: Warning: Character Health = 70.000000
+[2021.01.24-01.52.19:122][481]LogTemp: Warning: Character Health = 60.000000
+[2021.01.24-01.52.19:472][485]LogTemp: Warning: Character Health = 50.000000
+[2021.01.24-01.52.19:652][487]LogTemp: Warning: Character Health = 20.000000
+[2021.01.24-01.52.19:925][490]LogTemp: Warning: Character Health = 40.000000
+[2021.01.24-01.52.20:750][499]LogTemp: Warning: Character Health = 10.000000
+[2021.01.24-01.52.21:133][503]LogTemp: Warning: Character Health = 30.000000
+[2021.01.24-01.52.21:424][506]LogTemp: Warning: Character Health = 20.000000
+[2021.01.24-01.52.21:757][510]LogTemp: Warning: Character Health = 10.000000
+[2021.01.24-01.52.21:902][512]LogTemp: Warning: Character Health = 0.000000
+[2021.01.24-01.52.25:378][649]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.24-01.52.25:379][649]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Sandbox
+[2021.01.24-01.52.25:379][649]LogSlate: Window 'DroneShooting Preview [NetMode: Standalone] (64-bit/Windows) ' being destroyed
+[2021.01.24-01.52.25:387][649]LogWorld: UWorld::CleanupWorld for Sandbox, bSessionEnded=true, bCleanupResources=true
+[2021.01.24-01.52.25:388][649]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.24-01.52.25:398][649]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.01.24-01.52.25:403][649]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.24-01.52.25:477][649]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000021F8EA0AD40), frame # 200649
+[2021.01.24-01.52.25:477][649]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000021FDA772A00), frame # 200649
+[2021.01.24-01.52.25:480][649]LogUObjectHash: Compacting FUObjectHashTables data took   2.52ms
+[2021.01.24-01.52.25:535][650]LogPlayLevel: Display: Destroying online subsystem :Context_65
+[2021.01.24-01.52.26:520][705]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Sandbox" FILE="../../../../GameDesign/ue4-ml.drone.shooting/DroneShooting/Content/Maps/Sandbox.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2021.01.24-01.52.26:547][705]LogUObjectHash: Compacting FUObjectHashTables data took   2.57ms
+[2021.01.24-01.52.26:583][705]LogSavePackage: Moving '../../../../GameDesign/ue4-ml.drone.shooting/DroneShooting/Saved/Sandbox10CC9528471C7D203FE4918E1C1F31EA.tmp' to '../../../../GameDesign/ue4-ml.drone.shooting/DroneShooting/Content/Maps/Sandbox.umap'
+[2021.01.24-01.52.26:623][705]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Sandbox_BuiltData" FILE="../../../../GameDesign/ue4-ml.drone.shooting/DroneShooting/Content/Maps/Sandbox_BuiltData.uasset" SILENT=true
+[2021.01.24-01.52.26:672][705]LogSavePackage: Moving '../../../../GameDesign/ue4-ml.drone.shooting/DroneShooting/Saved/Sandbox_BuiltData32F5E56443DB58049F4EAD8C3CB312D8.tmp' to '../../../../GameDesign/ue4-ml.drone.shooting/DroneShooting/Content/Maps/Sandbox_BuiltData.uasset'
+[2021.01.24-01.52.26:692][705]AssetCheck: New page: Asset Save: multiple assets
+[2021.01.24-01.52.26:692][705]LogContentValidation: Display: Validating World /Game/Maps/Sandbox.Sandbox
+[2021.01.24-01.52.26:692][705]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Maps/Sandbox_BuiltData.Sandbox_BuiltData
+[2021.01.24-01.52.27:694][765]LogEditorViewport: Clicking on Actor (LMB): BP_Enemy_C (BP_Enemy2)
+[2021.01.24-01.52.28:752][807]Cmd: DELETE
+[2021.01.24-01.52.28:753][807]Cmd: ACTOR DELETE
+[2021.01.24-01.52.28:765][807]LogEditorActor: Deleted Actor: BP_Enemy_C
+[2021.01.24-01.52.28:803][807]LogUObjectHash: Compacting FUObjectHashTables data took   0.73ms
+[2021.01.24-01.52.28:805][807]LogEditorActor: Deleted 1 Actors (0.052 secs)
+[2021.01.24-01.52.30:279][893]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Sandbox" FILE="../../../../GameDesign/ue4-ml.drone.shooting/DroneShooting/Content/Maps/Sandbox.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2021.01.24-01.52.30:303][893]LogUObjectHash: Compacting FUObjectHashTables data took   0.67ms
+[2021.01.24-01.52.30:340][893]LogSavePackage: Moving '../../../../GameDesign/ue4-ml.drone.shooting/DroneShooting/Saved/SandboxDB41BA244D749E26C698D6B08E2BCF68.tmp' to '../../../../GameDesign/ue4-ml.drone.shooting/DroneShooting/Content/Maps/Sandbox.umap'
+[2021.01.24-01.52.30:379][893]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Sandbox_BuiltData" FILE="../../../../GameDesign/ue4-ml.drone.shooting/DroneShooting/Content/Maps/Sandbox_BuiltData.uasset" SILENT=true
+[2021.01.24-01.52.30:427][893]LogSavePackage: Moving '../../../../GameDesign/ue4-ml.drone.shooting/DroneShooting/Saved/Sandbox_BuiltData741EE96D4017A73A2844A794F9E19D20.tmp' to '../../../../GameDesign/ue4-ml.drone.shooting/DroneShooting/Content/Maps/Sandbox_BuiltData.uasset'
+[2021.01.24-01.52.30:447][893]AssetCheck: New page: Asset Save: multiple assets
+[2021.01.24-01.52.30:447][893]LogContentValidation: Display: Validating World /Game/Maps/Sandbox.Sandbox
+[2021.01.24-01.52.30:447][893]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Maps/Sandbox_BuiltData.Sandbox_BuiltData

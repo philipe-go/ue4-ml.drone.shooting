@@ -43,6 +43,10 @@ void EmptyLinkFunctionForGeneratedCodeCharacterController() {}
 #endif
 		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_RestartCounter;
 #if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_WonUI_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FClassPropertyParams NewProp_WonUI;
+#if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_LoseUI_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FClassPropertyParams NewProp_LoseUI;
@@ -77,6 +81,13 @@ void EmptyLinkFunctionForGeneratedCodeCharacterController() {}
 #endif
 	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_ACharacterController_Statics::NewProp_RestartCounter = { "RestartCounter", nullptr, (EPropertyFlags)0x0040000000000001, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ACharacterController, RestartCounter), METADATA_PARAMS(Z_Construct_UClass_ACharacterController_Statics::NewProp_RestartCounter_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ACharacterController_Statics::NewProp_RestartCounter_MetaData)) };
 #if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ACharacterController_Statics::NewProp_WonUI_MetaData[] = {
+		{ "Category", "CharacterController" },
+		{ "ModuleRelativePath", "Controller/CharacterController.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FClassPropertyParams Z_Construct_UClass_ACharacterController_Statics::NewProp_WonUI = { "WonUI", nullptr, (EPropertyFlags)0x0044000000000001, UE4CodeGen_Private::EPropertyGenFlags::Class, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ACharacterController, WonUI), Z_Construct_UClass_UUserWidget_NoRegister, Z_Construct_UClass_UClass, METADATA_PARAMS(Z_Construct_UClass_ACharacterController_Statics::NewProp_WonUI_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ACharacterController_Statics::NewProp_WonUI_MetaData)) };
+#if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ACharacterController_Statics::NewProp_LoseUI_MetaData[] = {
 		{ "Category", "CharacterController" },
 		{ "ModuleRelativePath", "Controller/CharacterController.h" },
@@ -86,6 +97,7 @@ void EmptyLinkFunctionForGeneratedCodeCharacterController() {}
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_ACharacterController_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ACharacterController_Statics::NewProp_Timer,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ACharacterController_Statics::NewProp_RestartCounter,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ACharacterController_Statics::NewProp_WonUI,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ACharacterController_Statics::NewProp_LoseUI,
 	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_ACharacterController_Statics::StaticCppClassTypeInfo = {
@@ -115,7 +127,7 @@ void EmptyLinkFunctionForGeneratedCodeCharacterController() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ACharacterController, 2488614942);
+	IMPLEMENT_CLASS(ACharacterController, 249337694);
 	template<> DRONESHOOTING_API UClass* StaticClass<ACharacterController>()
 	{
 		return ACharacterController::StaticClass();
