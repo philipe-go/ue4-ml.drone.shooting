@@ -6,6 +6,7 @@
 #include "Components/SkinnedMeshComponent.h"
 #include "Components/CapsuleComponent.h"
 #include "DroneShooting/Gun/GunShooter.h"
+#include "../DroneShootingGameModeBase.h"
 #include "GameFramework/Actor.h"
 #include "GameFramework/CharacterMovementComponent.h"
 #include "GameFramework/SpringArmComponent.h"
@@ -47,12 +48,6 @@ void ACharacterBase::BeginPlay()
 void ACharacterBase::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
-
-	if(IsDead())
-	{
-		DetachFromControllerPendingDestroy();
-		GetCapsuleComponent()->SetCollisionEnabled(ECollisionEnabled::NoCollision);
-	}
 }
 
 float ACharacterBase::TakeDamage(float DamageAmount, struct FDamageEvent const& DamageEvent, class AController* EventInstigator, AActor* DamageCauser) 
@@ -63,6 +58,15 @@ float ACharacterBase::TakeDamage(float DamageAmount, struct FDamageEvent const& 
 	CurrentHealth = FMath::Clamp(CurrentHealth, 0.f,MaxHealth);
 
 	UE_LOG(LogTemp, Warning, TEXT("Character Health = %f"), CurrentHealth);
+
+	if(IsDead())
+	{
+		ADroneShootingGameModeBase* GameMode = GetWorld()->GetAuthGameMode<ADroneShootingGameModeBase>();
+		if (GameMode) GameMode->PawnDie(this);
+		
+		DetachFromControllerPendingDestroy();
+		GetCapsuleComponent()->SetCollisionEnabled(ECollisionEnabled::NoCollision);
+	}
 
 	return DamageApplied;
 }

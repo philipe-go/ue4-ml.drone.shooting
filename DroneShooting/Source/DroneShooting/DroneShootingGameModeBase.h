@@ -13,5 +13,8 @@ UCLASS()
 class DRONESHOOTING_API ADroneShootingGameModeBase : public AGameModeBase
 {
 	GENERATED_BODY()
+
+	public:
+	virtual void PawnDie(APawn* DeadPawn);
 	
 };
