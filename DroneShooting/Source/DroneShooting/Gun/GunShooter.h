@@ -43,4 +43,7 @@ private:
 
 	UPROPERTY(EditAnywhere)
 	float DamageRate = 10.f;
+
+	UPROPERTY(EditAnywhere)
+	USoundBase* SoundMuzzle;
 };
