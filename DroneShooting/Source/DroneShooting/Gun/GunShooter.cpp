@@ -29,15 +29,6 @@ void AGunShooter::BeginPlay()
 void AGunShooter::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
-
-//TODO removed line trace and setup aim UI
-#if WITH_EDITOR
-		FVector StartPoint = PlayerSkeletal->GetSocketLocation(TEXT("Muzzle"));
-		FVector Direction = PlayerSkeletal->GetSocketRotation(TEXT("Muzzle")).Vector();
-		FVector EndPoint = StartPoint + Direction * BULLET_RANGE;
-		DrawDebugLine(GetWorld(), StartPoint, 
-						EndPoint, FColor::Red, false, -1.f, 0, 1.f);
-#endif
 }
 
 void AGunShooter::ShootProjectile()
@@ -47,9 +38,10 @@ void AGunShooter::ShootProjectile()
 		UGameplayStatics::SpawnEmitterAttached(MuzzleFlash, PlayerSkeletal, TEXT("Muzzle"));
 		UGameplayStatics::SpawnSoundAttached(MuzzleSound, PlayerSkeletal, TEXT("Muzzle"));
 		
-		FVector StartPoint = PlayerSkeletal->GetSocketLocation(TEXT("Muzzle"));
-		FVector Direction = PlayerSkeletal->GetSocketRotation(TEXT("Muzzle")).Vector();
-		FVector EndPoint = StartPoint + Direction * BULLET_RANGE;
+		//TODO fix Shoot vs. Crosshair position 
+		const FVector StartPoint = PlayerSkeletal->GetSocketLocation(TEXT("Muzzle"));
+		const FVector Direction = PlayerSkeletal->GetSocketRotation(TEXT("Muzzle")).Vector();
+		const FVector EndPoint = StartPoint + Direction * BULLET_RANGE;
 		FCollisionQueryParams Params;
 
 		Params.AddIgnoredActor(this);
@@ -73,3 +65,4 @@ void AGunShooter::ShootProjectile()
 		}
 	}
 }
+

@@ -13,10 +13,10 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define DRONESHOOTING_CharacterController_generated_h
 
-#define DroneShooting_Source_DroneShooting_Controller_CharacterController_h_15_SPARSE_DATA
-#define DroneShooting_Source_DroneShooting_Controller_CharacterController_h_15_RPC_WRAPPERS
-#define DroneShooting_Source_DroneShooting_Controller_CharacterController_h_15_RPC_WRAPPERS_NO_PURE_DECLS
-#define DroneShooting_Source_DroneShooting_Controller_CharacterController_h_15_INCLASS_NO_PURE_DECLS \
+#define DroneShooting_Source_DroneShooting_Controller_CharacterController_h_16_SPARSE_DATA
+#define DroneShooting_Source_DroneShooting_Controller_CharacterController_h_16_RPC_WRAPPERS
+#define DroneShooting_Source_DroneShooting_Controller_CharacterController_h_16_RPC_WRAPPERS_NO_PURE_DECLS
+#define DroneShooting_Source_DroneShooting_Controller_CharacterController_h_16_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesACharacterController(); \
 	friend struct Z_Construct_UClass_ACharacterController_Statics; \
@@ -25,7 +25,7 @@ public: \
 	DECLARE_SERIALIZER(ACharacterController)
 
 
-#define DroneShooting_Source_DroneShooting_Controller_CharacterController_h_15_INCLASS \
+#define DroneShooting_Source_DroneShooting_Controller_CharacterController_h_16_INCLASS \
 private: \
 	static void StaticRegisterNativesACharacterController(); \
 	friend struct Z_Construct_UClass_ACharacterController_Statics; \
@@ -34,7 +34,7 @@ public: \
 	DECLARE_SERIALIZER(ACharacterController)
 
 
-#define DroneShooting_Source_DroneShooting_Controller_CharacterController_h_15_STANDARD_CONSTRUCTORS \
+#define DroneShooting_Source_DroneShooting_Controller_CharacterController_h_16_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API ACharacterController(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(ACharacterController) \
@@ -47,7 +47,7 @@ private: \
 public:
 
 
-#define DroneShooting_Source_DroneShooting_Controller_CharacterController_h_15_ENHANCED_CONSTRUCTORS \
+#define DroneShooting_Source_DroneShooting_Controller_CharacterController_h_16_ENHANCED_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API ACharacterController(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()) : Super(ObjectInitializer) { }; \
 private: \
@@ -60,34 +60,36 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ACharacterController); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(ACharacterController)
 
 
-#define DroneShooting_Source_DroneShooting_Controller_CharacterController_h_15_PRIVATE_PROPERTY_OFFSET \
+#define DroneShooting_Source_DroneShooting_Controller_CharacterController_h_16_PRIVATE_PROPERTY_OFFSET \
 	FORCEINLINE static uint32 __PPO__LoseUI() { return STRUCT_OFFSET(ACharacterController, LoseUI); } \
 	FORCEINLINE static uint32 __PPO__WonUI() { return STRUCT_OFFSET(ACharacterController, WonUI); } \
+	FORCEINLINE static uint32 __PPO__HUD() { return STRUCT_OFFSET(ACharacterController, HUD); } \
+	FORCEINLINE static uint32 __PPO__Crosshair() { return STRUCT_OFFSET(ACharacterController, Crosshair); } \
 	FORCEINLINE static uint32 __PPO__RestartCounter() { return STRUCT_OFFSET(ACharacterController, RestartCounter); } \
 	FORCEINLINE static uint32 __PPO__Timer() { return STRUCT_OFFSET(ACharacterController, Timer); }
 
 
-#define DroneShooting_Source_DroneShooting_Controller_CharacterController_h_12_PROLOG
-#define DroneShooting_Source_DroneShooting_Controller_CharacterController_h_15_GENERATED_BODY_LEGACY \
+#define DroneShooting_Source_DroneShooting_Controller_CharacterController_h_13_PROLOG
+#define DroneShooting_Source_DroneShooting_Controller_CharacterController_h_16_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	DroneShooting_Source_DroneShooting_Controller_CharacterController_h_15_PRIVATE_PROPERTY_OFFSET \
-	DroneShooting_Source_DroneShooting_Controller_CharacterController_h_15_SPARSE_DATA \
-	DroneShooting_Source_DroneShooting_Controller_CharacterController_h_15_RPC_WRAPPERS \
-	DroneShooting_Source_DroneShooting_Controller_CharacterController_h_15_INCLASS \
-	DroneShooting_Source_DroneShooting_Controller_CharacterController_h_15_STANDARD_CONSTRUCTORS \
+	DroneShooting_Source_DroneShooting_Controller_CharacterController_h_16_PRIVATE_PROPERTY_OFFSET \
+	DroneShooting_Source_DroneShooting_Controller_CharacterController_h_16_SPARSE_DATA \
+	DroneShooting_Source_DroneShooting_Controller_CharacterController_h_16_RPC_WRAPPERS \
+	DroneShooting_Source_DroneShooting_Controller_CharacterController_h_16_INCLASS \
+	DroneShooting_Source_DroneShooting_Controller_CharacterController_h_16_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define DroneShooting_Source_DroneShooting_Controller_CharacterController_h_15_GENERATED_BODY \
+#define DroneShooting_Source_DroneShooting_Controller_CharacterController_h_16_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	DroneShooting_Source_DroneShooting_Controller_CharacterController_h_15_PRIVATE_PROPERTY_OFFSET \
-	DroneShooting_Source_DroneShooting_Controller_CharacterController_h_15_SPARSE_DATA \
-	DroneShooting_Source_DroneShooting_Controller_CharacterController_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
-	DroneShooting_Source_DroneShooting_Controller_CharacterController_h_15_INCLASS_NO_PURE_DECLS \
-	DroneShooting_Source_DroneShooting_Controller_CharacterController_h_15_ENHANCED_CONSTRUCTORS \
+	DroneShooting_Source_DroneShooting_Controller_CharacterController_h_16_PRIVATE_PROPERTY_OFFSET \
+	DroneShooting_Source_DroneShooting_Controller_CharacterController_h_16_SPARSE_DATA \
+	DroneShooting_Source_DroneShooting_Controller_CharacterController_h_16_RPC_WRAPPERS_NO_PURE_DECLS \
+	DroneShooting_Source_DroneShooting_Controller_CharacterController_h_16_INCLASS_NO_PURE_DECLS \
+	DroneShooting_Source_DroneShooting_Controller_CharacterController_h_16_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 

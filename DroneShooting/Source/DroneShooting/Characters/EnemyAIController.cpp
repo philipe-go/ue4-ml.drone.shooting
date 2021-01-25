@@ -18,7 +18,7 @@ void AEnemyAIController::BeginPlay()
         RunBehaviorTree(AIBehaviourTree);
         AIBlackboard = GetBlackboardComponent(); 
         AIBlackboard->SetValueAsVector(TEXT("StartLocation"), GetPawn()->GetActorLocation());
-        AIBlackboard->SetValueAsVector(TEXT("PlayerLocation"), PlayerPawn->GetActorLocation());
+        AIBlackboard->SetValueAsObject(TEXT("Player"), PlayerPawn);
     }
 }
 
@@ -29,7 +29,7 @@ void AEnemyAIController::Tick(float DeltaSeconds)
     if (PlayerPawn && LineOfSightTo(PlayerPawn)) 
     {
         SetFocus(PlayerPawn);
-        AIBlackboard->SetValueAsVector(TEXT("PlayerLocation"), PlayerPawn->GetActorLocation());
+        AIBlackboard->SetValueAsObject(TEXT("Player"), PlayerPawn);
         AIBlackboard->ClearValue(TEXT("LastPlayerLocation"));
     }
     else

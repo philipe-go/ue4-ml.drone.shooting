@@ -94,7 +94,6 @@ private:
 	void SetCameraFar();
 #pragma endregion
 	
-	
 	UPROPERTY(EditDefaultsOnly)
 	TSubclassOf<AGunShooter> GunClass;
 

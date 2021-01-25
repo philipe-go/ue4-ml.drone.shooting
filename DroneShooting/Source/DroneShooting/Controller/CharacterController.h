@@ -6,6 +6,7 @@
 #include "GameFramework/PlayerController.h"
 #include "CharacterController.generated.h"
 
+class UUserWidget;
 /**
  * 
  */
@@ -16,13 +17,21 @@ class DRONESHOOTING_API ACharacterController : public APlayerController
 
 public:
 	virtual void GameHasEnded(class AActor *EndGameFocus = nullptr, bool bIsWinner = false) override;
+protected:
+	virtual void BeginPlay() override;
 
 private:
 	UPROPERTY(EditAnywhere)
-	TSubclassOf<class UUserWidget> LoseUI;
+	TSubclassOf<UUserWidget> LoseUI;
 
 	UPROPERTY(EditAnywhere)
-	TSubclassOf<class UUserWidget> WonUI;
+	TSubclassOf<UUserWidget> WonUI;
+
+	UPROPERTY(EditAnywhere)
+	TSubclassOf<UUserWidget> HUD;
+	
+	UPROPERTY()
+	UUserWidget* Crosshair;
 
 	UPROPERTY(EditAnywhere, meta=(AllowPrivateAcces="true"))
 	float RestartCounter = 5.f;

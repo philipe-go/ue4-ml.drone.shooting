@@ -58,8 +58,6 @@ float ACharacterBase::TakeDamage(float DamageAmount, struct FDamageEvent const& 
 	CurrentHealth -= DamageApplied;
 	CurrentHealth = FMath::Clamp(CurrentHealth, 0.f,MaxHealth);
 
-	UE_LOG(LogTemp, Warning, TEXT("Character Health = %f"), CurrentHealth);
-
 	if(IsDead())
 	{
 		ADroneShootingGameModeBase* GameMode = GetWorld()->GetAuthGameMode<ADroneShootingGameModeBase>();
