@@ -34,7 +34,6 @@ public:
 	UPROPERTY(EditAnywhere)
 	class UParticleSystem* MuzzleFlash;
 	
-
 	UPROPERTY(EditAnywhere)
 	class UParticleSystem* HitParticle;
 
@@ -45,5 +44,8 @@ private:
 	float DamageRate = 10.f;
 
 	UPROPERTY(EditAnywhere)
-	USoundBase* SoundMuzzle;
+	USoundBase* MuzzleSound;
+
+	UPROPERTY(EditAnywhere)
+	USoundBase* HitSound;
 };

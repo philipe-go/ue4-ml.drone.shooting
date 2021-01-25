@@ -1,12 +1,14 @@
 // Copyright by Philipe Go.
 
 #include "GunShooter.h"
+#include "Camera/CameraShake.h"
 #include "Components/SceneComponent.h"
 #include "Components/SkeletalMeshComponent.h"
 #include "Components/SkinnedMeshComponent.h"
 #include "DrawDebugHelpers.h"
 #include "Engine/World.h"
 #include "Kismet/GameplayStatics.h"
+
 
 // Sets default values
 AGunShooter::AGunShooter()
@@ -42,8 +44,9 @@ void AGunShooter::ShootProjectile()
 {
 	if (MuzzleFlash && PlayerSkeletal)
 	{
-		if (MuzzleFlash) UGameplayStatics::SpawnEmitterAttached(MuzzleFlash, PlayerSkeletal, TEXT("Muzzle"));
-
+		UGameplayStatics::SpawnEmitterAttached(MuzzleFlash, PlayerSkeletal, TEXT("Muzzle"));
+		UGameplayStatics::SpawnSoundAttached(MuzzleSound, PlayerSkeletal, TEXT("Muzzle"));
+		
 		FVector StartPoint = PlayerSkeletal->GetSocketLocation(TEXT("Muzzle"));
 		FVector Direction = PlayerSkeletal->GetSocketRotation(TEXT("Muzzle")).Vector();
 		FVector EndPoint = StartPoint + Direction * BULLET_RANGE;
@@ -56,6 +59,9 @@ void AGunShooter::ShootProjectile()
 		if (GetWorld()->LineTraceSingleByChannel(OutHit, StartPoint,EndPoint,ECollisionChannel::ECC_GameTraceChannel1, Params))
 		{
 			if (HitParticle) UGameplayStatics::SpawnEmitterAtLocation(GetWorld(), HitParticle,OutHit.Location, Direction.Rotation());
+
+			UGameplayStatics::PlaySoundAtLocation(GetWorld(), HitSound,OutHit.Location);
+
 			FPointDamageEvent DamageEvent(DamageRate, OutHit, Direction, nullptr);
 			if (OutHit.GetActor()) 
 			{

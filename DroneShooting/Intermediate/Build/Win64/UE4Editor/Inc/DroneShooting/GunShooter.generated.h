@@ -59,7 +59,9 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AGunShooter); \
 
 
 #define DroneShooting_Source_DroneShooting_Gun_GunShooter_h_12_PRIVATE_PROPERTY_OFFSET \
-	FORCEINLINE static uint32 __PPO__DamageRate() { return STRUCT_OFFSET(AGunShooter, DamageRate); }
+	FORCEINLINE static uint32 __PPO__DamageRate() { return STRUCT_OFFSET(AGunShooter, DamageRate); } \
+	FORCEINLINE static uint32 __PPO__MuzzleSound() { return STRUCT_OFFSET(AGunShooter, MuzzleSound); } \
+	FORCEINLINE static uint32 __PPO__HitSound() { return STRUCT_OFFSET(AGunShooter, HitSound); }
 
 
 #define DroneShooting_Source_DroneShooting_Gun_GunShooter_h_9_PROLOG

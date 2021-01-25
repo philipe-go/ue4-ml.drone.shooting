@@ -3,6 +3,7 @@
 #include "CharacterBase.h"
 #include "Animation/AnimMontage.h"
 #include "Camera/CameraComponent.h"
+#include "Camera/CameraShake.h"
 #include "Components/SkinnedMeshComponent.h"
 #include "Components/CapsuleComponent.h"
 #include "DroneShooting/Gun/GunShooter.h"
@@ -66,6 +67,7 @@ float ACharacterBase::TakeDamage(float DamageAmount, struct FDamageEvent const& 
 		
 		DetachFromControllerPendingDestroy();
 		GetCapsuleComponent()->SetCollisionEnabled(ECollisionEnabled::NoCollision);
+		if (GetOwner() != GetWorld()->GetFirstPlayerController()) Destroy();
 	}
 
 	return DamageApplied;
