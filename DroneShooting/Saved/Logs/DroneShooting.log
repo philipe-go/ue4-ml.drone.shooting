@@ -4904,3 +4904,487 @@ Script call stack:
 [2021.01.25-02.47.37:763][806]LogMainFrame: MainFrame: Module compiling took 3.891 seconds
 [2021.01.25-02.47.37:786][806]LogContentBrowser: Native class hierarchy populated in 0.0142 seconds. Added 3438 classes and 834 folders.
 [2021.01.25-02.47.37:799][806]Display: HotReload took  3.9s.
+[2021.01.25-02.49.04:843][596]LogAssetEditorSubsystem: Opening Asset editor for BlendSpace /Game/ParagonMurdock/Characters/Heroes/Murdock/Animations/BlendSpaces/Murdock_Locomotion_BS.Murdock_Locomotion_BS
+[2021.01.25-02.49.04:851][596]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_57:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2021.01.25-02.49.04:941][596]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_57:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2021.01.25-02.49.05:414][596]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2021.01.25-02.49.28:031][654]LogAssetEditorSubsystem: Opening Asset editor for AnimBlueprint /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint
+[2021.01.25-02.49.28:042][654]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_60:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2021.01.25-02.49.28:568][654]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_60:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2021.01.25-02.49.29:110][654]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2021.01.25-02.50.58:759][531]LogWorld: UWorld::CleanupWorld for World_60, bSessionEnded=true, bCleanupResources=true
+[2021.01.25-02.50.58:759][531]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.25-02.50.58:768][531]LogWorld: UWorld::CleanupWorld for World_59, bSessionEnded=true, bCleanupResources=true
+[2021.01.25-02.50.58:768][531]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.25-02.50.58:962][531]LogWorld: UWorld::CleanupWorld for World_61, bSessionEnded=true, bCleanupResources=true
+[2021.01.25-02.50.58:963][531]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.25-02.51.00:038][589]LogSlate: Window 'Murdock_Locomotion_BS' being destroyed
+[2021.01.25-02.51.00:055][589]LogWorld: UWorld::CleanupWorld for World_57, bSessionEnded=true, bCleanupResources=true
+[2021.01.25-02.51.00:055][589]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.25-02.51.00:189][589]LogWorld: UWorld::CleanupWorld for World_58, bSessionEnded=true, bCleanupResources=true
+[2021.01.25-02.51.00:189][589]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.25-02.51.02:608][726]LogAssetEditorSubsystem: Opening Asset editor for BlendSpace /Game/ParagonMurdock/Characters/Heroes/Murdock/Animations/BlendSpaces/Murdock_Locomotion_BS.Murdock_Locomotion_BS
+[2021.01.25-02.51.02:615][726]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_62:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2021.01.25-02.51.02:687][726]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_62:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2021.01.25-02.51.03:111][726]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2021.01.25-02.51.15:205][374]LogAssetEditorSubsystem: Opening Asset editor for AnimBlueprint /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint
+[2021.01.25-02.51.15:217][374]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_65:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2021.01.25-02.51.15:580][374]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_65:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2021.01.25-02.51.16:219][374]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2021.01.25-02.52.48:374][167]LogSavePackage: Moving '../../../../GameDesign/ue4-ml.drone.shooting/DroneShooting/Saved/Murdock_AnimBlueprint6F198F284D11014D143393944F792B94.tmp' to '../../../../GameDesign/ue4-ml.drone.shooting/DroneShooting/Content/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.uasset'
+[2021.01.25-02.52.48:409][167]AssetCheck: New page: Asset Save: Murdock_AnimBlueprint
+[2021.01.25-02.52.48:409][167]LogContentValidation: Display: Validating AnimBlueprint /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint
+[2021.01.25-02.55.32:149][443]BlueprintLog: New page: Compile Murdock_AnimBlueprint
+[2021.01.25-02.55.32:215][443]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:ExecuteUbergraph_Murdock_AnimBlueprint
+
+[2021.01.25-02.55.32:216][443]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:ExecuteUbergraph_Murdock_AnimBlueprint
+
+[2021.01.25-02.55.32:331][443]LogUObjectHash: Compacting FUObjectHashTables data took   6.18ms
+[2021.01.25-02.55.35:068][579]LogWorld: UWorld::CleanupWorld for World_65, bSessionEnded=true, bCleanupResources=true
+[2021.01.25-02.55.35:068][579]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.25-02.55.35:074][579]LogWorld: UWorld::CleanupWorld for World_64, bSessionEnded=true, bCleanupResources=true
+[2021.01.25-02.55.35:074][579]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.25-02.55.35:244][579]LogWorld: UWorld::CleanupWorld for World_66, bSessionEnded=true, bCleanupResources=true
+[2021.01.25-02.55.35:244][579]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.25-02.55.36:009][622]LogSlate: Window 'Murdock_Locomotion_BS' being destroyed
+[2021.01.25-02.55.36:023][622]LogWorld: UWorld::CleanupWorld for World_62, bSessionEnded=true, bCleanupResources=true
+[2021.01.25-02.55.36:023][622]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.25-02.55.36:158][622]LogWorld: UWorld::CleanupWorld for World_63, bSessionEnded=true, bCleanupResources=true
+[2021.01.25-02.55.36:158][622]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.25-02.56.54:419][697]LogUObjectHash: Compacting FUObjectHashTables data took  11.32ms
+[2021.01.25-02.56.54:430][697]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Sandbox' took 0.187
+[2021.01.25-02.56.54:434][697]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint] ([1] browsable assets)...
+[2021.01.25-02.56.54:504][697]OBJ SavePackage:     Rendered thumbnail for [AnimBlueprint /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint]
+[2021.01.25-02.56.54:505][697]OBJ SavePackage: Finished generating thumbnails for package [/Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint]
+[2021.01.25-02.56.54:932][697]LogSavePackage: Moving '../../../../GameDesign/ue4-ml.drone.shooting/DroneShooting/Saved/Murdock_AnimBlueprint_Auto865F11F62418E6FF428946EA7B062ABAC.tmp' to '../../../../GameDesign/ue4-ml.drone.shooting/DroneShooting/Saved/Autosaves/Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint_Auto8.uasset'
+[2021.01.25-02.56.54:933][697]LogFileHelpers: Auto-saving content packages took 0.500
+[2021.01.25-02.57.42:084][838]LogAssetEditorSubsystem: Opening Asset editor for BlendSpace /Game/ParagonMurdock/Characters/Heroes/Murdock/Animations/BlendSpaces/Murdock_Locomotion_BS.Murdock_Locomotion_BS
+[2021.01.25-02.57.42:109][838]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_67:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2021.01.25-02.57.42:203][838]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_67:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2021.01.25-02.57.42:624][838]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2021.01.25-02.57.44:422][901]LogAssetEditorSubsystem: Opening Asset editor for AnimBlueprint /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint
+[2021.01.25-02.57.44:433][901]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_70:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2021.01.25-02.57.44:812][901]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_70:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2021.01.25-02.57.45:251][901]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2021.01.25-02.58.11:890][184]LogSavePackage: Moving '../../../../GameDesign/ue4-ml.drone.shooting/DroneShooting/Saved/Murdock_AnimBlueprintE01816E24798B5A6AF44D3BC86C82583.tmp' to '../../../../GameDesign/ue4-ml.drone.shooting/DroneShooting/Content/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.uasset'
+[2021.01.25-02.58.11:923][184]AssetCheck: New page: Asset Save: Murdock_AnimBlueprint
+[2021.01.25-02.58.11:923][184]LogContentValidation: Display: Validating AnimBlueprint /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint
+[2021.01.25-02.58.12:548][209]LogWorld: UWorld::CleanupWorld for World_70, bSessionEnded=true, bCleanupResources=true
+[2021.01.25-02.58.12:548][209]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.25-02.58.12:553][209]LogWorld: UWorld::CleanupWorld for World_69, bSessionEnded=true, bCleanupResources=true
+[2021.01.25-02.58.12:553][209]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.25-02.58.12:739][209]LogWorld: UWorld::CleanupWorld for World_71, bSessionEnded=true, bCleanupResources=true
+[2021.01.25-02.58.12:739][209]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.25-03.01.09:818][487]LogAssetEditorSubsystem: Opening Asset editor for AnimBlueprint /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint
+[2021.01.25-03.01.09:828][487]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_73:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2021.01.25-03.01.10:209][487]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_73:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2021.01.25-03.01.10:731][487]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2021.01.25-03.04.04:335][289]LogWorld: UWorld::CleanupWorld for World_73, bSessionEnded=true, bCleanupResources=true
+[2021.01.25-03.04.04:336][289]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.25-03.04.04:349][289]LogWorld: UWorld::CleanupWorld for World_72, bSessionEnded=true, bCleanupResources=true
+[2021.01.25-03.04.04:349][289]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.25-03.04.04:827][289]LogWorld: UWorld::CleanupWorld for World_74, bSessionEnded=true, bCleanupResources=true
+[2021.01.25-03.04.04:827][289]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.25-03.04.06:973][366]LogSlate: Window 'Murdock_Locomotion_BS' being destroyed
+[2021.01.25-03.04.06:989][366]LogWorld: UWorld::CleanupWorld for World_67, bSessionEnded=true, bCleanupResources=true
+[2021.01.25-03.04.06:989][366]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.25-03.04.07:127][366]LogWorld: UWorld::CleanupWorld for World_68, bSessionEnded=true, bCleanupResources=true
+[2021.01.25-03.04.07:127][366]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.25-03.04.09:556][498]LogTemp: Repeating last play command: Selected Viewport
+[2021.01.25-03.04.09:573][498]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.01.25-03.04.09:573][498]PIE: New page: PIE session: Sandbox (Jan. 24, 2021, 5:04:09 p.m.)
+[2021.01.25-03.04.09:573][498]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Sandbox
+[2021.01.25-03.04.09:580][498]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006688s)
+[2021.01.25-03.04.09:581][498]LogAIModule: Creating AISystem for world Sandbox
+[2021.01.25-03.04.09:581][498]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000002B292A6C400), frame # 257498
+[2021.01.25-03.04.09:581][498]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000002B258DA2AC0), frame # 257498
+[2021.01.25-03.04.09:582][498]LogPlayLevel: PIE: World Init took: (0.001618s)
+[2021.01.25-03.04.09:582][498]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Sandbox.Sandbox to /Game/Maps/UEDPIE_0_Sandbox.Sandbox (0.008494s)
+[2021.01.25-03.04.09:631][498]LogUObjectHash: Compacting FUObjectHashTables data took   3.11ms
+[2021.01.25-03.04.09:640][498]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.01.25-03.04.09:641][498]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.01.25-03.04.09:641][498]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.01.25-03.04.09:641][498]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.01.25-03.04.09:641][498]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.01.25-03.04.09:641][498]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.01.25-03.04.09:641][498]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.01.25-03.04.09:641][498]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.01.25-03.04.09:641][498]LogAudio: Display: Using built-in audio occlusion.
+[2021.01.25-03.04.09:641][498]LogAudioMixer: Display: Initializing audio mixer.
+[2021.01.25-03.04.09:647][498]LogAudioMixer: Display: 0: FrontLeft
+[2021.01.25-03.04.09:647][498]LogAudioMixer: Display: 1: FrontRight
+[2021.01.25-03.04.09:722][498]LogAudioMixer: Display: Using Audio Device Headphones (Realtek(R) Audio)
+[2021.01.25-03.04.09:723][498]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.01.25-03.04.09:723][498]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.01.25-03.04.09:723][498]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.01.25-03.04.09:723][498]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.01.25-03.04.09:742][498]LogInit: FAudioDevice initialized.
+[2021.01.25-03.04.09:757][498]LogLoad: Game class is 'BP_IntenseGameMode_C'
+[2021.01.25-03.04.09:760][498]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Sandbox.Sandbox up for play (max tick rate 60) at 2021.01.24-22.04.09
+[2021.01.25-03.04.09:761][498]LogWorld: Bringing up level for play took: 0.001776
+[2021.01.25-03.04.09:761][498]LogOnline: OSS: Creating online subsystem instance for: :Context_111
+[2021.01.25-03.04.09:764][498]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:ExecuteUbergraph_Murdock_AnimBlueprint
+
+[2021.01.25-03.04.09:766][498]PIE: Server logged in
+[2021.01.25-03.04.09:767][498]PIE: Play in editor total start time 0.201 seconds.
+[2021.01.25-03.04.46:590][644]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.25-03.04.46:590][644]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Sandbox
+[2021.01.25-03.04.46:590][644]LogWorld: UWorld::CleanupWorld for Sandbox, bSessionEnded=true, bCleanupResources=true
+[2021.01.25-03.04.46:591][644]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.25-03.04.46:602][644]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.01.25-03.04.46:609][644]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.25-03.04.46:672][644]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.25-03.04.46:674][644]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000002B258DA2AC0), frame # 259644
+[2021.01.25-03.04.46:674][644]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000002B292A6C400), frame # 259644
+[2021.01.25-03.04.46:678][644]LogUObjectHash: Compacting FUObjectHashTables data took   3.21ms
+[2021.01.25-03.04.46:732][645]LogPlayLevel: Display: Destroying online subsystem :Context_111
+[2021.01.25-03.04.50:653][855]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/UI/WBP_HUD.WBP_HUD
+[2021.01.25-03.04.57:928][244]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/WBP_HUD" FILE="../../../../GameDesign/ue4-ml.drone.shooting/DroneShooting/Content/UI/WBP_HUD.uasset" SILENT=true
+[2021.01.25-03.04.57:943][244]LogSavePackage: Moving '../../../../GameDesign/ue4-ml.drone.shooting/DroneShooting/Saved/WBP_HUDB68B758B4FF94EF0C75B46BBC433942E.tmp' to '../../../../GameDesign/ue4-ml.drone.shooting/DroneShooting/Content/UI/WBP_HUD.uasset'
+[2021.01.25-03.04.57:967][244]AssetCheck: New page: Asset Save: WBP_HUD
+[2021.01.25-03.04.57:967][244]LogContentValidation: Display: Validating WidgetBlueprint /Game/UI/WBP_HUD.WBP_HUD
+[2021.01.25-03.04.58:578][276]LogSlate: Window 'WBP_HUD' being destroyed
+[2021.01.25-03.04.58:596][276]LogWorld: UWorld::CleanupWorld for World_76, bSessionEnded=true, bCleanupResources=true
+[2021.01.25-03.04.58:596][276]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.25-03.04.58:611][276]LogWorld: UWorld::CleanupWorld for World_75, bSessionEnded=true, bCleanupResources=true
+[2021.01.25-03.04.58:611][276]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.25-03.05.00:233][368]LogTemp: Repeating last play command: Selected Viewport
+[2021.01.25-03.05.00:246][368]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.01.25-03.05.00:247][368]PIE: New page: PIE session: Sandbox (Jan. 24, 2021, 5:05:00 p.m.)
+[2021.01.25-03.05.00:247][368]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Sandbox
+[2021.01.25-03.05.00:251][368]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004444s)
+[2021.01.25-03.05.00:252][368]LogAIModule: Creating AISystem for world Sandbox
+[2021.01.25-03.05.00:252][368]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000002B25042E000), frame # 260368
+[2021.01.25-03.05.00:252][368]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000002B211720B80), frame # 260368
+[2021.01.25-03.05.00:253][368]LogPlayLevel: PIE: World Init took: (0.001263s)
+[2021.01.25-03.05.00:253][368]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Sandbox.Sandbox to /Game/Maps/UEDPIE_0_Sandbox.Sandbox (0.005893s)
+[2021.01.25-03.05.00:283][368]LogUObjectHash: Compacting FUObjectHashTables data took   2.65ms
+[2021.01.25-03.05.00:287][368]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.01.25-03.05.00:287][368]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.01.25-03.05.00:287][368]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.01.25-03.05.00:287][368]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.01.25-03.05.00:287][368]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.01.25-03.05.00:287][368]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.01.25-03.05.00:287][368]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.01.25-03.05.00:287][368]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.01.25-03.05.00:287][368]LogAudio: Display: Using built-in audio occlusion.
+[2021.01.25-03.05.00:287][368]LogAudioMixer: Display: Initializing audio mixer.
+[2021.01.25-03.05.00:292][368]LogAudioMixer: Display: 0: FrontLeft
+[2021.01.25-03.05.00:293][368]LogAudioMixer: Display: 1: FrontRight
+[2021.01.25-03.05.00:359][368]LogAudioMixer: Display: Using Audio Device Headphones (Realtek(R) Audio)
+[2021.01.25-03.05.00:359][368]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.01.25-03.05.00:359][368]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.01.25-03.05.00:359][368]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.01.25-03.05.00:360][368]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.01.25-03.05.00:382][368]LogInit: FAudioDevice initialized.
+[2021.01.25-03.05.00:390][368]LogLoad: Game class is 'BP_IntenseGameMode_C'
+[2021.01.25-03.05.00:392][368]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Sandbox.Sandbox up for play (max tick rate 60) at 2021.01.24-22.05.00
+[2021.01.25-03.05.00:393][368]LogWorld: Bringing up level for play took: 0.001533
+[2021.01.25-03.05.00:393][368]LogOnline: OSS: Creating online subsystem instance for: :Context_114
+[2021.01.25-03.05.00:396][368]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:ExecuteUbergraph_Murdock_AnimBlueprint
+
+[2021.01.25-03.05.00:399][368]PIE: Server logged in
+[2021.01.25-03.05.00:401][368]PIE: Play in editor total start time 0.157 seconds.
+[2021.01.25-03.05.11:779][ 47]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.25-03.05.11:779][ 47]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Sandbox
+[2021.01.25-03.05.11:779][ 47]LogWorld: UWorld::CleanupWorld for Sandbox, bSessionEnded=true, bCleanupResources=true
+[2021.01.25-03.05.11:781][ 47]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.25-03.05.11:793][ 47]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.01.25-03.05.11:798][ 47]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.25-03.05.11:879][ 47]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.25-03.05.11:881][ 47]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000002B211720B80), frame # 261047
+[2021.01.25-03.05.11:881][ 47]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000002B25042E000), frame # 261047
+[2021.01.25-03.05.11:884][ 47]LogUObjectHash: Compacting FUObjectHashTables data took   3.24ms
+[2021.01.25-03.05.11:942][ 48]LogPlayLevel: Display: Destroying online subsystem :Context_114
+[2021.01.25-03.05.13:360][126]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/UI/WBP_HUD.WBP_HUD
+[2021.01.25-03.05.19:295][433]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/WBP_HUD" FILE="../../../../GameDesign/ue4-ml.drone.shooting/DroneShooting/Content/UI/WBP_HUD.uasset" SILENT=true
+[2021.01.25-03.05.19:305][433]LogSavePackage: Moving '../../../../GameDesign/ue4-ml.drone.shooting/DroneShooting/Saved/WBP_HUDE50CD66D439C2EABFA415F999268C422.tmp' to '../../../../GameDesign/ue4-ml.drone.shooting/DroneShooting/Content/UI/WBP_HUD.uasset'
+[2021.01.25-03.05.19:329][433]AssetCheck: New page: Asset Save: WBP_HUD
+[2021.01.25-03.05.19:329][433]LogContentValidation: Display: Validating WidgetBlueprint /Game/UI/WBP_HUD.WBP_HUD
+[2021.01.25-03.05.20:187][478]LogSlate: Window 'WBP_HUD' being destroyed
+[2021.01.25-03.05.20:202][478]LogWorld: UWorld::CleanupWorld for World_78, bSessionEnded=true, bCleanupResources=true
+[2021.01.25-03.05.20:203][478]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.25-03.05.20:206][478]LogWorld: UWorld::CleanupWorld for World_77, bSessionEnded=true, bCleanupResources=true
+[2021.01.25-03.05.20:207][478]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.25-03.05.21:518][551]LogTemp: Repeating last play command: Selected Viewport
+[2021.01.25-03.05.21:531][551]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.01.25-03.05.21:531][551]PIE: New page: PIE session: Sandbox (Jan. 24, 2021, 5:05:21 p.m.)
+[2021.01.25-03.05.21:531][551]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Sandbox
+[2021.01.25-03.05.21:536][551]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004525s)
+[2021.01.25-03.05.21:537][551]LogAIModule: Creating AISystem for world Sandbox
+[2021.01.25-03.05.21:537][551]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000002B22CD87C00), frame # 261551
+[2021.01.25-03.05.21:537][551]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000002B25C5516C0), frame # 261551
+[2021.01.25-03.05.21:537][551]LogPlayLevel: PIE: World Init took: (0.001415s)
+[2021.01.25-03.05.21:537][551]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Sandbox.Sandbox to /Game/Maps/UEDPIE_0_Sandbox.Sandbox (0.006091s)
+[2021.01.25-03.05.21:567][551]LogUObjectHash: Compacting FUObjectHashTables data took   2.74ms
+[2021.01.25-03.05.21:569][551]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.01.25-03.05.21:569][551]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.01.25-03.05.21:569][551]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.01.25-03.05.21:569][551]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.01.25-03.05.21:569][551]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.01.25-03.05.21:569][551]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.01.25-03.05.21:569][551]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.01.25-03.05.21:569][551]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.01.25-03.05.21:570][551]LogAudio: Display: Using built-in audio occlusion.
+[2021.01.25-03.05.21:570][551]LogAudioMixer: Display: Initializing audio mixer.
+[2021.01.25-03.05.21:575][551]LogAudioMixer: Display: 0: FrontLeft
+[2021.01.25-03.05.21:575][551]LogAudioMixer: Display: 1: FrontRight
+[2021.01.25-03.05.21:641][551]LogAudioMixer: Display: Using Audio Device Headphones (Realtek(R) Audio)
+[2021.01.25-03.05.21:641][551]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.01.25-03.05.21:641][551]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.01.25-03.05.21:641][551]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.01.25-03.05.21:642][551]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.01.25-03.05.21:665][551]LogInit: FAudioDevice initialized.
+[2021.01.25-03.05.21:672][551]LogLoad: Game class is 'BP_IntenseGameMode_C'
+[2021.01.25-03.05.21:675][551]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Sandbox.Sandbox up for play (max tick rate 60) at 2021.01.24-22.05.21
+[2021.01.25-03.05.21:676][551]LogWorld: Bringing up level for play took: 0.001918
+[2021.01.25-03.05.21:676][551]LogOnline: OSS: Creating online subsystem instance for: :Context_117
+[2021.01.25-03.05.21:680][551]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:ExecuteUbergraph_Murdock_AnimBlueprint
+
+[2021.01.25-03.05.21:682][551]PIE: Server logged in
+[2021.01.25-03.05.21:683][551]PIE: Play in editor total start time 0.155 seconds.
+[2021.01.25-03.05.47:309][938]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.25-03.05.47:309][938]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Sandbox
+[2021.01.25-03.05.47:311][938]LogWorld: UWorld::CleanupWorld for Sandbox, bSessionEnded=true, bCleanupResources=true
+[2021.01.25-03.05.47:312][938]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.25-03.05.47:325][938]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.01.25-03.05.47:332][938]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.25-03.05.47:406][938]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.25-03.05.47:410][938]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000002B25C5516C0), frame # 262938
+[2021.01.25-03.05.47:410][938]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000002B22CD87C00), frame # 262938
+[2021.01.25-03.05.47:414][938]LogUObjectHash: Compacting FUObjectHashTables data took   3.69ms
+[2021.01.25-03.05.47:473][939]LogPlayLevel: Display: Destroying online subsystem :Context_117
+[2021.01.25-03.05.49:214][ 36]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/UI/WBP_HUD.WBP_HUD
+[2021.01.25-03.05.55:900][375]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/WBP_HUD" FILE="../../../../GameDesign/ue4-ml.drone.shooting/DroneShooting/Content/UI/WBP_HUD.uasset" SILENT=true
+[2021.01.25-03.05.55:910][375]LogSavePackage: Moving '../../../../GameDesign/ue4-ml.drone.shooting/DroneShooting/Saved/WBP_HUD720812294585778EE755A9932C84F584.tmp' to '../../../../GameDesign/ue4-ml.drone.shooting/DroneShooting/Content/UI/WBP_HUD.uasset'
+[2021.01.25-03.05.55:931][375]AssetCheck: New page: Asset Save: WBP_HUD
+[2021.01.25-03.05.55:931][375]LogContentValidation: Display: Validating WidgetBlueprint /Game/UI/WBP_HUD.WBP_HUD
+[2021.01.25-03.06.01:410][406]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/WBP_HUD" FILE="../../../../GameDesign/ue4-ml.drone.shooting/DroneShooting/Content/UI/WBP_HUD.uasset" SILENT=true
+[2021.01.25-03.06.01:447][406]LogSavePackage: Moving '../../../../GameDesign/ue4-ml.drone.shooting/DroneShooting/Saved/WBP_HUD4E7B1AEA43675FF577E2E5A6B1239953.tmp' to '../../../../GameDesign/ue4-ml.drone.shooting/DroneShooting/Content/UI/WBP_HUD.uasset'
+[2021.01.25-03.06.01:556][406]AssetCheck: New page: Asset Save: WBP_HUD
+[2021.01.25-03.06.01:556][406]LogContentValidation: Display: Validating WidgetBlueprint /Game/UI/WBP_HUD.WBP_HUD
+[2021.01.25-03.06.01:872][413]LogSlate: Window 'WBP_HUD' being destroyed
+[2021.01.25-03.06.01:888][413]LogWorld: UWorld::CleanupWorld for World_80, bSessionEnded=true, bCleanupResources=true
+[2021.01.25-03.06.01:888][413]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.25-03.06.01:893][413]LogWorld: UWorld::CleanupWorld for World_79, bSessionEnded=true, bCleanupResources=true
+[2021.01.25-03.06.01:893][413]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.25-03.06.09:671][826]LogAssetEditorSubsystem: Opening Asset editor for BlendSpace /Game/ParagonMurdock/Characters/Heroes/Murdock/Animations/BlendSpaces/Murdock_Locomotion_BS.Murdock_Locomotion_BS
+[2021.01.25-03.06.09:678][826]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_81:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2021.01.25-03.06.09:752][826]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_81:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2021.01.25-03.06.10:195][826]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2021.01.25-03.06.14:834][ 47]LogAssetEditorSubsystem: Opening Asset editor for AnimBlueprint /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint
+[2021.01.25-03.06.14:844][ 47]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_84:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2021.01.25-03.06.15:220][ 47]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_84:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2021.01.25-03.06.15:673][ 47]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2021.01.25-03.08.24:962][999]BlueprintLog: New page: Compile Murdock_AnimBlueprint
+[2021.01.25-03.08.25:038][999]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:ExecuteUbergraph_Murdock_AnimBlueprint
+
+[2021.01.25-03.08.25:039][999]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:ExecuteUbergraph_Murdock_AnimBlueprint
+
+[2021.01.25-03.08.25:040][999]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:ExecuteUbergraph_Murdock_AnimBlueprint
+
+[2021.01.25-03.08.25:040][999]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:ExecuteUbergraph_Murdock_AnimBlueprint
+
+[2021.01.25-03.08.25:104][999]LogUObjectHash: Compacting FUObjectHashTables data took   5.40ms
+[2021.01.25-03.08.25:896][ 19]LogSavePackage: Moving '../../../../GameDesign/ue4-ml.drone.shooting/DroneShooting/Saved/Murdock_AnimBlueprintFE1E2BE3439C28E600ABA49093B9DB17.tmp' to '../../../../GameDesign/ue4-ml.drone.shooting/DroneShooting/Content/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.uasset'
+[2021.01.25-03.08.25:928][ 19]AssetCheck: New page: Asset Save: Murdock_AnimBlueprint
+[2021.01.25-03.08.25:928][ 19]LogContentValidation: Display: Validating AnimBlueprint /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint
+[2021.01.25-03.10.42:236][579]BlueprintLog: New page: Compile Murdock_AnimBlueprint
+[2021.01.25-03.10.42:315][579]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:ExecuteUbergraph_Murdock_AnimBlueprint
+
+[2021.01.25-03.10.42:317][579]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:ExecuteUbergraph_Murdock_AnimBlueprint
+
+[2021.01.25-03.10.42:319][579]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:ExecuteUbergraph_Murdock_AnimBlueprint
+
+[2021.01.25-03.10.42:319][579]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:ExecuteUbergraph_Murdock_AnimBlueprint
+
+[2021.01.25-03.10.42:387][579]LogUObjectHash: Compacting FUObjectHashTables data took   5.89ms
+[2021.01.25-03.10.43:070][593]LogSavePackage: Moving '../../../../GameDesign/ue4-ml.drone.shooting/DroneShooting/Saved/Murdock_AnimBlueprint2975F43F424FC924C08BD8A834D863A3.tmp' to '../../../../GameDesign/ue4-ml.drone.shooting/DroneShooting/Content/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.uasset'
+[2021.01.25-03.10.43:099][593]AssetCheck: New page: Asset Save: Murdock_AnimBlueprint
+[2021.01.25-03.10.43:099][593]LogContentValidation: Display: Validating AnimBlueprint /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint
+[2021.01.25-03.11.06:744][402]BlueprintLog: New page: Compile Murdock_AnimBlueprint
+[2021.01.25-03.11.06:826][402]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:ExecuteUbergraph_Murdock_AnimBlueprint
+
+[2021.01.25-03.11.06:827][402]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:ExecuteUbergraph_Murdock_AnimBlueprint
+
+[2021.01.25-03.11.06:827][402]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:ExecuteUbergraph_Murdock_AnimBlueprint
+
+[2021.01.25-03.11.06:828][402]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:ExecuteUbergraph_Murdock_AnimBlueprint
+
+[2021.01.25-03.11.06:872][402]LogUObjectHash: Compacting FUObjectHashTables data took   4.58ms
+[2021.01.25-03.11.07:845][426]LogSavePackage: Moving '../../../../GameDesign/ue4-ml.drone.shooting/DroneShooting/Saved/Murdock_AnimBlueprintB1EBA4F74E30A2B5F066349BB751D286.tmp' to '../../../../GameDesign/ue4-ml.drone.shooting/DroneShooting/Content/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.uasset'
+[2021.01.25-03.11.07:879][426]AssetCheck: New page: Asset Save: Murdock_AnimBlueprint
+[2021.01.25-03.11.07:879][426]LogContentValidation: Display: Validating AnimBlueprint /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint
+[2021.01.25-03.11.25:206][880]BlueprintLog: New page: Compile Murdock_AnimBlueprint
+[2021.01.25-03.11.25:318][880]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:ExecuteUbergraph_Murdock_AnimBlueprint
+
+[2021.01.25-03.11.25:319][880]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:ExecuteUbergraph_Murdock_AnimBlueprint
+
+[2021.01.25-03.11.25:319][880]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:ExecuteUbergraph_Murdock_AnimBlueprint
+
+[2021.01.25-03.11.25:320][880]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:ExecuteUbergraph_Murdock_AnimBlueprint
+
+[2021.01.25-03.11.25:321][880]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:ExecuteUbergraph_Murdock_AnimBlueprint
+
+[2021.01.25-03.11.25:322][880]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:ExecuteUbergraph_Murdock_AnimBlueprint
+
+[2021.01.25-03.11.25:386][880]LogUObjectHash: Compacting FUObjectHashTables data took   8.88ms
+[2021.01.25-03.11.44:851][830]LogSavePackage: Moving '../../../../GameDesign/ue4-ml.drone.shooting/DroneShooting/Saved/Murdock_AnimBlueprintA81AF2FD48A640991DA2FEB099BB945E.tmp' to '../../../../GameDesign/ue4-ml.drone.shooting/DroneShooting/Content/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.uasset'
+[2021.01.25-03.11.44:874][830]AssetCheck: New page: Asset Save: Murdock_AnimBlueprint
+[2021.01.25-03.11.44:874][830]LogContentValidation: Display: Validating AnimBlueprint /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint
+[2021.01.25-03.11.49:192][ 40]LogSlate: Window 'Murdock_AnimBlueprint' being destroyed
+[2021.01.25-03.11.49:207][ 40]LogSlate: Window 'Murdock_AnimBlueprint' being destroyed
+[2021.01.25-03.11.49:208][ 40]LogWorld: UWorld::CleanupWorld for World_81, bSessionEnded=true, bCleanupResources=true
+[2021.01.25-03.11.49:208][ 40]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.25-03.11.49:351][ 40]LogWorld: UWorld::CleanupWorld for World_82, bSessionEnded=true, bCleanupResources=true
+[2021.01.25-03.11.49:351][ 40]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.25-03.11.49:391][ 40]LogWorld: UWorld::CleanupWorld for World_84, bSessionEnded=true, bCleanupResources=true
+[2021.01.25-03.11.49:391][ 40]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.25-03.11.49:396][ 40]LogWorld: UWorld::CleanupWorld for World_83, bSessionEnded=true, bCleanupResources=true
+[2021.01.25-03.11.49:396][ 40]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.25-03.11.49:561][ 40]LogWorld: UWorld::CleanupWorld for World_85, bSessionEnded=true, bCleanupResources=true
+[2021.01.25-03.11.49:561][ 40]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.25-03.11.50:406][ 86]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Sandbox" FILE="../../../../GameDesign/ue4-ml.drone.shooting/DroneShooting/Content/Maps/Sandbox.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2021.01.25-03.11.50:446][ 86]LogUObjectHash: Compacting FUObjectHashTables data took   3.67ms
+[2021.01.25-03.11.50:486][ 86]LogSavePackage: Moving '../../../../GameDesign/ue4-ml.drone.shooting/DroneShooting/Saved/SandboxCFF170F34BDDCD7900E83BBD99C9FAE0.tmp' to '../../../../GameDesign/ue4-ml.drone.shooting/DroneShooting/Content/Maps/Sandbox.umap'
+[2021.01.25-03.11.50:510][ 86]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Sandbox_BuiltData" FILE="../../../../GameDesign/ue4-ml.drone.shooting/DroneShooting/Content/Maps/Sandbox_BuiltData.uasset" SILENT=true
+[2021.01.25-03.11.50:556][ 86]LogSavePackage: Moving '../../../../GameDesign/ue4-ml.drone.shooting/DroneShooting/Saved/Sandbox_BuiltDataA43367F44630E30D1B4DAFAD6A43511A.tmp' to '../../../../GameDesign/ue4-ml.drone.shooting/DroneShooting/Content/Maps/Sandbox_BuiltData.uasset'
+[2021.01.25-03.11.50:583][ 86]AssetCheck: New page: Asset Save: multiple assets
+[2021.01.25-03.11.50:583][ 86]LogContentValidation: Display: Validating World /Game/Maps/Sandbox.Sandbox
+[2021.01.25-03.11.50:584][ 86]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Maps/Sandbox_BuiltData.Sandbox_BuiltData
+[2021.01.25-03.11.53:154][233]LogTemp: Repeating last play command: Selected Viewport
+[2021.01.25-03.11.53:167][233]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.01.25-03.11.53:167][233]PIE: New page: PIE session: Sandbox (Jan. 24, 2021, 5:11:53 p.m.)
+[2021.01.25-03.11.53:167][233]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Sandbox
+[2021.01.25-03.11.53:172][233]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005139s)
+[2021.01.25-03.11.53:174][233]LogAIModule: Creating AISystem for world Sandbox
+[2021.01.25-03.11.53:174][233]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000002B29A61A400), frame # 276233
+[2021.01.25-03.11.53:174][233]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000002B2534A7C40), frame # 276233
+[2021.01.25-03.11.53:174][233]LogPlayLevel: PIE: World Init took: (0.001903s)
+[2021.01.25-03.11.53:174][233]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Sandbox.Sandbox to /Game/Maps/UEDPIE_0_Sandbox.Sandbox (0.007264s)
+[2021.01.25-03.11.53:211][233]LogUObjectHash: Compacting FUObjectHashTables data took   3.01ms
+[2021.01.25-03.11.53:214][233]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.01.25-03.11.53:214][233]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.01.25-03.11.53:214][233]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.01.25-03.11.53:214][233]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.01.25-03.11.53:214][233]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.01.25-03.11.53:214][233]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.01.25-03.11.53:214][233]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.01.25-03.11.53:214][233]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.01.25-03.11.53:215][233]LogAudio: Display: Using built-in audio occlusion.
+[2021.01.25-03.11.53:215][233]LogAudioMixer: Display: Initializing audio mixer.
+[2021.01.25-03.11.53:220][233]LogAudioMixer: Display: 0: FrontLeft
+[2021.01.25-03.11.53:220][233]LogAudioMixer: Display: 1: FrontRight
+[2021.01.25-03.11.53:287][233]LogAudioMixer: Display: Using Audio Device Headphones (Realtek(R) Audio)
+[2021.01.25-03.11.53:287][233]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.01.25-03.11.53:287][233]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.01.25-03.11.53:287][233]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.01.25-03.11.53:288][233]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.01.25-03.11.53:310][233]LogInit: FAudioDevice initialized.
+[2021.01.25-03.11.53:321][233]LogLoad: Game class is 'BP_IntenseGameMode_C'
+[2021.01.25-03.11.53:323][233]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Sandbox.Sandbox up for play (max tick rate 60) at 2021.01.24-22.11.53
+[2021.01.25-03.11.53:324][233]LogWorld: Bringing up level for play took: 0.001566
+[2021.01.25-03.11.53:324][233]LogOnline: OSS: Creating online subsystem instance for: :Context_125
+[2021.01.25-03.11.53:328][233]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonMurdock/Characters/Heroes/Murdock/Murdock_AnimBlueprint.Murdock_AnimBlueprint_C:ExecuteUbergraph_Murdock_AnimBlueprint
+
+[2021.01.25-03.11.53:330][233]PIE: Server logged in
+[2021.01.25-03.11.53:332][233]PIE: Play in editor total start time 0.167 seconds.
+[2021.01.25-03.12.00:481][610]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.25-03.12.00:481][610]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Sandbox
+[2021.01.25-03.12.00:482][610]LogWorld: UWorld::CleanupWorld for Sandbox, bSessionEnded=true, bCleanupResources=true
+[2021.01.25-03.12.00:483][610]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.25-03.12.00:602][610]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.01.25-03.12.00:611][610]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.25-03.12.00:661][610]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.25-03.12.00:740][610]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000002B2534A7C40), frame # 276610
+[2021.01.25-03.12.00:740][610]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000002B29A61A400), frame # 276610
+[2021.01.25-03.12.00:747][610]LogUObjectHash: Compacting FUObjectHashTables data took   5.80ms
+[2021.01.25-03.12.00:836][611]LogPlayLevel: Display: Destroying online subsystem :Context_125
+[2021.01.25-03.12.04:162][652]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Sandbox" FILE="../../../../GameDesign/ue4-ml.drone.shooting/DroneShooting/Content/Maps/Sandbox.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2021.01.25-03.12.04:241][652]LogUObjectHash: Compacting FUObjectHashTables data took   4.17ms
+[2021.01.25-03.12.04:283][652]LogSavePackage: Moving '../../../../GameDesign/ue4-ml.drone.shooting/DroneShooting/Saved/Sandbox27E3F17A44D18D3DF46BB5AF1A5E3506.tmp' to '../../../../GameDesign/ue4-ml.drone.shooting/DroneShooting/Content/Maps/Sandbox.umap'
+[2021.01.25-03.12.04:309][652]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Sandbox_BuiltData" FILE="../../../../GameDesign/ue4-ml.drone.shooting/DroneShooting/Content/Maps/Sandbox_BuiltData.uasset" SILENT=true
+[2021.01.25-03.12.04:367][652]LogSavePackage: Moving '../../../../GameDesign/ue4-ml.drone.shooting/DroneShooting/Saved/Sandbox_BuiltData7D4CB7AA4902472CC251F89EA8C0E1AA.tmp' to '../../../../GameDesign/ue4-ml.drone.shooting/DroneShooting/Content/Maps/Sandbox_BuiltData.uasset'
+[2021.01.25-03.12.04:394][652]AssetCheck: New page: Asset Save: multiple assets
+[2021.01.25-03.12.04:394][652]LogContentValidation: Display: Validating World /Game/Maps/Sandbox.Sandbox
+[2021.01.25-03.12.04:394][652]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Maps/Sandbox_BuiltData.Sandbox_BuiltData
+[2021.01.25-03.12.56:119][690]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Sandbox" FILE="../../../../GameDesign/ue4-ml.drone.shooting/DroneShooting/Content/Maps/Sandbox.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2021.01.25-03.12.56:145][690]LogUObjectHash: Compacting FUObjectHashTables data took   0.73ms
+[2021.01.25-03.12.56:183][690]LogSavePackage: Moving '../../../../GameDesign/ue4-ml.drone.shooting/DroneShooting/Saved/SandboxCD3C9CD24A4B776904A0D4837D5394CD.tmp' to '../../../../GameDesign/ue4-ml.drone.shooting/DroneShooting/Content/Maps/Sandbox.umap'
+[2021.01.25-03.12.56:206][690]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Sandbox_BuiltData" FILE="../../../../GameDesign/ue4-ml.drone.shooting/DroneShooting/Content/Maps/Sandbox_BuiltData.uasset" SILENT=true
+[2021.01.25-03.12.56:250][690]LogSavePackage: Moving '../../../../GameDesign/ue4-ml.drone.shooting/DroneShooting/Saved/Sandbox_BuiltData0DC576394690737A27E28682DAA72DEF.tmp' to '../../../../GameDesign/ue4-ml.drone.shooting/DroneShooting/Content/Maps/Sandbox_BuiltData.uasset'
+[2021.01.25-03.12.56:275][690]AssetCheck: New page: Asset Save: multiple assets
+[2021.01.25-03.12.56:275][690]LogContentValidation: Display: Validating World /Game/Maps/Sandbox.Sandbox
+[2021.01.25-03.12.56:275][690]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Maps/Sandbox_BuiltData.Sandbox_BuiltData
